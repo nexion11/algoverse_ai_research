@@ -1,0 +1,30 @@
+question_id,dataset_idx,baseline_final_label,baseline_final_pred,gold_final,baseline_final_gold_logprob_recomputed
+3hop2__67618_30587_44003,2390,incorrect,Gulf of Mexico,through the Florida Straits,-6.0792341232299805
+3hop2__304722_740784_63959,1274,incorrect,27 March 1963,1 December 2010,-8.000493049621582
+3hop1__129675_39743_24526,2375,incorrect,30–50 °F,upper 40s–lower 50s °F,-2.3125038146972656
+3hop2__38326_92991_76291,1417,incorrect,2014,January 2015,-3.8576622009277344
+4hop1__61681_53706_795904_580996,2188,incorrect,"San Francisco, California",Rio Linda,-10.686266899108887
+3hop1__145427_106426_157788,2349,incorrect,Shanghai,Yamanote Line loop,-11.559507369995117
+3hop1__516535_834494_34099,1795,incorrect,4 years.,four-year,-21.3203125
+4hop3__426860_88460_30152_20999,2000,incorrect,Thailand,The dynasty regrouped and defeated the Portuguese,-5.740927219390869
+4hop1__129682_59747_211319_557671,2141,incorrect,"Montmorency County, Michigan.",Presque Isle County,-7.411593914031982
+4hop3__193820_466199_128875_72134,2159,incorrect,"Springfield, Illinois",1839,-0.6375124454498291
+3hop1__380590_831637_91775,1283,incorrect,United States Navy SEALs,"Sea, Air, and Land",-2.769087076187134
+3hop1__161507_160713_77246,1204,incorrect,Hindu,the country of India,-14.616758346557617
+4hop3__220945_88460_30152_20999,2011,incorrect,Ottomans.,The dynasty regrouped and defeated the Portuguese,-4.676738739013672
+3hop2__72083_92991_76291,1404,incorrect,1946,January 2015,-4.093301296234131
+4hop1__436202_765799_282674_759393,1904,incorrect,Appleton,Green Bay,-10.656837463378906
+3hop1__527372_339990_54675,1696,incorrect,Mt. Hood,Tualatin Mountains,-6.82817268371582
+3hop1__498954_160713_77246,1211,incorrect,Hindu,the country of India,-13.854179382324219
+4hop1__342858_131850_33952_34053,2061,incorrect,24.17 in,1905,-4.4453125
+4hop3__405277_88460_30152_20999,2015,incorrect,Ottoman,The dynasty regrouped and defeated the Portuguese,-4.774086952209473
+4hop1__151650_5274_458768_33637,2049,incorrect,2,two,-31.15625
+4hop1__342858_131850_159767_81096,2076,incorrect,Phoenix,Mario Andretti,-3.6917128562927246
+3hop1__516535_834494_34053,1783,incorrect,24.17 in (614 mm),1905,-3.929687738418579
+3hop1__241085_42197_18397,1737,incorrect,China,the Politburo,-9.703398704528809
+4hop1__105688_17130_70784_61381,2098,incorrect,Israel,1932,-2.2190351486206055
+3hop2__304722_602987_63959,1268,incorrect,27 May 1963,1 December 2010,-5.3732147216796875
+4hop3__310746_88460_30152_20999,2003,incorrect,Myanmar,The dynasty regrouped and defeated the Portuguese,-4.783890724182129
+4hop1__46196_497223_15840_36002,1832,incorrect,NES,built on 16-bit architectures and offered improved graphics and sound,-3.9948511123657227
+3hop1__507961_160713_77246,1206,incorrect,Al-Hind,the country of India,-15.27351188659668
+3hop2__30956_65244_84681,2322,incorrect,New Zealand,13 December 1642,-4.55434513092041
