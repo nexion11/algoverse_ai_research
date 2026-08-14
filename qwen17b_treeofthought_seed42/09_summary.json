@@ -1,0 +1,82 @@
+{
+  "environment": {
+    "model": "Qwen/Qwen3-1.7B",
+    "device": "mps",
+    "dtype": "float16",
+    "python": "3.9.6",
+    "platform": "macOS-26.6-arm64-arm-64bit",
+    "torch": "2.8.0",
+    "transformers": "4.57.6",
+    "memory": {
+      "ram_rss_gb": 0.423428096,
+      "accelerator_allocated_gb": 3.441150208,
+      "accelerator_driver_allocated_gb": 4.831281152,
+      "accelerator_recommended_max_gb": 19.06966528
+    }
+  },
+  "design": {
+    "source": "real MuSiQue dependency graphs from the same 60-question sequential pilot",
+    "tree_definition": "a merge hop with exactly two direct parent branches whose ancestor closures are disjoint; sibling branches do not depend on each other before merge",
+    "answers": "reused from Test 06; branch answers are not regenerated in Test 09",
+    "independent_confidence": "reused separate post-answer 0-100 verbal confidence from Test 06",
+    "joint_confidence": "A/B/M evaluated together; prompt explicitly asks A and B to be scored independently",
+    "tot_style": "0.1-1.0 self-evaluation inspired by kyegomez/tree-of-thoughts; same Qwen subject model retained rather than switching to the repository's default API stack"
+  },
+  "n_tree_cases": 20,
+  "n_branch_endpoints": 40,
+  "n_parse_review_cases": 4,
+  "independent_vs_joint": {
+    "all_branches": {
+      "n": 40,
+      "mean_signed_change_points": 54.75,
+      "mean_abs_change_points": 54.75,
+      "median_abs_change_points": 60.0,
+      "exact_same_rate": 0.0,
+      "within_5_points_rate": 0.0
+    },
+    "branch_A": {
+      "n": 20,
+      "mean_signed_change_points": 52.5,
+      "mean_abs_change_points": 52.5,
+      "median_abs_change_points": 60.0,
+      "exact_same_rate": 0.0,
+      "within_5_points_rate": 0.0
+    },
+    "branch_B": {
+      "n": 20,
+      "mean_signed_change_points": 57.0,
+      "mean_abs_change_points": 57.0,
+      "median_abs_change_points": 60.0,
+      "exact_same_rate": 0.0,
+      "within_5_points_rate": 0.0
+    },
+    "spearman_independent_vs_joint": NaN
+  },
+  "error_detection_on_branch_endpoints": {
+    "whitebox_mean_logprob": {
+      "n": 39,
+      "auroc": 0.6825396825396826,
+      "auprc": 0.6635574076306835
+    },
+    "independent_verbal": {
+      "n": 39,
+      "auroc": 0.667989417989418,
+      "auprc": 0.5720057720057721
+    },
+    "joint_verbal": {
+      "n": 39,
+      "auroc": 0.5,
+      "auprc": 0.46153846153846156
+    },
+    "tot_style_evaluation": {
+      "n": 31,
+      "auroc": 0.6,
+      "auprc": 0.5557706093189964
+    }
+  },
+  "score_discreteness": {
+    "independent_verbal_unique_values": 5,
+    "joint_verbal_unique_values": 1,
+    "tot_style_unique_values": 4
+  }
+}
