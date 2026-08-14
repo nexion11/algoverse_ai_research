@@ -25,7 +25,7 @@ The current research question is:
 
 > **Among incorrect reasoning steps, how well does step-level confidence identify the error whose repair most improves downstream performance?**
 
-The mentor-directed follow-up additionally asks:
+The follow-up additionally asks:
 
 > **Does confidence still localize errors when reasoning is generated sequentially, and does raw, normalized, or verbalized confidence best identify the wrong or most valuable-to-repair hop?**
 
