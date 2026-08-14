@@ -293,7 +293,7 @@ This exposed an important possible **hop-position effect**.
 
 ---
 
-# Part III — Mentor-requested sequential confidence experiment
+# Part III — sequential confidence experiment
 
 The next experiment was added after discussion with Xiang.
 
@@ -493,7 +493,7 @@ Z-normalized AUROC:          0.584
 
 ### Interpretation
 
-The mentor hypothesis that within-trace normalization might improve error detection was **not supported in this pilot**.
+The hypothesis that within-trace normalization might improve error detection was **not supported in this pilot**.
 
 Raw confidence was substantially better.
 
@@ -1206,7 +1206,7 @@ python 03_policy_analysis.py \
 
 ---
 
-## Sequential mentor follow-up
+## Sequential follow-up
 
 Use the exact same 60-question selection:
 
