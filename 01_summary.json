@@ -1,0 +1,46 @@
+{
+  "environment": {
+    "model": "Qwen/Qwen3-1.7B",
+    "device": "mps",
+    "dtype": "float16",
+    "python": "3.9.6",
+    "platform": "macOS-26.6-arm64-arm-64bit",
+    "torch": "2.8.0",
+    "transformers": "4.57.6",
+    "memory": {
+      "ram_rss_gb": 1.936048128,
+      "accelerator_allocated_gb": 3.441150208,
+      "accelerator_driver_allocated_gb": 6.973997056,
+      "accelerator_recommended_max_gb": 19.06966528
+    }
+  },
+  "seed": 42,
+  "n_questions": 60,
+  "n_hops_total": 210,
+  "n_hops_scored": 201,
+  "n_hops_manual_review": 9,
+  "hop_accuracy": 0.5373134328358209,
+  "baseline_final_accuracy": 0.46296296296296297,
+  "confidence_to_error": {
+    "mean_logprob": {
+      "n": 201,
+      "auroc": 0.7300876144962166,
+      "auprc": 0.6789068231052148
+    },
+    "min_logprob": {
+      "n": 201,
+      "auroc": 0.736310234966149,
+      "auprc": 0.6968698200475449
+    },
+    "entropy": {
+      "n": 201,
+      "auroc": 0.7317801672640382,
+      "auprc": 0.6873242461466588
+    },
+    "margin": {
+      "n": 201,
+      "auroc": 0.6717941059338909,
+      "auprc": 0.6351726027817955
+    }
+  }
+}

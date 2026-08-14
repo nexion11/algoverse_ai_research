@@ -1,0 +1,29 @@
+{
+  "model": "Qwen/Qwen3-1.7B",
+  "intervention": {
+    "primary": "gold-repair one wrong non-terminal hop, then regenerate its dependency descendants and regenerate the final answer",
+    "secondary": "frozen one-hop gold repair with all other intermediate answers held fixed",
+    "repair_gain_definition": "average gold-final token logprob after repair minus average gold-final token logprob in the common original trace"
+  },
+  "question_filter": "baseline-final incorrect only",
+  "n_baseline_questions_rescored": 29,
+  "n_repair_candidates": 30,
+  "n_questions_with_repair_candidate": 21,
+  "n_questions_with_2plus_candidates": 8,
+  "candidate_count_distribution": {
+    "1": 13,
+    "2": 7,
+    "3": 1
+  },
+  "mean_propagated_repair_gain": -0.4828684574303528,
+  "median_propagated_repair_gain": 0.07906973361968994,
+  "mean_abs_propagated_repair_gain": 1.3081200037462015,
+  "mean_frozen_repair_gain": -0.09793870110685626,
+  "median_frozen_repair_gain": 0.10703325271606445,
+  "mean_abs_frozen_repair_gain": 0.6920765036406616,
+  "mean_within_question_propagated_gain_spread_2plus": 2.1320311404997483,
+  "frozen_vs_propagated_spearman": 0.8482758620689654,
+  "frozen_vs_propagated_spearman_p": 3.235688470494274e-09,
+  "propagated_repair_rescue_rate_all_candidates": 0.03333333333333333,
+  "n_repaired_finals_needing_manual_review": 1
+}

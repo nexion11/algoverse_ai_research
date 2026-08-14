@@ -1,0 +1,9 @@
+torch>=2.4
+transformers>=4.51
+datasets>=3.0
+pandas>=2.2
+numpy>=1.26
+scikit-learn>=1.5
+scipy>=1.13
+tqdm>=4.66
+psutil>=6.0

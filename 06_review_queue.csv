@@ -1,0 +1,26 @@
+kind,question_id,hop,question,gold,pred,verbal_raw,manual_label_or_confidence
+hop,3hop1__38738_78276_68042,3,when did the Democratic Party. gain control of the house,the 2010 election,2010,"40
+
+The",
+final,3hop1__38738_78276_68042,,"When did the political party that holds the majority in the political body that passed a bill giving regulators discretion to prohibit proprietary trades, gain control of the House?",the 2010 election,2010,,
+final,3hop1__829944_474097_84283,,Who is the owner of the record label that the performer of Better Than Me is signed with?,Warner Music Group,Warner Bros. Records,,
+hop,3hop1__516535_834494_34099,3,"How long are Pima County, Arizona 's city council terms?",four-year,4-year,"50
+
+The",
+final,3hop1__516535_834494_34099,,How long are city council terms in the city located in the county that also contains Allen?,four-year,4-year,,
+hop,4hop3__373866_5189_38229_86687,4,when did the Albania agree to a unified germany inside of Joseph McCarthy,May 1990,1990,"45
+
+The",
+final,3hop2__782397_223623_162182,,In what region of Phu Luong's country is John Phan's birthplace located?,South Central Coast,Central,,
+hop,3hop2__304722_602987_63959,2,Joe Gallagher >> member of sports team,Birmingham City,Manchester City F.C.,"40
+
+The",
+hop,3hop1__756602_831637_91775,2,"list of destroyer classes of USS ""Jason"" (AR-8) was operated by the United States >> operator",U.S. Navy,United States Navy,"45
+
+The",
+hop,4hop1__46196_497223_15840_36002,4,What were the Genesis's advantages over the NFL ?,built on 16-bit architectures and offered improved graphics and sound,The Genesis had a 16-bit architecture and offered improved graphics and sound over,"40
+
+The",
+hop,3hop2__30956_65244_84681,3,when did the Dutch. come to New Zealand,13 December 1642,1642,"40
+
+The",
