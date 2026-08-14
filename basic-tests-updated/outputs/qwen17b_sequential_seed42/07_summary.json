@@ -1,0 +1,21 @@
+{
+  "model": "Qwen/Qwen3-1.7B",
+  "intervention": "sequential trace: gold-repair one clearly wrong non-terminal hop, regenerate dependency descendants, regenerate final answer",
+  "question_filter": "baseline-final incorrect only",
+  "candidate_filter": "referenced parents benchmark-correct only",
+  "n_wrong_nonterminal_before_parent_filter": 58,
+  "n_skipped_downstream_corrupted": 14,
+  "n_repair_candidates": 44,
+  "n_questions_with_repair_candidate": 36,
+  "n_questions_with_2plus_candidates": 8,
+  "candidate_count_distribution": {
+    "1": 28,
+    "2": 8
+  },
+  "mean_repair_gain": 1.6376444139314017,
+  "median_repair_gain": 0.2882518768310547,
+  "mean_abs_repair_gain": 2.4882440063136593,
+  "mean_within_question_gain_spread_2plus": 1.768823355436325,
+  "repair_rescue_rate_all_candidates": 0.1590909090909091,
+  "n_repaired_finals_needing_manual_review": 2
+}

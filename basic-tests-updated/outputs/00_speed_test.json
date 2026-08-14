@@ -1,0 +1,80 @@
+{
+  "environment": {
+    "model": "Qwen/Qwen3-1.7B",
+    "device": "mps",
+    "dtype": "float16",
+    "python": "3.9.6",
+    "platform": "macOS-26.6-arm64-arm-64bit",
+    "torch": "2.8.0",
+    "transformers": "4.57.6",
+    "memory": {
+      "ram_rss_gb": 0.061587456,
+      "accelerator_allocated_gb": 3.441150208,
+      "accelerator_driver_allocated_gb": 6.530383872,
+      "accelerator_recommended_max_gb": 19.06966528
+    }
+  },
+  "n_prompts": 12,
+  "results": [
+    {
+      "batch_size": 1,
+      "status": "ok",
+      "elapsed_sec": 25.929376207999994,
+      "prompts_per_sec": 0.46279555295655894,
+      "generated_tokens_per_sec": 2.352544060862508,
+      "prompt_tokens_total": 34408,
+      "generated_tokens_total": 61,
+      "memory": {
+        "ram_rss_gb": 0.5410816,
+        "accelerator_allocated_gb": 3.441150208,
+        "accelerator_driver_allocated_gb": 4.335075328,
+        "accelerator_recommended_max_gb": 19.06966528
+      }
+    },
+    {
+      "batch_size": 2,
+      "status": "ok",
+      "elapsed_sec": 32.79560487500001,
+      "prompts_per_sec": 0.365902688660198,
+      "generated_tokens_per_sec": 3.110172853611683,
+      "prompt_tokens_total": 34408,
+      "generated_tokens_total": 102,
+      "memory": {
+        "ram_rss_gb": 0.62316544,
+        "accelerator_allocated_gb": 3.441150208,
+        "accelerator_driver_allocated_gb": 5.647384576,
+        "accelerator_recommended_max_gb": 19.06966528
+      }
+    },
+    {
+      "batch_size": 4,
+      "status": "ok",
+      "elapsed_sec": 62.90189874999999,
+      "prompts_per_sec": 0.19077325547346854,
+      "generated_tokens_per_sec": 1.939528097313597,
+      "prompt_tokens_total": 34408,
+      "generated_tokens_total": 122,
+      "memory": {
+        "ram_rss_gb": 0.051003392,
+        "accelerator_allocated_gb": 3.441150208,
+        "accelerator_driver_allocated_gb": 6.21576192,
+        "accelerator_recommended_max_gb": 19.06966528
+      }
+    },
+    {
+      "batch_size": 8,
+      "status": "ok",
+      "elapsed_sec": 60.504615833,
+      "prompts_per_sec": 0.19833197574746098,
+      "generated_tokens_per_sec": 2.0659580807027185,
+      "prompt_tokens_total": 34408,
+      "generated_tokens_total": 125,
+      "memory": {
+        "ram_rss_gb": 0.046350336,
+        "accelerator_allocated_gb": 3.441150208,
+        "accelerator_driver_allocated_gb": 6.530383872,
+        "accelerator_recommended_max_gb": 19.06966528
+      }
+    }
+  ]
+}
