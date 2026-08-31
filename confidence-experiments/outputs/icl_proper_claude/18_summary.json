@@ -1,0 +1,115 @@
+{
+  "environment": {
+    "model": "Qwen/Qwen3-1.7B",
+    "device": "mps",
+    "dtype": "float16",
+    "python": "3.9.6",
+    "platform": "macOS-26.6-arm64-arm-64bit",
+    "torch": "2.8.0",
+    "transformers": "4.57.6",
+    "memory": {
+      "ram_rss_gb": 0.489029632,
+      "accelerator_allocated_gb": 3.441150208,
+      "accelerator_driver_allocated_gb": 11.959943168,
+      "accelerator_recommended_max_gb": 19.06966528
+    }
+  },
+  "supersedes": "17_icl_confidence_claude.py (invalid demonstrations)",
+  "n_eval_questions": 56,
+  "n_demonstrations": 4,
+  "demonstrations_held_out": [
+    "3hop1__409517_547811_80702",
+    "3hop1__857_846_7795",
+    "4hop1__152146_5274_458768_33677",
+    "4hop2__71753_158279_70784_61381"
+  ],
+  "copy_last_step_explains_n_demos": 2,
+  "wall_clock_min": 32.086299258333334,
+  "n_needs_review": 28,
+  "accuracy_by_condition": {
+    "icl_conf": 0.25,
+    "icl_conf_shuffled": 0.25,
+    "icl_noconf": 0.26785714285714285,
+    "zero_shot": 0.21428571428571427,
+    "zero_shot_conf": 0.21428571428571427
+  },
+  "mean_gold_logprob_by_condition": {
+    "icl_conf": -6.7789939860347515,
+    "icl_conf_shuffled": -6.774509340295074,
+    "icl_noconf": -6.522337992647396,
+    "zero_shot": -6.6627072755674295,
+    "zero_shot_conf": -6.820850609646342
+  },
+  "key_contrasts": {
+    "icl_conf_vs_icl_noconf": {
+      "n": 56,
+      "d_gold_logprob": -0.2566559933873559,
+      "d_logprob_ci95": [
+        -0.5249160699029218,
+        0.0031612980098468003
+      ],
+      "d_accuracy": -0.017857142857142856,
+      "d_accuracy_ci95": [
+        -0.05357142857142857,
+        0.0
+      ],
+      "n_answers_changed": 4
+    },
+    "icl_conf_vs_icl_conf_shuffled": {
+      "n": 56,
+      "d_gold_logprob": -0.004484645739678074,
+      "d_logprob_ci95": [
+        -0.02537698035949063,
+        0.015775411413218064
+      ],
+      "d_accuracy": 0.0,
+      "d_accuracy_ci95": [
+        0.0,
+        0.0
+      ],
+      "n_answers_changed": 1
+    },
+    "icl_conf_vs_zero_shot_conf": {
+      "n": 56,
+      "d_gold_logprob": 0.041856623611590295,
+      "d_logprob_ci95": [
+        -0.696357819114516,
+        0.7495204941239481
+      ],
+      "d_accuracy": 0.03571428571428571,
+      "d_accuracy_ci95": [
+        0.0,
+        0.08928571428571429
+      ],
+      "n_answers_changed": 10
+    },
+    "icl_noconf_vs_zero_shot": {
+      "n": 56,
+      "d_gold_logprob": 0.1403692829200338,
+      "d_logprob_ci95": [
+        -0.46640265409846615,
+        0.7713369409443936
+      ],
+      "d_accuracy": 0.05357142857142857,
+      "d_accuracy_ci95": [
+        0.0,
+        0.125
+      ],
+      "n_answers_changed": 17
+    },
+    "icl_conf_vs_zero_shot": {
+      "n": 56,
+      "d_gold_logprob": -0.1162867104673221,
+      "d_logprob_ci95": [
+        -0.8007075243637891,
+        0.578699536007885
+      ],
+      "d_accuracy": 0.03571428571428571,
+      "d_accuracy_ci95": [
+        0.0,
+        0.08928571428571429
+      ],
+      "n_answers_changed": 15
+    }
+  }
+}

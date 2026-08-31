@@ -1,0 +1,120 @@
+{
+  "environment": {
+    "model": "Qwen/Qwen3-1.7B",
+    "device": "mps",
+    "dtype": "float16",
+    "python": "3.9.6",
+    "platform": "macOS-26.6-arm64-arm-64bit",
+    "torch": "2.8.0",
+    "transformers": "4.57.6",
+    "memory": {
+      "ram_rss_gb": 0.754630656,
+      "accelerator_allocated_gb": 3.441150208,
+      "accelerator_driver_allocated_gb": 8.726347776,
+      "accelerator_recommended_max_gb": 19.06966528
+    }
+  },
+  "confidence_signal": "per-step top1-top2 margin, global min-max to 0-100",
+  "n_eval_questions": 58,
+  "demonstrations_held_out": [
+    "3hop1__38738_78276_68042",
+    "4hop1__152146_5274_458768_33677"
+  ],
+  "wall_clock_min": 24.901266478466667,
+  "accuracy_by_condition": {
+    "icl_conf": 0.20689655172413793,
+    "icl_conf_shuffled": 0.20689655172413793,
+    "icl_noconf": 0.2413793103448276,
+    "zero_shot": 0.22413793103448276,
+    "zero_shot_conf": 0.22413793103448276
+  },
+  "mean_gold_logprob_by_condition": {
+    "icl_conf": -6.604329351904188,
+    "icl_conf_shuffled": -6.60216560363128,
+    "icl_noconf": -7.181260516247094,
+    "zero_shot": -6.6069364198221345,
+    "zero_shot_conf": -6.859834505462547
+  },
+  "n_needs_review": 16,
+  "key_contrasts": {
+    "icl_conf_vs_icl_noconf": {
+      "n": 58,
+      "d_gold_logprob": 0.5769311643429054,
+      "d_logprob_ci95": [
+        0.13968621212374652,
+        1.0652255772291317
+      ],
+      "d_accuracy": -0.034482758620689655,
+      "d_accuracy_ci95": [
+        -0.08620689655172414,
+        0.0
+      ]
+    },
+    "icl_conf_vs_icl_conf_shuffled": {
+      "n": 58,
+      "d_gold_logprob": -0.002163748272908056,
+      "d_logprob_ci95": [
+        -0.035797510571076295,
+        0.029748124902651257
+      ],
+      "d_accuracy": 0.0,
+      "d_accuracy_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    "icl_conf_vs_zero_shot_conf": {
+      "n": 58,
+      "d_gold_logprob": 0.2555051535583587,
+      "d_logprob_ci95": [
+        -0.2381531860983451,
+        0.7703034819203518
+      ],
+      "d_accuracy": -0.017241379310344827,
+      "d_accuracy_ci95": [
+        -0.05172413793103448,
+        0.0
+      ]
+    },
+    "icl_conf_vs_zero_shot": {
+      "n": 58,
+      "d_gold_logprob": 0.0026070679179458147,
+      "d_logprob_ci95": [
+        -0.45867938428732197,
+        0.4665543079254984
+      ],
+      "d_accuracy": -0.017241379310344827,
+      "d_accuracy_ci95": [
+        -0.05172413793103448,
+        0.0
+      ]
+    },
+    "icl_noconf_vs_zero_shot": {
+      "n": 58,
+      "d_gold_logprob": -0.5743240964249596,
+      "d_logprob_ci95": [
+        -0.9742856741199993,
+        -0.19780175211536763
+      ],
+      "d_accuracy": 0.017241379310344827,
+      "d_accuracy_ci95": [
+        0.0,
+        0.05172413793103448
+      ]
+    },
+    "zero_shot_conf_vs_zero_shot": {
+      "n": 58,
+      "d_gold_logprob": -0.25289808564041283,
+      "d_logprob_ci95": [
+        -0.5510822835619505,
+        0.038699546751927126
+      ],
+      "d_accuracy": 0.0,
+      "d_accuracy_ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "reading": "icl_conf vs icl_noconf isolates the value of the confidence numbers on top of the demonstrations. icl_conf vs icl_conf_shuffled isolates whether the model uses WHICH step is uncertain. icl_noconf vs zero_shot measures the generic benefit of worked examples. A gain in icl_conf over zero_shot that is fully explained by icl_noconf is a demonstration effect, not a confidence effect."
+}

@@ -15,19 +15,27 @@ seed 42) and the Test 06 sequential traces.
 
 ## Headline result
 
-> **Confidence detects that a reasoning step is wrong. It carries no usable
-> information about whether that step matters. And supplying it to the model
-> does not change what the model does.**
+> **The model internally represents which reasoning steps carry the answer.
+> It never expresses that in confidence.**
 
-On the same 150 hops, with the same signals:
+On the same 150 hops, from the same single forward pass:
 
-| | AUROC |
-|---|---|
-| Is this step **wrong**? | **0.702** [0.615, 0.782] |
-| Is this step **load-bearing**? | 0.517 [0.420, 0.618] |
+| target | best confidence signal | **hidden-state probe** |
+|---|---|---|
+| is this step **wrong**? | 0.702 (entropy) | **0.807** |
+| is this step **load-bearing**? | 0.550 — chance | **0.777** |
 
-The load-bearing/inert distinction is real and large — it just is not something
-confidence can see.
+Confidence detects errors. It is at chance on whether an error matters. A linear
+probe on the residual stream recovers that at 0.777 (permutation p = 0.005).
+
+Nine experiments established that no form of confidence -- verbalized,
+token-level, normalized, aggregated, supplied directly, or taught by
+demonstration -- carries information about which steps matter. The natural
+reading was that the information does not exist. It does. It is simply not in
+the channel anyone was reading.
+
+**Which errors are worth repairing is decodable from the model's internals, but
+not from anything the model reports about its own confidence.**
 
 ---
 
@@ -42,6 +50,9 @@ confidence can see.
 | `15_policy_metrics_claude.py` | The repository's repair-policy metric suite, with CIs and clustering correction | `outputs/qwen17b_policy_claude/` |
 | `16_bake_confidence_claude.py` | Supplying per-step confidence and its aggregate to the final-answer step | `outputs/qwen17b_bake_claude/` |
 | `11b_sequential_confidence_intervention_claude.py` | Confidence-intervention harness — **written, never executed** | — |
+| `confidence-experiments/17_icl_confidence_claude.py` | First ICL attempt — **superseded, invalid demonstrations** | `confidence-experiments/outputs/icl_claude/` |
+| `confidence-experiments/18_icl_proper_claude.py` | In-context learning, corrected | `confidence-experiments/outputs/icl_proper_claude/` |
+| `confidence-experiments/19_hidden_state_probe_claude.py` | Hidden-state probe — the headline result | `confidence-experiments/outputs/probe_claude/` |
 
 Reproduce:
 
@@ -385,18 +396,180 @@ what the final answer depends on.
 
 ---
 
+# TODO 3 continued — In-context learning
+
+**Status: complete, after one invalid attempt.**
+
+### The first attempt was broken, and is retained as superseded
+
+`17_icl_confidence_claude.py` used two demonstrations in which the final answer
+equalled the LAST STEP's answer. The demo set was therefore perfectly explained
+by "copy the last step" -- a rule that is confidence-independent by
+construction, so the demonstrations could not have taught confidence use no
+matter what the model did. The low-confidence demo also asserted in its
+rationale that correcting a step "changes the final answer" while displaying the
+answer that ignoring the correction produces. Demonstrations carried no
+documents while the test item carried ~2400 tokens of them, and everything sat
+in one user turn rather than multi-turn.
+
+Its null is uninterpretable and should not be cited. It is kept in the
+repository because the failure is instructive: an ICL null is worthless without
+a positive control showing the demonstrations do anything at all.
+
+### The corrected experiment
+
+`18_icl_proper_claude.py` fixes all four problems. Demonstrations are sourced
+from Test 07 repair results -- real cases where replacing a wrong hop with gold
+produced a DIFFERENT and CORRECT final answer -- so discounting a step provably
+changes the outcome rather than being asserted to. Four demonstrations: two
+where the lowest-confidence step is wrong and the answer must depart from the
+chain (confidence 29 and 10, both minima), two where everything is confident and
+the chain should be followed. The two classes require opposite behaviour, so no
+confidence-blind heuristic satisfies both. The script ASSERTS that "copy the
+last step" fails on the demo set and aborts otherwise. Demos carry their real
+MuSiQue supporting paragraphs and are presented multi-turn.
+
+Confidence is per-step `margin` on a 0-100 global scale with the trace mean
+shown as TRACE CONFIDENCE.
+
+### Results (56 held-out questions)
+
+| condition | accuracy | mean logP(gold) |
+|---|---|---|
+| **icl_noconf** | **15/56 (26.8%)** | -6.522 |
+| icl_conf | 14/56 (25.0%) | -6.779 |
+| icl_conf_shuffled | 14/56 (25.0%) | -6.775 |
+| zero_shot | 12/56 (21.4%) | -6.663 |
+| zero_shot_conf | 12/56 (21.4%) | -6.821 |
+
+### Findings
+
+1. **In-context learning works on this task.** `icl_noconf` vs `zero_shot`:
+   +5.4 points accuracy and **17 of 56 answers changed**. This is the positive
+   control the first attempt lacked.
+
+2. **Confidence adds nothing on top of it.** `icl_conf` vs `icl_noconf` --
+   identical demonstrations, identical targets, confidence present or stripped:
+   delta accuracy -0.018, only 4 of 56 answers differ. The stripped version
+   scores slightly higher.
+
+3. **Permuting confidence changes nothing.** `icl_conf` vs
+   `icl_conf_shuffled`: delta accuracy **0.0000**, CI [0.000, 0.000], with
+   **1 of 56** answers differing.
+
+4. **The behavioural gradient is the robust result**, independent of accuracy
+   noise:
+
+   | manipulation | answers changed |
+   |---|---|
+   | add demonstrations | **17/56 (30%)** |
+   | add confidence to those demonstrations | 4/56 (7%) |
+   | permute which step is flagged uncertain | **1/56 (2%)** |
+
+   A third of answers move when worked examples are added. One moves when the
+   confidence assignment is scrambled.
+
+*Limits: 56 questions; the demonstration gain is 3 questions with a CI whose
+lower bound is exactly 0, so it should not be sold hard. `needs_review` rose to
+28 of 280 rows as demonstrations made outputs more verbose.*
+
+---
+
+# Headline experiment — Hidden-state probe
+
+Not one of the three items. It is the strongest result in the repository and it
+reframes all of them.
+
+### The question nothing else asked
+
+Every prior experiment asks whether the model USES a confidence signal it is
+handed. All are null. Experiment 13 found the deeper problem: confidence
+predicts wrongness at 0.702 but load-bearingness at 0.517. No prompting or
+training can extract information a signal does not carry.
+
+But nothing tested whether the information exists ANYWHERE in the model.
+Verbalized and token-level confidence are both narrow read-outs.
+
+### Method
+
+One forward pass per hop over the same hop prompt Test 06 used. Last-position
+hidden state at five layers. L2 logistic regression, GroupKFold **by question**
+-- hops from one question share documents, so a random split would leak.
+Baselines are the same confidence signals on identical rows and folds.
+
+### Results
+
+| target | n | positives | best confidence | **probe (layer 28)** | permutation p |
+|---|---|---|---|---|---|
+| is_wrong | 203 | 119 | 0.702 | **0.807** | 0.005 |
+| is_load_bearing | 150 | 50 | 0.550 | **0.777** | 0.005 |
+
+Probe AUROC by depth, `is_load_bearing`:
+
+| layer | 1 | 7 | 14 | 21 | 28 |
+|---|---|---|---|---|---|
+| AUROC | 0.562 | 0.650 | 0.647 | 0.679 | **0.777** |
+
+Near chance early, emerging with depth -- the profile of a semantic property,
+not of noise-fitting.
+
+### Validation
+
+**Permutation null.** Shuffled labels give mean 0.485, p95 0.590 against an
+observed 0.777. p = 0.005.
+
+**Not position or structure.** hop index 0.512, position fraction 0.524,
+hops-from-end 0.467, n_hops 0.470; all four combined under the same CV give
+**0.392**, worse than chance. Adding them to the probe leaves it unchanged at
+0.777.
+
+**Not leakage.** Grouped CV keeps hops from one question on one side of the
+split.
+
+**Robust to specification.** Outliers clipped 0.780; C=0.05 0.774; C=10 0.788;
+10-fold 0.762. Every variant lands in 0.762-0.788.
+
+### Finding
+
+**The model encodes which steps are load-bearing; confidence does not report
+it.** This is why every prompting and demonstration experiment came back null --
+the information was never in the channel being read.
+
+It also gives repair prioritisation a concrete route that does not depend on
+confidence at all: decode step importance from the residual stream of a forward
+pass that is already being run.
+
+*Limits: n=150 with 50 positives; one model, one dataset, one seed; the probe
+inherits the frozen-substitution definition of load-bearing from experiment 13;
+and it is trained and evaluated on the same 60 questions. Grouped CV protects
+against leakage but replication on fresh questions matters more here than
+anywhere else, because this is the result worth building on. Separately, for
+`is_wrong` the layer-1 probe already reaches 0.723, which is high for so early a
+layer and hints at surface features; that does not affect the load-bearing
+result, where layer 1 sits at 0.562.*
+
+---
+
 # Overall conclusion
 
-> **Wrongness and influence are separable axes of a reasoning step, and this
-> model's confidence is sensitive to only one of them.**
+> **Wrongness and influence are separable axes of a reasoning step. The model
+> represents both internally, but its confidence reports only the first.**
 
-This reframes rather than abandons the original question. Repair prioritization
-requires knowing which errors matter. Confidence does not encode that, which is
-why the earlier pilot kept losing to hop position, why no aggregation of it
-predicts repair value, and why supplying it to the model changes nothing.
+The original question -- can confidence tell you which errors are most valuable
+to repair -- has a clean answer: **no**, and the reason is now specific rather
+than mysterious. Confidence detects errors at ~0.70 and is at chance on whether
+an error matters. That single fact explains why repair prioritisation kept
+losing to hop position, why no aggregation of confidence predicts repair value,
+why supplying confidence to the model changes nothing, and why demonstrating its
+use teaches nothing.
 
-The load-bearing/inert distinction the project set out to find **does exist** and
-is large. The negative result is about confidence as a way of detecting it.
+But the load-bearing/inert distinction the project set out to find **does exist**
+-- a 45x influence spread between terciles -- **and the model does represent
+it**, at 0.777 from a linear probe on the residual stream.
+
+So the negative result is about the confidence channel specifically, not about
+the model's knowledge. The productive direction is to stop asking the model how
+confident it is and start decoding what it already represents.
 
 # Limitations
 
@@ -414,15 +587,22 @@ is large. The negative result is about confidence as a way of detecting it.
 
 # Suggested next steps
 
-1. **De-duplicate the question selection** on shared sub-question chains before
-   scaling. The current 60 contain at least one 4-way near-duplicate cluster.
-2. **Scale influence measurement**, not repair ranking. It gives ~2.5 scored
-   hops per question instead of a candidate pair on 1 question in 7.
-3. **Test whether any signal predicts influence** — hidden-state probes are the
-   obvious candidate, since verbalized and token-level confidence both fail.
-4. **Add the constant-value control** to the bake-in experiment to settle whether
-   the `agg_only` gain is purely instructional.
+1. **Replicate the probe on fresh questions.** It is trained and evaluated on
+   the same 60. Grouped CV protects against leakage, but this is the result
+   worth building on and it needs out-of-sample confirmation before anything is
+   built on top of it.
+2. **De-duplicate the question selection** on shared sub-question chains. The
+   current 60 contain a 4-way near-duplicate cluster (`88460_30152_20999`).
+3. **Scale influence measurement, not repair ranking.** It yields ~2.5 scored
+   hops per question instead of a candidate pair on one question in seven.
+4. **Probe-guided repair.** Use the probe to select which step to re-check and
+   measure end-to-end accuracy, against a random-step control. This is the first
+   selection rule in the project with a signal behind it.
 5. **Larger models and a non-Qwen family**, at which point vLLM on rented CUDA
-   becomes worthwhile. Note that vLLM returns only top-k logprobs, so
-   full-vocabulary entropy — one of the two strongest signals here — needs
-   verification before migrating.
+   is worthwhile. Note that vLLM returns only top-k logprobs, so full-vocabulary
+   entropy needs verification before migrating.
+6. **Fine-tuning is not the obvious next move.** Three experiments show the
+   model cannot use a supplied confidence signal, and one shows the signal
+   lacks the information regardless. Training a model to read an uninformative
+   field has a ceiling that has already been measured. If anything is to be
+   trained, train on the probe target.
