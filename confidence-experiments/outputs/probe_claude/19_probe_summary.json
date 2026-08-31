@@ -1,0 +1,80 @@
+{
+  "environment": {
+    "model": "Qwen/Qwen3-1.7B",
+    "device": "mps",
+    "dtype": "float16",
+    "python": "3.9.6",
+    "platform": "macOS-26.6-arm64-arm-64bit",
+    "torch": "2.8.0",
+    "transformers": "4.57.6",
+    "memory": {
+      "ram_rss_gb": 0.518914048,
+      "accelerator_allocated_gb": 3.441150208,
+      "accelerator_driver_allocated_gb": 5.53811968,
+      "accelerator_recommended_max_gb": 19.06966528
+    }
+  },
+  "n_hops": 210,
+  "probe": "L2 logistic regression on last-token hidden state, GroupKFold by question",
+  "results": {
+    "is_wrong": {
+      "n": 203,
+      "n_positive": 119,
+      "by_layer": {
+        "layer_1": 0.7225890356142456,
+        "layer_7": 0.6513605442176872,
+        "layer_14": 0.6632653061224489,
+        "layer_21": 0.7886154461784715,
+        "layer_28": 0.8072228891556622
+      },
+      "best_layer": "layer_28",
+      "best_auroc": 0.8072228891556622
+    },
+    "is_load_bearing": {
+      "n": 150,
+      "n_positive": 50,
+      "by_layer": {
+        "layer_1": 0.5619999999999999,
+        "layer_7": 0.6504000000000001,
+        "layer_14": 0.6472,
+        "layer_21": 0.6788000000000001,
+        "layer_28": 0.7768
+      },
+      "best_layer": "layer_28",
+      "best_auroc": 0.7768
+    }
+  },
+  "confidence_baselines_same_rows": {
+    "is_wrong": {
+      "mean_logprob": 0.7120848339335735,
+      "min_logprob": 0.7162364945978392,
+      "entropy": 0.7170868347338936,
+      "margin": 0.6585634253701481,
+      "verbal_confidence": 0.6264005602240896
+    },
+    "is_load_bearing": {
+      "mean_logprob": 0.5169999999999999,
+      "min_logprob": 0.5118,
+      "entropy": 0.5162,
+      "margin": 0.518,
+      "verbal_confidence": 0.5500999999999999
+    }
+  },
+  "permutation_nulls_best_layer": {
+    "is_wrong": {
+      "permutations": 200,
+      "null_mean_auroc": 0.4966616646658663,
+      "null_p95_auroc": 0.5804621848739496,
+      "observed": 0.8072228891556622,
+      "p_value": 0.004975124378109453
+    },
+    "is_load_bearing": {
+      "permutations": 200,
+      "null_mean_auroc": 0.485085,
+      "null_p95_auroc": 0.59018,
+      "observed": 0.7768,
+      "p_value": 0.004975124378109453
+    }
+  },
+  "reading": "Compare probe best_auroc against confidence_baselines_same_rows for the same target. For is_load_bearing the confidence baselines sit at chance (~0.52). A probe meaningfully above that, and above its permutation null, means the information IS present in the model but is not expressed in confidence."
+}

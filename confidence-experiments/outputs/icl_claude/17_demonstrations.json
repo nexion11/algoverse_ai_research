@@ -1,0 +1,49 @@
+[
+  {
+    "question_id": "3hop1__38738_78276_68042",
+    "main_question": "When did the political party that holds the majority in the political body that passed a bill giving regulators discretion to prohibit proprietary trades, gain control of the House?",
+    "questions": [
+      "Which bill gave regulators the discretion to prohibit proprietary trades?",
+      "which party is the majority party in the Volcker Rule",
+      "when did the Democratic Party. gain control of the house"
+    ],
+    "answers": [
+      "Volcker Rule",
+      "Democratic Party.",
+      "2010"
+    ],
+    "conf": [
+      34.68183733670459,
+      17.088074167720183,
+      65.70796460176992
+    ],
+    "rationale": "Step 2 has the lowest confidence (17), so its answer 'Democratic Party.' is unreliable. Re-checking the documents gives 'Republicans' instead, which changes the final answer.",
+    "gold_final": "the 2010 election",
+    "kind": "low"
+  },
+  {
+    "question_id": "4hop1__152146_5274_458768_33677",
+    "main_question": "When was the most recent Bicycle Friendly Community Award given to the city where the headquarters of the only group larger than Långa nätter's record label is located?",
+    "questions": [
+      "What was the record label of Långa nätter?",
+      "What company is the only group larger than Sony Music Entertainment ?",
+      "Universal Music Group >> headquarters location",
+      "When was the most recent Bicycle Friendly Community Award given to Santa Monica, California ?"
+    ],
+    "answers": [
+      "Sony Music Entertainment",
+      "Universal Music Group",
+      "Santa Monica, California",
+      "2013"
+    ],
+    "conf": [
+      69.32153392330383,
+      56.70037926675095,
+      70.2433628318584,
+      94.05815423514538
+    ],
+    "rationale": "Every step is high confidence, so the reasoning state can be used as given.",
+    "gold_final": "2013",
+    "kind": "high"
+  }
+]

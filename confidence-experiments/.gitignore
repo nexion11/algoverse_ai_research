@@ -1,0 +1,4 @@
+# regenerable activation cache (~5MB); rerun 19_hidden_state_probe_claude.py to rebuild
+outputs/*/19_hidden.npz
+outputs/*_smoke/
+outputs/*.log

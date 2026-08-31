@@ -1,0 +1,281 @@
+question_id,n_hops,condition,confidences,gold_final_logprob,final_pred,final_label,final_correct,final_f1,gold_final,prompt_tokens
+4hop1__342858_131850_33897_81096,4,zero_shot,"38,39,30,54",-6.640759468078613,Johnny Rutherford,incorrect,False,0.0,Mario Andretti,2469
+4hop1__342858_131850_33897_81096,4,zero_shot_conf,"38,39,30,54",-8.6484375,Johnny Rutherford,incorrect,False,0.0,Mario Andretti,2574
+4hop1__342858_131850_33897_81096,4,icl_noconf,"38,39,30,54",-4.976562976837158,Johnny Rutherford,incorrect,False,0.0,Mario Andretti,4267
+4hop1__342858_131850_33897_81096,4,icl_conf,"38,39,30,54",-8.74609375,Johnny Rutherford,incorrect,False,0.0,Mario Andretti,4537
+4hop1__342858_131850_33897_81096,4,icl_conf_shuffled,"54,30,39,38",-8.8046875,Johnny Rutherford,incorrect,False,0.0,Mario Andretti,4537
+3hop1__38738_78276_68042,3,zero_shot,"35,17,66",-7.963257789611816,2010,needs_review,False,0.6666666666666666,the 2010 election,4036
+3hop1__38738_78276_68042,3,zero_shot_conf,"35,17,66",-6.952052593231201,2010,needs_review,False,0.6666666666666666,the 2010 election,4133
+3hop1__38738_78276_68042,3,icl_noconf,"35,17,66",-7.8653974533081055,2010,needs_review,False,0.6666666666666666,the 2010 election,5834
+3hop1__38738_78276_68042,3,icl_conf,"35,17,66",-9.07209300994873,2010,needs_review,False,0.6666666666666666,the 2010 election,6096
+3hop1__38738_78276_68042,3,icl_conf_shuffled,"66,35,17",-8.918231010437012,2010,needs_review,False,0.6666666666666666,the 2010 election,6096
+3hop2__67618_30587_44003,3,zero_shot,"61,26,74",-8.074191093444824,Gulf of Mexico,incorrect,False,0.0,through the Florida Straits,2537
+3hop2__67618_30587_44003,3,zero_shot_conf,"61,26,74",-7.846688747406006,Atlantic Ocean,incorrect,False,0.0,through the Florida Straits,2635
+3hop2__67618_30587_44003,3,icl_noconf,"61,26,74",-7.741922855377197,Atlantic Ocean,incorrect,False,0.0,through the Florida Straits,4335
+3hop2__67618_30587_44003,3,icl_conf,"61,26,74",-8.44618034362793,Atlantic Ocean,incorrect,False,0.0,through the Florida Straits,4598
+3hop2__67618_30587_44003,3,icl_conf_shuffled,"61,26,74",-8.44618034362793,Atlantic Ocean,incorrect,False,0.0,through the Florida Straits,4598
+4hop1__31050_725495_49925_349426,4,zero_shot,"28,40,61,65",-1.1920893712158431e-06,Katharina von Bora,correct,True,1.0,Katharina von Bora,3008
+4hop1__31050_725495_49925_349426,4,zero_shot_conf,"28,40,61,65",-5.619857006422535e-07,Katharina von Bora,correct,True,1.0,Katharina von Bora,3115
+4hop1__31050_725495_49925_349426,4,icl_noconf,"28,40,61,65",-1.2772374020642019e-06,Katharina von Bora,correct,True,1.0,Katharina von Bora,4806
+4hop1__31050_725495_49925_349426,4,icl_conf,"28,40,61,65",-0.0001630706392461434,Katharina von Bora,correct,True,1.0,Katharina von Bora,5078
+4hop1__31050_725495_49925_349426,4,icl_conf_shuffled,"65,28,40,61",-0.00045526705798693,Katharina von Bora,correct,True,1.0,Katharina von Bora,5078
+3hop2__304722_740784_63959,3,zero_shot,"32,28,41",-9.14305305480957,2013,incorrect,False,0.0,1 December 2010,3719
+3hop2__304722_740784_63959,3,zero_shot_conf,"32,28,41",-7.009819030761719,2013,incorrect,False,0.0,1 December 2010,3815
+3hop2__304722_740784_63959,3,icl_noconf,"32,28,41",-7.754528522491455,2013,incorrect,False,0.0,1 December 2010,5517
+3hop2__304722_740784_63959,3,icl_conf,"32,28,41",-8.5557279586792,2013,incorrect,False,0.0,1 December 2010,5778
+3hop2__304722_740784_63959,3,icl_conf_shuffled,"32,41,28",-8.767294883728027,2013,incorrect,False,0.0,1 December 2010,5778
+3hop1__829944_474097_84283,3,zero_shot,"76,50,50",-6.558594226837158,Warner Bros. Records,needs_review,False,0.4,Warner Music Group,1667
+3hop1__829944_474097_84283,3,zero_shot_conf,"76,50,50",-7.089844226837158,Warner Bros. Records,needs_review,False,0.4,Warner Music Group,1763
+3hop1__829944_474097_84283,3,icl_noconf,"76,50,50",-7.121094226837158,Warner Bros. Records,needs_review,False,0.4,Warner Music Group,3465
+3hop1__829944_474097_84283,3,icl_conf,"76,50,50",-6.277348518371582,Warner Bros. Records,needs_review,False,0.4,Warner Music Group,3726
+3hop1__829944_474097_84283,3,icl_conf_shuffled,"50,50,76",-5.925785541534424,Warner Bros. Records,needs_review,False,0.4,Warner Music Group,3726
+3hop1__129675_39743_24526,3,zero_shot,"42,40,31",-3.310091972351074,32.6 °F,incorrect,False,0.28571428571428575,upper 40s–lower 50s °F,4370
+3hop1__129675_39743_24526,3,zero_shot_conf,"42,40,31",-3.0803723335266113,32.6 °F,incorrect,False,0.28571428571428575,upper 40s–lower 50s °F,4468
+3hop1__129675_39743_24526,3,icl_noconf,"42,40,31",-3.708535671234131,32.6 °F,incorrect,False,0.28571428571428575,upper 40s–lower 50s °F,6168
+3hop1__129675_39743_24526,3,icl_conf,"42,40,31",-4.178003311157227,32.6 °F,incorrect,False,0.28571428571428575,upper 40s–lower 50s °F,6431
+3hop1__129675_39743_24526,3,icl_conf_shuffled,"40,42,31",-4.177412986755371,32.6 °F,incorrect,False,0.28571428571428575,upper 40s–lower 50s °F,6431
+3hop2__38326_92991_76291,3,zero_shot,"20,60,23",-6.696264266967773,1882,incorrect,False,0.0,January 2015,2883
+3hop2__38326_92991_76291,3,zero_shot_conf,"20,60,23",-6.177765369415283,1882,incorrect,False,0.0,January 2015,2980
+3hop2__38326_92991_76291,3,icl_noconf,"20,60,23",-8.029414176940918,1882,incorrect,False,0.0,January 2015,4681
+3hop2__38326_92991_76291,3,icl_conf,"20,60,23",-7.002344608306885,1882,incorrect,False,0.0,January 2015,4943
+3hop2__38326_92991_76291,3,icl_conf_shuffled,"20,23,60",-7.042957305908203,1882,incorrect,False,0.0,January 2015,4943
+4hop1__61681_53706_795904_580996,4,zero_shot,"64,37,47,28",-12.429689407348633,Sacramento,incorrect,False,0.0,Rio Linda,2331
+4hop1__61681_53706_795904_580996,4,zero_shot_conf,"64,37,47,28",-12.72656536102295,Sacramento,incorrect,False,0.0,Rio Linda,2436
+4hop1__61681_53706_795904_580996,4,icl_noconf,"64,37,47,28",-14.062501907348633,Sacramento,incorrect,False,0.0,Rio Linda,4129
+4hop1__61681_53706_795904_580996,4,icl_conf,"64,37,47,28",-15.406250953674316,Sacramento,incorrect,False,0.0,Rio Linda,4399
+4hop1__61681_53706_795904_580996,4,icl_conf_shuffled,"37,64,47,28",-15.398438453674316,Sacramento,incorrect,False,0.0,Rio Linda,4399
+3hop1__64957_87694_64412,3,zero_shot,"49,54,79",-1.4901160305669237e-08,11 February 1929,correct,True,1.0,11 February 1929,2247
+3hop1__64957_87694_64412,3,zero_shot_conf,"49,54,79",-0.00031929631950333714,11 February 1929,correct,True,1.0,11 February 1929,2343
+3hop1__64957_87694_64412,3,icl_noconf,"49,54,79",-0.10545456409454346,11 February,correct,True,0.8,11 February 1929,4045
+3hop1__64957_87694_64412,3,icl_conf,"49,54,79",-0.017576731741428375,11 February 1929,correct,True,1.0,11 February 1929,4306
+3hop1__64957_87694_64412,3,icl_conf_shuffled,"79,49,54",-0.01586630754172802,11 February 1929,correct,True,1.0,11 February 1929,4306
+4hop3__152056_698586_1926_54362,4,zero_shot,"54,51,54,21",-5.539224624633789,Dunn Center,incorrect,False,0.0,Confederate Gen. John Bell Hood,2507
+4hop3__152056_698586_1926_54362,4,zero_shot_conf,"54,51,54,21",-4.126074314117432,Dunn Center,incorrect,False,0.0,Confederate Gen. John Bell Hood,2612
+4hop3__152056_698586_1926_54362,4,icl_noconf,"54,51,54,21",-5.871722221374512,Dunn Center,incorrect,False,0.0,Confederate Gen. John Bell Hood,4305
+4hop3__152056_698586_1926_54362,4,icl_conf,"54,51,54,21",-4.8296709060668945,Dunn Center,incorrect,False,0.0,Confederate Gen. John Bell Hood,4575
+4hop3__152056_698586_1926_54362,4,icl_conf_shuffled,"21,54,54,51",-4.926499843597412,Dunn Center,incorrect,False,0.0,Confederate Gen. John Bell Hood,4575
+3hop1__145427_106426_157788,3,zero_shot,"54,16,36",-12.769834518432617,Shanghai,incorrect,False,0.0,Yamanote Line loop,2160
+3hop1__145427_106426_157788,3,zero_shot_conf,"54,16,36",-11.422749519348145,Shanghai–Hangzhou,incorrect,False,0.0,Yamanote Line loop,2256
+3hop1__145427_106426_157788,3,icl_noconf,"54,16,36",-7.313743591308594,Shanghai–Hangzhou,incorrect,False,0.0,Yamanote Line loop,3958
+3hop1__145427_106426_157788,3,icl_conf,"54,16,36",-7.395008087158203,Shanghai–Hangzhou,incorrect,False,0.0,Yamanote Line loop,4219
+3hop1__145427_106426_157788,3,icl_conf_shuffled,"16,54,36",-7.46628475189209,Shanghai–Hangzhou,incorrect,False,0.0,Yamanote Line loop,4219
+3hop1__516535_834494_34099,3,zero_shot,"52,49,30",-13.593832015991211,4-year,needs_review,False,0.5,four-year,2649
+3hop1__516535_834494_34099,3,zero_shot_conf,"52,49,30",-16.797088623046875,4-year,needs_review,False,0.5,four-year,2745
+3hop1__516535_834494_34099,3,icl_noconf,"52,49,30",-16.28931999206543,4-year,needs_review,False,0.5,four-year,4447
+3hop1__516535_834494_34099,3,icl_conf,"52,49,30",-17.00810432434082,4-year,needs_review,False,0.5,four-year,4708
+3hop1__516535_834494_34099,3,icl_conf_shuffled,"49,52,30",-17.00052833557129,4-year,needs_review,False,0.5,four-year,4708
+4hop1__846600_153080_159767_81096,4,zero_shot,"70,51,67,57",-5.228118896484375,Charles Mingus,incorrect,False,0.0,Mario Andretti,2693
+4hop1__846600_153080_159767_81096,4,zero_shot_conf,"70,51,67,57",-6.5273871421813965,Charles Mingus,incorrect,False,0.0,Mario Andretti,2798
+4hop1__846600_153080_159767_81096,4,icl_noconf,"70,51,67,57",-5.3515777587890625,Charles Mingus,incorrect,False,0.0,Mario Andretti,4491
+4hop1__846600_153080_159767_81096,4,icl_conf,"70,51,67,57",-6.828130722045898,Charles Mingus,incorrect,False,0.0,Mario Andretti,4761
+4hop1__846600_153080_159767_81096,4,icl_conf_shuffled,"67,51,57,70",-6.789068222045898,Charles Mingus,incorrect,False,0.0,Mario Andretti,4761
+4hop3__373866_5189_38229_86687,4,zero_shot,"47,52,44,54",-4.148437976837158,1990,correct,True,1.0,May 1990,2588
+4hop3__373866_5189_38229_86687,4,zero_shot_conf,"47,52,44,54",-3.442831039428711,1990,correct,True,1.0,May 1990,2693
+4hop3__373866_5189_38229_86687,4,icl_noconf,"47,52,44,54",-5.2083353996276855,1990,correct,True,1.0,May 1990,4386
+4hop3__373866_5189_38229_86687,4,icl_conf,"47,52,44,54",-4.455729007720947,1990,correct,True,1.0,May 1990,4656
+4hop3__373866_5189_38229_86687,4,icl_conf_shuffled,"47,52,44,54",-4.455729007720947,1990,correct,True,1.0,May 1990,4656
+4hop3__426860_88460_30152_20999,4,zero_shot,"48,35,45,55",-4.0456976890563965,Somali Muslim Ajuran Empire,incorrect,False,0.0,The dynasty regrouped and defeated the Portuguese,2897
+4hop3__426860_88460_30152_20999,4,zero_shot_conf,"48,35,45,55",-4.6854472160339355,Thailand,incorrect,False,0.0,The dynasty regrouped and defeated the Portuguese,3003
+4hop3__426860_88460_30152_20999,4,icl_noconf,"48,35,45,55",-3.9331088066101074,The Somali Muslim Ajuran Empire was expelled from The River Tamar due to their,incorrect,False,0.0,The dynasty regrouped and defeated the Portuguese,4695
+4hop3__426860_88460_30152_20999,4,icl_conf,"48,35,45,55",-3.9733874797821045,The Somali Muslim Ajuran Empire was expelled from The River Tamar due to their,incorrect,False,0.0,The dynasty regrouped and defeated the Portuguese,4966
+4hop3__426860_88460_30152_20999,4,icl_conf_shuffled,"45,55,48,35",-3.9891886711120605,The Somali Muslim Ajuran Empire was expelled from The River Tamar due to their,incorrect,False,0.0,The dynasty regrouped and defeated the Portuguese,4966
+4hop1__115977_582428_157828_162309,4,zero_shot,"59,43,83,51",-6.351630210876465,1992,incorrect,False,0.0,2016,3572
+4hop1__115977_582428_157828_162309,4,zero_shot_conf,"59,43,83,51",-7.4453277587890625,1992,incorrect,False,0.0,2016,3677
+4hop1__115977_582428_157828_162309,4,icl_noconf,"59,43,83,51",-7.390683174133301,1992,incorrect,False,0.0,2016,5370
+4hop1__115977_582428_157828_162309,4,icl_conf,"59,43,83,51",-8.148473739624023,1992,incorrect,False,0.0,2016,5640
+4hop1__115977_582428_157828_162309,4,icl_conf_shuffled,"43,83,51,59",-8.15628719329834,1992,incorrect,False,0.0,2016,5640
+4hop1__129682_59747_211319_557671,4,zero_shot,"6,44,21,44",-8.517800331115723,Georgia,incorrect,False,0.0,Presque Isle County,3053
+4hop1__129682_59747_211319_557671,4,zero_shot_conf,"6,44,21,44",-8.571242332458496,Georgia,incorrect,False,0.0,Presque Isle County,3157
+4hop1__129682_59747_211319_557671,4,icl_noconf,"6,44,21,44",-2.3982841968536377,Alpena County,needs_review,False,0.4,Presque Isle County,4851
+4hop1__129682_59747_211319_557671,4,icl_conf,"6,44,21,44",-4.116159915924072,Alpena County,needs_review,False,0.4,Presque Isle County,5120
+4hop1__129682_59747_211319_557671,4,icl_conf_shuffled,"6,21,44,44",-4.1929450035095215,Alpena County,needs_review,False,0.4,Presque Isle County,5120
+3hop2__69814_76873_64554,3,zero_shot,"36,53,24",-3.381505250930786,United States.,incorrect,False,0.0,Union of Soviet Socialist Republics,3293
+3hop2__69814_76873_64554,3,zero_shot_conf,"36,53,24",-3.5879018306732178,United States and Cold War.,incorrect,False,0.0,Union of Soviet Socialist Republics,3390
+3hop2__69814_76873_64554,3,icl_noconf,"36,53,24",-4.2891435623168945,Cold War.,incorrect,False,0.0,Union of Soviet Socialist Republics,5091
+3hop2__69814_76873_64554,3,icl_conf,"36,53,24",-3.7986176013946533,Cold War.,incorrect,False,0.0,Union of Soviet Socialist Republics,5353
+3hop2__69814_76873_64554,3,icl_conf_shuffled,"53,24,36",-3.803591012954712,Cold War.,incorrect,False,0.0,Union of Soviet Socialist Republics,5353
+4hop1__58323_375563_161848_83118,4,zero_shot,"63,37,28,1",-10.345870971679688,October,incorrect,False,0.0,the first Sunday in April,2912
+4hop1__58323_375563_161848_83118,4,zero_shot_conf,"63,37,28,1",-12.05929946899414,October,incorrect,False,0.0,the first Sunday in April,3016
+4hop1__58323_375563_161848_83118,4,icl_noconf,"63,37,28,1",-10.544183731079102,October,incorrect,False,0.0,the first Sunday in April,4710
+4hop1__58323_375563_161848_83118,4,icl_conf,"63,37,28,1",-10.38012409210205,October,incorrect,False,0.0,the first Sunday in April,4979
+4hop1__58323_375563_161848_83118,4,icl_conf_shuffled,"37,28,63,1",-10.318380355834961,October,incorrect,False,0.0,the first Sunday in April,4979
+4hop1__88342_75218_128008_46894,4,zero_shot,"29,44,49,66",0.0,Bill Bergen,correct,True,1.0,Bill Bergen,4891
+4hop1__88342_75218_128008_46894,4,zero_shot_conf,"29,44,49,66",-0.06747101992368698,Bill Bergen,correct,True,1.0,Bill Bergen,4997
+4hop1__88342_75218_128008_46894,4,icl_noconf,"29,44,49,66",0.0,Bill Bergen,correct,True,1.0,Bill Bergen,6689
+4hop1__88342_75218_128008_46894,4,icl_conf,"29,44,49,66",0.0,Bill Bergen,correct,True,1.0,Bill Bergen,6960
+4hop1__88342_75218_128008_46894,4,icl_conf_shuffled,"29,44,49,66",0.0,Bill Bergen,correct,True,1.0,Bill Bergen,6960
+3hop2__782397_223623_162182,3,zero_shot,"58,50,47",-6.687505722045898,Central,needs_review,False,0.5,South Central Coast,1958
+3hop2__782397_223623_162182,3,zero_shot_conf,"58,50,47",-6.833339691162109,Central,needs_review,False,0.5,South Central Coast,2055
+3hop2__782397_223623_162182,3,icl_noconf,"58,50,47",-8.854172706604004,Central,needs_review,False,0.5,South Central Coast,3756
+3hop2__782397_223623_162182,3,icl_conf,"58,50,47",-7.984388828277588,Central,needs_review,False,0.5,South Central Coast,4018
+3hop2__782397_223623_162182,3,icl_conf_shuffled,"58,50,47",-7.984388828277588,Central,needs_review,False,0.5,South Central Coast,4018
+4hop3__193820_466199_128875_72134,4,zero_shot,"61,58,53,65",-10.853001594543457,"Springfield, Illinois",incorrect,False,0.0,1839,2143
+4hop3__193820_466199_128875_72134,4,zero_shot_conf,"61,58,53,65",-11.203155517578125,"Springfield, Illinois",incorrect,False,0.0,1839,2249
+4hop3__193820_466199_128875_72134,4,icl_noconf,"61,58,53,65",-9.8046875,1834,incorrect,False,0.0,1839,3941
+4hop3__193820_466199_128875_72134,4,icl_conf,"61,58,53,65",-9.234375,1834,incorrect,False,0.0,1839,4212
+4hop3__193820_466199_128875_72134,4,icl_conf_shuffled,"53,61,58,65",-9.234375,1834,incorrect,False,0.0,1839,4212
+3hop1__380590_831637_91775,3,zero_shot,"67,90,87",-5.139699459075928,SP-106,incorrect,False,0.0,"Sea, Air, and Land",2217
+3hop1__380590_831637_91775,3,zero_shot_conf,"67,90,87",-3.0608575344085693,SP-106,incorrect,False,0.0,"Sea, Air, and Land",2313
+3hop1__380590_831637_91775,3,icl_noconf,"67,90,87",-3.708516836166382,SP-106,incorrect,False,0.0,"Sea, Air, and Land",4015
+3hop1__380590_831637_91775,3,icl_conf,"67,90,87",-4.739689350128174,SP-106,incorrect,False,0.0,"Sea, Air, and Land",4276
+3hop1__380590_831637_91775,3,icl_conf_shuffled,"90,67,87",-4.679819583892822,SP-106,incorrect,False,0.0,"Sea, Air, and Land",4276
+4hop3__322354_466199_695123_72134,4,zero_shot,"66,53,86,38",0.0,1839,correct,True,1.0,1839,2132
+4hop3__322354_466199_695123_72134,4,zero_shot_conf,"66,53,86,38",-9.83474706117704e-07,1839,correct,True,1.0,1839,2237
+4hop3__322354_466199_695123_72134,4,icl_noconf,"66,53,86,38",0.0,1839,correct,True,1.0,1839,3930
+4hop3__322354_466199_695123_72134,4,icl_conf,"66,53,86,38",0.0,1839,correct,True,1.0,1839,4200
+4hop3__322354_466199_695123_72134,4,icl_conf_shuffled,"86,38,53,66",0.0,1839,correct,True,1.0,1839,4200
+3hop1__161507_160713_77246,3,zero_shot,"15,26,46",-12.257461547851562,Hinduism.,incorrect,False,0.0,the country of India,3945
+3hop1__161507_160713_77246,3,zero_shot_conf,"15,26,46",-10.887676239013672,Islam,incorrect,False,0.0,the country of India,4042
+3hop1__161507_160713_77246,3,icl_noconf,"15,26,46",-11.955702781677246,Islam,incorrect,False,0.0,the country of India,5743
+3hop1__161507_160713_77246,3,icl_conf,"15,26,46",-11.283967971801758,Islam,incorrect,False,0.0,the country of India,6005
+3hop1__161507_160713_77246,3,icl_conf_shuffled,"15,46,26",-11.241673469543457,Islam,incorrect,False,0.0,the country of India,6005
+4hop1__813171_153080_33897_81096,4,zero_shot,"72,44,32,26",-6.168019771575928,Jacksonville,incorrect,False,0.0,Mario Andretti,3666
+4hop1__813171_153080_33897_81096,4,zero_shot_conf,"72,44,32,26",-6.433619976043701,Jacksonville,incorrect,False,0.0,Mario Andretti,3773
+4hop1__813171_153080_33897_81096,4,icl_noconf,"72,44,32,26",-4.179690361022949,Johnny Rutherford,incorrect,False,0.0,Mario Andretti,5464
+4hop1__813171_153080_33897_81096,4,icl_conf,"72,44,32,26",-2.506293535232544,Jacksonville,incorrect,False,0.0,Mario Andretti,5736
+4hop1__813171_153080_33897_81096,4,icl_conf_shuffled,"32,72,44,26",-2.3367249965667725,Johnny Rutherford,incorrect,False,0.0,Mario Andretti,5736
+4hop3__220945_88460_30152_20999,4,zero_shot,"20,35,34,51",-4.2628936767578125,The Ottomans.,incorrect,False,0.0,The dynasty regrouped and defeated the Portuguese,2924
+4hop3__220945_88460_30152_20999,4,zero_shot_conf,"20,35,34,51",-4.43858528137207,Portuguese.,incorrect,False,0.33333333333333337,The dynasty regrouped and defeated the Portuguese,3032
+4hop3__220945_88460_30152_20999,4,icl_noconf,"20,35,34,51",-4.69770622253418,The Portuguese.,incorrect,False,0.33333333333333337,The dynasty regrouped and defeated the Portuguese,4722
+4hop3__220945_88460_30152_20999,4,icl_conf,"20,35,34,51",-5.343935012817383,Portuguese.,incorrect,False,0.33333333333333337,The dynasty regrouped and defeated the Portuguese,4995
+4hop3__220945_88460_30152_20999,4,icl_conf_shuffled,"51,20,35,34",-5.30325174331665,Portuguese.,incorrect,False,0.33333333333333337,The dynasty regrouped and defeated the Portuguese,4995
+3hop2__72083_92991_76291,3,zero_shot,"33,59,47",-5.235451698303223,1946,incorrect,False,0.0,January 2015,2856
+3hop2__72083_92991_76291,3,zero_shot_conf,"33,59,47",-5.651438236236572,18. 2014,incorrect,False,0.0,January 2015,2952
+3hop2__72083_92991_76291,3,icl_noconf,"33,59,47",-6.34086275100708,18. 2014,incorrect,False,0.0,January 2015,4654
+3hop2__72083_92991_76291,3,icl_conf,"33,59,47",-5.733224391937256,18. 2014,incorrect,False,0.0,January 2015,4915
+3hop2__72083_92991_76291,3,icl_conf_shuffled,"33,47,59",-5.648375988006592,18. 2014,incorrect,False,0.0,January 2015,4915
+4hop2__71753_158985_70784_61381,4,zero_shot,"21,1,38,45",-8.2421875,1955,incorrect,False,0.0,1932,2493
+4hop2__71753_158985_70784_61381,4,zero_shot_conf,"21,1,38,45",-8.0234375,1955,incorrect,False,0.0,1932,2598
+4hop2__71753_158985_70784_61381,4,icl_noconf,"21,1,38,45",-7.9648566246032715,1955,incorrect,False,0.0,1932,4291
+4hop2__71753_158985_70784_61381,4,icl_conf,"21,1,38,45",-7.863284111022949,1955,incorrect,False,0.0,1932,4561
+4hop2__71753_158985_70784_61381,4,icl_conf_shuffled,"1,45,38,21",-7.832032680511475,1955,incorrect,False,0.0,1932,4561
+4hop1__436202_765799_282674_759393,4,zero_shot,"48,37,23,35",-11.2514066696167,Appleton,incorrect,False,0.0,Green Bay,2263
+4hop1__436202_765799_282674_759393,4,zero_shot_conf,"48,37,23,35",-10.121256828308105,Appleton,incorrect,False,0.0,Green Bay,2368
+4hop1__436202_765799_282674_759393,4,icl_noconf,"48,37,23,35",-11.454239845275879,Appleton,incorrect,False,0.0,Green Bay,4061
+4hop1__436202_765799_282674_759393,4,icl_conf,"48,37,23,35",-10.758913040161133,Appleton,incorrect,False,0.0,Green Bay,4331
+4hop1__436202_765799_282674_759393,4,icl_conf_shuffled,"35,48,37,23",-10.868255615234375,Appleton,incorrect,False,0.0,Green Bay,4331
+3hop2__79512_16214_84681,3,zero_shot,"74,34,76",-2.2351730422087712e-07,13 December 1642,correct,True,1.0,13 December 1642,3085
+3hop2__79512_16214_84681,3,zero_shot_conf,"74,34,76",-5.960463056453591e-08,13 December 1642,correct,True,1.0,13 December 1642,3181
+3hop2__79512_16214_84681,3,icl_noconf,"74,34,76",-6.109461310188635e-07,13 December 1642,correct,True,1.0,13 December 1642,4883
+3hop2__79512_16214_84681,3,icl_conf,"74,34,76",-6.31795046501793e-06,13 December 1642,correct,True,1.0,13 December 1642,5144
+3hop2__79512_16214_84681,3,icl_conf_shuffled,"76,34,74",-4.872598765359726e-06,13 December 1642,correct,True,1.0,13 December 1642,5144
+4hop2__567956_14670_8987_8529,4,zero_shot,"20,67,67,76",-5.514930248260498,1939,incorrect,False,0.0,1943–1992,2846
+4hop2__567956_14670_8987_8529,4,zero_shot_conf,"20,67,67,76",-5.009794235229492,1939,incorrect,False,0.0,1943–1992,2953
+4hop2__567956_14670_8987_8529,4,icl_noconf,"20,67,67,76",-6.61591100692749,1939,incorrect,False,0.0,1943–1992,4644
+4hop2__567956_14670_8987_8529,4,icl_conf,"20,67,67,76",-5.510173797607422,1939,incorrect,False,0.0,1943–1992,4916
+4hop2__567956_14670_8987_8529,4,icl_conf_shuffled,"67,20,76,67",-5.485363483428955,1939,incorrect,False,0.0,1943–1992,4916
+3hop1__527372_339990_54675,3,zero_shot,"47,37,35",-9.654772758483887,Mt. Tabor,incorrect,False,0.0,Tualatin Mountains,2668
+3hop1__527372_339990_54675,3,zero_shot_conf,"47,37,35",-10.581201553344727,Mt. Tabor,incorrect,False,0.0,Tualatin Mountains,2766
+3hop1__527372_339990_54675,3,icl_noconf,"47,37,35",-9.172185897827148,Mt. Tabor,incorrect,False,0.0,Tualatin Mountains,4466
+3hop1__527372_339990_54675,3,icl_conf,"47,37,35",-9.805229187011719,Mt. Tabor,incorrect,False,0.0,Tualatin Mountains,4729
+3hop1__527372_339990_54675,3,icl_conf_shuffled,"47,35,37",-9.824771881103516,Mt. Tabor,incorrect,False,0.0,Tualatin Mountains,4729
+3hop1__498954_160713_77246,3,zero_shot,"48,38,47",-13.882108688354492,Hindu,incorrect,False,0.0,the country of India,3680
+3hop1__498954_160713_77246,3,zero_shot_conf,"48,38,47",-15.460811614990234,Hindu,incorrect,False,0.0,the country of India,3776
+3hop1__498954_160713_77246,3,icl_noconf,"48,38,47",-13.990999221801758,Hindu,incorrect,False,0.0,the country of India,5478
+3hop1__498954_160713_77246,3,icl_conf,"48,38,47",-14.844139099121094,Hindu,incorrect,False,0.0,the country of India,5739
+3hop1__498954_160713_77246,3,icl_conf_shuffled,"48,47,38",-14.77294921875,Hindu,incorrect,False,0.0,the country of India,5739
+4hop1__342858_131850_33952_34053,4,zero_shot,"62,45,53,80",-3.953125238418579,24.17 in (614 mm),incorrect,False,0.0,1905,2677
+4hop1__342858_131850_33952_34053,4,zero_shot_conf,"62,45,53,80",-6.128138065338135,24.17 in (614 mm),incorrect,False,0.0,1905,2783
+4hop1__342858_131850_33952_34053,4,icl_noconf,"62,45,53,80",-3.7435269355773926,24.17 in (614 mm),incorrect,False,0.0,1905,4475
+4hop1__342858_131850_33952_34053,4,icl_conf,"62,45,53,80",-5.101564407348633,24.17 in (614 mm),incorrect,False,0.0,1905,4746
+4hop1__342858_131850_33952_34053,4,icl_conf_shuffled,"62,53,45,80",-5.078126907348633,24.17 in (614 mm),incorrect,False,0.0,1905,4746
+4hop1__151903_5274_458768_33677,4,zero_shot,"76,61,67,89",0.0,2013,correct,True,1.0,2013,2326
+4hop1__151903_5274_458768_33677,4,zero_shot_conf,"76,61,67,89",-3.933875632355921e-06,2013,correct,True,1.0,2013,2431
+4hop1__151903_5274_458768_33677,4,icl_noconf,"76,61,67,89",0.0,2013,correct,True,1.0,2013,4124
+4hop1__151903_5274_458768_33677,4,icl_conf,"76,61,67,89",0.0,2013,correct,True,1.0,2013,4394
+4hop1__151903_5274_458768_33677,4,icl_conf_shuffled,"76,67,61,89",0.0,2013,correct,True,1.0,2013,4394
+4hop3__405277_88460_30152_20999,4,zero_shot,"34,45,19,37",-4.5084638595581055,Ottoman,incorrect,False,0.0,The dynasty regrouped and defeated the Portuguese,2902
+4hop3__405277_88460_30152_20999,4,zero_shot_conf,"34,45,19,37",-4.377529144287109,Ottoman,incorrect,False,0.0,The dynasty regrouped and defeated the Portuguese,3007
+4hop3__405277_88460_30152_20999,4,icl_noconf,"34,45,19,37",-4.5273895263671875,The Ottoman Empire was expelled from the Radcliffe Line through economic independence and new coin,incorrect,False,0.1111111111111111,The dynasty regrouped and defeated the Portuguese,4700
+4hop3__405277_88460_30152_20999,4,icl_conf,"34,45,19,37",-4.351368427276611,The Ottoman Empire was expelled from the Radcliffe Line through economic independence and new coin,incorrect,False,0.1111111111111111,The dynasty regrouped and defeated the Portuguese,4970
+4hop3__405277_88460_30152_20999,4,icl_conf_shuffled,"19,34,37,45",-4.331969261169434,The Ottoman Empire was expelled from the Radcliffe Line through economic independence and new coin,incorrect,False,0.1111111111111111,The dynasty regrouped and defeated the Portuguese,4970
+4hop1__151650_5274_458768_33637,4,zero_shot,"64,53,64,20",-40.296875,1,incorrect,False,0.0,two,2474
+4hop1__151650_5274_458768_33637,4,zero_shot_conf,"64,53,64,20",-38.26563262939453,1,incorrect,False,0.0,two,2579
+4hop1__151650_5274_458768_33637,4,icl_noconf,"64,53,64,20",-49.12890625,1,incorrect,False,0.0,two,4272
+4hop1__151650_5274_458768_33637,4,icl_conf,"64,53,64,20",-51.2890625,1,incorrect,False,0.0,two,4542
+4hop1__151650_5274_458768_33637,4,icl_conf_shuffled,"53,64,64,20",-51.40234375,1,incorrect,False,0.0,two,4542
+4hop1__342858_131850_159767_81096,4,zero_shot,"58,22,62,46",-3.6917128562927246,Phoenix,incorrect,False,0.0,Mario Andretti,2266
+4hop1__342858_131850_159767_81096,4,zero_shot_conf,"58,22,62,46",-3.763751745223999,Phoenix,incorrect,False,0.0,Mario Andretti,2371
+4hop1__342858_131850_159767_81096,4,icl_noconf,"58,22,62,46",-7.152552825573366e-07,Mario Andretti,correct,True,1.0,Mario Andretti,4064
+4hop1__342858_131850_159767_81096,4,icl_conf,"58,22,62,46",-2.3841852225814364e-07,Mario Andretti,correct,True,1.0,Mario Andretti,4334
+4hop1__342858_131850_159767_81096,4,icl_conf_shuffled,"58,46,22,62",-2.3841852225814364e-07,Mario Andretti,correct,True,1.0,Mario Andretti,4334
+3hop1__516535_834494_34053,3,zero_shot,"45,47,81",-4.242190361022949,24.17 in (614 mm),incorrect,False,0.0,1905,2634
+3hop1__516535_834494_34053,3,zero_shot_conf,"45,47,81",-5.510246276855469,24.17 in (614 mm),incorrect,False,0.0,1905,2731
+3hop1__516535_834494_34053,3,icl_noconf,"45,47,81",-4.695330619812012,24.17 in (614 mm),incorrect,False,0.0,1905,4432
+3hop1__516535_834494_34053,3,icl_conf,"45,47,81",-5.531425952911377,24.17 in (614 mm),incorrect,False,0.0,1905,4694
+3hop1__516535_834494_34053,3,icl_conf_shuffled,"47,45,81",-5.547043323516846,24.17 in (614 mm),incorrect,False,0.0,1905,4694
+3hop1__241085_42197_18397,3,zero_shot,"0,78,2",-9.272918701171875,China,incorrect,False,0.0,the Politburo,3906
+3hop1__241085_42197_18397,3,zero_shot_conf,"0,78,2",-12.285846710205078,China,incorrect,False,0.0,the Politburo,4000
+3hop1__241085_42197_18397,3,icl_noconf,"0,78,2",-9.5830659866333,China,incorrect,False,0.0,the Politburo,5704
+3hop1__241085_42197_18397,3,icl_conf,"0,78,2",-12.562400817871094,China,incorrect,False,0.0,the Politburo,5963
+3hop1__241085_42197_18397,3,icl_conf_shuffled,"0,78,2",-12.562400817871094,China,incorrect,False,0.0,the Politburo,5963
+4hop1__105688_17130_70784_61381,4,zero_shot,"24,41,11,57",-9.728675842285156,Israel,incorrect,False,0.0,1932,3183
+4hop1__105688_17130_70784_61381,4,zero_shot_conf,"24,41,11,57",-12.484579086303711,Israel,incorrect,False,0.0,1932,3289
+4hop1__105688_17130_70784_61381,4,icl_noconf,"24,41,11,57",-0.00029427369008772075,1932,correct,True,1.0,1932,4981
+4hop1__105688_17130_70784_61381,4,icl_conf,"24,41,11,57",-6.609281990677118e-05,1932,correct,True,1.0,1932,5252
+4hop1__105688_17130_70784_61381,4,icl_conf_shuffled,"24,57,41,11",-5.804819011245854e-05,1932,correct,True,1.0,1932,5252
+3hop2__304722_602987_63959,3,zero_shot,"33,49,44",-9.564736366271973,2015,incorrect,False,0.0,1 December 2010,3692
+3hop2__304722_602987_63959,3,zero_shot_conf,"33,49,44",-8.2123384475708,2015,incorrect,False,0.0,1 December 2010,3789
+3hop2__304722_602987_63959,3,icl_noconf,"33,49,44",-6.346217155456543,2015,incorrect,False,0.0,1 December 2010,5490
+3hop2__304722_602987_63959,3,icl_conf,"33,49,44",-7.813098430633545,2015,incorrect,False,0.0,1 December 2010,5752
+3hop2__304722_602987_63959,3,icl_conf_shuffled,"49,33,44",-7.824868202209473,2015,incorrect,False,0.0,1 December 2010,5752
+3hop1__756602_831637_91775,3,zero_shot,"64,29,58",0.0,"Sea, Air, and Land",correct,True,1.0,"Sea, Air, and Land",2077
+3hop1__756602_831637_91775,3,zero_shot_conf,"64,29,58",0.0,"Sea, Air, and Land",correct,True,1.0,"Sea, Air, and Land",2173
+3hop1__756602_831637_91775,3,icl_noconf,"64,29,58",0.0,"Sea, Air, and Land",correct,True,1.0,"Sea, Air, and Land",3875
+3hop1__756602_831637_91775,3,icl_conf,"64,29,58",0.0,"Sea, Air, and Land",correct,True,1.0,"Sea, Air, and Land",4136
+3hop1__756602_831637_91775,3,icl_conf_shuffled,"64,29,58",0.0,"Sea, Air, and Land",correct,True,1.0,"Sea, Air, and Land",4136
+4hop3__310746_88460_30152_20999,4,zero_shot,"39,69,24,63",-4.131767749786377,Ottoman,incorrect,False,0.0,The dynasty regrouped and defeated the Portuguese,2816
+4hop3__310746_88460_30152_20999,4,zero_shot_conf,"39,69,24,63",-3.895036458969116,Ottoman,incorrect,False,0.0,The dynasty regrouped and defeated the Portuguese,2922
+4hop3__310746_88460_30152_20999,4,icl_noconf,"39,69,24,63",-4.4052324295043945,The Ottoman Empire was expelled from Si Phan Don (4000 Islands,incorrect,False,0.0,The dynasty regrouped and defeated the Portuguese,4614
+4hop3__310746_88460_30152_20999,4,icl_conf,"39,69,24,63",-4.085691452026367,The Ottoman Empire was expelled from Si Phan Don (4000 Islands,incorrect,False,0.0,The dynasty regrouped and defeated the Portuguese,4885
+4hop3__310746_88460_30152_20999,4,icl_conf_shuffled,"69,24,63,39",-4.082297325134277,The Ottoman Empire was expelled from Si Phan Don (4000 Islands,incorrect,False,0.0,The dynasty regrouped and defeated the Portuguese,4885
+4hop1__46196_497223_15840_36002,4,zero_shot,"20,11,29,53",-3.2300913333892822,NFL,incorrect,False,0.0,built on 16-bit architectures and offered improved graphics and sound,3759
+4hop1__46196_497223_15840_36002,4,zero_shot_conf,"20,11,29,53",-2.559114933013916,NFL,incorrect,False,0.0,built on 16-bit architectures and offered improved graphics and sound,3864
+4hop1__46196_497223_15840_36002,4,icl_noconf,"20,11,29,53",-2.0171399116516113,16-bit,correct,True,1.0,built on 16-bit architectures and offered improved graphics and sound,5557
+4hop1__46196_497223_15840_36002,4,icl_conf,"20,11,29,53",-1.5289082527160645,Improved graphics and sound,needs_review,False,0.5333333333333333,built on 16-bit architectures and offered improved graphics and sound,5827
+4hop1__46196_497223_15840_36002,4,icl_conf_shuffled,"11,20,29,53",-1.5338447093963623,Improved graphics and sound,needs_review,False,0.5333333333333333,built on 16-bit architectures and offered improved graphics and sound,5827
+3hop1__241001_568433_47686,3,zero_shot,"63,44,40",-8.479170799255371,Dancingmonkeys,incorrect,False,0.0,Toronto Coach Terminal,2487
+3hop1__241001_568433_47686,3,zero_shot_conf,"63,44,40",-8.651041984558105,Dancingmonkeys,incorrect,False,0.0,Toronto Coach Terminal,2583
+3hop1__241001_568433_47686,3,icl_noconf,"63,44,40",-9.876395225524902,Dancingmonkeys,incorrect,False,0.0,Toronto Coach Terminal,4285
+3hop1__241001_568433_47686,3,icl_conf,"63,44,40",-11.577094078063965,Dancingmonkeys,incorrect,False,0.0,Toronto Coach Terminal,4546
+3hop1__241001_568433_47686,3,icl_conf_shuffled,"63,40,44",-11.53786563873291,Dancingmonkeys,incorrect,False,0.0,Toronto Coach Terminal,4546
+3hop2__92991_38242_76291,3,zero_shot,"61,3,35",-6.733644008636475,2014,incorrect,False,0.0,January 2015,2836
+3hop2__92991_38242_76291,3,zero_shot_conf,"61,3,35",-7.902028560638428,2014,incorrect,False,0.0,January 2015,2931
+3hop2__92991_38242_76291,3,icl_noconf,"61,3,35",-8.492223739624023,2014,incorrect,False,0.0,January 2015,4634
+3hop2__92991_38242_76291,3,icl_conf,"61,3,35",-9.466206550598145,2014,incorrect,False,0.0,January 2015,4894
+3hop2__92991_38242_76291,3,icl_conf_shuffled,"61,35,3",-9.34382152557373,2014,incorrect,False,0.0,January 2015,4894
+3hop1__604797_443779_52195,3,zero_shot,"65,31,41",-2.0622621377697214e-05,Francisco Guterres,correct,True,1.0,Francisco Guterres,3369
+3hop1__604797_443779_52195,3,zero_shot_conf,"65,31,41",-6.260113150347024e-05,Francisco Guterres,correct,True,1.0,Francisco Guterres,3465
+3hop1__604797_443779_52195,3,icl_noconf,"65,31,41",-3.3114956750068814e-05,Francisco Guterres,correct,True,1.0,Francisco Guterres,5167
+3hop1__604797_443779_52195,3,icl_conf,"65,31,41",-3.464050678303465e-05,Francisco Guterres,correct,True,1.0,Francisco Guterres,5428
+3hop1__604797_443779_52195,3,icl_conf_shuffled,"31,65,41",-3.7048226658953354e-05,Francisco Guterres,correct,True,1.0,Francisco Guterres,5428
+3hop2__326964_36852_7713,3,zero_shot,"50,64,64",-6.182292461395264,400 years.,correct,True,0.8,about 400 years,2894
+3hop2__326964_36852_7713,3,zero_shot_conf,"50,64,64",-6.561835765838623,400 years.,correct,True,0.8,about 400 years,2991
+3hop2__326964_36852_7713,3,icl_noconf,"50,64,64",-7.623697757720947,400 years.,correct,True,0.8,about 400 years,4692
+3hop2__326964_36852_7713,3,icl_conf,"50,64,64",-7.162109375,400 years.,correct,True,0.8,about 400 years,4954
+3hop2__326964_36852_7713,3,icl_conf_shuffled,"50,64,64",-7.162109375,400 years.,correct,True,0.8,about 400 years,4954
+4hop1__105401_17130_70784_61381,4,zero_shot,"25,42,27,50",-8.724245071411133,1990,incorrect,False,0.0,1932,3158
+4hop1__105401_17130_70784_61381,4,zero_shot_conf,"25,42,27,50",-8.50019359588623,1990,incorrect,False,0.0,1932,3264
+4hop1__105401_17130_70784_61381,4,icl_noconf,"25,42,27,50",-7.378952980041504,1990,incorrect,False,0.0,1932,4956
+4hop1__105401_17130_70784_61381,4,icl_conf,"25,42,27,50",-7.296875953674316,1990,incorrect,False,0.0,1932,5227
+4hop1__105401_17130_70784_61381,4,icl_conf_shuffled,"27,42,25,50",-7.292970180511475,1990,incorrect,False,0.0,1932,5227
+3hop1__507961_160713_77246,3,zero_shot,"44,32,16",-12.074797630310059,Hindu,incorrect,False,0.0,the country of India,4023
+3hop1__507961_160713_77246,3,zero_shot_conf,"44,32,16",-12.200918197631836,Hindu,incorrect,False,0.0,the country of India,4120
+3hop1__507961_160713_77246,3,icl_noconf,"44,32,16",-14.417963027954102,Hindu,incorrect,False,0.0,the country of India,5821
+3hop1__507961_160713_77246,3,icl_conf,"44,32,16",-12.882966995239258,Hindu,incorrect,False,0.0,the country of India,6083
+3hop1__507961_160713_77246,3,icl_conf_shuffled,"16,32,44",-13.059045791625977,Hindu,incorrect,False,0.0,the country of India,6083
+3hop2__30956_65244_84681,3,zero_shot,"60,19,42",-4.409584999084473,New Zealand,incorrect,False,0.0,13 December 1642,3823
+3hop2__30956_65244_84681,3,zero_shot_conf,"60,19,42",-4.699475288391113,New Zealand,incorrect,False,0.0,13 December 1642,3920
+3hop2__30956_65244_84681,3,icl_noconf,"60,19,42",-4.319509506225586,1642,needs_review,False,0.5,13 December 1642,5621
+3hop2__30956_65244_84681,3,icl_conf,"60,19,42",-4.73198127746582,1642,needs_review,False,0.5,13 December 1642,5883
+3hop2__30956_65244_84681,3,icl_conf_shuffled,"60,42,19",-4.80592155456543,1642,needs_review,False,0.5,13 December 1642,5883
+3hop2__132957_52222_40768,3,zero_shot,"69,21,65",0.0,1981,correct,True,1.0,1981,2719
+3hop2__132957_52222_40768,3,zero_shot_conf,"69,21,65",-1.7881387748275301e-07,1981,correct,True,1.0,1981,2815
+3hop2__132957_52222_40768,3,icl_noconf,"69,21,65",0.0,1981,correct,True,1.0,1981,4517
+3hop2__132957_52222_40768,3,icl_conf,"69,21,65",0.0,1981,correct,True,1.0,1981,4778
+3hop2__132957_52222_40768,3,icl_conf_shuffled,"65,21,69",0.0,1981,correct,True,1.0,1981,4778
+4hop1__178366_229349_66759_75165,4,zero_shot,"56,60,48,100",0.0,"1,335,907",correct,True,1.0,"1,335,907",2852
+4hop1__178366_229349_66759_75165,4,zero_shot_conf,"56,60,48,100",0.0,"1,335,907",correct,True,1.0,"1,335,907",2958
+4hop1__178366_229349_66759_75165,4,icl_noconf,"56,60,48,100",0.0,"1,335,907",correct,True,1.0,"1,335,907",4650
+4hop1__178366_229349_66759_75165,4,icl_conf,"56,60,48,100",0.0,"1,335,907",correct,True,1.0,"1,335,907",4921
+4hop1__178366_229349_66759_75165,4,icl_conf_shuffled,"60,56,48,100",0.0,"1,335,907",correct,True,1.0,"1,335,907",4921
