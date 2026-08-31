@@ -1,0 +1,1430 @@
+question_id,dataset_idx,n_hops,hop,variant,confidence,parsed,raw_output,pred,gold,label,token_f1,test06_verbal_confidence,mean_logprob
+4hop1__342858_131850_33897_81096,2085,4,1,baseline,40.0,True,"40
+
+The","Yuma County, Arizona",Yuma County,correct,0.8,40.0,-0.05096108086866025
+4hop1__342858_131850_33897_81096,2085,4,1,anchored,75.0,True,75,"Yuma County, Arizona",Yuma County,correct,0.8,40.0,-0.05096108086866025
+4hop1__342858_131850_33897_81096,2085,4,1,bins,67.0,True,LEANING_RIGHT,"Yuma County, Arizona",Yuma County,correct,0.8,40.0,-0.05096108086866025
+4hop1__342858_131850_33897_81096,2085,4,1,evidence_first,100.0,True,CONFIDENCE: 100,"Yuma County, Arizona",Yuma County,correct,0.8,40.0,-0.05096108086866025
+4hop1__342858_131850_33897_81096,2085,4,1,twosided,50.0,True,50,"Yuma County, Arizona",Yuma County,correct,0.8,40.0,-0.05096108086866025
+4hop1__342858_131850_33897_81096,2085,4,2,baseline,60.0,True,"60
+
+The",Yuma County,Arizona,incorrect,0.0,60.0,-0.008630966049774239
+4hop1__342858_131850_33897_81096,2085,4,2,anchored,75.0,True,"75
+
+The answer is",Yuma County,Arizona,incorrect,0.0,60.0,-0.008630966049774239
+4hop1__342858_131850_33897_81096,2085,4,2,bins,67.0,True,LEANING_RIGHT,Yuma County,Arizona,incorrect,0.0,60.0,-0.008630966049774239
+4hop1__342858_131850_33897_81096,2085,4,2,evidence_first,100.0,True,CONFIDENCE: 100,Yuma County,Arizona,incorrect,0.0,60.0,-0.008630966049774239
+4hop1__342858_131850_33897_81096,2085,4,2,twosided,50.0,True,50,Yuma County,Arizona,incorrect,0.0,60.0,-0.008630966049774239
+4hop1__342858_131850_33897_81096,2085,4,3,baseline,40.0,True,"40
+
+The",Tucson,Phoenix,incorrect,0.0,40.0,-0.002895784993597772
+4hop1__342858_131850_33897_81096,2085,4,3,anchored,75.0,True,75,Tucson,Phoenix,incorrect,0.0,40.0,-0.002895784993597772
+4hop1__342858_131850_33897_81096,2085,4,3,bins,67.0,True,LEANING_RIGHT,Tucson,Phoenix,incorrect,0.0,40.0,-0.002895784993597772
+4hop1__342858_131850_33897_81096,2085,4,3,evidence_first,100.0,True,CONFIDENCE: 100,Tucson,Phoenix,incorrect,0.0,40.0,-0.002895784993597772
+4hop1__342858_131850_33897_81096,2085,4,3,twosided,50.0,True,50,Tucson,Phoenix,incorrect,0.0,40.0,-0.002895784993597772
+4hop1__342858_131850_33897_81096,2085,4,4,baseline,40.0,True,40,Johnny Rutherford,Mario Andretti,incorrect,0.0,40.0,-0.01831005380275504
+4hop1__342858_131850_33897_81096,2085,4,4,anchored,75.0,True,75,Johnny Rutherford,Mario Andretti,incorrect,0.0,40.0,-0.01831005380275504
+4hop1__342858_131850_33897_81096,2085,4,4,bins,33.0,True,LEANING_WRONG,Johnny Rutherford,Mario Andretti,incorrect,0.0,40.0,-0.01831005380275504
+4hop1__342858_131850_33897_81096,2085,4,4,evidence_first,0.0,True,CONFIDENCE: 0,Johnny Rutherford,Mario Andretti,incorrect,0.0,40.0,-0.01831005380275504
+4hop1__342858_131850_33897_81096,2085,4,4,twosided,50.0,True,50,Johnny Rutherford,Mario Andretti,incorrect,0.0,40.0,-0.01831005380275504
+3hop1__38738_78276_68042,1402,3,1,baseline,45.0,True,"45
+
+</think>",Volcker Rule,Senate,incorrect,0.0,45.0,-0.009344900535324996
+3hop1__38738_78276_68042,1402,3,1,anchored,75.0,True,"75
+
+The answer """,Volcker Rule,Senate,incorrect,0.0,45.0,-0.009344900535324996
+3hop1__38738_78276_68042,1402,3,1,bins,67.0,True,LEANING_RIGHT,Volcker Rule,Senate,incorrect,0.0,45.0,-0.009344900535324996
+3hop1__38738_78276_68042,1402,3,1,evidence_first,100.0,True,CONFIDENCE: 100,Volcker Rule,Senate,incorrect,0.0,45.0,-0.009344900535324996
+3hop1__38738_78276_68042,1402,3,1,twosided,50.0,True,50,Volcker Rule,Senate,incorrect,0.0,45.0,-0.009344900535324996
+3hop1__38738_78276_68042,1402,3,2,baseline,40.0,True,"40
+
+The",Democratic Party.,Republicans,incorrect,0.0,40.0,-0.193229472230693
+3hop1__38738_78276_68042,1402,3,2,anchored,75.0,True,"75
+
+The answer is",Democratic Party.,Republicans,incorrect,0.0,40.0,-0.193229472230693
+3hop1__38738_78276_68042,1402,3,2,bins,67.0,True,LEANING_RIGHT,Democratic Party.,Republicans,incorrect,0.0,40.0,-0.193229472230693
+3hop1__38738_78276_68042,1402,3,2,evidence_first,90.0,True,CONFIDENCE: 90,Democratic Party.,Republicans,incorrect,0.0,40.0,-0.193229472230693
+3hop1__38738_78276_68042,1402,3,2,twosided,50.0,True,50,Democratic Party.,Republicans,incorrect,0.0,40.0,-0.193229472230693
+3hop1__38738_78276_68042,1402,3,3,baseline,40.0,True,"40
+
+The",2010,the 2010 election,needs_review,0.6666666666666666,40.0,-8.582927819134056e-06
+3hop1__38738_78276_68042,1402,3,3,anchored,75.0,True,"75
+
+The answer is",2010,the 2010 election,needs_review,0.6666666666666666,40.0,-8.582927819134056e-06
+3hop1__38738_78276_68042,1402,3,3,bins,67.0,True,LEANING_RIGHT,2010,the 2010 election,needs_review,0.6666666666666666,40.0,-8.582927819134056e-06
+3hop1__38738_78276_68042,1402,3,3,evidence_first,90.0,True,CONFIDENCE: 90,2010,the 2010 election,needs_review,0.6666666666666666,40.0,-8.582927819134056e-06
+3hop1__38738_78276_68042,1402,3,3,twosided,50.0,True,50,2010,the 2010 election,needs_review,0.6666666666666666,40.0,-8.582927819134056e-06
+4hop2__71753_158279_70784_61381,2041,4,1,baseline,40.0,True,"40
+
+The",Middle East,"Middle East,",correct,1.0,40.0,-0.02153008795266942
+4hop2__71753_158279_70784_61381,2041,4,1,anchored,75.0,True,75,Middle East,"Middle East,",correct,1.0,40.0,-0.02153008795266942
+4hop2__71753_158279_70784_61381,2041,4,1,bins,67.0,True,LEANING_RIGHT,Middle East,"Middle East,",correct,1.0,40.0,-0.02153008795266942
+4hop2__71753_158279_70784_61381,2041,4,1,evidence_first,90.0,True,CONFIDENCE: 90,Middle East,"Middle East,",correct,1.0,40.0,-0.02153008795266942
+4hop2__71753_158279_70784_61381,2041,4,1,twosided,30.0,True,70,Middle East,"Middle East,",correct,1.0,40.0,-0.02153008795266942
+4hop2__71753_158279_70784_61381,2041,4,2,baseline,40.0,True,"40
+
+The",Persian Gulf.,Persian Gulf,correct,1.0,40.0,-0.14744834601874857
+4hop2__71753_158279_70784_61381,2041,4,2,anchored,75.0,True,75,Persian Gulf.,Persian Gulf,correct,1.0,40.0,-0.14744834601874857
+4hop2__71753_158279_70784_61381,2041,4,2,bins,67.0,True,LEANING_RIGHT,Persian Gulf.,Persian Gulf,correct,1.0,40.0,-0.14744834601874857
+4hop2__71753_158279_70784_61381,2041,4,2,evidence_first,100.0,True,CONFIDENCE: 100,Persian Gulf.,Persian Gulf,correct,1.0,40.0,-0.14744834601874857
+4hop2__71753_158279_70784_61381,2041,4,2,twosided,50.0,True,50,Persian Gulf.,Persian Gulf,correct,1.0,40.0,-0.14744834601874857
+4hop2__71753_158279_70784_61381,2041,4,3,baseline,40.0,True,"40
+
+The",Arabia Terra,Kingdom of Saudi Arabia,incorrect,0.3333333333333333,40.0,-0.22142807748878113
+4hop2__71753_158279_70784_61381,2041,4,3,anchored,75.0,True,75,Arabia Terra,Kingdom of Saudi Arabia,incorrect,0.3333333333333333,40.0,-0.22142807748878113
+4hop2__71753_158279_70784_61381,2041,4,3,bins,67.0,True,LEANING_RIGHT,Arabia Terra,Kingdom of Saudi Arabia,incorrect,0.3333333333333333,40.0,-0.22142807748878113
+4hop2__71753_158279_70784_61381,2041,4,3,evidence_first,0.0,True,CONFIDENCE: 0,Arabia Terra,Kingdom of Saudi Arabia,incorrect,0.3333333333333333,40.0,-0.22142807748878113
+4hop2__71753_158279_70784_61381,2041,4,3,twosided,50.0,True,50,Arabia Terra,Kingdom of Saudi Arabia,incorrect,0.3333333333333333,40.0,-0.22142807748878113
+4hop2__71753_158279_70784_61381,2041,4,4,baseline,40.0,True,"40
+
+The",1995,1932,incorrect,0.0,40.0,-7.3312671418079844e-06
+4hop2__71753_158279_70784_61381,2041,4,4,anchored,75.0,True,75,1995,1932,incorrect,0.0,40.0,-7.3312671418079844e-06
+4hop2__71753_158279_70784_61381,2041,4,4,bins,67.0,True,LEANING_RIGHT,1995,1932,incorrect,0.0,40.0,-7.3312671418079844e-06
+4hop2__71753_158279_70784_61381,2041,4,4,evidence_first,100.0,True,CONFIDENCE: 100,1995,1932,incorrect,0.0,40.0,-7.3312671418079844e-06
+4hop2__71753_158279_70784_61381,2041,4,4,twosided,50.0,True,50,1995,1932,incorrect,0.0,40.0,-7.3312671418079844e-06
+3hop2__67618_30587_44003,2390,3,1,baseline,45.0,True,"45
+
+The",The Mississippi River empties into the Gulf of Mexico.,the Gulf of Mexico,correct,0.6,45.0,-0.02620895336138512
+3hop2__67618_30587_44003,2390,3,1,anchored,82.0,True,82,The Mississippi River empties into the Gulf of Mexico.,the Gulf of Mexico,correct,0.6,45.0,-0.02620895336138512
+3hop2__67618_30587_44003,2390,3,1,bins,67.0,True,LEANING_RIGHT,The Mississippi River empties into the Gulf of Mexico.,the Gulf of Mexico,correct,0.6,45.0,-0.02620895336138512
+3hop2__67618_30587_44003,2390,3,1,evidence_first,100.0,True,CONFIDENCE: 100,The Mississippi River empties into the Gulf of Mexico.,the Gulf of Mexico,correct,0.6,45.0,-0.02620895336138512
+3hop2__67618_30587_44003,2390,3,1,twosided,50.0,True,50,The Mississippi River empties into the Gulf of Mexico.,the Gulf of Mexico,correct,0.6,45.0,-0.02620895336138512
+3hop2__67618_30587_44003,2390,3,2,baseline,70.0,True,"70
+
+The",Atlantic Ocean,Atlantic,correct,0.6666666666666666,70.0,-0.04317078727763146
+3hop2__67618_30587_44003,2390,3,2,anchored,75.0,True,75,Atlantic Ocean,Atlantic,correct,0.6666666666666666,70.0,-0.04317078727763146
+3hop2__67618_30587_44003,2390,3,2,bins,67.0,True,LEANING_RIGHT,Atlantic Ocean,Atlantic,correct,0.6666666666666666,70.0,-0.04317078727763146
+3hop2__67618_30587_44003,2390,3,2,evidence_first,100.0,True,CONFIDENCE: 100,Atlantic Ocean,Atlantic,correct,0.6666666666666666,70.0,-0.04317078727763146
+3hop2__67618_30587_44003,2390,3,2,twosided,30.0,True,70,Atlantic Ocean,Atlantic,correct,0.6666666666666666,70.0,-0.04317078727763146
+3hop2__67618_30587_44003,2390,3,3,baseline,50.0,True,"50
+
+The",The Mississippi River empties into the Gulf of Mexico.,through the Florida Straits,incorrect,0.0,50.0,-3.0891765607453756e-05
+3hop2__67618_30587_44003,2390,3,3,anchored,75.0,True,75,The Mississippi River empties into the Gulf of Mexico.,through the Florida Straits,incorrect,0.0,50.0,-3.0891765607453756e-05
+3hop2__67618_30587_44003,2390,3,3,bins,67.0,True,LEANING_RIGHT,The Mississippi River empties into the Gulf of Mexico.,through the Florida Straits,incorrect,0.0,50.0,-3.0891765607453756e-05
+3hop2__67618_30587_44003,2390,3,3,evidence_first,100.0,True,CONFIDENCE: 100,The Mississippi River empties into the Gulf of Mexico.,through the Florida Straits,incorrect,0.0,50.0,-3.0891765607453756e-05
+3hop2__67618_30587_44003,2390,3,3,twosided,50.0,True,50,The Mississippi River empties into the Gulf of Mexico.,through the Florida Straits,incorrect,0.0,50.0,-3.0891765607453756e-05
+4hop1__31050_725495_49925_349426,1964,4,1,baseline,40.0,True,"40
+
+The",Christian.,Roman Catholicism,incorrect,0.0,40.0,-0.18380410968939032
+4hop1__31050_725495_49925_349426,1964,4,1,anchored,75.0,True,75,Christian.,Roman Catholicism,incorrect,0.0,40.0,-0.18380410968939032
+4hop1__31050_725495_49925_349426,1964,4,1,bins,67.0,True,LEANING_RIGHT,Christian.,Roman Catholicism,incorrect,0.0,40.0,-0.18380410968939032
+4hop1__31050_725495_49925_349426,1964,4,1,evidence_first,80.0,True,CONFIDENCE: 80,Christian.,Roman Catholicism,incorrect,0.0,40.0,-0.18380410968939032
+4hop1__31050_725495_49925_349426,1964,4,1,twosided,60.0,True,40,Christian.,Roman Catholicism,incorrect,0.0,40.0,-0.18380410968939032
+4hop1__31050_725495_49925_349426,1964,4,2,baseline,40.0,True,"40
+
+The",Christian.,Catholic Church,incorrect,0.0,40.0,-4.750373955175746e-05
+4hop1__31050_725495_49925_349426,1964,4,2,anchored,75.0,True,75,Christian.,Catholic Church,incorrect,0.0,40.0,-4.750373955175746e-05
+4hop1__31050_725495_49925_349426,1964,4,2,bins,67.0,True,LEANING_RIGHT,Christian.,Catholic Church,incorrect,0.0,40.0,-4.750373955175746e-05
+4hop1__31050_725495_49925_349426,1964,4,2,evidence_first,100.0,True,CONFIDENCE: 100,Christian.,Catholic Church,incorrect,0.0,40.0,-4.750373955175746e-05
+4hop1__31050_725495_49925_349426,1964,4,2,twosided,50.0,True,50,Christian.,Catholic Church,incorrect,0.0,40.0,-4.750373955175746e-05
+4hop1__31050_725495_49925_349426,1964,4,3,baseline,40.0,True,"40
+
+The",Martin Luther,Martin Luther,correct,1.0,40.0,-0.006671837065368891
+4hop1__31050_725495_49925_349426,1964,4,3,anchored,75.0,True,75,Martin Luther,Martin Luther,correct,1.0,40.0,-0.006671837065368891
+4hop1__31050_725495_49925_349426,1964,4,3,bins,67.0,True,LEANING_RIGHT,Martin Luther,Martin Luther,correct,1.0,40.0,-0.006671837065368891
+4hop1__31050_725495_49925_349426,1964,4,3,evidence_first,80.0,True,CONFIDENCE: 80,Martin Luther,Martin Luther,correct,1.0,40.0,-0.006671837065368891
+4hop1__31050_725495_49925_349426,1964,4,3,twosided,50.0,True,50,Martin Luther,Martin Luther,correct,1.0,40.0,-0.006671837065368891
+4hop1__31050_725495_49925_349426,1964,4,4,baseline,40.0,True,"40
+
+</think>",Katharina von Bora,Katharina von Bora,correct,1.0,40.0,-0.0005189323354457542
+4hop1__31050_725495_49925_349426,1964,4,4,anchored,75.0,True,75,Katharina von Bora,Katharina von Bora,correct,1.0,40.0,-0.0005189323354457542
+4hop1__31050_725495_49925_349426,1964,4,4,bins,67.0,True,LEANING_RIGHT,Katharina von Bora,Katharina von Bora,correct,1.0,40.0,-0.0005189323354457542
+4hop1__31050_725495_49925_349426,1964,4,4,evidence_first,100.0,True,CONFIDENCE: 100,Katharina von Bora,Katharina von Bora,correct,1.0,40.0,-0.0005189323354457542
+4hop1__31050_725495_49925_349426,1964,4,4,twosided,50.0,True,50,Katharina von Bora,Katharina von Bora,correct,1.0,40.0,-0.0005189323354457542
+3hop2__304722_740784_63959,1274,3,1,baseline,40.0,True,"40
+
+The",Everton,Aston Villa,incorrect,0.0,40.0,-0.21341902017590542
+3hop2__304722_740784_63959,1274,3,1,anchored,75.0,True,75,Everton,Aston Villa,incorrect,0.0,40.0,-0.21341902017590542
+3hop2__304722_740784_63959,1274,3,1,bins,67.0,True,LEANING_RIGHT,Everton,Aston Villa,incorrect,0.0,40.0,-0.21341902017590542
+3hop2__304722_740784_63959,1274,3,1,evidence_first,90.0,True,CONFIDENCE: 90,Everton,Aston Villa,incorrect,0.0,40.0,-0.21341902017590542
+3hop2__304722_740784_63959,1274,3,1,twosided,30.0,True,70,Everton,Aston Villa,incorrect,0.0,40.0,-0.21341902017590542
+3hop2__304722_740784_63959,1274,3,2,baseline,40.0,True,"40
+
+The",Pearce,Birmingham City,incorrect,0.0,40.0,-0.03548479075834621
+3hop2__304722_740784_63959,1274,3,2,anchored,75.0,True,75,Pearce,Birmingham City,incorrect,0.0,40.0,-0.03548479075834621
+3hop2__304722_740784_63959,1274,3,2,bins,67.0,True,LEANING_RIGHT,Pearce,Birmingham City,incorrect,0.0,40.0,-0.03548479075834621
+3hop2__304722_740784_63959,1274,3,2,evidence_first,100.0,True,CONFIDENCE: 100,Pearce,Birmingham City,incorrect,0.0,40.0,-0.03548479075834621
+3hop2__304722_740784_63959,1274,3,2,twosided,30.0,True,70,Pearce,Birmingham City,incorrect,0.0,40.0,-0.03548479075834621
+3hop2__304722_740784_63959,1274,3,3,baseline,40.0,True,"40
+
+The",2013,1 December 2010,incorrect,0.0,40.0,-0.12779802793966155
+3hop2__304722_740784_63959,1274,3,3,anchored,75.0,True,"75
+
+The answer is",2013,1 December 2010,incorrect,0.0,40.0,-0.12779802793966155
+3hop2__304722_740784_63959,1274,3,3,bins,67.0,True,LEANING_RIGHT,2013,1 December 2010,incorrect,0.0,40.0,-0.12779802793966155
+3hop2__304722_740784_63959,1274,3,3,evidence_first,90.0,True,CONFIDENCE: 90,2013,1 December 2010,incorrect,0.0,40.0,-0.12779802793966155
+3hop2__304722_740784_63959,1274,3,3,twosided,30.0,True,70,2013,1 December 2010,incorrect,0.0,40.0,-0.12779802793966155
+3hop1__829944_474097_84283,1321,3,1,baseline,50.0,True,50,Terry Dexter,Terry Dexter,correct,1.0,50.0,-1.9868209240788323e-07
+3hop1__829944_474097_84283,1321,3,1,anchored,75.0,True,75,Terry Dexter,Terry Dexter,correct,1.0,50.0,-1.9868209240788323e-07
+3hop1__829944_474097_84283,1321,3,1,bins,67.0,True,LEANING_RIGHT,Terry Dexter,Terry Dexter,correct,1.0,50.0,-1.9868209240788323e-07
+3hop1__829944_474097_84283,1321,3,1,evidence_first,100.0,True,CONFIDENCE: 100,Terry Dexter,Terry Dexter,correct,1.0,50.0,-1.9868209240788323e-07
+3hop1__829944_474097_84283,1321,3,1,twosided,30.0,True,70,Terry Dexter,Terry Dexter,correct,1.0,50.0,-1.9868209240788323e-07
+3hop1__829944_474097_84283,1321,3,2,baseline,50.0,True,50,Warner Bros. Records,Warner Bros. Records,correct,1.0,50.0,-0.0005881627218514041
+3hop1__829944_474097_84283,1321,3,2,anchored,75.0,True,75,Warner Bros. Records,Warner Bros. Records,correct,1.0,50.0,-0.0005881627218514041
+3hop1__829944_474097_84283,1321,3,2,bins,67.0,True,LEANING_RIGHT,Warner Bros. Records,Warner Bros. Records,correct,1.0,50.0,-0.0005881627218514041
+3hop1__829944_474097_84283,1321,3,2,evidence_first,90.0,True,CONFIDENCE: 90,Warner Bros. Records,Warner Bros. Records,correct,1.0,50.0,-0.0005881627218514041
+3hop1__829944_474097_84283,1321,3,2,twosided,30.0,True,70,Warner Bros. Records,Warner Bros. Records,correct,1.0,50.0,-0.0005881627218514041
+3hop1__829944_474097_84283,1321,3,3,baseline,50.0,True,50,Warner Bros. Records,Warner Music Group,incorrect,0.3333333333333333,50.0,-0.00020240008961849298
+3hop1__829944_474097_84283,1321,3,3,anchored,75.0,True,75,Warner Bros. Records,Warner Music Group,incorrect,0.3333333333333333,50.0,-0.00020240008961849298
+3hop1__829944_474097_84283,1321,3,3,bins,67.0,True,LEANING_RIGHT,Warner Bros. Records,Warner Music Group,incorrect,0.3333333333333333,50.0,-0.00020240008961849298
+3hop1__829944_474097_84283,1321,3,3,evidence_first,100.0,True,CONFIDENCE: 100,Warner Bros. Records,Warner Music Group,incorrect,0.3333333333333333,50.0,-0.00020240008961849298
+3hop1__829944_474097_84283,1321,3,3,twosided,50.0,True,50,Warner Bros. Records,Warner Music Group,incorrect,0.3333333333333333,50.0,-0.00020240008961849298
+3hop1__129675_39743_24526,2375,3,1,baseline,40.0,True,"40
+
+The","Coeburn, Virginia.",Virginia,correct,0.6666666666666666,40.0,-0.02680867672703613
+3hop1__129675_39743_24526,2375,3,1,anchored,75.0,True,75,"Coeburn, Virginia.",Virginia,correct,0.6666666666666666,40.0,-0.02680867672703613
+3hop1__129675_39743_24526,2375,3,1,bins,67.0,True,LEANING_RIGHT,"Coeburn, Virginia.",Virginia,correct,0.6666666666666666,40.0,-0.02680867672703613
+3hop1__129675_39743_24526,2375,3,1,evidence_first,100.0,True,CONFIDENCE: 100,"Coeburn, Virginia.",Virginia,correct,0.6666666666666666,40.0,-0.02680867672703613
+3hop1__129675_39743_24526,2375,3,1,twosided,50.0,True,50,"Coeburn, Virginia.",Virginia,correct,0.6666666666666666,40.0,-0.02680867672703613
+3hop1__129675_39743_24526,2375,3,2,baseline,40.0,True,"40
+
+The","Coeburn, Virginia.",Piedmont,incorrect,0.0,40.0,-0.012670913303621726
+3hop1__129675_39743_24526,2375,3,2,anchored,40.0,True,40,"Coeburn, Virginia.",Piedmont,incorrect,0.0,40.0,-0.012670913303621726
+3hop1__129675_39743_24526,2375,3,2,bins,67.0,True,LEANING_RIGHT,"Coeburn, Virginia.",Piedmont,incorrect,0.0,40.0,-0.012670913303621726
+3hop1__129675_39743_24526,2375,3,2,evidence_first,100.0,True,CONFIDENCE: 100,"Coeburn, Virginia.",Piedmont,incorrect,0.0,40.0,-0.012670913303621726
+3hop1__129675_39743_24526,2375,3,2,twosided,50.0,True,50,"Coeburn, Virginia.",Piedmont,incorrect,0.0,40.0,-0.012670913303621726
+3hop1__129675_39743_24526,2375,3,3,baseline,40.0,True,"40
+
+The",32.6 °F,upper 40s–lower 50s °F,incorrect,0.28571428571428575,40.0,-0.025082061915298937
+3hop1__129675_39743_24526,2375,3,3,anchored,40.0,True,"40
+
+The answer is",32.6 °F,upper 40s–lower 50s °F,incorrect,0.28571428571428575,40.0,-0.025082061915298937
+3hop1__129675_39743_24526,2375,3,3,bins,67.0,True,LEANING_RIGHT,32.6 °F,upper 40s–lower 50s °F,incorrect,0.28571428571428575,40.0,-0.025082061915298937
+3hop1__129675_39743_24526,2375,3,3,evidence_first,100.0,True,CONFIDENCE: 100,32.6 °F,upper 40s–lower 50s °F,incorrect,0.28571428571428575,40.0,-0.025082061915298937
+3hop1__129675_39743_24526,2375,3,3,twosided,50.0,True,50,32.6 °F,upper 40s–lower 50s °F,incorrect,0.28571428571428575,40.0,-0.025082061915298937
+3hop2__38326_92991_76291,1417,3,1,baseline,40.0,True,"40
+
+The",Conservative Republicans.,Republicans,correct,0.6666666666666666,40.0,-0.13590212690007775
+3hop2__38326_92991_76291,1417,3,1,anchored,75.0,True,75,Conservative Republicans.,Republicans,correct,0.6666666666666666,40.0,-0.13590212690007775
+3hop2__38326_92991_76291,1417,3,1,bins,67.0,True,LEANING_RIGHT,Conservative Republicans.,Republicans,correct,0.6666666666666666,40.0,-0.13590212690007775
+3hop2__38326_92991_76291,1417,3,1,evidence_first,100.0,True,CONFIDENCE: 100,Conservative Republicans.,Republicans,correct,0.6666666666666666,40.0,-0.13590212690007775
+3hop2__38326_92991_76291,1417,3,1,twosided,60.0,True,40,Conservative Republicans.,Republicans,correct,0.6666666666666666,40.0,-0.13590212690007775
+3hop2__38326_92991_76291,1417,3,2,baseline,40.0,True,"40
+
+The",The Standing Rules of the United States Senate are the parliamentary procedures adopted by the United,The Senate,correct,0.15384615384615385,40.0,-0.04242012696256481
+3hop2__38326_92991_76291,1417,3,2,anchored,75.0,True,75,The Standing Rules of the United States Senate are the parliamentary procedures adopted by the United,The Senate,correct,0.15384615384615385,40.0,-0.04242012696256481
+3hop2__38326_92991_76291,1417,3,2,bins,67.0,True,LEANING_RIGHT,The Standing Rules of the United States Senate are the parliamentary procedures adopted by the United,The Senate,correct,0.15384615384615385,40.0,-0.04242012696256481
+3hop2__38326_92991_76291,1417,3,2,evidence_first,100.0,True,CONFIDENCE: 100,The Standing Rules of the United States Senate are the parliamentary procedures adopted by the United,The Senate,correct,0.15384615384615385,40.0,-0.04242012696256481
+3hop2__38326_92991_76291,1417,3,2,twosided,50.0,True,50,The Standing Rules of the United States Senate are the parliamentary procedures adopted by the United,The Senate,correct,0.15384615384615385,40.0,-0.04242012696256481
+3hop2__38326_92991_76291,1417,3,3,baseline,40.0,True,"40
+
+The",1882,January 2015,incorrect,0.0,40.0,-0.013106235890518292
+3hop2__38326_92991_76291,1417,3,3,anchored,75.0,True,75,1882,January 2015,incorrect,0.0,40.0,-0.013106235890518292
+3hop2__38326_92991_76291,1417,3,3,bins,67.0,True,LEANING_RIGHT,1882,January 2015,incorrect,0.0,40.0,-0.013106235890518292
+3hop2__38326_92991_76291,1417,3,3,evidence_first,100.0,True,CONFIDENCE: 100,1882,January 2015,incorrect,0.0,40.0,-0.013106235890518292
+3hop2__38326_92991_76291,1417,3,3,twosided,50.0,True,50,1882,January 2015,incorrect,0.0,40.0,-0.013106235890518292
+3hop1__857_846_7795,1608,3,1,baseline,50.0,True,"50
+
+</think>",Karmapa,the Karmapa,correct,1.0,50.0,-0.024677815536620074
+3hop1__857_846_7795,1608,3,1,anchored,75.0,True,75,Karmapa,the Karmapa,correct,1.0,50.0,-0.024677815536620074
+3hop1__857_846_7795,1608,3,1,bins,67.0,True,LEANING_RIGHT,Karmapa,the Karmapa,correct,1.0,50.0,-0.024677815536620074
+3hop1__857_846_7795,1608,3,1,evidence_first,100.0,True,CONFIDENCE: 100,Karmapa,the Karmapa,correct,1.0,50.0,-0.024677815536620074
+3hop1__857_846_7795,1608,3,1,twosided,50.0,True,50,Karmapa,the Karmapa,correct,1.0,50.0,-0.024677815536620074
+3hop1__857_846_7795,1608,3,2,baseline,50.0,True,"50
+
+The",Nanjing,Nanjing,correct,1.0,50.0,-0.0012588155610349834
+3hop1__857_846_7795,1608,3,2,anchored,75.0,True,75,Nanjing,Nanjing,correct,1.0,50.0,-0.0012588155610349834
+3hop1__857_846_7795,1608,3,2,bins,67.0,True,LEANING_RIGHT,Nanjing,Nanjing,correct,1.0,50.0,-0.0012588155610349834
+3hop1__857_846_7795,1608,3,2,evidence_first,100.0,True,CONFIDENCE: 100,Nanjing,Nanjing,correct,1.0,50.0,-0.0012588155610349834
+3hop1__857_846_7795,1608,3,2,twosided,50.0,True,50,Nanjing,Nanjing,correct,1.0,50.0,-0.0012588155610349834
+3hop1__857_846_7795,1608,3,3,baseline,50.0,True,"50
+
+</think>",8.11 million,8.11 million,correct,1.0,50.0,-0.003934625670081004
+3hop1__857_846_7795,1608,3,3,anchored,82.0,True,82,8.11 million,8.11 million,correct,1.0,50.0,-0.003934625670081004
+3hop1__857_846_7795,1608,3,3,bins,67.0,True,LEANING_RIGHT,8.11 million,8.11 million,correct,1.0,50.0,-0.003934625670081004
+3hop1__857_846_7795,1608,3,3,evidence_first,100.0,True,CONFIDENCE: 100,8.11 million,8.11 million,correct,1.0,50.0,-0.003934625670081004
+3hop1__857_846_7795,1608,3,3,twosided,50.0,True,50,8.11 million,8.11 million,correct,1.0,50.0,-0.003934625670081004
+4hop1__61681_53706_795904_580996,2188,4,1,baseline,45.0,True,"45
+
+The",California,California,correct,1.0,45.0,-2.3841855067985307e-07
+4hop1__61681_53706_795904_580996,2188,4,1,anchored,75.0,True,75,California,California,correct,1.0,45.0,-2.3841855067985307e-07
+4hop1__61681_53706_795904_580996,2188,4,1,bins,100.0,True,CERTAINLY_RIGHT,California,California,correct,1.0,45.0,-2.3841855067985307e-07
+4hop1__61681_53706_795904_580996,2188,4,1,evidence_first,100.0,True,CONFIDENCE: 100,California,California,correct,1.0,45.0,-2.3841855067985307e-07
+4hop1__61681_53706_795904_580996,2188,4,1,twosided,50.0,True,50,California,California,correct,1.0,45.0,-2.3841855067985307e-07
+4hop1__61681_53706_795904_580996,2188,4,2,baseline,50.0,True,"50
+
+The",California,Samuel Brannan,incorrect,0.0,50.0,-0.00010740180005086586
+4hop1__61681_53706_795904_580996,2188,4,2,anchored,75.0,True,75,California,Samuel Brannan,incorrect,0.0,50.0,-0.00010740180005086586
+4hop1__61681_53706_795904_580996,2188,4,2,bins,67.0,True,LEANING_RIGHT,California,Samuel Brannan,incorrect,0.0,50.0,-0.00010740180005086586
+4hop1__61681_53706_795904_580996,2188,4,2,evidence_first,100.0,True,CONFIDENCE: 100,California,Samuel Brannan,incorrect,0.0,50.0,-0.00010740180005086586
+4hop1__61681_53706_795904_580996,2188,4,2,twosided,50.0,True,50,California,Samuel Brannan,incorrect,0.0,50.0,-0.00010740180005086586
+4hop1__61681_53706_795904_580996,2188,4,3,baseline,50.0,True,50,California Gold Rush,Sacramento,incorrect,0.0,50.0,-0.010483620465189839
+4hop1__61681_53706_795904_580996,2188,4,3,anchored,75.0,True,75,California Gold Rush,Sacramento,incorrect,0.0,50.0,-0.010483620465189839
+4hop1__61681_53706_795904_580996,2188,4,3,bins,67.0,True,LEANING_RIGHT,California Gold Rush,Sacramento,incorrect,0.0,50.0,-0.010483620465189839
+4hop1__61681_53706_795904_580996,2188,4,3,evidence_first,50.0,True,CONFIDENCE: 50,California Gold Rush,Sacramento,incorrect,0.0,50.0,-0.010483620465189839
+4hop1__61681_53706_795904_580996,2188,4,3,twosided,50.0,True,50,California Gold Rush,Sacramento,incorrect,0.0,50.0,-0.010483620465189839
+4hop1__61681_53706_795904_580996,2188,4,4,baseline,40.0,True,"40
+
+The",Sacramento,Rio Linda,incorrect,0.0,40.0,-0.010614292426907923
+4hop1__61681_53706_795904_580996,2188,4,4,anchored,75.0,True,75,Sacramento,Rio Linda,incorrect,0.0,40.0,-0.010614292426907923
+4hop1__61681_53706_795904_580996,2188,4,4,bins,67.0,True,LEANING_RIGHT,Sacramento,Rio Linda,incorrect,0.0,40.0,-0.010614292426907923
+4hop1__61681_53706_795904_580996,2188,4,4,evidence_first,100.0,True,CONFIDENCE: 100,Sacramento,Rio Linda,incorrect,0.0,40.0,-0.010614292426907923
+4hop1__61681_53706_795904_580996,2188,4,4,twosided,50.0,True,50,Sacramento,Rio Linda,incorrect,0.0,40.0,-0.010614292426907923
+3hop1__64957_87694_64412,1753,3,1,baseline,40.0,True,40,Peter,Peter,correct,1.0,40.0,-6.6756979322235566e-06
+3hop1__64957_87694_64412,1753,3,1,anchored,40.0,True,40,Peter,Peter,correct,1.0,40.0,-6.6756979322235566e-06
+3hop1__64957_87694_64412,1753,3,1,bins,67.0,True,LEANING_RIGHT,Peter,Peter,correct,1.0,40.0,-6.6756979322235566e-06
+3hop1__64957_87694_64412,1753,3,1,evidence_first,0.0,True,CONFIDENCE: 0,Peter,Peter,correct,1.0,40.0,-6.6756979322235566e-06
+3hop1__64957_87694_64412,1753,3,1,twosided,50.0,True,50,Peter,Peter,correct,1.0,40.0,-6.6756979322235566e-06
+3hop1__64957_87694_64412,1753,3,2,baseline,50.0,True,50,St. Peter's Basilica,Vatican City,incorrect,0.0,50.0,-0.003124804854042651
+3hop1__64957_87694_64412,1753,3,2,anchored,75.0,True,75,St. Peter's Basilica,Vatican City,incorrect,0.0,50.0,-0.003124804854042651
+3hop1__64957_87694_64412,1753,3,2,bins,67.0,True,LEANING_RIGHT,St. Peter's Basilica,Vatican City,incorrect,0.0,50.0,-0.003124804854042651
+3hop1__64957_87694_64412,1753,3,2,evidence_first,50.0,True,CONFIDENCE: 50,St. Peter's Basilica,Vatican City,incorrect,0.0,50.0,-0.003124804854042651
+3hop1__64957_87694_64412,1753,3,2,twosided,50.0,True,50,St. Peter's Basilica,Vatican City,incorrect,0.0,50.0,-0.003124804854042651
+3hop1__64957_87694_64412,1753,3,3,baseline,50.0,True,"50
+
+The",11 February 1929,11 February 1929,correct,1.0,50.0,-5.780520294251801e-05
+3hop1__64957_87694_64412,1753,3,3,anchored,60.0,True,60,11 February 1929,11 February 1929,correct,1.0,50.0,-5.780520294251801e-05
+3hop1__64957_87694_64412,1753,3,3,bins,67.0,True,LEANING_RIGHT,11 February 1929,11 February 1929,correct,1.0,50.0,-5.780520294251801e-05
+3hop1__64957_87694_64412,1753,3,3,evidence_first,100.0,True,CONFIDENCE: 100,11 February 1929,11 February 1929,correct,1.0,50.0,-5.780520294251801e-05
+3hop1__64957_87694_64412,1753,3,3,twosided,50.0,True,50,11 February 1929,11 February 1929,correct,1.0,50.0,-5.780520294251801e-05
+4hop3__152056_698586_1926_54362,2101,4,1,baseline,40.0,True,"40
+
+The",Arista Nashville,Shawty Lo,incorrect,0.0,40.0,-3.6803424533715656e-05
+4hop3__152056_698586_1926_54362,2101,4,1,anchored,75.0,True,"75
+
+The answer is",Arista Nashville,Shawty Lo,incorrect,0.0,40.0,-3.6803424533715656e-05
+4hop3__152056_698586_1926_54362,2101,4,1,bins,67.0,True,LEANING_RIGHT,Arista Nashville,Shawty Lo,incorrect,0.0,40.0,-3.6803424533715656e-05
+4hop3__152056_698586_1926_54362,2101,4,1,evidence_first,50.0,True,CONFIDENCE: 50,Arista Nashville,Shawty Lo,incorrect,0.0,40.0,-3.6803424533715656e-05
+4hop3__152056_698586_1926_54362,2101,4,1,twosided,50.0,True,50,Arista Nashville,Shawty Lo,incorrect,0.0,40.0,-3.6803424533715656e-05
+4hop3__152056_698586_1926_54362,2101,4,2,baseline,10.0,True,10,Arista Nashville,Atlanta,incorrect,0.0,10.0,-0.00539626901445267
+4hop3__152056_698586_1926_54362,2101,4,2,anchored,40.0,True,40,Arista Nashville,Atlanta,incorrect,0.0,10.0,-0.00539626901445267
+4hop3__152056_698586_1926_54362,2101,4,2,bins,33.0,True,LEANING_WRONG,Arista Nashville,Atlanta,incorrect,0.0,10.0,-0.00539626901445267
+4hop3__152056_698586_1926_54362,2101,4,2,evidence_first,0.0,True,CONFIDENCE: 0,Arista Nashville,Atlanta,incorrect,0.0,10.0,-0.00539626901445267
+4hop3__152056_698586_1926_54362,2101,4,2,twosided,50.0,True,50,Arista Nashville,Atlanta,incorrect,0.0,10.0,-0.00539626901445267
+4hop3__152056_698586_1926_54362,2101,4,3,baseline,40.0,True,40,2000,the Civil War,incorrect,0.0,40.0,-0.04501131921869472
+4hop3__152056_698586_1926_54362,2101,4,3,anchored,75.0,True,75,2000,the Civil War,incorrect,0.0,40.0,-0.04501131921869472
+4hop3__152056_698586_1926_54362,2101,4,3,bins,67.0,True,LEANING_RIGHT,2000,the Civil War,incorrect,0.0,40.0,-0.04501131921869472
+4hop3__152056_698586_1926_54362,2101,4,3,evidence_first,80.0,True,CONFIDENCE: 80,2000,the Civil War,incorrect,0.0,40.0,-0.04501131921869472
+4hop3__152056_698586_1926_54362,2101,4,3,twosided,50.0,True,50,2000,the Civil War,incorrect,0.0,40.0,-0.04501131921869472
+4hop3__152056_698586_1926_54362,2101,4,4,baseline,10.0,True,10,Dunn Center,Confederate Gen. John Bell Hood,incorrect,0.0,10.0,-0.1705546210250759
+4hop3__152056_698586_1926_54362,2101,4,4,anchored,0.0,True,0,Dunn Center,Confederate Gen. John Bell Hood,incorrect,0.0,10.0,-0.1705546210250759
+4hop3__152056_698586_1926_54362,2101,4,4,bins,33.0,True,LEANING_WRONG,Dunn Center,Confederate Gen. John Bell Hood,incorrect,0.0,10.0,-0.1705546210250759
+4hop3__152056_698586_1926_54362,2101,4,4,evidence_first,0.0,True,CONFIDENCE: 0,Dunn Center,Confederate Gen. John Bell Hood,incorrect,0.0,10.0,-0.1705546210250759
+4hop3__152056_698586_1926_54362,2101,4,4,twosided,50.0,True,50,Dunn Center,Confederate Gen. John Bell Hood,incorrect,0.0,10.0,-0.1705546210250759
+3hop1__145427_106426_157788,2349,3,1,baseline,70.0,True,"70
+
+The",Shanghai,Shanghai,correct,1.0,70.0,-1.2755232997818666e-05
+3hop1__145427_106426_157788,2349,3,1,anchored,75.0,True,75,Shanghai,Shanghai,correct,1.0,70.0,-1.2755232997818666e-05
+3hop1__145427_106426_157788,2349,3,1,bins,67.0,True,LEANING_RIGHT,Shanghai,Shanghai,correct,1.0,70.0,-1.2755232997818666e-05
+3hop1__145427_106426_157788,2349,3,1,evidence_first,100.0,True,CONFIDENCE: 100,Shanghai,Shanghai,correct,1.0,70.0,-1.2755232997818666e-05
+3hop1__145427_106426_157788,2349,3,1,twosided,30.0,True,70,Shanghai,Shanghai,correct,1.0,70.0,-1.2755232997818666e-05
+3hop1__145427_106426_157788,2349,3,2,baseline,70.0,True,"70
+
+</think>",China,Japan,incorrect,0.0,70.0,-0.016897283494472504
+3hop1__145427_106426_157788,2349,3,2,anchored,75.0,True,75,China,Japan,incorrect,0.0,70.0,-0.016897283494472504
+3hop1__145427_106426_157788,2349,3,2,bins,67.0,True,LEANING_RIGHT,China,Japan,incorrect,0.0,70.0,-0.016897283494472504
+3hop1__145427_106426_157788,2349,3,2,evidence_first,100.0,True,CONFIDENCE: 100,China,Japan,incorrect,0.0,70.0,-0.016897283494472504
+3hop1__145427_106426_157788,2349,3,2,twosided,30.0,True,70,China,Japan,incorrect,0.0,70.0,-0.016897283494472504
+3hop1__145427_106426_157788,2349,3,3,baseline,70.0,True,70,Shanghai–Hangzhou,Yamanote Line loop,incorrect,0.0,70.0,-0.10724964795844016
+3hop1__145427_106426_157788,2349,3,3,anchored,75.0,True,75,Shanghai–Hangzhou,Yamanote Line loop,incorrect,0.0,70.0,-0.10724964795844016
+3hop1__145427_106426_157788,2349,3,3,bins,67.0,True,LEANING_RIGHT,Shanghai–Hangzhou,Yamanote Line loop,incorrect,0.0,70.0,-0.10724964795844016
+3hop1__145427_106426_157788,2349,3,3,evidence_first,90.0,True,CONFIDENCE: 90,Shanghai–Hangzhou,Yamanote Line loop,incorrect,0.0,70.0,-0.10724964795844016
+3hop1__145427_106426_157788,2349,3,3,twosided,30.0,True,70,Shanghai–Hangzhou,Yamanote Line loop,incorrect,0.0,70.0,-0.10724964795844016
+3hop1__516535_834494_34099,1795,3,1,baseline,40.0,True,"40
+
+The","Pima County, Arizona",Pima County,correct,0.8,40.0,-0.0001155380333557332
+3hop1__516535_834494_34099,1795,3,1,anchored,75.0,True,75,"Pima County, Arizona",Pima County,correct,0.8,40.0,-0.0001155380333557332
+3hop1__516535_834494_34099,1795,3,1,bins,67.0,True,LEANING_RIGHT,"Pima County, Arizona",Pima County,correct,0.8,40.0,-0.0001155380333557332
+3hop1__516535_834494_34099,1795,3,1,evidence_first,100.0,True,CONFIDENCE: 100,"Pima County, Arizona",Pima County,correct,0.8,40.0,-0.0001155380333557332
+3hop1__516535_834494_34099,1795,3,1,twosided,50.0,True,50,"Pima County, Arizona",Pima County,correct,0.8,40.0,-0.0001155380333557332
+3hop1__516535_834494_34099,1795,3,2,baseline,50.0,True,"50
+
+The","Pima County, Arizona",Tucson,incorrect,0.0,50.0,-0.0937621295450981
+3hop1__516535_834494_34099,1795,3,2,anchored,75.0,True,75,"Pima County, Arizona",Tucson,incorrect,0.0,50.0,-0.0937621295450981
+3hop1__516535_834494_34099,1795,3,2,bins,67.0,True,LEANING_RIGHT,"Pima County, Arizona",Tucson,incorrect,0.0,50.0,-0.0937621295450981
+3hop1__516535_834494_34099,1795,3,2,evidence_first,100.0,True,CONFIDENCE: 100,"Pima County, Arizona",Tucson,incorrect,0.0,50.0,-0.0937621295450981
+3hop1__516535_834494_34099,1795,3,2,twosided,50.0,True,50,"Pima County, Arizona",Tucson,incorrect,0.0,50.0,-0.0937621295450981
+3hop1__516535_834494_34099,1795,3,3,baseline,50.0,True,"50
+
+The",4-year,four-year,needs_review,0.5,50.0,-0.2881566882132631
+3hop1__516535_834494_34099,1795,3,3,anchored,40.0,True,"40
+
+Confidence (",4-year,four-year,needs_review,0.5,50.0,-0.2881566882132631
+3hop1__516535_834494_34099,1795,3,3,bins,67.0,True,LEANING_RIGHT,4-year,four-year,needs_review,0.5,50.0,-0.2881566882132631
+3hop1__516535_834494_34099,1795,3,3,evidence_first,100.0,True,CONFIDENCE: 100,4-year,four-year,needs_review,0.5,50.0,-0.2881566882132631
+3hop1__516535_834494_34099,1795,3,3,twosided,50.0,True,50,4-year,four-year,needs_review,0.5,50.0,-0.2881566882132631
+4hop1__846600_153080_159767_81096,2064,4,1,baseline,40.0,True,"40
+
+The",Charles Mingus,Charles Mingus,correct,1.0,40.0,-4.490186256589368e-06
+4hop1__846600_153080_159767_81096,2064,4,1,anchored,75.0,True,75,Charles Mingus,Charles Mingus,correct,1.0,40.0,-4.490186256589368e-06
+4hop1__846600_153080_159767_81096,2064,4,1,bins,67.0,True,LEANING_RIGHT,Charles Mingus,Charles Mingus,correct,1.0,40.0,-4.490186256589368e-06
+4hop1__846600_153080_159767_81096,2064,4,1,evidence_first,100.0,True,CONFIDENCE: 100,Charles Mingus,Charles Mingus,correct,1.0,40.0,-4.490186256589368e-06
+4hop1__846600_153080_159767_81096,2064,4,1,twosided,50.0,True,50,Charles Mingus,Charles Mingus,correct,1.0,40.0,-4.490186256589368e-06
+4hop1__846600_153080_159767_81096,2064,4,2,baseline,40.0,True,"40
+
+The","Nogales, Arizona",Arizona,correct,0.6666666666666666,40.0,-0.011150100078816649
+4hop1__846600_153080_159767_81096,2064,4,2,anchored,75.0,True,75,"Nogales, Arizona",Arizona,correct,0.6666666666666666,40.0,-0.011150100078816649
+4hop1__846600_153080_159767_81096,2064,4,2,bins,67.0,True,LEANING_RIGHT,"Nogales, Arizona",Arizona,correct,0.6666666666666666,40.0,-0.011150100078816649
+4hop1__846600_153080_159767_81096,2064,4,2,evidence_first,100.0,True,CONFIDENCE: 100,"Nogales, Arizona",Arizona,correct,0.6666666666666666,40.0,-0.011150100078816649
+4hop1__846600_153080_159767_81096,2064,4,2,twosided,30.0,True,70,"Nogales, Arizona",Arizona,correct,0.6666666666666666,40.0,-0.011150100078816649
+4hop1__846600_153080_159767_81096,2064,4,3,baseline,50.0,True,50,Nogales,Phoenix,incorrect,0.0,50.0,-4.013356942778046e-06
+4hop1__846600_153080_159767_81096,2064,4,3,anchored,75.0,True,75,Nogales,Phoenix,incorrect,0.0,50.0,-4.013356942778046e-06
+4hop1__846600_153080_159767_81096,2064,4,3,bins,67.0,True,LEANING_RIGHT,Nogales,Phoenix,incorrect,0.0,50.0,-4.013356942778046e-06
+4hop1__846600_153080_159767_81096,2064,4,3,evidence_first,0.0,True,CONFIDENCE: 0,Nogales,Phoenix,incorrect,0.0,50.0,-4.013356942778046e-06
+4hop1__846600_153080_159767_81096,2064,4,3,twosided,50.0,True,50,Nogales,Phoenix,incorrect,0.0,50.0,-4.013356942778046e-06
+4hop1__846600_153080_159767_81096,2064,4,4,baseline,50.0,True,50,Charles Mingus,Mario Andretti,incorrect,0.0,50.0,-0.03140927851200104
+4hop1__846600_153080_159767_81096,2064,4,4,anchored,75.0,True,75,Charles Mingus,Mario Andretti,incorrect,0.0,50.0,-0.03140927851200104
+4hop1__846600_153080_159767_81096,2064,4,4,bins,33.0,True,LEANING_WRONG,Charles Mingus,Mario Andretti,incorrect,0.0,50.0,-0.03140927851200104
+4hop1__846600_153080_159767_81096,2064,4,4,evidence_first,0.0,True,CONFIDENCE: 0,Charles Mingus,Mario Andretti,incorrect,0.0,50.0,-0.03140927851200104
+4hop1__846600_153080_159767_81096,2064,4,4,twosided,50.0,True,50,Charles Mingus,Mario Andretti,incorrect,0.0,50.0,-0.03140927851200104
+4hop3__373866_5189_38229_86687,2048,4,1,baseline,40.0,True,40,Democratic Party of Albania,Warsaw Pact,incorrect,0.0,40.0,-0.01661344988652047
+4hop3__373866_5189_38229_86687,2048,4,1,anchored,40.0,True,40,Democratic Party of Albania,Warsaw Pact,incorrect,0.0,40.0,-0.01661344988652047
+4hop3__373866_5189_38229_86687,2048,4,1,bins,67.0,True,LEANING_RIGHT,Democratic Party of Albania,Warsaw Pact,incorrect,0.0,40.0,-0.01661344988652047
+4hop3__373866_5189_38229_86687,2048,4,1,evidence_first,100.0,True,CONFIDENCE: 100,Democratic Party of Albania,Warsaw Pact,incorrect,0.0,40.0,-0.01661344988652047
+4hop3__373866_5189_38229_86687,2048,4,1,twosided,50.0,True,50,Democratic Party of Albania,Warsaw Pact,incorrect,0.0,40.0,-0.01661344988652047
+4hop3__373866_5189_38229_86687,2048,4,2,baseline,40.0,True,"40
+
+The",Albania,the USSR,incorrect,0.0,40.0,-1.180153014009496e-05
+4hop3__373866_5189_38229_86687,2048,4,2,anchored,75.0,True,75,Albania,the USSR,incorrect,0.0,40.0,-1.180153014009496e-05
+4hop3__373866_5189_38229_86687,2048,4,2,bins,67.0,True,LEANING_RIGHT,Albania,the USSR,incorrect,0.0,40.0,-1.180153014009496e-05
+4hop3__373866_5189_38229_86687,2048,4,2,evidence_first,90.0,True,CONFIDENCE: 90,Albania,the USSR,incorrect,0.0,40.0,-1.180153014009496e-05
+4hop3__373866_5189_38229_86687,2048,4,2,twosided,50.0,True,50,Albania,the USSR,incorrect,0.0,40.0,-1.180153014009496e-05
+4hop3__373866_5189_38229_86687,2048,4,3,baseline,40.0,True,"40
+
+The",Joseph McCarthy,NATO,incorrect,0.0,40.0,-0.0714142769575119
+4hop3__373866_5189_38229_86687,2048,4,3,anchored,75.0,True,75,Joseph McCarthy,NATO,incorrect,0.0,40.0,-0.0714142769575119
+4hop3__373866_5189_38229_86687,2048,4,3,bins,67.0,True,LEANING_RIGHT,Joseph McCarthy,NATO,incorrect,0.0,40.0,-0.0714142769575119
+4hop3__373866_5189_38229_86687,2048,4,3,evidence_first,100.0,True,CONFIDENCE: 100,Joseph McCarthy,NATO,incorrect,0.0,40.0,-0.0714142769575119
+4hop3__373866_5189_38229_86687,2048,4,3,twosided,60.0,True,40,Joseph McCarthy,NATO,incorrect,0.0,40.0,-0.0714142769575119
+4hop3__373866_5189_38229_86687,2048,4,4,baseline,45.0,True,"45
+
+The",1990,May 1990,needs_review,0.6666666666666666,45.0,-0.005511140097937073
+4hop3__373866_5189_38229_86687,2048,4,4,anchored,75.0,True,75,1990,May 1990,needs_review,0.6666666666666666,45.0,-0.005511140097937073
+4hop3__373866_5189_38229_86687,2048,4,4,bins,67.0,True,LEANING_RIGHT,1990,May 1990,needs_review,0.6666666666666666,45.0,-0.005511140097937073
+4hop3__373866_5189_38229_86687,2048,4,4,evidence_first,90.0,True,CONFIDENCE: 90,1990,May 1990,needs_review,0.6666666666666666,45.0,-0.005511140097937073
+4hop3__373866_5189_38229_86687,2048,4,4,twosided,50.0,True,50,1990,May 1990,needs_review,0.6666666666666666,45.0,-0.005511140097937073
+4hop3__426860_88460_30152_20999,2000,4,1,baseline,45.0,True,"45
+
+The",Thailand,Laos,incorrect,0.0,45.0,-4.8754245597137924e-05
+4hop3__426860_88460_30152_20999,2000,4,1,anchored,75.0,True,75,Thailand,Laos,incorrect,0.0,45.0,-4.8754245597137924e-05
+4hop3__426860_88460_30152_20999,2000,4,1,bins,67.0,True,LEANING_RIGHT,Thailand,Laos,incorrect,0.0,45.0,-4.8754245597137924e-05
+4hop3__426860_88460_30152_20999,2000,4,1,evidence_first,100.0,True,CONFIDENCE: 100,Thailand,Laos,incorrect,0.0,45.0,-4.8754245597137924e-05
+4hop3__426860_88460_30152_20999,2000,4,1,twosided,60.0,True,40,Thailand,Laos,incorrect,0.0,45.0,-4.8754245597137924e-05
+4hop3__426860_88460_30152_20999,2000,4,2,baseline,40.0,True,"40
+
+The",The River Tamar.,Myanmar,incorrect,0.0,40.0,-0.08983892202327297
+4hop3__426860_88460_30152_20999,2000,4,2,anchored,75.0,True,75,The River Tamar.,Myanmar,incorrect,0.0,40.0,-0.08983892202327297
+4hop3__426860_88460_30152_20999,2000,4,2,bins,67.0,True,LEANING_RIGHT,The River Tamar.,Myanmar,incorrect,0.0,40.0,-0.08983892202327297
+4hop3__426860_88460_30152_20999,2000,4,2,evidence_first,100.0,True,CONFIDENCE: 100,The River Tamar.,Myanmar,incorrect,0.0,40.0,-0.08983892202327297
+4hop3__426860_88460_30152_20999,2000,4,2,twosided,50.0,True,50,The River Tamar.,Myanmar,incorrect,0.0,40.0,-0.08983892202327297
+4hop3__426860_88460_30152_20999,2000,4,3,baseline,45.0,True,"45
+
+</think>",Somali Muslim Ajuran Empire,the Portuguese,incorrect,0.0,45.0,-0.028709368543303526
+4hop3__426860_88460_30152_20999,2000,4,3,anchored,75.0,True,75,Somali Muslim Ajuran Empire,the Portuguese,incorrect,0.0,45.0,-0.028709368543303526
+4hop3__426860_88460_30152_20999,2000,4,3,bins,67.0,True,LEANING_RIGHT,Somali Muslim Ajuran Empire,the Portuguese,incorrect,0.0,45.0,-0.028709368543303526
+4hop3__426860_88460_30152_20999,2000,4,3,evidence_first,100.0,True,CONFIDENCE: 100,Somali Muslim Ajuran Empire,the Portuguese,incorrect,0.0,45.0,-0.028709368543303526
+4hop3__426860_88460_30152_20999,2000,4,3,twosided,50.0,True,50,Somali Muslim Ajuran Empire,the Portuguese,incorrect,0.0,45.0,-0.028709368543303526
+4hop3__426860_88460_30152_20999,2000,4,4,baseline,0.0,True,0,The Somali Muslim Ajuran Empire was expelled from The River Tamar due to their,The dynasty regrouped and defeated the Portuguese,incorrect,0.0,0.0,-0.09365780240013066
+4hop3__426860_88460_30152_20999,2000,4,4,anchored,0.0,True,0,The Somali Muslim Ajuran Empire was expelled from The River Tamar due to their,The dynasty regrouped and defeated the Portuguese,incorrect,0.0,0.0,-0.09365780240013066
+4hop3__426860_88460_30152_20999,2000,4,4,bins,33.0,True,LEANING_WRONG,The Somali Muslim Ajuran Empire was expelled from The River Tamar due to their,The dynasty regrouped and defeated the Portuguese,incorrect,0.0,0.0,-0.09365780240013066
+4hop3__426860_88460_30152_20999,2000,4,4,evidence_first,0.0,True,CONFIDENCE: 0,The Somali Muslim Ajuran Empire was expelled from The River Tamar due to their,The dynasty regrouped and defeated the Portuguese,incorrect,0.0,0.0,-0.09365780240013066
+4hop3__426860_88460_30152_20999,2000,4,4,twosided,50.0,True,50,The Somali Muslim Ajuran Empire was expelled from The River Tamar due to their,The dynasty regrouped and defeated the Portuguese,incorrect,0.0,0.0,-0.09365780240013066
+4hop1__115977_582428_157828_162309,1916,4,1,baseline,45.0,True,"45
+
+The",Aleksandar Petrović,Aleksandar Petrović,correct,1.0,45.0,-0.014319956241314864
+4hop1__115977_582428_157828_162309,1916,4,1,anchored,75.0,True,75,Aleksandar Petrović,Aleksandar Petrović,correct,1.0,45.0,-0.014319956241314864
+4hop1__115977_582428_157828_162309,1916,4,1,bins,67.0,True,LEANING_RIGHT,Aleksandar Petrović,Aleksandar Petrović,correct,1.0,45.0,-0.014319956241314864
+4hop1__115977_582428_157828_162309,1916,4,1,evidence_first,100.0,True,CONFIDENCE: 100,Aleksandar Petrović,Aleksandar Petrović,correct,1.0,45.0,-0.014319956241314864
+4hop1__115977_582428_157828_162309,1916,4,1,twosided,30.0,True,70,Aleksandar Petrović,Aleksandar Petrović,correct,1.0,45.0,-0.014319956241314864
+4hop1__115977_582428_157828_162309,1916,4,2,baseline,45.0,True,"45
+
+</think>","Malagasy, French, Hebrew, Arabic, Russian, English, Coptic",Serbian,incorrect,0.0,45.0,-0.12136001777204752
+4hop1__115977_582428_157828_162309,1916,4,2,anchored,75.0,True,75,"Malagasy, French, Hebrew, Arabic, Russian, English, Coptic",Serbian,incorrect,0.0,45.0,-0.12136001777204752
+4hop1__115977_582428_157828_162309,1916,4,2,bins,67.0,True,LEANING_RIGHT,"Malagasy, French, Hebrew, Arabic, Russian, English, Coptic",Serbian,incorrect,0.0,45.0,-0.12136001777204752
+4hop1__115977_582428_157828_162309,1916,4,2,evidence_first,80.0,True,"CONFIDENCE: 80
+The document that supports the answer is Document 0, which discusses the languages of Madagascar, including Malagasy and French. Document 1 discusses the revival of Hebrew and Arabic, Document 8 discusses","Malagasy, French, Hebrew, Arabic, Russian, English, Coptic",Serbian,incorrect,0.0,45.0,-0.12136001777204752
+4hop1__115977_582428_157828_162309,1916,4,2,twosided,30.0,True,70,"Malagasy, French, Hebrew, Arabic, Russian, English, Coptic",Serbian,incorrect,0.0,45.0,-0.12136001777204752
+4hop1__115977_582428_157828_162309,1916,4,3,baseline,40.0,True,"40
+
+The","Malagasy, French, Hebrew, Arabic, Russian, English, Coptic",Kosovo,incorrect,0.0,40.0,-8.097914008642348e-05
+4hop1__115977_582428_157828_162309,1916,4,3,anchored,75.0,True,75,"Malagasy, French, Hebrew, Arabic, Russian, English, Coptic",Kosovo,incorrect,0.0,40.0,-8.097914008642348e-05
+4hop1__115977_582428_157828_162309,1916,4,3,bins,67.0,True,LEANING_RIGHT,"Malagasy, French, Hebrew, Arabic, Russian, English, Coptic",Kosovo,incorrect,0.0,40.0,-8.097914008642348e-05
+4hop1__115977_582428_157828_162309,1916,4,3,evidence_first,100.0,True,CONFIDENCE: 100,"Malagasy, French, Hebrew, Arabic, Russian, English, Coptic",Kosovo,incorrect,0.0,40.0,-8.097914008642348e-05
+4hop1__115977_582428_157828_162309,1916,4,3,twosided,30.0,True,70,"Malagasy, French, Hebrew, Arabic, Russian, English, Coptic",Kosovo,incorrect,0.0,40.0,-8.097914008642348e-05
+4hop1__115977_582428_157828_162309,1916,4,4,baseline,40.0,True,"40
+
+The",1992,2016,incorrect,0.0,40.0,-0.02786673046568744
+4hop1__115977_582428_157828_162309,1916,4,4,anchored,75.0,True,75,1992,2016,incorrect,0.0,40.0,-0.02786673046568744
+4hop1__115977_582428_157828_162309,1916,4,4,bins,67.0,True,LEANING_RIGHT,1992,2016,incorrect,0.0,40.0,-0.02786673046568744
+4hop1__115977_582428_157828_162309,1916,4,4,evidence_first,100.0,True,CONFIDENCE: 100,1992,2016,incorrect,0.0,40.0,-0.02786673046568744
+4hop1__115977_582428_157828_162309,1916,4,4,twosided,30.0,True,70,1992,2016,incorrect,0.0,40.0,-0.02786673046568744
+4hop1__129682_59747_211319_557671,2141,4,1,baseline,40.0,True,"40
+
+The",Georgia,Georgia,correct,1.0,40.0,-0.16407282650470734
+4hop1__129682_59747_211319_557671,2141,4,1,anchored,75.0,True,75,Georgia,Georgia,correct,1.0,40.0,-0.16407282650470734
+4hop1__129682_59747_211319_557671,2141,4,1,bins,67.0,True,LEANING_RIGHT,Georgia,Georgia,correct,1.0,40.0,-0.16407282650470734
+4hop1__129682_59747_211319_557671,2141,4,1,evidence_first,100.0,True,CONFIDENCE: 100,Georgia,Georgia,correct,1.0,40.0,-0.16407282650470734
+4hop1__129682_59747_211319_557671,2141,4,1,twosided,30.0,True,70,Georgia,Georgia,correct,1.0,40.0,-0.16407282650470734
+4hop1__129682_59747_211319_557671,2141,4,2,baseline,70.0,True,70,Atlanta,Atlanta,correct,1.0,70.0,-3.862306402879767e-05
+4hop1__129682_59747_211319_557671,2141,4,2,anchored,75.0,True,75,Atlanta,Atlanta,correct,1.0,70.0,-3.862306402879767e-05
+4hop1__129682_59747_211319_557671,2141,4,2,bins,67.0,True,LEANING_RIGHT,Atlanta,Atlanta,correct,1.0,70.0,-3.862306402879767e-05
+4hop1__129682_59747_211319_557671,2141,4,2,evidence_first,100.0,True,CONFIDENCE: 100,Atlanta,Atlanta,correct,1.0,70.0,-3.862306402879767e-05
+4hop1__129682_59747_211319_557671,2141,4,2,twosided,30.0,True,70,Atlanta,Atlanta,correct,1.0,70.0,-3.862306402879767e-05
+4hop1__129682_59747_211319_557671,2141,4,3,baseline,40.0,True,"40
+
+The",Atlanta,Montmorency County,incorrect,0.0,40.0,-0.004083866253495216
+4hop1__129682_59747_211319_557671,2141,4,3,anchored,75.0,True,75,Atlanta,Montmorency County,incorrect,0.0,40.0,-0.004083866253495216
+4hop1__129682_59747_211319_557671,2141,4,3,bins,67.0,True,LEANING_RIGHT,Atlanta,Montmorency County,incorrect,0.0,40.0,-0.004083866253495216
+4hop1__129682_59747_211319_557671,2141,4,3,evidence_first,100.0,True,CONFIDENCE: 100,Atlanta,Montmorency County,incorrect,0.0,40.0,-0.004083866253495216
+4hop1__129682_59747_211319_557671,2141,4,3,twosided,50.0,True,50,Atlanta,Montmorency County,incorrect,0.0,40.0,-0.004083866253495216
+4hop1__129682_59747_211319_557671,2141,4,4,baseline,40.0,True,40,Atlanta,Presque Isle County,incorrect,0.0,40.0,-3.8265450712060556e-05
+4hop1__129682_59747_211319_557671,2141,4,4,anchored,75.0,True,75,Atlanta,Presque Isle County,incorrect,0.0,40.0,-3.8265450712060556e-05
+4hop1__129682_59747_211319_557671,2141,4,4,bins,67.0,True,LEANING_RIGHT,Atlanta,Presque Isle County,incorrect,0.0,40.0,-3.8265450712060556e-05
+4hop1__129682_59747_211319_557671,2141,4,4,evidence_first,100.0,True,CONFIDENCE: 100,Atlanta,Presque Isle County,incorrect,0.0,40.0,-3.8265450712060556e-05
+4hop1__129682_59747_211319_557671,2141,4,4,twosided,50.0,True,50,Atlanta,Presque Isle County,incorrect,0.0,40.0,-3.8265450712060556e-05
+3hop2__69814_76873_64554,2311,3,1,baseline,50.0,True,"50
+
+</think>",The German government was divided into two separate countries after World War II due to the,The Cold War,incorrect,0.125,50.0,-0.0976242371037852
+3hop2__69814_76873_64554,2311,3,1,anchored,75.0,True,75,The German government was divided into two separate countries after World War II due to the,The Cold War,incorrect,0.125,50.0,-0.0976242371037852
+3hop2__69814_76873_64554,2311,3,1,bins,67.0,True,LEANING_RIGHT,The German government was divided into two separate countries after World War II due to the,The Cold War,incorrect,0.125,50.0,-0.0976242371037852
+3hop2__69814_76873_64554,2311,3,1,evidence_first,0.0,True,CONFIDENCE: 0,The German government was divided into two separate countries after World War II due to the,The Cold War,incorrect,0.125,50.0,-0.0976242371037852
+3hop2__69814_76873_64554,2311,3,1,twosided,50.0,True,50,The German government was divided into two separate countries after World War II due to the,The Cold War,incorrect,0.125,50.0,-0.0976242371037852
+3hop2__69814_76873_64554,2311,3,2,baseline,50.0,True,"50
+
+The",1997,before and after World War II,incorrect,0.0,50.0,-0.1441595107272633
+3hop2__69814_76873_64554,2311,3,2,anchored,75.0,True,"75
+
+The answer is",1997,before and after World War II,incorrect,0.0,50.0,-0.1441595107272633
+3hop2__69814_76873_64554,2311,3,2,bins,67.0,True,LEANING_RIGHT,1997,before and after World War II,incorrect,0.0,50.0,-0.1441595107272633
+3hop2__69814_76873_64554,2311,3,2,evidence_first,100.0,True,CONFIDENCE: 100,1997,before and after World War II,incorrect,0.0,50.0,-0.1441595107272633
+3hop2__69814_76873_64554,2311,3,2,twosided,30.0,True,70,1997,before and after World War II,incorrect,0.0,50.0,-0.1441595107272633
+3hop2__69814_76873_64554,2311,3,3,baseline,50.0,True,"50
+
+</think>",US and Cold War.,Union of Soviet Socialist Republics,incorrect,0.0,50.0,-0.08906406943965521
+3hop2__69814_76873_64554,2311,3,3,anchored,75.0,True,75,US and Cold War.,Union of Soviet Socialist Republics,incorrect,0.0,50.0,-0.08906406943965521
+3hop2__69814_76873_64554,2311,3,3,bins,67.0,True,LEANING_RIGHT,US and Cold War.,Union of Soviet Socialist Republics,incorrect,0.0,50.0,-0.08906406943965521
+3hop2__69814_76873_64554,2311,3,3,evidence_first,100.0,True,CONFIDENCE: 100,US and Cold War.,Union of Soviet Socialist Republics,incorrect,0.0,50.0,-0.08906406943965521
+3hop2__69814_76873_64554,2311,3,3,twosided,50.0,True,50,US and Cold War.,Union of Soviet Socialist Republics,incorrect,0.0,50.0,-0.08906406943965521
+4hop1__58323_375563_161848_83118,2201,4,1,baseline,45.0,True,"45
+
+The",Markus Zusak,Markus Zusak,correct,1.0,45.0,-0.00019265738955986933
+4hop1__58323_375563_161848_83118,2201,4,1,anchored,75.0,True,75,Markus Zusak,Markus Zusak,correct,1.0,45.0,-0.00019265738955986933
+4hop1__58323_375563_161848_83118,2201,4,1,bins,67.0,True,LEANING_RIGHT,Markus Zusak,Markus Zusak,correct,1.0,45.0,-0.00019265738955986933
+4hop1__58323_375563_161848_83118,2201,4,1,evidence_first,100.0,True,CONFIDENCE: 100,Markus Zusak,Markus Zusak,correct,1.0,45.0,-0.00019265738955986933
+4hop1__58323_375563_161848_83118,2201,4,1,twosided,50.0,True,50,Markus Zusak,Markus Zusak,correct,1.0,45.0,-0.00019265738955986933
+4hop1__58323_375563_161848_83118,2201,4,2,baseline,40.0,True,"40
+
+The",Australia,Australia,correct,1.0,40.0,-0.0002602000313345343
+4hop1__58323_375563_161848_83118,2201,4,2,anchored,75.0,True,75,Australia,Australia,correct,1.0,40.0,-0.0002602000313345343
+4hop1__58323_375563_161848_83118,2201,4,2,bins,67.0,True,LEANING_RIGHT,Australia,Australia,correct,1.0,40.0,-0.0002602000313345343
+4hop1__58323_375563_161848_83118,2201,4,2,evidence_first,90.0,True,CONFIDENCE: 90,Australia,Australia,correct,1.0,40.0,-0.0002602000313345343
+4hop1__58323_375563_161848_83118,2201,4,2,twosided,50.0,True,50,Australia,Australia,correct,1.0,40.0,-0.0002602000313345343
+4hop1__58323_375563_161848_83118,2201,4,3,baseline,40.0,True,"40
+
+The",Albania,New Zealand,incorrect,0.0,40.0,-0.10610051561765961
+4hop1__58323_375563_161848_83118,2201,4,3,anchored,75.0,True,75,Albania,New Zealand,incorrect,0.0,40.0,-0.10610051561765961
+4hop1__58323_375563_161848_83118,2201,4,3,bins,67.0,True,LEANING_RIGHT,Albania,New Zealand,incorrect,0.0,40.0,-0.10610051561765961
+4hop1__58323_375563_161848_83118,2201,4,3,evidence_first,90.0,True,CONFIDENCE: 90,Albania,New Zealand,incorrect,0.0,40.0,-0.10610051561765961
+4hop1__58323_375563_161848_83118,2201,4,3,twosided,50.0,True,50,Albania,New Zealand,incorrect,0.0,40.0,-0.10610051561765961
+4hop1__58323_375563_161848_83118,2201,4,4,baseline,40.0,True,"40
+
+The",October,the first Sunday in April,incorrect,0.0,40.0,-0.9727599024772644
+4hop1__58323_375563_161848_83118,2201,4,4,anchored,75.0,True,"75
+
+The documents mention",October,the first Sunday in April,incorrect,0.0,40.0,-0.9727599024772644
+4hop1__58323_375563_161848_83118,2201,4,4,bins,67.0,True,LEANING_RIGHT,October,the first Sunday in April,incorrect,0.0,40.0,-0.9727599024772644
+4hop1__58323_375563_161848_83118,2201,4,4,evidence_first,90.0,True,CONFIDENCE: 90,October,the first Sunday in April,incorrect,0.0,40.0,-0.9727599024772644
+4hop1__58323_375563_161848_83118,2201,4,4,twosided,50.0,True,50,October,the first Sunday in April,incorrect,0.0,40.0,-0.9727599024772644
+4hop1__88342_75218_128008_46894,1880,4,1,baseline,40.0,True,40,MLB MVP award is given during the MLB All-Star Game.,after the World Series,incorrect,0.0,40.0,-0.15785312907162455
+4hop1__88342_75218_128008_46894,1880,4,1,anchored,40.0,True,40,MLB MVP award is given during the MLB All-Star Game.,after the World Series,incorrect,0.0,40.0,-0.15785312907162455
+4hop1__88342_75218_128008_46894,1880,4,1,bins,67.0,True,LEANING_RIGHT,MLB MVP award is given during the MLB All-Star Game.,after the World Series,incorrect,0.0,40.0,-0.15785312907162455
+4hop1__88342_75218_128008_46894,1880,4,1,evidence_first,90.0,True,CONFIDENCE: 90,MLB MVP award is given during the MLB All-Star Game.,after the World Series,incorrect,0.0,40.0,-0.15785312907162455
+4hop1__88342_75218_128008_46894,1880,4,1,twosided,50.0,True,50,MLB MVP award is given during the MLB All-Star Game.,after the World Series,incorrect,0.0,40.0,-0.15785312907162455
+4hop1__88342_75218_128008_46894,1880,4,2,baseline,45.0,True,"45
+
+The",Miguel Cabrera,the New York Yankees,incorrect,0.0,45.0,-0.025277880361636564
+4hop1__88342_75218_128008_46894,1880,4,2,anchored,75.0,True,75,Miguel Cabrera,the New York Yankees,incorrect,0.0,45.0,-0.025277880361636564
+4hop1__88342_75218_128008_46894,1880,4,2,bins,67.0,True,LEANING_RIGHT,Miguel Cabrera,the New York Yankees,incorrect,0.0,45.0,-0.025277880361636564
+4hop1__88342_75218_128008_46894,1880,4,2,evidence_first,90.0,True,CONFIDENCE: 90,Miguel Cabrera,the New York Yankees,incorrect,0.0,45.0,-0.025277880361636564
+4hop1__88342_75218_128008_46894,1880,4,2,twosided,50.0,True,50,Miguel Cabrera,the New York Yankees,incorrect,0.0,45.0,-0.025277880361636564
+4hop1__88342_75218_128008_46894,1880,4,3,baseline,45.0,True,"45
+
+The",MLB,Major League Baseball,incorrect,0.0,45.0,-0.00012050608347280445
+4hop1__88342_75218_128008_46894,1880,4,3,anchored,75.0,True,75,MLB,Major League Baseball,incorrect,0.0,45.0,-0.00012050608347280445
+4hop1__88342_75218_128008_46894,1880,4,3,bins,67.0,True,LEANING_RIGHT,MLB,Major League Baseball,incorrect,0.0,45.0,-0.00012050608347280445
+4hop1__88342_75218_128008_46894,1880,4,3,evidence_first,100.0,True,CONFIDENCE: 100,MLB,Major League Baseball,incorrect,0.0,45.0,-0.00012050608347280445
+4hop1__88342_75218_128008_46894,1880,4,3,twosided,50.0,True,50,MLB,Major League Baseball,incorrect,0.0,45.0,-0.00012050608347280445
+4hop1__88342_75218_128008_46894,1880,4,4,baseline,45.0,True,"45
+
+The",Bill Bergen,Bill Bergen,correct,1.0,45.0,-1.132487000177207e-06
+4hop1__88342_75218_128008_46894,1880,4,4,anchored,75.0,True,75,Bill Bergen,Bill Bergen,correct,1.0,45.0,-1.132487000177207e-06
+4hop1__88342_75218_128008_46894,1880,4,4,bins,67.0,True,LEANING_RIGHT,Bill Bergen,Bill Bergen,correct,1.0,45.0,-1.132487000177207e-06
+4hop1__88342_75218_128008_46894,1880,4,4,evidence_first,90.0,True,CONFIDENCE: 90,Bill Bergen,Bill Bergen,correct,1.0,45.0,-1.132487000177207e-06
+4hop1__88342_75218_128008_46894,1880,4,4,twosided,50.0,True,50,Bill Bergen,Bill Bergen,correct,1.0,45.0,-1.132487000177207e-06
+3hop2__782397_223623_162182,1429,3,1,baseline,50.0,True,"50
+
+The",Vietnam,Vietnam,correct,1.0,50.0,-5.960462488019402e-07
+3hop2__782397_223623_162182,1429,3,1,anchored,75.0,True,75,Vietnam,Vietnam,correct,1.0,50.0,-5.960462488019402e-07
+3hop2__782397_223623_162182,1429,3,1,bins,67.0,True,LEANING_RIGHT,Vietnam,Vietnam,correct,1.0,50.0,-5.960462488019402e-07
+3hop2__782397_223623_162182,1429,3,1,evidence_first,100.0,True,CONFIDENCE: 100,Vietnam,Vietnam,correct,1.0,50.0,-5.960462488019402e-07
+3hop2__782397_223623_162182,1429,3,1,twosided,30.0,True,70,Vietnam,Vietnam,correct,1.0,50.0,-5.960462488019402e-07
+3hop2__782397_223623_162182,1429,3,2,baseline,50.0,True,"50
+
+The","Da Nang, Vietnam",Da Nang,correct,0.8,50.0,-0.01554592996637325
+3hop2__782397_223623_162182,1429,3,2,anchored,75.0,True,75,"Da Nang, Vietnam",Da Nang,correct,0.8,50.0,-0.01554592996637325
+3hop2__782397_223623_162182,1429,3,2,bins,67.0,True,LEANING_RIGHT,"Da Nang, Vietnam",Da Nang,correct,0.8,50.0,-0.01554592996637325
+3hop2__782397_223623_162182,1429,3,2,evidence_first,90.0,True,CONFIDENCE: 90,"Da Nang, Vietnam",Da Nang,correct,0.8,50.0,-0.01554592996637325
+3hop2__782397_223623_162182,1429,3,2,twosided,30.0,True,70,"Da Nang, Vietnam",Da Nang,correct,0.8,50.0,-0.01554592996637325
+3hop2__782397_223623_162182,1429,3,3,baseline,50.0,True,"50
+
+The",Da Nang is located in the Central region of Vietnam.,South Central Coast,incorrect,0.16666666666666666,50.0,-0.11716854602842848
+3hop2__782397_223623_162182,1429,3,3,anchored,40.0,True,40,Da Nang is located in the Central region of Vietnam.,South Central Coast,incorrect,0.16666666666666666,50.0,-0.11716854602842848
+3hop2__782397_223623_162182,1429,3,3,bins,67.0,True,LEANING_RIGHT,Da Nang is located in the Central region of Vietnam.,South Central Coast,incorrect,0.16666666666666666,50.0,-0.11716854602842848
+3hop2__782397_223623_162182,1429,3,3,evidence_first,0.0,True,CONFIDENCE: 0,Da Nang is located in the Central region of Vietnam.,South Central Coast,incorrect,0.16666666666666666,50.0,-0.11716854602842848
+3hop2__782397_223623_162182,1429,3,3,twosided,50.0,True,50,Da Nang is located in the Central region of Vietnam.,South Central Coast,incorrect,0.16666666666666666,50.0,-0.11716854602842848
+4hop3__193820_466199_128875_72134,2159,4,1,baseline,40.0,True,40,"Richard Brantley York was born in Randolph County, North Carolina.",Randolph County,correct,0.33333333333333337,40.0,-0.0015928065424835683
+4hop3__193820_466199_128875_72134,2159,4,1,anchored,75.0,True,75,"Richard Brantley York was born in Randolph County, North Carolina.",Randolph County,correct,0.33333333333333337,40.0,-0.0015928065424835683
+4hop3__193820_466199_128875_72134,2159,4,1,bins,67.0,True,LEANING_RIGHT,"Richard Brantley York was born in Randolph County, North Carolina.",Randolph County,correct,0.33333333333333337,40.0,-0.0015928065424835683
+4hop3__193820_466199_128875_72134,2159,4,1,evidence_first,90.0,True,CONFIDENCE: 90,"Richard Brantley York was born in Randolph County, North Carolina.",Randolph County,correct,0.33333333333333337,40.0,-0.0015928065424835683
+4hop3__193820_466199_128875_72134,2159,4,1,twosided,50.0,True,50,"Richard Brantley York was born in Randolph County, North Carolina.",Randolph County,correct,0.33333333333333337,40.0,-0.0015928065424835683
+4hop3__193820_466199_128875_72134,2159,4,2,baseline,45.0,True,45,"Randolph County, North Carolina",Illinois,incorrect,0.0,45.0,-0.0006202477535062201
+4hop3__193820_466199_128875_72134,2159,4,2,anchored,75.0,True,75,"Randolph County, North Carolina",Illinois,incorrect,0.0,45.0,-0.0006202477535062201
+4hop3__193820_466199_128875_72134,2159,4,2,bins,67.0,True,LEANING_RIGHT,"Randolph County, North Carolina",Illinois,incorrect,0.0,45.0,-0.0006202477535062201
+4hop3__193820_466199_128875_72134,2159,4,2,evidence_first,100.0,True,CONFIDENCE: 100,"Randolph County, North Carolina",Illinois,incorrect,0.0,45.0,-0.0006202477535062201
+4hop3__193820_466199_128875_72134,2159,4,2,twosided,50.0,True,50,"Randolph County, North Carolina",Illinois,incorrect,0.0,45.0,-0.0006202477535062201
+4hop3__193820_466199_128875_72134,2159,4,3,baseline,70.0,True,70,"Springfield, Illinois",Springfield,correct,0.6666666666666666,70.0,-0.007216687313530201
+4hop3__193820_466199_128875_72134,2159,4,3,anchored,75.0,True,75,"Springfield, Illinois",Springfield,correct,0.6666666666666666,70.0,-0.007216687313530201
+4hop3__193820_466199_128875_72134,2159,4,3,bins,67.0,True,LEANING_RIGHT,"Springfield, Illinois",Springfield,correct,0.6666666666666666,70.0,-0.007216687313530201
+4hop3__193820_466199_128875_72134,2159,4,3,evidence_first,100.0,True,CONFIDENCE: 100,"Springfield, Illinois",Springfield,correct,0.6666666666666666,70.0,-0.007216687313530201
+4hop3__193820_466199_128875_72134,2159,4,3,twosided,30.0,True,70,"Springfield, Illinois",Springfield,correct,0.6666666666666666,70.0,-0.007216687313530201
+4hop3__193820_466199_128875_72134,2159,4,4,baseline,40.0,True,40,1834,1839,incorrect,0.0,40.0,-0.031941872090099466
+4hop3__193820_466199_128875_72134,2159,4,4,anchored,40.0,True,40,1834,1839,incorrect,0.0,40.0,-0.031941872090099466
+4hop3__193820_466199_128875_72134,2159,4,4,bins,33.0,True,LEANING_WRONG,1834,1839,incorrect,0.0,40.0,-0.031941872090099466
+4hop3__193820_466199_128875_72134,2159,4,4,evidence_first,0.0,True,CONFIDENCE: 0,1834,1839,incorrect,0.0,40.0,-0.031941872090099466
+4hop3__193820_466199_128875_72134,2159,4,4,twosided,50.0,True,50,1834,1839,incorrect,0.0,40.0,-0.031941872090099466
+3hop1__380590_831637_91775,1283,3,1,baseline,40.0,True,40,USS Zigzag (SP-106) was an armed motorboat,United States Navy,incorrect,0.0,40.0,-0.07477333283078158
+3hop1__380590_831637_91775,1283,3,1,anchored,45.0,True,45,USS Zigzag (SP-106) was an armed motorboat,United States Navy,incorrect,0.0,40.0,-0.07477333283078158
+3hop1__380590_831637_91775,1283,3,1,bins,67.0,True,LEANING_RIGHT,USS Zigzag (SP-106) was an armed motorboat,United States Navy,incorrect,0.0,40.0,-0.07477333283078158
+3hop1__380590_831637_91775,1283,3,1,evidence_first,100.0,True,CONFIDENCE: 100,USS Zigzag (SP-106) was an armed motorboat,United States Navy,incorrect,0.0,40.0,-0.07477333283078158
+3hop1__380590_831637_91775,1283,3,1,twosided,50.0,True,50,USS Zigzag (SP-106) was an armed motorboat,United States Navy,incorrect,0.0,40.0,-0.07477333283078158
+3hop1__380590_831637_91775,1283,3,2,baseline,50.0,True,50,SP-106,U.S. Navy,incorrect,0.0,50.0,-0.01488015204668045
+3hop1__380590_831637_91775,1283,3,2,anchored,40.0,True,40,SP-106,U.S. Navy,incorrect,0.0,50.0,-0.01488015204668045
+3hop1__380590_831637_91775,1283,3,2,bins,67.0,True,LEANING_RIGHT,SP-106,U.S. Navy,incorrect,0.0,50.0,-0.01488015204668045
+3hop1__380590_831637_91775,1283,3,2,evidence_first,100.0,True,CONFIDENCE: 100,SP-106,U.S. Navy,incorrect,0.0,50.0,-0.01488015204668045
+3hop1__380590_831637_91775,1283,3,2,twosided,50.0,True,50,SP-106,U.S. Navy,incorrect,0.0,50.0,-0.01488015204668045
+3hop1__380590_831637_91775,1283,3,3,baseline,50.0,True,50,SP-106,"Sea, Air, and Land",incorrect,0.0,50.0,-0.0005783769767731429
+3hop1__380590_831637_91775,1283,3,3,anchored,40.0,True,40,SP-106,"Sea, Air, and Land",incorrect,0.0,50.0,-0.0005783769767731429
+3hop1__380590_831637_91775,1283,3,3,bins,67.0,True,LEANING_RIGHT,SP-106,"Sea, Air, and Land",incorrect,0.0,50.0,-0.0005783769767731429
+3hop1__380590_831637_91775,1283,3,3,evidence_first,100.0,True,CONFIDENCE: 100,SP-106,"Sea, Air, and Land",incorrect,0.0,50.0,-0.0005783769767731429
+3hop1__380590_831637_91775,1283,3,3,twosided,50.0,True,50,SP-106,"Sea, Air, and Land",incorrect,0.0,50.0,-0.0005783769767731429
+4hop3__322354_466199_695123_72134,2164,4,1,baseline,45.0,True,"45
+
+The","Randolph County, Virginia",Randolph County,correct,0.8,45.0,-0.0001424864516593516
+4hop3__322354_466199_695123_72134,2164,4,1,anchored,75.0,True,75,"Randolph County, Virginia",Randolph County,correct,0.8,45.0,-0.0001424864516593516
+4hop3__322354_466199_695123_72134,2164,4,1,bins,67.0,True,LEANING_RIGHT,"Randolph County, Virginia",Randolph County,correct,0.8,45.0,-0.0001424864516593516
+4hop3__322354_466199_695123_72134,2164,4,1,evidence_first,90.0,True,CONFIDENCE: 90,"Randolph County, Virginia",Randolph County,correct,0.8,45.0,-0.0001424864516593516
+4hop3__322354_466199_695123_72134,2164,4,1,twosided,30.0,True,70,"Randolph County, Virginia",Randolph County,correct,0.8,45.0,-0.0001424864516593516
+4hop3__322354_466199_695123_72134,2164,4,2,baseline,40.0,True,40,"Randolph County, Virginia",Illinois,incorrect,0.0,40.0,-0.031135949492306737
+4hop3__322354_466199_695123_72134,2164,4,2,anchored,75.0,True,75,"Randolph County, Virginia",Illinois,incorrect,0.0,40.0,-0.031135949492306737
+4hop3__322354_466199_695123_72134,2164,4,2,bins,67.0,True,LEANING_RIGHT,"Randolph County, Virginia",Illinois,incorrect,0.0,40.0,-0.031135949492306737
+4hop3__322354_466199_695123_72134,2164,4,2,evidence_first,0.0,True,CONFIDENCE: 0,"Randolph County, Virginia",Illinois,incorrect,0.0,40.0,-0.031135949492306737
+4hop3__322354_466199_695123_72134,2164,4,2,twosided,50.0,True,50,"Randolph County, Virginia",Illinois,incorrect,0.0,40.0,-0.031135949492306737
+4hop3__322354_466199_695123_72134,2164,4,3,baseline,45.0,True,"45
+
+The",1340 AM,Springfield,incorrect,0.0,45.0,-1.9692405476234854e-05
+4hop3__322354_466199_695123_72134,2164,4,3,anchored,45.0,True,45,1340 AM,Springfield,incorrect,0.0,45.0,-1.9692405476234854e-05
+4hop3__322354_466199_695123_72134,2164,4,3,bins,67.0,True,LEANING_RIGHT,1340 AM,Springfield,incorrect,0.0,45.0,-1.9692405476234854e-05
+4hop3__322354_466199_695123_72134,2164,4,3,evidence_first,100.0,True,CONFIDENCE: 100,1340 AM,Springfield,incorrect,0.0,45.0,-1.9692405476234854e-05
+4hop3__322354_466199_695123_72134,2164,4,3,twosided,50.0,True,50,1340 AM,Springfield,incorrect,0.0,45.0,-1.9692405476234854e-05
+4hop3__322354_466199_695123_72134,2164,4,4,baseline,40.0,True,"40
+
+The",1839,1839,correct,1.0,40.0,-0.014211703521141317
+4hop3__322354_466199_695123_72134,2164,4,4,anchored,25.0,True,25,1839,1839,correct,1.0,40.0,-0.014211703521141317
+4hop3__322354_466199_695123_72134,2164,4,4,bins,33.0,True,LEANING_WRONG,1839,1839,correct,1.0,40.0,-0.014211703521141317
+4hop3__322354_466199_695123_72134,2164,4,4,evidence_first,0.0,True,CONFIDENCE: 0,1839,1839,correct,1.0,40.0,-0.014211703521141317
+4hop3__322354_466199_695123_72134,2164,4,4,twosided,50.0,True,50,1839,1839,correct,1.0,40.0,-0.014211703521141317
+3hop1__161507_160713_77246,1204,3,1,baseline,45.0,True,"45
+
+The",India,Pakistan,incorrect,0.0,45.0,-0.02123139798641205
+3hop1__161507_160713_77246,1204,3,1,anchored,75.0,True,"75
+
+The answer is",India,Pakistan,incorrect,0.0,45.0,-0.02123139798641205
+3hop1__161507_160713_77246,1204,3,1,bins,67.0,True,LEANING_RIGHT,India,Pakistan,incorrect,0.0,45.0,-0.02123139798641205
+3hop1__161507_160713_77246,1204,3,1,evidence_first,90.0,True,CONFIDENCE: 90,India,Pakistan,incorrect,0.0,45.0,-0.02123139798641205
+3hop1__161507_160713_77246,1204,3,1,twosided,50.0,True,50,India,Pakistan,incorrect,0.0,45.0,-0.02123139798641205
+3hop1__161507_160713_77246,1204,3,2,baseline,45.0,True,"45
+
+The",Hinduism.,Hindu,incorrect,0.0,45.0,-0.11999158672147132
+3hop1__161507_160713_77246,1204,3,2,anchored,75.0,True,"75
+
+The answer is",Hinduism.,Hindu,incorrect,0.0,45.0,-0.11999158672147132
+3hop1__161507_160713_77246,1204,3,2,bins,67.0,True,LEANING_RIGHT,Hinduism.,Hindu,incorrect,0.0,45.0,-0.11999158672147132
+3hop1__161507_160713_77246,1204,3,2,evidence_first,100.0,True,CONFIDENCE: 100,Hinduism.,Hindu,incorrect,0.0,45.0,-0.11999158672147132
+3hop1__161507_160713_77246,1204,3,2,twosided,50.0,True,50,Hinduism.,Hindu,incorrect,0.0,45.0,-0.11999158672147132
+3hop1__161507_160713_77246,1204,3,3,baseline,40.0,True,"40
+
+The",Hinduism (Arabic: الإسلام) is the second-largest religion in,the country of India,incorrect,0.0,40.0,-0.058446351823474796
+3hop1__161507_160713_77246,1204,3,3,anchored,0.0,True,0,Hinduism (Arabic: الإسلام) is the second-largest religion in,the country of India,incorrect,0.0,40.0,-0.058446351823474796
+3hop1__161507_160713_77246,1204,3,3,bins,67.0,True,LEANING_RIGHT,Hinduism (Arabic: الإسلام) is the second-largest religion in,the country of India,incorrect,0.0,40.0,-0.058446351823474796
+3hop1__161507_160713_77246,1204,3,3,evidence_first,50.0,True,CONFIDENCE: 50,Hinduism (Arabic: الإسلام) is the second-largest religion in,the country of India,incorrect,0.0,40.0,-0.058446351823474796
+3hop1__161507_160713_77246,1204,3,3,twosided,50.0,True,50,Hinduism (Arabic: الإسلام) is the second-largest religion in,the country of India,incorrect,0.0,40.0,-0.058446351823474796
+4hop1__813171_153080_33897_81096,2073,4,1,baseline,45.0,True,"45
+
+The",Charles Mingus,Charles Mingus,correct,1.0,45.0,-5.960459172153302e-07
+4hop1__813171_153080_33897_81096,2073,4,1,anchored,75.0,True,75,Charles Mingus,Charles Mingus,correct,1.0,45.0,-5.960459172153302e-07
+4hop1__813171_153080_33897_81096,2073,4,1,bins,67.0,True,LEANING_RIGHT,Charles Mingus,Charles Mingus,correct,1.0,45.0,-5.960459172153302e-07
+4hop1__813171_153080_33897_81096,2073,4,1,evidence_first,100.0,True,CONFIDENCE: 100,Charles Mingus,Charles Mingus,correct,1.0,45.0,-5.960459172153302e-07
+4hop1__813171_153080_33897_81096,2073,4,1,twosided,50.0,True,50,Charles Mingus,Charles Mingus,correct,1.0,45.0,-5.960459172153302e-07
+4hop1__813171_153080_33897_81096,2073,4,2,baseline,45.0,True,"45
+
+The","Nogales, Arizona.",Arizona,correct,0.6666666666666666,45.0,-0.028679022408083437
+4hop1__813171_153080_33897_81096,2073,4,2,anchored,75.0,True,75,"Nogales, Arizona.",Arizona,correct,0.6666666666666666,45.0,-0.028679022408083437
+4hop1__813171_153080_33897_81096,2073,4,2,bins,100.0,True,CERTAINLY_RIGHT,"Nogales, Arizona.",Arizona,correct,0.6666666666666666,45.0,-0.028679022408083437
+4hop1__813171_153080_33897_81096,2073,4,2,evidence_first,100.0,True,CONFIDENCE: 100,"Nogales, Arizona.",Arizona,correct,0.6666666666666666,45.0,-0.028679022408083437
+4hop1__813171_153080_33897_81096,2073,4,2,twosided,30.0,True,70,"Nogales, Arizona.",Arizona,correct,0.6666666666666666,45.0,-0.028679022408083437
+4hop1__813171_153080_33897_81096,2073,4,3,baseline,40.0,True,"40
+
+The",Jacksonville,Phoenix,incorrect,0.0,40.0,-0.08856213837853488
+4hop1__813171_153080_33897_81096,2073,4,3,anchored,75.0,True,75,Jacksonville,Phoenix,incorrect,0.0,40.0,-0.08856213837853488
+4hop1__813171_153080_33897_81096,2073,4,3,bins,67.0,True,LEANING_RIGHT,Jacksonville,Phoenix,incorrect,0.0,40.0,-0.08856213837853488
+4hop1__813171_153080_33897_81096,2073,4,3,evidence_first,0.0,True,CONFIDENCE: 0,Jacksonville,Phoenix,incorrect,0.0,40.0,-0.08856213837853488
+4hop1__813171_153080_33897_81096,2073,4,3,twosided,50.0,True,50,Jacksonville,Phoenix,incorrect,0.0,40.0,-0.08856213837853488
+4hop1__813171_153080_33897_81096,2073,4,4,baseline,50.0,True,50,The answer is not provided in the documents.,Mario Andretti,incorrect,0.0,50.0,-0.24852813025952022
+4hop1__813171_153080_33897_81096,2073,4,4,anchored,75.0,True,75,The answer is not provided in the documents.,Mario Andretti,incorrect,0.0,50.0,-0.24852813025952022
+4hop1__813171_153080_33897_81096,2073,4,4,bins,33.0,True,LEANING_WRONG,The answer is not provided in the documents.,Mario Andretti,incorrect,0.0,50.0,-0.24852813025952022
+4hop1__813171_153080_33897_81096,2073,4,4,evidence_first,0.0,True,CONFIDENCE: 0,The answer is not provided in the documents.,Mario Andretti,incorrect,0.0,50.0,-0.24852813025952022
+4hop1__813171_153080_33897_81096,2073,4,4,twosided,30.0,True,70,The answer is not provided in the documents.,Mario Andretti,incorrect,0.0,50.0,-0.24852813025952022
+4hop3__220945_88460_30152_20999,2011,4,1,baseline,45.0,True,"45
+
+The",Laos,Laos,correct,1.0,45.0,-0.1857606146404578
+4hop3__220945_88460_30152_20999,2011,4,1,anchored,75.0,True,75,Laos,Laos,correct,1.0,45.0,-0.1857606146404578
+4hop3__220945_88460_30152_20999,2011,4,1,bins,67.0,True,LEANING_RIGHT,Laos,Laos,correct,1.0,45.0,-0.1857606146404578
+4hop3__220945_88460_30152_20999,2011,4,1,evidence_first,100.0,True,CONFIDENCE: 100,Laos,Laos,correct,1.0,45.0,-0.1857606146404578
+4hop3__220945_88460_30152_20999,2011,4,1,twosided,50.0,True,50,Laos,Laos,correct,1.0,45.0,-0.1857606146404578
+4hop3__220945_88460_30152_20999,2011,4,2,baseline,40.0,True,"40
+
+The",The Bay of Bengal.,Myanmar,incorrect,0.0,40.0,-0.0738163545727275
+4hop3__220945_88460_30152_20999,2011,4,2,anchored,40.0,True,40,The Bay of Bengal.,Myanmar,incorrect,0.0,40.0,-0.0738163545727275
+4hop3__220945_88460_30152_20999,2011,4,2,bins,67.0,True,LEANING_RIGHT,The Bay of Bengal.,Myanmar,incorrect,0.0,40.0,-0.0738163545727275
+4hop3__220945_88460_30152_20999,2011,4,2,evidence_first,100.0,True,CONFIDENCE: 100,The Bay of Bengal.,Myanmar,incorrect,0.0,40.0,-0.0738163545727275
+4hop3__220945_88460_30152_20999,2011,4,2,twosided,50.0,True,50,The Bay of Bengal.,Myanmar,incorrect,0.0,40.0,-0.0738163545727275
+4hop3__220945_88460_30152_20999,2011,4,3,baseline,40.0,True,"40
+
+The",Ottomans.,the Portuguese,incorrect,0.0,40.0,-0.1744173633711398
+4hop3__220945_88460_30152_20999,2011,4,3,anchored,75.0,True,75,Ottomans.,the Portuguese,incorrect,0.0,40.0,-0.1744173633711398
+4hop3__220945_88460_30152_20999,2011,4,3,bins,67.0,True,LEANING_RIGHT,Ottomans.,the Portuguese,incorrect,0.0,40.0,-0.1744173633711398
+4hop3__220945_88460_30152_20999,2011,4,3,evidence_first,90.0,True,CONFIDENCE: 90,Ottomans.,the Portuguese,incorrect,0.0,40.0,-0.1744173633711398
+4hop3__220945_88460_30152_20999,2011,4,3,twosided,50.0,True,50,Ottomans.,the Portuguese,incorrect,0.0,40.0,-0.1744173633711398
+4hop3__220945_88460_30152_20999,2011,4,4,baseline,40.0,True,40,The Ottomans were expelled from The Bay of Bengal by the Portuguese.,The dynasty regrouped and defeated the Portuguese,incorrect,0.14285714285714285,40.0,-0.04696700169782465
+4hop3__220945_88460_30152_20999,2011,4,4,anchored,40.0,True,40,The Ottomans were expelled from The Bay of Bengal by the Portuguese.,The dynasty regrouped and defeated the Portuguese,incorrect,0.14285714285714285,40.0,-0.04696700169782465
+4hop3__220945_88460_30152_20999,2011,4,4,bins,33.0,True,LEANING_WRONG,The Ottomans were expelled from The Bay of Bengal by the Portuguese.,The dynasty regrouped and defeated the Portuguese,incorrect,0.14285714285714285,40.0,-0.04696700169782465
+4hop3__220945_88460_30152_20999,2011,4,4,evidence_first,0.0,True,CONFIDENCE: 0,The Ottomans were expelled from The Bay of Bengal by the Portuguese.,The dynasty regrouped and defeated the Portuguese,incorrect,0.14285714285714285,40.0,-0.04696700169782465
+4hop3__220945_88460_30152_20999,2011,4,4,twosided,50.0,True,50,The Ottomans were expelled from The Bay of Bengal by the Portuguese.,The dynasty regrouped and defeated the Portuguese,incorrect,0.14285714285714285,40.0,-0.04696700169782465
+4hop1__152146_5274_458768_33677,2151,4,1,baseline,60.0,True,60,Sony Music Entertainment,Sony Music Entertainment,correct,1.0,60.0,-1.9868209240788323e-07
+4hop1__152146_5274_458768_33677,2151,4,1,anchored,75.0,True,75,Sony Music Entertainment,Sony Music Entertainment,correct,1.0,60.0,-1.9868209240788323e-07
+4hop1__152146_5274_458768_33677,2151,4,1,bins,67.0,True,LEANING_RIGHT,Sony Music Entertainment,Sony Music Entertainment,correct,1.0,60.0,-1.9868209240788323e-07
+4hop1__152146_5274_458768_33677,2151,4,1,evidence_first,100.0,True,CONFIDENCE: 100,Sony Music Entertainment,Sony Music Entertainment,correct,1.0,60.0,-1.9868209240788323e-07
+4hop1__152146_5274_458768_33677,2151,4,1,twosided,30.0,True,70,Sony Music Entertainment,Sony Music Entertainment,correct,1.0,60.0,-1.9868209240788323e-07
+4hop1__152146_5274_458768_33677,2151,4,2,baseline,50.0,True,50,Universal Music Group,Universal Music Group.,correct,1.0,50.0,-0.0009097945100293714
+4hop1__152146_5274_458768_33677,2151,4,2,anchored,75.0,True,75,Universal Music Group,Universal Music Group.,correct,1.0,50.0,-0.0009097945100293714
+4hop1__152146_5274_458768_33677,2151,4,2,bins,67.0,True,LEANING_RIGHT,Universal Music Group,Universal Music Group.,correct,1.0,50.0,-0.0009097945100293714
+4hop1__152146_5274_458768_33677,2151,4,2,evidence_first,90.0,True,CONFIDENCE: 90,Universal Music Group,Universal Music Group.,correct,1.0,50.0,-0.0009097945100293714
+4hop1__152146_5274_458768_33677,2151,4,2,twosided,30.0,True,70,Universal Music Group,Universal Music Group.,correct,1.0,50.0,-0.0009097945100293714
+4hop1__152146_5274_458768_33677,2151,4,3,baseline,50.0,True,50,"Santa Monica, California",Santa Monica,correct,0.8,50.0,-7.6292934636512655e-06
+4hop1__152146_5274_458768_33677,2151,4,3,anchored,40.0,True,40,"Santa Monica, California",Santa Monica,correct,0.8,50.0,-7.6292934636512655e-06
+4hop1__152146_5274_458768_33677,2151,4,3,bins,33.0,True,LEANING_WRONG,"Santa Monica, California",Santa Monica,correct,0.8,50.0,-7.6292934636512655e-06
+4hop1__152146_5274_458768_33677,2151,4,3,evidence_first,0.0,True,CONFIDENCE: 0,"Santa Monica, California",Santa Monica,correct,0.8,50.0,-7.6292934636512655e-06
+4hop1__152146_5274_458768_33677,2151,4,3,twosided,50.0,True,50,"Santa Monica, California",Santa Monica,correct,0.8,50.0,-7.6292934636512655e-06
+4hop1__152146_5274_458768_33677,2151,4,4,baseline,50.0,True,50,2013,2013,correct,1.0,50.0,-2.9802320611338473e-08
+4hop1__152146_5274_458768_33677,2151,4,4,anchored,75.0,True,75,2013,2013,correct,1.0,50.0,-2.9802320611338473e-08
+4hop1__152146_5274_458768_33677,2151,4,4,bins,67.0,True,LEANING_RIGHT,2013,2013,correct,1.0,50.0,-2.9802320611338473e-08
+4hop1__152146_5274_458768_33677,2151,4,4,evidence_first,100.0,True,CONFIDENCE: 100,2013,2013,correct,1.0,50.0,-2.9802320611338473e-08
+4hop1__152146_5274_458768_33677,2151,4,4,twosided,30.0,True,70,2013,2013,correct,1.0,50.0,-2.9802320611338473e-08
+3hop2__72083_92991_76291,1404,3,1,baseline,40.0,True,"40
+
+The",Republicans,Republicans,correct,1.0,40.0,-0.0002547178009990603
+3hop2__72083_92991_76291,1404,3,1,anchored,75.0,True,75,Republicans,Republicans,correct,1.0,40.0,-0.0002547178009990603
+3hop2__72083_92991_76291,1404,3,1,bins,67.0,True,LEANING_RIGHT,Republicans,Republicans,correct,1.0,40.0,-0.0002547178009990603
+3hop2__72083_92991_76291,1404,3,1,evidence_first,100.0,True,CONFIDENCE: 100,Republicans,Republicans,correct,1.0,40.0,-0.0002547178009990603
+3hop2__72083_92991_76291,1404,3,1,twosided,30.0,True,70,Republicans,Republicans,correct,1.0,40.0,-0.0002547178009990603
+3hop2__72083_92991_76291,1404,3,2,baseline,40.0,True,40,The Standing Rules of the United States Senate are the parliamentary procedures adopted by the United,The Senate,correct,0.15384615384615385,40.0,-0.039077345163715194
+3hop2__72083_92991_76291,1404,3,2,anchored,75.0,True,75,The Standing Rules of the United States Senate are the parliamentary procedures adopted by the United,The Senate,correct,0.15384615384615385,40.0,-0.039077345163715194
+3hop2__72083_92991_76291,1404,3,2,bins,67.0,True,LEANING_RIGHT,The Standing Rules of the United States Senate are the parliamentary procedures adopted by the United,The Senate,correct,0.15384615384615385,40.0,-0.039077345163715194
+3hop2__72083_92991_76291,1404,3,2,evidence_first,50.0,True,CONFIDENCE: 50,The Standing Rules of the United States Senate are the parliamentary procedures adopted by the United,The Senate,correct,0.15384615384615385,40.0,-0.039077345163715194
+3hop2__72083_92991_76291,1404,3,2,twosided,50.0,True,50,The Standing Rules of the United States Senate are the parliamentary procedures adopted by the United,The Senate,correct,0.15384615384615385,40.0,-0.039077345163715194
+3hop2__72083_92991_76291,1404,3,3,baseline,40.0,True,"40
+
+The",18. 2014,January 2015,incorrect,0.0,40.0,-0.06777660167426802
+3hop2__72083_92991_76291,1404,3,3,anchored,75.0,True,75,18. 2014,January 2015,incorrect,0.0,40.0,-0.06777660167426802
+3hop2__72083_92991_76291,1404,3,3,bins,67.0,True,LEANING_RIGHT,18. 2014,January 2015,incorrect,0.0,40.0,-0.06777660167426802
+3hop2__72083_92991_76291,1404,3,3,evidence_first,100.0,True,CONFIDENCE: 100,18. 2014,January 2015,incorrect,0.0,40.0,-0.06777660167426802
+3hop2__72083_92991_76291,1404,3,3,twosided,50.0,True,50,18. 2014,January 2015,incorrect,0.0,40.0,-0.06777660167426802
+3hop1__409517_547811_80702,1611,3,1,baseline,40.0,True,"40
+
+The",Antonio Vivaldi,Antonio Vivaldi,correct,1.0,40.0,-0.00011027413420237054
+3hop1__409517_547811_80702,1611,3,1,anchored,75.0,True,75,Antonio Vivaldi,Antonio Vivaldi,correct,1.0,40.0,-0.00011027413420237054
+3hop1__409517_547811_80702,1611,3,1,bins,67.0,True,LEANING_RIGHT,Antonio Vivaldi,Antonio Vivaldi,correct,1.0,40.0,-0.00011027413420237054
+3hop1__409517_547811_80702,1611,3,1,evidence_first,90.0,True,CONFIDENCE: 90,Antonio Vivaldi,Antonio Vivaldi,correct,1.0,40.0,-0.00011027413420237054
+3hop1__409517_547811_80702,1611,3,1,twosided,50.0,True,50,Antonio Vivaldi,Antonio Vivaldi,correct,1.0,40.0,-0.00011027413420237054
+3hop1__409517_547811_80702,1611,3,2,baseline,40.0,True,"40
+
+The",Paris,Venice,incorrect,0.0,40.0,-0.07238125056028366
+3hop1__409517_547811_80702,1611,3,2,anchored,40.0,True,40,Paris,Venice,incorrect,0.0,40.0,-0.07238125056028366
+3hop1__409517_547811_80702,1611,3,2,bins,67.0,True,LEANING_RIGHT,Paris,Venice,incorrect,0.0,40.0,-0.07238125056028366
+3hop1__409517_547811_80702,1611,3,2,evidence_first,90.0,True,CONFIDENCE: 90,Paris,Venice,incorrect,0.0,40.0,-0.07238125056028366
+3hop1__409517_547811_80702,1611,3,2,twosided,50.0,True,50,Paris,Venice,incorrect,0.0,40.0,-0.07238125056028366
+3hop1__409517_547811_80702,1611,3,3,baseline,40.0,True,40,Mandolin,Rialto Bridge,incorrect,0.0,40.0,-0.03152770767330063
+3hop1__409517_547811_80702,1611,3,3,anchored,40.0,True,40,Mandolin,Rialto Bridge,incorrect,0.0,40.0,-0.03152770767330063
+3hop1__409517_547811_80702,1611,3,3,bins,67.0,True,LEANING_RIGHT,Mandolin,Rialto Bridge,incorrect,0.0,40.0,-0.03152770767330063
+3hop1__409517_547811_80702,1611,3,3,evidence_first,50.0,True,CONFIDENCE: 50,Mandolin,Rialto Bridge,incorrect,0.0,40.0,-0.03152770767330063
+3hop1__409517_547811_80702,1611,3,3,twosided,50.0,True,50,Mandolin,Rialto Bridge,incorrect,0.0,40.0,-0.03152770767330063
+4hop2__71753_158985_70784_61381,2045,4,1,baseline,40.0,True,"40
+
+The",Middle East.,"Middle East,",correct,1.0,40.0,-0.18638599225899574
+4hop2__71753_158985_70784_61381,2045,4,1,anchored,75.0,True,75,Middle East.,"Middle East,",correct,1.0,40.0,-0.18638599225899574
+4hop2__71753_158985_70784_61381,2045,4,1,bins,67.0,True,LEANING_RIGHT,Middle East.,"Middle East,",correct,1.0,40.0,-0.18638599225899574
+4hop2__71753_158985_70784_61381,2045,4,1,evidence_first,90.0,True,CONFIDENCE: 90,Middle East.,"Middle East,",correct,1.0,40.0,-0.18638599225899574
+4hop2__71753_158985_70784_61381,2045,4,1,twosided,30.0,True,70,Middle East.,"Middle East,",correct,1.0,40.0,-0.18638599225899574
+4hop2__71753_158985_70784_61381,2045,4,2,baseline,40.0,True,"40
+
+The",Singapore,Persian Gulf,incorrect,0.0,40.0,-0.532805323600769
+4hop2__71753_158985_70784_61381,2045,4,2,anchored,75.0,True,75,Singapore,Persian Gulf,incorrect,0.0,40.0,-0.532805323600769
+4hop2__71753_158985_70784_61381,2045,4,2,bins,67.0,True,LEANING_RIGHT,Singapore,Persian Gulf,incorrect,0.0,40.0,-0.532805323600769
+4hop2__71753_158985_70784_61381,2045,4,2,evidence_first,50.0,True,CONFIDENCE: 50,Singapore,Persian Gulf,incorrect,0.0,40.0,-0.532805323600769
+4hop2__71753_158985_70784_61381,2045,4,2,twosided,50.0,True,50,Singapore,Persian Gulf,incorrect,0.0,40.0,-0.532805323600769
+4hop2__71753_158985_70784_61381,2045,4,3,baseline,40.0,True,40,Central Bohemian Region,Kingdom of Saudi Arabia,incorrect,0.0,40.0,-0.0978500006008062
+4hop2__71753_158985_70784_61381,2045,4,3,anchored,40.0,True,40,Central Bohemian Region,Kingdom of Saudi Arabia,incorrect,0.0,40.0,-0.0978500006008062
+4hop2__71753_158985_70784_61381,2045,4,3,bins,67.0,True,LEANING_RIGHT,Central Bohemian Region,Kingdom of Saudi Arabia,incorrect,0.0,40.0,-0.0978500006008062
+4hop2__71753_158985_70784_61381,2045,4,3,evidence_first,50.0,True,CONFIDENCE: 50,Central Bohemian Region,Kingdom of Saudi Arabia,incorrect,0.0,40.0,-0.0978500006008062
+4hop2__71753_158985_70784_61381,2045,4,3,twosided,50.0,True,50,Central Bohemian Region,Kingdom of Saudi Arabia,incorrect,0.0,40.0,-0.0978500006008062
+4hop2__71753_158985_70784_61381,2045,4,4,baseline,40.0,True,"40
+
+The",1955,1932,incorrect,0.0,40.0,-0.08800253269839686
+4hop2__71753_158985_70784_61381,2045,4,4,anchored,75.0,True,"75
+
+The answer is",1955,1932,incorrect,0.0,40.0,-0.08800253269839686
+4hop2__71753_158985_70784_61381,2045,4,4,bins,67.0,True,LEANING_RIGHT,1955,1932,incorrect,0.0,40.0,-0.08800253269839686
+4hop2__71753_158985_70784_61381,2045,4,4,evidence_first,100.0,True,CONFIDENCE: 100,1955,1932,incorrect,0.0,40.0,-0.08800253269839686
+4hop2__71753_158985_70784_61381,2045,4,4,twosided,50.0,True,50,1955,1932,incorrect,0.0,40.0,-0.08800253269839686
+4hop1__436202_765799_282674_759393,1904,4,1,baseline,60.0,True,60,"Appleton, Wisconsin",Appleton,correct,0.6666666666666666,60.0,-0.0021082731764163753
+4hop1__436202_765799_282674_759393,1904,4,1,anchored,75.0,True,75,"Appleton, Wisconsin",Appleton,correct,0.6666666666666666,60.0,-0.0021082731764163753
+4hop1__436202_765799_282674_759393,1904,4,1,bins,67.0,True,LEANING_RIGHT,"Appleton, Wisconsin",Appleton,correct,0.6666666666666666,60.0,-0.0021082731764163753
+4hop1__436202_765799_282674_759393,1904,4,1,evidence_first,100.0,True,CONFIDENCE: 100,"Appleton, Wisconsin",Appleton,correct,0.6666666666666666,60.0,-0.0021082731764163753
+4hop1__436202_765799_282674_759393,1904,4,1,twosided,30.0,True,70,"Appleton, Wisconsin",Appleton,correct,0.6666666666666666,60.0,-0.0021082731764163753
+4hop1__436202_765799_282674_759393,1904,4,2,baseline,50.0,True,"50
+
+The",Appleton,Outagamie County,incorrect,0.0,50.0,-0.025822402909383868
+4hop1__436202_765799_282674_759393,1904,4,2,anchored,75.0,True,75,Appleton,Outagamie County,incorrect,0.0,50.0,-0.025822402909383868
+4hop1__436202_765799_282674_759393,1904,4,2,bins,67.0,True,LEANING_RIGHT,Appleton,Outagamie County,incorrect,0.0,50.0,-0.025822402909383868
+4hop1__436202_765799_282674_759393,1904,4,2,evidence_first,100.0,True,CONFIDENCE: 100,Appleton,Outagamie County,incorrect,0.0,50.0,-0.025822402909383868
+4hop1__436202_765799_282674_759393,1904,4,2,twosided,50.0,True,50,Appleton,Outagamie County,incorrect,0.0,50.0,-0.025822402909383868
+4hop1__436202_765799_282674_759393,1904,4,3,baseline,50.0,True,"50
+
+The",Wisconsin,Brown County,incorrect,0.0,50.0,-0.06040719491284108
+4hop1__436202_765799_282674_759393,1904,4,3,anchored,45.0,True,45,Wisconsin,Brown County,incorrect,0.0,50.0,-0.06040719491284108
+4hop1__436202_765799_282674_759393,1904,4,3,bins,67.0,True,LEANING_RIGHT,Wisconsin,Brown County,incorrect,0.0,50.0,-0.06040719491284108
+4hop1__436202_765799_282674_759393,1904,4,3,evidence_first,100.0,True,CONFIDENCE: 100,Wisconsin,Brown County,incorrect,0.0,50.0,-0.06040719491284108
+4hop1__436202_765799_282674_759393,1904,4,3,twosided,50.0,True,50,Wisconsin,Brown County,incorrect,0.0,50.0,-0.06040719491284108
+4hop1__436202_765799_282674_759393,1904,4,4,baseline,40.0,True,40,Appleton,Green Bay,incorrect,0.0,40.0,-0.012509404680713487
+4hop1__436202_765799_282674_759393,1904,4,4,anchored,40.0,True,40,Appleton,Green Bay,incorrect,0.0,40.0,-0.012509404680713487
+4hop1__436202_765799_282674_759393,1904,4,4,bins,67.0,True,LEANING_RIGHT,Appleton,Green Bay,incorrect,0.0,40.0,-0.012509404680713487
+4hop1__436202_765799_282674_759393,1904,4,4,evidence_first,100.0,True,CONFIDENCE: 100,Appleton,Green Bay,incorrect,0.0,40.0,-0.012509404680713487
+4hop1__436202_765799_282674_759393,1904,4,4,twosided,50.0,True,50,Appleton,Green Bay,incorrect,0.0,40.0,-0.012509404680713487
+3hop2__79512_16214_84681,2407,3,1,baseline,45.0,True,"45
+
+</think>",New Zealand,New Zealand,correct,1.0,45.0,0.0
+3hop2__79512_16214_84681,2407,3,1,anchored,75.0,True,"75
+
+The documents mention",New Zealand,New Zealand,correct,1.0,45.0,0.0
+3hop2__79512_16214_84681,2407,3,1,bins,67.0,True,LEANING_RIGHT,New Zealand,New Zealand,correct,1.0,45.0,0.0
+3hop2__79512_16214_84681,2407,3,1,evidence_first,100.0,True,CONFIDENCE: 100,New Zealand,New Zealand,correct,1.0,45.0,0.0
+3hop2__79512_16214_84681,2407,3,1,twosided,30.0,True,70,New Zealand,New Zealand,correct,1.0,45.0,0.0
+3hop2__79512_16214_84681,2407,3,2,baseline,40.0,True,"40
+
+</think>",Dutch,the Dutch,correct,1.0,40.0,-0.038449402898095286
+3hop2__79512_16214_84681,2407,3,2,anchored,75.0,True,75,Dutch,the Dutch,correct,1.0,40.0,-0.038449402898095286
+3hop2__79512_16214_84681,2407,3,2,bins,67.0,True,LEANING_RIGHT,Dutch,the Dutch,correct,1.0,40.0,-0.038449402898095286
+3hop2__79512_16214_84681,2407,3,2,evidence_first,100.0,True,CONFIDENCE: 100,Dutch,the Dutch,correct,1.0,40.0,-0.038449402898095286
+3hop2__79512_16214_84681,2407,3,2,twosided,50.0,True,50,Dutch,the Dutch,correct,1.0,40.0,-0.038449402898095286
+3hop2__79512_16214_84681,2407,3,3,baseline,50.0,True,"50
+
+The",13 December 1642,13 December 1642,correct,1.0,50.0,-0.015495064973947592
+3hop2__79512_16214_84681,2407,3,3,anchored,75.0,True,"75
+
+The document states",13 December 1642,13 December 1642,correct,1.0,50.0,-0.015495064973947592
+3hop2__79512_16214_84681,2407,3,3,bins,67.0,True,LEANING_RIGHT,13 December 1642,13 December 1642,correct,1.0,50.0,-0.015495064973947592
+3hop2__79512_16214_84681,2407,3,3,evidence_first,100.0,True,CONFIDENCE: 100,13 December 1642,13 December 1642,correct,1.0,50.0,-0.015495064973947592
+3hop2__79512_16214_84681,2407,3,3,twosided,50.0,True,50,13 December 1642,13 December 1642,correct,1.0,50.0,-0.015495064973947592
+4hop2__567956_14670_8987_8529,1861,4,1,baseline,40.0,True,"40
+
+The",Slovakia,Czechoslovakia,incorrect,0.0,40.0,-0.08965385817767431
+4hop2__567956_14670_8987_8529,1861,4,1,anchored,75.0,True,75,Slovakia,Czechoslovakia,incorrect,0.0,40.0,-0.08965385817767431
+4hop2__567956_14670_8987_8529,1861,4,1,bins,67.0,True,LEANING_RIGHT,Slovakia,Czechoslovakia,incorrect,0.0,40.0,-0.08965385817767431
+4hop2__567956_14670_8987_8529,1861,4,1,evidence_first,80.0,True,CONFIDENCE: 80,Slovakia,Czechoslovakia,incorrect,0.0,40.0,-0.08965385817767431
+4hop2__567956_14670_8987_8529,1861,4,1,twosided,50.0,True,50,Slovakia,Czechoslovakia,incorrect,0.0,40.0,-0.08965385817767431
+4hop2__567956_14670_8987_8529,1861,4,2,baseline,70.0,True,"70
+
+</think>",The Air Defense Artillery is a branch of the Army.,the Army,correct,0.25,70.0,-0.05633885101466518
+4hop2__567956_14670_8987_8529,1861,4,2,anchored,75.0,True,75,The Air Defense Artillery is a branch of the Army.,the Army,correct,0.25,70.0,-0.05633885101466518
+4hop2__567956_14670_8987_8529,1861,4,2,bins,67.0,True,LEANING_RIGHT,The Air Defense Artillery is a branch of the Army.,the Army,correct,0.25,70.0,-0.05633885101466518
+4hop2__567956_14670_8987_8529,1861,4,2,evidence_first,100.0,True,CONFIDENCE: 100,The Air Defense Artillery is a branch of the Army.,the Army,correct,0.25,70.0,-0.05633885101466518
+4hop2__567956_14670_8987_8529,1861,4,2,twosided,50.0,True,50,The Air Defense Artillery is a branch of the Army.,the Army,correct,0.25,70.0,-0.05633885101466518
+4hop2__567956_14670_8987_8529,1861,4,3,baseline,50.0,True,"50
+
+</think>",The Air Defense Artillery is a branch of the Army.,Yugoslavia,incorrect,0.0,50.0,-0.004202672563498193
+4hop2__567956_14670_8987_8529,1861,4,3,anchored,75.0,True,75,The Air Defense Artillery is a branch of the Army.,Yugoslavia,incorrect,0.0,50.0,-0.004202672563498193
+4hop2__567956_14670_8987_8529,1861,4,3,bins,67.0,True,LEANING_RIGHT,The Air Defense Artillery is a branch of the Army.,Yugoslavia,incorrect,0.0,50.0,-0.004202672563498193
+4hop2__567956_14670_8987_8529,1861,4,3,evidence_first,0.0,True,CONFIDENCE: 0,The Air Defense Artillery is a branch of the Army.,Yugoslavia,incorrect,0.0,50.0,-0.004202672563498193
+4hop2__567956_14670_8987_8529,1861,4,3,twosided,50.0,True,50,The Air Defense Artillery is a branch of the Army.,Yugoslavia,incorrect,0.0,50.0,-0.004202672563498193
+4hop2__567956_14670_8987_8529,1861,4,4,baseline,40.0,True,"40
+
+</think>",1939,1943–1992,incorrect,0.0,40.0,-1.0847809789993335e-05
+4hop2__567956_14670_8987_8529,1861,4,4,anchored,75.0,True,75,1939,1943–1992,incorrect,0.0,40.0,-1.0847809789993335e-05
+4hop2__567956_14670_8987_8529,1861,4,4,bins,67.0,True,LEANING_RIGHT,1939,1943–1992,incorrect,0.0,40.0,-1.0847809789993335e-05
+4hop2__567956_14670_8987_8529,1861,4,4,evidence_first,100.0,True,CONFIDENCE: 100,1939,1943–1992,incorrect,0.0,40.0,-1.0847809789993335e-05
+4hop2__567956_14670_8987_8529,1861,4,4,twosided,50.0,True,50,1939,1943–1992,incorrect,0.0,40.0,-1.0847809789993335e-05
+3hop1__527372_339990_54675,1696,3,1,baseline,40.0,True,"40
+
+The","Columbia County, Pennsylvania.",Columbia County,correct,0.8,40.0,-0.029764753999188542
+3hop1__527372_339990_54675,1696,3,1,anchored,75.0,True,75,"Columbia County, Pennsylvania.",Columbia County,correct,0.8,40.0,-0.029764753999188542
+3hop1__527372_339990_54675,1696,3,1,bins,67.0,True,LEANING_RIGHT,"Columbia County, Pennsylvania.",Columbia County,correct,0.8,40.0,-0.029764753999188542
+3hop1__527372_339990_54675,1696,3,1,evidence_first,100.0,True,CONFIDENCE: 100,"Columbia County, Pennsylvania.",Columbia County,correct,0.8,40.0,-0.029764753999188542
+3hop1__527372_339990_54675,1696,3,1,twosided,50.0,True,50,"Columbia County, Pennsylvania.",Columbia County,correct,0.8,40.0,-0.029764753999188542
+3hop1__527372_339990_54675,1696,3,2,baseline,50.0,True,"50
+
+The","Columbia County, Pennsylvania.",Oregon,incorrect,0.0,50.0,-0.004144779561707186
+3hop1__527372_339990_54675,1696,3,2,anchored,75.0,True,75,"Columbia County, Pennsylvania.",Oregon,incorrect,0.0,50.0,-0.004144779561707186
+3hop1__527372_339990_54675,1696,3,2,bins,67.0,True,LEANING_RIGHT,"Columbia County, Pennsylvania.",Oregon,incorrect,0.0,50.0,-0.004144779561707186
+3hop1__527372_339990_54675,1696,3,2,evidence_first,100.0,True,CONFIDENCE: 100,"Columbia County, Pennsylvania.",Oregon,incorrect,0.0,50.0,-0.004144779561707186
+3hop1__527372_339990_54675,1696,3,2,twosided,50.0,True,50,"Columbia County, Pennsylvania.",Oregon,incorrect,0.0,50.0,-0.004144779561707186
+3hop1__527372_339990_54675,1696,3,3,baseline,40.0,True,40,Mt. Tabor,Tualatin Mountains,incorrect,0.0,40.0,-0.08054275624078855
+3hop1__527372_339990_54675,1696,3,3,anchored,75.0,True,75,Mt. Tabor,Tualatin Mountains,incorrect,0.0,40.0,-0.08054275624078855
+3hop1__527372_339990_54675,1696,3,3,bins,67.0,True,LEANING_RIGHT,Mt. Tabor,Tualatin Mountains,incorrect,0.0,40.0,-0.08054275624078855
+3hop1__527372_339990_54675,1696,3,3,evidence_first,100.0,True,CONFIDENCE: 100,Mt. Tabor,Tualatin Mountains,incorrect,0.0,40.0,-0.08054275624078855
+3hop1__527372_339990_54675,1696,3,3,twosided,50.0,True,50,Mt. Tabor,Tualatin Mountains,incorrect,0.0,40.0,-0.08054275624078855
+3hop1__498954_160713_77246,1211,3,1,baseline,40.0,True,"40
+
+The",Pakistan,Pakistan,correct,1.0,40.0,-1.156323378381785e-05
+3hop1__498954_160713_77246,1211,3,1,anchored,75.0,True,75,Pakistan,Pakistan,correct,1.0,40.0,-1.156323378381785e-05
+3hop1__498954_160713_77246,1211,3,1,bins,67.0,True,LEANING_RIGHT,Pakistan,Pakistan,correct,1.0,40.0,-1.156323378381785e-05
+3hop1__498954_160713_77246,1211,3,1,evidence_first,100.0,True,CONFIDENCE: 100,Pakistan,Pakistan,correct,1.0,40.0,-1.156323378381785e-05
+3hop1__498954_160713_77246,1211,3,1,twosided,50.0,True,50,Pakistan,Pakistan,correct,1.0,40.0,-1.156323378381785e-05
+3hop1__498954_160713_77246,1211,3,2,baseline,45.0,True,"45
+
+The",Hindus,Hindu,incorrect,0.0,45.0,-0.03874853497950426
+3hop1__498954_160713_77246,1211,3,2,anchored,75.0,True,75,Hindus,Hindu,incorrect,0.0,45.0,-0.03874853497950426
+3hop1__498954_160713_77246,1211,3,2,bins,67.0,True,LEANING_RIGHT,Hindus,Hindu,incorrect,0.0,45.0,-0.03874853497950426
+3hop1__498954_160713_77246,1211,3,2,evidence_first,100.0,True,CONFIDENCE: 100,Hindus,Hindu,incorrect,0.0,45.0,-0.03874853497950426
+3hop1__498954_160713_77246,1211,3,2,twosided,50.0,True,50,Hindus,Hindu,incorrect,0.0,45.0,-0.03874853497950426
+3hop1__498954_160713_77246,1211,3,3,baseline,40.0,True,"40
+
+The",Hindu,the country of India,incorrect,0.0,40.0,-0.00036057425660374065
+3hop1__498954_160713_77246,1211,3,3,anchored,75.0,True,75,Hindu,the country of India,incorrect,0.0,40.0,-0.00036057425660374065
+3hop1__498954_160713_77246,1211,3,3,bins,67.0,True,LEANING_RIGHT,Hindu,the country of India,incorrect,0.0,40.0,-0.00036057425660374065
+3hop1__498954_160713_77246,1211,3,3,evidence_first,100.0,True,CONFIDENCE: 100,Hindu,the country of India,incorrect,0.0,40.0,-0.00036057425660374065
+3hop1__498954_160713_77246,1211,3,3,twosided,50.0,True,50,Hindu,the country of India,incorrect,0.0,40.0,-0.00036057425660374065
+4hop1__342858_131850_33952_34053,2061,4,1,baseline,40.0,True,"40
+
+The",Yuma County,Yuma County,correct,1.0,40.0,-0.00039184896741062403
+4hop1__342858_131850_33952_34053,2061,4,1,anchored,75.0,True,75,Yuma County,Yuma County,correct,1.0,40.0,-0.00039184896741062403
+4hop1__342858_131850_33952_34053,2061,4,1,bins,67.0,True,LEANING_RIGHT,Yuma County,Yuma County,correct,1.0,40.0,-0.00039184896741062403
+4hop1__342858_131850_33952_34053,2061,4,1,evidence_first,100.0,True,CONFIDENCE: 100,Yuma County,Yuma County,correct,1.0,40.0,-0.00039184896741062403
+4hop1__342858_131850_33952_34053,2061,4,1,twosided,50.0,True,50,Yuma County,Yuma County,correct,1.0,40.0,-0.00039184896741062403
+4hop1__342858_131850_33952_34053,2061,4,2,baseline,70.0,True,"70
+
+</think>",Arizona,Arizona,correct,1.0,70.0,-2.253030106658116e-05
+4hop1__342858_131850_33952_34053,2061,4,2,anchored,75.0,True,75,Arizona,Arizona,correct,1.0,70.0,-2.253030106658116e-05
+4hop1__342858_131850_33952_34053,2061,4,2,bins,67.0,True,LEANING_RIGHT,Arizona,Arizona,correct,1.0,70.0,-2.253030106658116e-05
+4hop1__342858_131850_33952_34053,2061,4,2,evidence_first,100.0,True,CONFIDENCE: 100,Arizona,Arizona,correct,1.0,70.0,-2.253030106658116e-05
+4hop1__342858_131850_33952_34053,2061,4,2,twosided,30.0,True,70,Arizona,Arizona,correct,1.0,70.0,-2.253030106658116e-05
+4hop1__342858_131850_33952_34053,2061,4,3,baseline,40.0,True,"40
+
+The",Yuma,Tucson,incorrect,0.0,40.0,-0.00027648909599520266
+4hop1__342858_131850_33952_34053,2061,4,3,anchored,75.0,True,75,Yuma,Tucson,incorrect,0.0,40.0,-0.00027648909599520266
+4hop1__342858_131850_33952_34053,2061,4,3,bins,67.0,True,LEANING_RIGHT,Yuma,Tucson,incorrect,0.0,40.0,-0.00027648909599520266
+4hop1__342858_131850_33952_34053,2061,4,3,evidence_first,100.0,True,CONFIDENCE: 100,Yuma,Tucson,incorrect,0.0,40.0,-0.00027648909599520266
+4hop1__342858_131850_33952_34053,2061,4,3,twosided,50.0,True,50,Yuma,Tucson,incorrect,0.0,40.0,-0.00027648909599520266
+4hop1__342858_131850_33952_34053,2061,4,4,baseline,50.0,True,"50
+
+The",24.17 in (614 mm),1905,incorrect,0.0,50.0,-0.036721480931361704
+4hop1__342858_131850_33952_34053,2061,4,4,anchored,75.0,True,75,24.17 in (614 mm),1905,incorrect,0.0,50.0,-0.036721480931361704
+4hop1__342858_131850_33952_34053,2061,4,4,bins,67.0,True,LEANING_RIGHT,24.17 in (614 mm),1905,incorrect,0.0,50.0,-0.036721480931361704
+4hop1__342858_131850_33952_34053,2061,4,4,evidence_first,100.0,True,CONFIDENCE: 100,24.17 in (614 mm),1905,incorrect,0.0,50.0,-0.036721480931361704
+4hop1__342858_131850_33952_34053,2061,4,4,twosided,50.0,True,50,24.17 in (614 mm),1905,incorrect,0.0,50.0,-0.036721480931361704
+4hop1__151903_5274_458768_33677,2157,4,1,baseline,50.0,True,"50
+
+The",Sony Music,Sony Music Entertainment,correct,0.8,50.0,0.0
+4hop1__151903_5274_458768_33677,2157,4,1,anchored,75.0,True,75,Sony Music,Sony Music Entertainment,correct,0.8,50.0,0.0
+4hop1__151903_5274_458768_33677,2157,4,1,bins,67.0,True,LEANING_RIGHT,Sony Music,Sony Music Entertainment,correct,0.8,50.0,0.0
+4hop1__151903_5274_458768_33677,2157,4,1,evidence_first,100.0,True,CONFIDENCE: 100,Sony Music,Sony Music Entertainment,correct,0.8,50.0,0.0
+4hop1__151903_5274_458768_33677,2157,4,1,twosided,30.0,True,70,Sony Music,Sony Music Entertainment,correct,0.8,50.0,0.0
+4hop1__151903_5274_458768_33677,2157,4,2,baseline,50.0,True,"50
+
+The",Universal Music Group,Universal Music Group.,correct,1.0,50.0,-4.1998757903153695e-05
+4hop1__151903_5274_458768_33677,2157,4,2,anchored,40.0,True,40,Universal Music Group,Universal Music Group.,correct,1.0,50.0,-4.1998757903153695e-05
+4hop1__151903_5274_458768_33677,2157,4,2,bins,67.0,True,LEANING_RIGHT,Universal Music Group,Universal Music Group.,correct,1.0,50.0,-4.1998757903153695e-05
+4hop1__151903_5274_458768_33677,2157,4,2,evidence_first,90.0,True,CONFIDENCE: 90,Universal Music Group,Universal Music Group.,correct,1.0,50.0,-4.1998757903153695e-05
+4hop1__151903_5274_458768_33677,2157,4,2,twosided,30.0,True,70,Universal Music Group,Universal Music Group.,correct,1.0,50.0,-4.1998757903153695e-05
+4hop1__151903_5274_458768_33677,2157,4,3,baseline,40.0,True,40,"Santa Monica, California",Santa Monica,correct,0.8,40.0,-6.0938414804923013e-05
+4hop1__151903_5274_458768_33677,2157,4,3,anchored,40.0,True,40,"Santa Monica, California",Santa Monica,correct,0.8,40.0,-6.0938414804923013e-05
+4hop1__151903_5274_458768_33677,2157,4,3,bins,67.0,True,LEANING_RIGHT,"Santa Monica, California",Santa Monica,correct,0.8,40.0,-6.0938414804923013e-05
+4hop1__151903_5274_458768_33677,2157,4,3,evidence_first,100.0,True,CONFIDENCE: 100,"Santa Monica, California",Santa Monica,correct,0.8,40.0,-6.0938414804923013e-05
+4hop1__151903_5274_458768_33677,2157,4,3,twosided,50.0,True,50,"Santa Monica, California",Santa Monica,correct,0.8,40.0,-6.0938414804923013e-05
+4hop1__151903_5274_458768_33677,2157,4,4,baseline,50.0,True,"50
+
+The",2013,2013,correct,1.0,50.0,-3.159026164212264e-06
+4hop1__151903_5274_458768_33677,2157,4,4,anchored,75.0,True,"75
+
+The document states",2013,2013,correct,1.0,50.0,-3.159026164212264e-06
+4hop1__151903_5274_458768_33677,2157,4,4,bins,67.0,True,LEANING_RIGHT,2013,2013,correct,1.0,50.0,-3.159026164212264e-06
+4hop1__151903_5274_458768_33677,2157,4,4,evidence_first,100.0,True,CONFIDENCE: 100,2013,2013,correct,1.0,50.0,-3.159026164212264e-06
+4hop1__151903_5274_458768_33677,2157,4,4,twosided,30.0,True,70,2013,2013,correct,1.0,50.0,-3.159026164212264e-06
+4hop3__405277_88460_30152_20999,2015,4,1,baseline,45.0,True,"45
+
+The",Laos,Laos,correct,1.0,45.0,-0.00023117558885132894
+4hop3__405277_88460_30152_20999,2015,4,1,anchored,75.0,True,75,Laos,Laos,correct,1.0,45.0,-0.00023117558885132894
+4hop3__405277_88460_30152_20999,2015,4,1,bins,67.0,True,LEANING_RIGHT,Laos,Laos,correct,1.0,45.0,-0.00023117558885132894
+4hop3__405277_88460_30152_20999,2015,4,1,evidence_first,100.0,True,CONFIDENCE: 100,Laos,Laos,correct,1.0,45.0,-0.00023117558885132894
+4hop3__405277_88460_30152_20999,2015,4,1,twosided,50.0,True,50,Laos,Laos,correct,1.0,45.0,-0.00023117558885132894
+4hop3__405277_88460_30152_20999,2015,4,2,baseline,40.0,True,40,Radcliffe Line,Myanmar,incorrect,0.0,40.0,-0.005047279097650422
+4hop3__405277_88460_30152_20999,2015,4,2,anchored,75.0,True,75,Radcliffe Line,Myanmar,incorrect,0.0,40.0,-0.005047279097650422
+4hop3__405277_88460_30152_20999,2015,4,2,bins,33.0,True,LEANING_WRONG,Radcliffe Line,Myanmar,incorrect,0.0,40.0,-0.005047279097650422
+4hop3__405277_88460_30152_20999,2015,4,2,evidence_first,100.0,True,CONFIDENCE: 100,Radcliffe Line,Myanmar,incorrect,0.0,40.0,-0.005047279097650422
+4hop3__405277_88460_30152_20999,2015,4,2,twosided,50.0,True,50,Radcliffe Line,Myanmar,incorrect,0.0,40.0,-0.005047279097650422
+4hop3__405277_88460_30152_20999,2015,4,3,baseline,40.0,True,"40
+
+The",Ottoman,the Portuguese,incorrect,0.0,40.0,-0.17852352061466567
+4hop3__405277_88460_30152_20999,2015,4,3,anchored,75.0,True,75,Ottoman,the Portuguese,incorrect,0.0,40.0,-0.17852352061466567
+4hop3__405277_88460_30152_20999,2015,4,3,bins,67.0,True,LEANING_RIGHT,Ottoman,the Portuguese,incorrect,0.0,40.0,-0.17852352061466567
+4hop3__405277_88460_30152_20999,2015,4,3,evidence_first,90.0,True,CONFIDENCE: 90,Ottoman,the Portuguese,incorrect,0.0,40.0,-0.17852352061466567
+4hop3__405277_88460_30152_20999,2015,4,3,twosided,50.0,True,50,Ottoman,the Portuguese,incorrect,0.0,40.0,-0.17852352061466567
+4hop3__405277_88460_30152_20999,2015,4,4,baseline,40.0,True,"40
+
+The",The Ottoman Empire was expelled from the Radcliffe Line through economic independence and new coin,The dynasty regrouped and defeated the Portuguese,incorrect,0.1111111111111111,40.0,-0.07580888119730345
+4hop3__405277_88460_30152_20999,2015,4,4,anchored,75.0,True,75,The Ottoman Empire was expelled from the Radcliffe Line through economic independence and new coin,The dynasty regrouped and defeated the Portuguese,incorrect,0.1111111111111111,40.0,-0.07580888119730345
+4hop3__405277_88460_30152_20999,2015,4,4,bins,33.0,True,LEANING_WRONG,The Ottoman Empire was expelled from the Radcliffe Line through economic independence and new coin,The dynasty regrouped and defeated the Portuguese,incorrect,0.1111111111111111,40.0,-0.07580888119730345
+4hop3__405277_88460_30152_20999,2015,4,4,evidence_first,0.0,True,CONFIDENCE: 0,The Ottoman Empire was expelled from the Radcliffe Line through economic independence and new coin,The dynasty regrouped and defeated the Portuguese,incorrect,0.1111111111111111,40.0,-0.07580888119730345
+4hop3__405277_88460_30152_20999,2015,4,4,twosided,50.0,True,50,The Ottoman Empire was expelled from the Radcliffe Line through economic independence and new coin,The dynasty regrouped and defeated the Portuguese,incorrect,0.1111111111111111,40.0,-0.07580888119730345
+4hop1__151650_5274_458768_33637,2049,4,1,baseline,65.0,True,"65
+
+The",Sony Music Entertainment,Sony Music Entertainment,correct,1.0,65.0,-1.0172370821237564e-05
+4hop1__151650_5274_458768_33637,2049,4,1,anchored,75.0,True,75,Sony Music Entertainment,Sony Music Entertainment,correct,1.0,65.0,-1.0172370821237564e-05
+4hop1__151650_5274_458768_33637,2049,4,1,bins,67.0,True,LEANING_RIGHT,Sony Music Entertainment,Sony Music Entertainment,correct,1.0,65.0,-1.0172370821237564e-05
+4hop1__151650_5274_458768_33637,2049,4,1,evidence_first,100.0,True,CONFIDENCE: 100,Sony Music Entertainment,Sony Music Entertainment,correct,1.0,65.0,-1.0172370821237564e-05
+4hop1__151650_5274_458768_33637,2049,4,1,twosided,30.0,True,70,Sony Music Entertainment,Sony Music Entertainment,correct,1.0,65.0,-1.0172370821237564e-05
+4hop1__151650_5274_458768_33637,2049,4,2,baseline,50.0,True,"50
+
+The",Universal Music Group,Universal Music Group.,correct,1.0,50.0,-0.05068756143251818
+4hop1__151650_5274_458768_33637,2049,4,2,anchored,75.0,True,75,Universal Music Group,Universal Music Group.,correct,1.0,50.0,-0.05068756143251818
+4hop1__151650_5274_458768_33637,2049,4,2,bins,67.0,True,LEANING_RIGHT,Universal Music Group,Universal Music Group.,correct,1.0,50.0,-0.05068756143251818
+4hop1__151650_5274_458768_33637,2049,4,2,evidence_first,80.0,True,CONFIDENCE: 80,Universal Music Group,Universal Music Group.,correct,1.0,50.0,-0.05068756143251818
+4hop1__151650_5274_458768_33637,2049,4,2,twosided,50.0,True,50,Universal Music Group,Universal Music Group.,correct,1.0,50.0,-0.05068756143251818
+4hop1__151650_5274_458768_33637,2049,4,3,baseline,40.0,True,"40
+
+The","Costa Mesa, California",Santa Monica,incorrect,0.0,40.0,-0.0012759215196410877
+4hop1__151650_5274_458768_33637,2049,4,3,anchored,75.0,True,75,"Costa Mesa, California",Santa Monica,incorrect,0.0,40.0,-0.0012759215196410877
+4hop1__151650_5274_458768_33637,2049,4,3,bins,67.0,True,LEANING_RIGHT,"Costa Mesa, California",Santa Monica,incorrect,0.0,40.0,-0.0012759215196410877
+4hop1__151650_5274_458768_33637,2049,4,3,evidence_first,100.0,True,CONFIDENCE: 100,"Costa Mesa, California",Santa Monica,incorrect,0.0,40.0,-0.0012759215196410877
+4hop1__151650_5274_458768_33637,2049,4,3,twosided,50.0,True,50,"Costa Mesa, California",Santa Monica,incorrect,0.0,40.0,-0.0012759215196410877
+4hop1__151650_5274_458768_33637,2049,4,4,baseline,50.0,True,"50
+
+The",1,two,incorrect,0.0,50.0,-0.0054033189080655575
+4hop1__151650_5274_458768_33637,2049,4,4,anchored,75.0,True,"75
+
+The answer is",1,two,incorrect,0.0,50.0,-0.0054033189080655575
+4hop1__151650_5274_458768_33637,2049,4,4,bins,67.0,True,LEANING_RIGHT,1,two,incorrect,0.0,50.0,-0.0054033189080655575
+4hop1__151650_5274_458768_33637,2049,4,4,evidence_first,50.0,True,CONFIDENCE: 50,1,two,incorrect,0.0,50.0,-0.0054033189080655575
+4hop1__151650_5274_458768_33637,2049,4,4,twosided,50.0,True,50,1,two,incorrect,0.0,50.0,-0.0054033189080655575
+4hop1__342858_131850_159767_81096,2076,4,1,baseline,40.0,True,40,Yuma County,Yuma County,correct,1.0,40.0,-0.0005855579705288013
+4hop1__342858_131850_159767_81096,2076,4,1,anchored,75.0,True,75,Yuma County,Yuma County,correct,1.0,40.0,-0.0005855579705288013
+4hop1__342858_131850_159767_81096,2076,4,1,bins,67.0,True,LEANING_RIGHT,Yuma County,Yuma County,correct,1.0,40.0,-0.0005855579705288013
+4hop1__342858_131850_159767_81096,2076,4,1,evidence_first,90.0,True,CONFIDENCE: 90,Yuma County,Yuma County,correct,1.0,40.0,-0.0005855579705288013
+4hop1__342858_131850_159767_81096,2076,4,1,twosided,50.0,True,50,Yuma County,Yuma County,correct,1.0,40.0,-0.0005855579705288013
+4hop1__342858_131850_159767_81096,2076,4,2,baseline,50.0,True,"50
+
+The",Arizona,Arizona,correct,1.0,50.0,-0.0032808545511215925
+4hop1__342858_131850_159767_81096,2076,4,2,anchored,75.0,True,75,Arizona,Arizona,correct,1.0,50.0,-0.0032808545511215925
+4hop1__342858_131850_159767_81096,2076,4,2,bins,67.0,True,LEANING_RIGHT,Arizona,Arizona,correct,1.0,50.0,-0.0032808545511215925
+4hop1__342858_131850_159767_81096,2076,4,2,evidence_first,90.0,True,CONFIDENCE: 90,Arizona,Arizona,correct,1.0,50.0,-0.0032808545511215925
+4hop1__342858_131850_159767_81096,2076,4,2,twosided,30.0,True,70,Arizona,Arizona,correct,1.0,50.0,-0.0032808545511215925
+4hop1__342858_131850_159767_81096,2076,4,3,baseline,50.0,True,50,Phoenix,Phoenix,correct,1.0,50.0,-2.3841855067985307e-07
+4hop1__342858_131850_159767_81096,2076,4,3,anchored,75.0,True,75,Phoenix,Phoenix,correct,1.0,50.0,-2.3841855067985307e-07
+4hop1__342858_131850_159767_81096,2076,4,3,bins,67.0,True,LEANING_RIGHT,Phoenix,Phoenix,correct,1.0,50.0,-2.3841855067985307e-07
+4hop1__342858_131850_159767_81096,2076,4,3,evidence_first,100.0,True,CONFIDENCE: 100,Phoenix,Phoenix,correct,1.0,50.0,-2.3841855067985307e-07
+4hop1__342858_131850_159767_81096,2076,4,3,twosided,30.0,True,70,Phoenix,Phoenix,correct,1.0,50.0,-2.3841855067985307e-07
+4hop1__342858_131850_159767_81096,2076,4,4,baseline,50.0,True,50,Verizon IndyCar Series,Mario Andretti,incorrect,0.0,50.0,-0.04264226830558755
+4hop1__342858_131850_159767_81096,2076,4,4,anchored,75.0,True,75,Verizon IndyCar Series,Mario Andretti,incorrect,0.0,50.0,-0.04264226830558755
+4hop1__342858_131850_159767_81096,2076,4,4,bins,67.0,True,LEANING_RIGHT,Verizon IndyCar Series,Mario Andretti,incorrect,0.0,50.0,-0.04264226830558755
+4hop1__342858_131850_159767_81096,2076,4,4,evidence_first,0.0,True,CONFIDENCE: 0,Verizon IndyCar Series,Mario Andretti,incorrect,0.0,50.0,-0.04264226830558755
+4hop1__342858_131850_159767_81096,2076,4,4,twosided,50.0,True,50,Verizon IndyCar Series,Mario Andretti,incorrect,0.0,50.0,-0.04264226830558755
+3hop1__516535_834494_34053,1783,3,1,baseline,40.0,True,"40
+
+The",Pima County,Pima County,correct,1.0,40.0,-0.008255856721310314
+3hop1__516535_834494_34053,1783,3,1,anchored,75.0,True,75,Pima County,Pima County,correct,1.0,40.0,-0.008255856721310314
+3hop1__516535_834494_34053,1783,3,1,bins,67.0,True,LEANING_RIGHT,Pima County,Pima County,correct,1.0,40.0,-0.008255856721310314
+3hop1__516535_834494_34053,1783,3,1,evidence_first,100.0,True,CONFIDENCE: 100,Pima County,Pima County,correct,1.0,40.0,-0.008255856721310314
+3hop1__516535_834494_34053,1783,3,1,twosided,50.0,True,50,Pima County,Pima County,correct,1.0,40.0,-0.008255856721310314
+3hop1__516535_834494_34053,1783,3,2,baseline,40.0,True,"40
+
+The",Pima County,Tucson,incorrect,0.0,40.0,-0.0003916924609536447
+3hop1__516535_834494_34053,1783,3,2,anchored,75.0,True,75,Pima County,Tucson,incorrect,0.0,40.0,-0.0003916924609536447
+3hop1__516535_834494_34053,1783,3,2,bins,67.0,True,LEANING_RIGHT,Pima County,Tucson,incorrect,0.0,40.0,-0.0003916924609536447
+3hop1__516535_834494_34053,1783,3,2,evidence_first,100.0,True,CONFIDENCE: 100,Pima County,Tucson,incorrect,0.0,40.0,-0.0003916924609536447
+3hop1__516535_834494_34053,1783,3,2,twosided,50.0,True,50,Pima County,Tucson,incorrect,0.0,40.0,-0.0003916924609536447
+3hop1__516535_834494_34053,1783,3,3,baseline,45.0,True,"45
+
+The",24.17 in (614 mm),1905,incorrect,0.0,45.0,-0.010749992705768818
+3hop1__516535_834494_34053,1783,3,3,anchored,75.0,True,75,24.17 in (614 mm),1905,incorrect,0.0,45.0,-0.010749992705768818
+3hop1__516535_834494_34053,1783,3,3,bins,67.0,True,LEANING_RIGHT,24.17 in (614 mm),1905,incorrect,0.0,45.0,-0.010749992705768818
+3hop1__516535_834494_34053,1783,3,3,evidence_first,100.0,True,CONFIDENCE: 100,24.17 in (614 mm),1905,incorrect,0.0,45.0,-0.010749992705768818
+3hop1__516535_834494_34053,1783,3,3,twosided,50.0,True,50,24.17 in (614 mm),1905,incorrect,0.0,45.0,-0.010749992705768818
+3hop1__241085_42197_18397,1737,3,1,baseline,50.0,True,"50
+
+The",Russia,USSR,incorrect,0.0,50.0,-0.6040193438529968
+3hop1__241085_42197_18397,1737,3,1,anchored,75.0,True,"75
+
+The answer is",Russia,USSR,incorrect,0.0,50.0,-0.6040193438529968
+3hop1__241085_42197_18397,1737,3,1,bins,67.0,True,LEANING_RIGHT,Russia,USSR,incorrect,0.0,50.0,-0.6040193438529968
+3hop1__241085_42197_18397,1737,3,1,evidence_first,90.0,True,CONFIDENCE: 90,Russia,USSR,incorrect,0.0,50.0,-0.6040193438529968
+3hop1__241085_42197_18397,1737,3,1,twosided,50.0,True,50,Russia,USSR,incorrect,0.0,50.0,-0.6040193438529968
+3hop1__241085_42197_18397,1737,3,2,baseline,40.0,True,"40
+
+The",Mao Zedong,Mao Zedong,correct,1.0,40.0,-2.384185648907078e-08
+3hop1__241085_42197_18397,1737,3,2,anchored,75.0,True,75,Mao Zedong,Mao Zedong,correct,1.0,40.0,-2.384185648907078e-08
+3hop1__241085_42197_18397,1737,3,2,bins,67.0,True,LEANING_RIGHT,Mao Zedong,Mao Zedong,correct,1.0,40.0,-2.384185648907078e-08
+3hop1__241085_42197_18397,1737,3,2,evidence_first,100.0,True,CONFIDENCE: 100,Mao Zedong,Mao Zedong,correct,1.0,40.0,-2.384185648907078e-08
+3hop1__241085_42197_18397,1737,3,2,twosided,30.0,True,70,Mao Zedong,Mao Zedong,correct,1.0,40.0,-2.384185648907078e-08
+3hop1__241085_42197_18397,1737,3,3,baseline,50.0,True,"50
+
+The",China,the Politburo,incorrect,0.0,50.0,-0.7736063599586487
+3hop1__241085_42197_18397,1737,3,3,anchored,75.0,True,"75
+
+The answer """,China,the Politburo,incorrect,0.0,50.0,-0.7736063599586487
+3hop1__241085_42197_18397,1737,3,3,bins,67.0,True,LEANING_RIGHT,China,the Politburo,incorrect,0.0,50.0,-0.7736063599586487
+3hop1__241085_42197_18397,1737,3,3,evidence_first,90.0,True,CONFIDENCE: 90,China,the Politburo,incorrect,0.0,50.0,-0.7736063599586487
+3hop1__241085_42197_18397,1737,3,3,twosided,50.0,True,50,China,the Politburo,incorrect,0.0,50.0,-0.7736063599586487
+4hop1__105688_17130_70784_61381,2098,4,1,baseline,45.0,True,"45
+
+The",Israel,Israel,correct,1.0,45.0,-0.002305232686921954
+4hop1__105688_17130_70784_61381,2098,4,1,anchored,75.0,True,75,Israel,Israel,correct,1.0,45.0,-0.002305232686921954
+4hop1__105688_17130_70784_61381,2098,4,1,bins,67.0,True,LEANING_RIGHT,Israel,Israel,correct,1.0,45.0,-0.002305232686921954
+4hop1__105688_17130_70784_61381,2098,4,1,evidence_first,100.0,True,CONFIDENCE: 100,Israel,Israel,correct,1.0,45.0,-0.002305232686921954
+4hop1__105688_17130_70784_61381,2098,4,1,twosided,50.0,True,50,Israel,Israel,correct,1.0,45.0,-0.002305232686921954
+4hop1__105688_17130_70784_61381,2098,4,2,baseline,40.0,True,"40
+
+The",Israel is located in Western Asia.,Middle East,incorrect,0.0,40.0,-0.045771667500818784
+4hop1__105688_17130_70784_61381,2098,4,2,anchored,75.0,True,75,Israel is located in Western Asia.,Middle East,incorrect,0.0,40.0,-0.045771667500818784
+4hop1__105688_17130_70784_61381,2098,4,2,bins,67.0,True,LEANING_RIGHT,Israel is located in Western Asia.,Middle East,incorrect,0.0,40.0,-0.045771667500818784
+4hop1__105688_17130_70784_61381,2098,4,2,evidence_first,100.0,True,CONFIDENCE: 100,Israel is located in Western Asia.,Middle East,incorrect,0.0,40.0,-0.045771667500818784
+4hop1__105688_17130_70784_61381,2098,4,2,twosided,50.0,True,50,Israel is located in Western Asia.,Middle East,incorrect,0.0,40.0,-0.045771667500818784
+4hop1__105688_17130_70784_61381,2098,4,3,baseline,40.0,True,40,Israel,Kingdom of Saudi Arabia,incorrect,0.0,40.0,-0.15681560337543488
+4hop1__105688_17130_70784_61381,2098,4,3,anchored,75.0,True,75,Israel,Kingdom of Saudi Arabia,incorrect,0.0,40.0,-0.15681560337543488
+4hop1__105688_17130_70784_61381,2098,4,3,bins,67.0,True,LEANING_RIGHT,Israel,Kingdom of Saudi Arabia,incorrect,0.0,40.0,-0.15681560337543488
+4hop1__105688_17130_70784_61381,2098,4,3,evidence_first,100.0,True,CONFIDENCE: 100,Israel,Kingdom of Saudi Arabia,incorrect,0.0,40.0,-0.15681560337543488
+4hop1__105688_17130_70784_61381,2098,4,3,twosided,50.0,True,50,Israel,Kingdom of Saudi Arabia,incorrect,0.0,40.0,-0.15681560337543488
+4hop1__105688_17130_70784_61381,2098,4,4,baseline,50.0,True,"50
+
+The",1948,1932,incorrect,0.0,50.0,-0.0036952779568082406
+4hop1__105688_17130_70784_61381,2098,4,4,anchored,75.0,True,75,1948,1932,incorrect,0.0,50.0,-0.0036952779568082406
+4hop1__105688_17130_70784_61381,2098,4,4,bins,67.0,True,LEANING_RIGHT,1948,1932,incorrect,0.0,50.0,-0.0036952779568082406
+4hop1__105688_17130_70784_61381,2098,4,4,evidence_first,100.0,True,CONFIDENCE: 100,1948,1932,incorrect,0.0,50.0,-0.0036952779568082406
+4hop1__105688_17130_70784_61381,2098,4,4,twosided,50.0,True,50,1948,1932,incorrect,0.0,50.0,-0.0036952779568082406
+3hop2__304722_602987_63959,1268,3,1,baseline,40.0,True,"40
+
+</think>",Birmingham City,Aston Villa,incorrect,0.0,40.0,-0.006150419276915879
+3hop2__304722_602987_63959,1268,3,1,anchored,75.0,True,75,Birmingham City,Aston Villa,incorrect,0.0,40.0,-0.006150419276915879
+3hop2__304722_602987_63959,1268,3,1,bins,67.0,True,LEANING_RIGHT,Birmingham City,Aston Villa,incorrect,0.0,40.0,-0.006150419276915879
+3hop2__304722_602987_63959,1268,3,1,evidence_first,90.0,True,CONFIDENCE: 90,Birmingham City,Aston Villa,incorrect,0.0,40.0,-0.006150419276915879
+3hop2__304722_602987_63959,1268,3,1,twosided,50.0,True,50,Birmingham City,Aston Villa,incorrect,0.0,40.0,-0.006150419276915879
+3hop2__304722_602987_63959,1268,3,2,baseline,40.0,True,"40
+
+The",Manchester City F.C.,Birmingham City,needs_review,0.4,40.0,-0.03150095612734276
+3hop2__304722_602987_63959,1268,3,2,anchored,75.0,True,75,Manchester City F.C.,Birmingham City,needs_review,0.4,40.0,-0.03150095612734276
+3hop2__304722_602987_63959,1268,3,2,bins,67.0,True,LEANING_RIGHT,Manchester City F.C.,Birmingham City,needs_review,0.4,40.0,-0.03150095612734276
+3hop2__304722_602987_63959,1268,3,2,evidence_first,100.0,True,CONFIDENCE: 100,Manchester City F.C.,Birmingham City,needs_review,0.4,40.0,-0.03150095612734276
+3hop2__304722_602987_63959,1268,3,2,twosided,50.0,True,50,Manchester City F.C.,Birmingham City,needs_review,0.4,40.0,-0.03150095612734276
+3hop2__304722_602987_63959,1268,3,3,baseline,40.0,True,"40
+
+The",2015,1 December 2010,incorrect,0.0,40.0,-0.0012061445090676415
+3hop2__304722_602987_63959,1268,3,3,anchored,75.0,True,75,2015,1 December 2010,incorrect,0.0,40.0,-0.0012061445090676415
+3hop2__304722_602987_63959,1268,3,3,bins,67.0,True,LEANING_RIGHT,2015,1 December 2010,incorrect,0.0,40.0,-0.0012061445090676415
+3hop2__304722_602987_63959,1268,3,3,evidence_first,90.0,True,CONFIDENCE: 90,2015,1 December 2010,incorrect,0.0,40.0,-0.0012061445090676415
+3hop2__304722_602987_63959,1268,3,3,twosided,50.0,True,50,2015,1 December 2010,incorrect,0.0,40.0,-0.0012061445090676415
+3hop1__756602_831637_91775,1293,3,1,baseline,45.0,True,"45
+
+</think>","USS ""Jason"" (AR-8) was operated by the United States",United States Navy,incorrect,0.3333333333333333,45.0,-0.07961690549291234
+3hop1__756602_831637_91775,1293,3,1,anchored,75.0,True,75,"USS ""Jason"" (AR-8) was operated by the United States",United States Navy,incorrect,0.3333333333333333,45.0,-0.07961690549291234
+3hop1__756602_831637_91775,1293,3,1,bins,67.0,True,LEANING_RIGHT,"USS ""Jason"" (AR-8) was operated by the United States",United States Navy,incorrect,0.3333333333333333,45.0,-0.07961690549291234
+3hop1__756602_831637_91775,1293,3,1,evidence_first,100.0,True,CONFIDENCE: 100,"USS ""Jason"" (AR-8) was operated by the United States",United States Navy,incorrect,0.3333333333333333,45.0,-0.07961690549291234
+3hop1__756602_831637_91775,1293,3,1,twosided,50.0,True,50,"USS ""Jason"" (AR-8) was operated by the United States",United States Navy,incorrect,0.3333333333333333,45.0,-0.07961690549291234
+3hop1__756602_831637_91775,1293,3,2,baseline,45.0,True,"45
+
+The",United States Navy,U.S. Navy,needs_review,0.4,45.0,-0.1455073346538711
+3hop1__756602_831637_91775,1293,3,2,anchored,75.0,True,75,United States Navy,U.S. Navy,needs_review,0.4,45.0,-0.1455073346538711
+3hop1__756602_831637_91775,1293,3,2,bins,67.0,True,LEANING_RIGHT,United States Navy,U.S. Navy,needs_review,0.4,45.0,-0.1455073346538711
+3hop1__756602_831637_91775,1293,3,2,evidence_first,100.0,True,CONFIDENCE: 100,United States Navy,U.S. Navy,needs_review,0.4,45.0,-0.1455073346538711
+3hop1__756602_831637_91775,1293,3,2,twosided,30.0,True,70,United States Navy,U.S. Navy,needs_review,0.4,45.0,-0.1455073346538711
+3hop1__756602_831637_91775,1293,3,3,baseline,75.0,True,"75
+
+</think>","Sea, Air, and Land","Sea, Air, and Land",correct,1.0,75.0,-0.05613387621412732
+3hop1__756602_831637_91775,1293,3,3,anchored,75.0,True,75,"Sea, Air, and Land","Sea, Air, and Land",correct,1.0,75.0,-0.05613387621412732
+3hop1__756602_831637_91775,1293,3,3,bins,67.0,True,LEANING_RIGHT,"Sea, Air, and Land","Sea, Air, and Land",correct,1.0,75.0,-0.05613387621412732
+3hop1__756602_831637_91775,1293,3,3,evidence_first,100.0,True,CONFIDENCE: 100,"Sea, Air, and Land","Sea, Air, and Land",correct,1.0,75.0,-0.05613387621412732
+3hop1__756602_831637_91775,1293,3,3,twosided,30.0,True,70,"Sea, Air, and Land","Sea, Air, and Land",correct,1.0,75.0,-0.05613387621412732
+4hop3__310746_88460_30152_20999,2003,4,1,baseline,40.0,True,"40
+
+The",Laos,Laos,correct,1.0,40.0,-0.00012289168262213934
+4hop3__310746_88460_30152_20999,2003,4,1,anchored,75.0,True,75,Laos,Laos,correct,1.0,40.0,-0.00012289168262213934
+4hop3__310746_88460_30152_20999,2003,4,1,bins,67.0,True,LEANING_RIGHT,Laos,Laos,correct,1.0,40.0,-0.00012289168262213934
+4hop3__310746_88460_30152_20999,2003,4,1,evidence_first,100.0,True,CONFIDENCE: 100,Laos,Laos,correct,1.0,40.0,-0.00012289168262213934
+4hop3__310746_88460_30152_20999,2003,4,1,twosided,30.0,True,70,Laos,Laos,correct,1.0,40.0,-0.00012289168262213934
+4hop3__310746_88460_30152_20999,2003,4,2,baseline,50.0,True,"50
+
+The",Si Phan Don (4000 Islands),Myanmar,incorrect,0.0,50.0,-0.008889362606445482
+4hop3__310746_88460_30152_20999,2003,4,2,anchored,75.0,True,75,Si Phan Don (4000 Islands),Myanmar,incorrect,0.0,50.0,-0.008889362606445482
+4hop3__310746_88460_30152_20999,2003,4,2,bins,67.0,True,LEANING_RIGHT,Si Phan Don (4000 Islands),Myanmar,incorrect,0.0,50.0,-0.008889362606445482
+4hop3__310746_88460_30152_20999,2003,4,2,evidence_first,100.0,True,CONFIDENCE: 100,Si Phan Don (4000 Islands),Myanmar,incorrect,0.0,50.0,-0.008889362606445482
+4hop3__310746_88460_30152_20999,2003,4,2,twosided,30.0,True,70,Si Phan Don (4000 Islands),Myanmar,incorrect,0.0,50.0,-0.008889362606445482
+4hop3__310746_88460_30152_20999,2003,4,3,baseline,40.0,True,"40
+
+</think>",Ottoman,the Portuguese,incorrect,0.0,40.0,-0.04882813063522917
+4hop3__310746_88460_30152_20999,2003,4,3,anchored,75.0,True,75,Ottoman,the Portuguese,incorrect,0.0,40.0,-0.04882813063522917
+4hop3__310746_88460_30152_20999,2003,4,3,bins,67.0,True,LEANING_RIGHT,Ottoman,the Portuguese,incorrect,0.0,40.0,-0.04882813063522917
+4hop3__310746_88460_30152_20999,2003,4,3,evidence_first,90.0,True,CONFIDENCE: 90,Ottoman,the Portuguese,incorrect,0.0,40.0,-0.04882813063522917
+4hop3__310746_88460_30152_20999,2003,4,3,twosided,30.0,True,70,Ottoman,the Portuguese,incorrect,0.0,40.0,-0.04882813063522917
+4hop3__310746_88460_30152_20999,2003,4,4,baseline,0.0,True,0,The Ottoman Empire was expelled from Si Phan Don (4000 Islands,The dynasty regrouped and defeated the Portuguese,incorrect,0.0,0.0,-0.015076464471917461
+4hop3__310746_88460_30152_20999,2003,4,4,anchored,40.0,True,40,The Ottoman Empire was expelled from Si Phan Don (4000 Islands,The dynasty regrouped and defeated the Portuguese,incorrect,0.0,0.0,-0.015076464471917461
+4hop3__310746_88460_30152_20999,2003,4,4,bins,33.0,True,LEANING_WRONG,The Ottoman Empire was expelled from Si Phan Don (4000 Islands,The dynasty regrouped and defeated the Portuguese,incorrect,0.0,0.0,-0.015076464471917461
+4hop3__310746_88460_30152_20999,2003,4,4,evidence_first,0.0,True,CONFIDENCE: 0,The Ottoman Empire was expelled from Si Phan Don (4000 Islands,The dynasty regrouped and defeated the Portuguese,incorrect,0.0,0.0,-0.015076464471917461
+4hop3__310746_88460_30152_20999,2003,4,4,twosided,50.0,True,50,The Ottoman Empire was expelled from Si Phan Don (4000 Islands,The dynasty regrouped and defeated the Portuguese,incorrect,0.0,0.0,-0.015076464471917461
+4hop1__46196_497223_15840_36002,1832,4,1,baseline,40.0,True,"40
+
+The",NFL,The NFL,correct,1.0,40.0,-0.006880400702357292
+4hop1__46196_497223_15840_36002,1832,4,1,anchored,75.0,True,"75
+
+The answer is",NFL,The NFL,correct,1.0,40.0,-0.006880400702357292
+4hop1__46196_497223_15840_36002,1832,4,1,bins,67.0,True,LEANING_RIGHT,NFL,The NFL,correct,1.0,40.0,-0.006880400702357292
+4hop1__46196_497223_15840_36002,1832,4,1,evidence_first,90.0,True,CONFIDENCE: 90,NFL,The NFL,correct,1.0,40.0,-0.006880400702357292
+4hop1__46196_497223_15840_36002,1832,4,1,twosided,50.0,True,50,NFL,The NFL,correct,1.0,40.0,-0.006880400702357292
+4hop1__46196_497223_15840_36002,1832,4,2,baseline,40.0,True,"40
+
+The",NFL,Nintendo Entertainment System,incorrect,0.0,40.0,-0.05394797772169113
+4hop1__46196_497223_15840_36002,1832,4,2,anchored,75.0,True,"75
+
+The answer is",NFL,Nintendo Entertainment System,incorrect,0.0,40.0,-0.05394797772169113
+4hop1__46196_497223_15840_36002,1832,4,2,bins,67.0,True,LEANING_RIGHT,NFL,Nintendo Entertainment System,incorrect,0.0,40.0,-0.05394797772169113
+4hop1__46196_497223_15840_36002,1832,4,2,evidence_first,100.0,True,CONFIDENCE: 100,NFL,Nintendo Entertainment System,incorrect,0.0,40.0,-0.05394797772169113
+4hop1__46196_497223_15840_36002,1832,4,2,twosided,50.0,True,50,NFL,Nintendo Entertainment System,incorrect,0.0,40.0,-0.05394797772169113
+4hop1__46196_497223_15840_36002,1832,4,3,baseline,40.0,True,"40
+
+The",NFL,NES,incorrect,0.0,40.0,-0.0006469778600148857
+4hop1__46196_497223_15840_36002,1832,4,3,anchored,75.0,True,"75
+
+The abbreviation """,NFL,NES,incorrect,0.0,40.0,-0.0006469778600148857
+4hop1__46196_497223_15840_36002,1832,4,3,bins,67.0,True,LEANING_RIGHT,NFL,NES,incorrect,0.0,40.0,-0.0006469778600148857
+4hop1__46196_497223_15840_36002,1832,4,3,evidence_first,100.0,True,CONFIDENCE: 100,NFL,NES,incorrect,0.0,40.0,-0.0006469778600148857
+4hop1__46196_497223_15840_36002,1832,4,3,twosided,30.0,True,70,NFL,NES,incorrect,0.0,40.0,-0.0006469778600148857
+4hop1__46196_497223_15840_36002,1832,4,4,baseline,40.0,True,"40
+
+The",The Genesis had a 16-bit architecture and offered improved graphics and sound over,built on 16-bit architectures and offered improved graphics and sound,needs_review,0.6956521739130435,40.0,-0.047670151864494414
+4hop1__46196_497223_15840_36002,1832,4,4,anchored,60.0,True,60,The Genesis had a 16-bit architecture and offered improved graphics and sound over,built on 16-bit architectures and offered improved graphics and sound,needs_review,0.6956521739130435,40.0,-0.047670151864494414
+4hop1__46196_497223_15840_36002,1832,4,4,bins,67.0,True,LEANING_RIGHT,The Genesis had a 16-bit architecture and offered improved graphics and sound over,built on 16-bit architectures and offered improved graphics and sound,needs_review,0.6956521739130435,40.0,-0.047670151864494414
+4hop1__46196_497223_15840_36002,1832,4,4,evidence_first,50.0,True,CONFIDENCE: 50,The Genesis had a 16-bit architecture and offered improved graphics and sound over,built on 16-bit architectures and offered improved graphics and sound,needs_review,0.6956521739130435,40.0,-0.047670151864494414
+4hop1__46196_497223_15840_36002,1832,4,4,twosided,50.0,True,50,The Genesis had a 16-bit architecture and offered improved graphics and sound over,built on 16-bit architectures and offered improved graphics and sound,needs_review,0.6956521739130435,40.0,-0.047670151864494414
+3hop1__241001_568433_47686,1382,3,1,baseline,40.0,True,"40
+
+The",John van Bruggen,Nelvana,incorrect,0.0,40.0,-0.0018375841900635237
+3hop1__241001_568433_47686,1382,3,1,anchored,40.0,True,40,John van Bruggen,Nelvana,incorrect,0.0,40.0,-0.0018375841900635237
+3hop1__241001_568433_47686,1382,3,1,bins,67.0,True,LEANING_RIGHT,John van Bruggen,Nelvana,incorrect,0.0,40.0,-0.0018375841900635237
+3hop1__241001_568433_47686,1382,3,1,evidence_first,80.0,True,CONFIDENCE: 80,John van Bruggen,Nelvana,incorrect,0.0,40.0,-0.0018375841900635237
+3hop1__241001_568433_47686,1382,3,1,twosided,50.0,True,50,John van Bruggen,Nelvana,incorrect,0.0,40.0,-0.0018375841900635237
+3hop1__241001_568433_47686,1382,3,2,baseline,40.0,True,"40
+
+The",Dancingmonkeys,Toronto,incorrect,0.0,40.0,-0.0003271038021921413
+3hop1__241001_568433_47686,1382,3,2,anchored,75.0,True,75,Dancingmonkeys,Toronto,incorrect,0.0,40.0,-0.0003271038021921413
+3hop1__241001_568433_47686,1382,3,2,bins,67.0,True,LEANING_RIGHT,Dancingmonkeys,Toronto,incorrect,0.0,40.0,-0.0003271038021921413
+3hop1__241001_568433_47686,1382,3,2,evidence_first,100.0,True,CONFIDENCE: 100,Dancingmonkeys,Toronto,incorrect,0.0,40.0,-0.0003271038021921413
+3hop1__241001_568433_47686,1382,3,2,twosided,50.0,True,50,Dancingmonkeys,Toronto,incorrect,0.0,40.0,-0.0003271038021921413
+3hop1__241001_568433_47686,1382,3,3,baseline,40.0,True,"40
+
+The",Dancingmonkeys,Toronto Coach Terminal,incorrect,0.0,40.0,-0.012286073731957003
+3hop1__241001_568433_47686,1382,3,3,anchored,75.0,True,75,Dancingmonkeys,Toronto Coach Terminal,incorrect,0.0,40.0,-0.012286073731957003
+3hop1__241001_568433_47686,1382,3,3,bins,67.0,True,LEANING_RIGHT,Dancingmonkeys,Toronto Coach Terminal,incorrect,0.0,40.0,-0.012286073731957003
+3hop1__241001_568433_47686,1382,3,3,evidence_first,100.0,True,CONFIDENCE: 100,Dancingmonkeys,Toronto Coach Terminal,incorrect,0.0,40.0,-0.012286073731957003
+3hop1__241001_568433_47686,1382,3,3,twosided,50.0,True,50,Dancingmonkeys,Toronto Coach Terminal,incorrect,0.0,40.0,-0.012286073731957003
+3hop2__92991_38242_76291,1407,3,1,baseline,40.0,True,"40
+
+The",The Speaker of the House and the Majority and Minority Leaders determine the rules of the,The Senate,incorrect,0.0,40.0,-0.04385818478925074
+3hop2__92991_38242_76291,1407,3,1,anchored,75.0,True,75,The Speaker of the House and the Majority and Minority Leaders determine the rules of the,The Senate,incorrect,0.0,40.0,-0.04385818478925074
+3hop2__92991_38242_76291,1407,3,1,bins,33.0,True,LEANING_WRONG,The Speaker of the House and the Majority and Minority Leaders determine the rules of the,The Senate,incorrect,0.0,40.0,-0.04385818478925074
+3hop2__92991_38242_76291,1407,3,1,evidence_first,90.0,True,CONFIDENCE: 90,The Speaker of the House and the Majority and Minority Leaders determine the rules of the,The Senate,incorrect,0.0,40.0,-0.04385818478925074
+3hop2__92991_38242_76291,1407,3,1,twosided,50.0,True,50,The Speaker of the House and the Majority and Minority Leaders determine the rules of the,The Senate,incorrect,0.0,40.0,-0.04385818478925074
+3hop2__92991_38242_76291,1407,3,2,baseline,40.0,True,"40
+
+The",Democrats,Republicans,incorrect,0.0,40.0,-0.5642852187156677
+3hop2__92991_38242_76291,1407,3,2,anchored,75.0,True,75,Democrats,Republicans,incorrect,0.0,40.0,-0.5642852187156677
+3hop2__92991_38242_76291,1407,3,2,bins,67.0,True,LEANING_RIGHT,Democrats,Republicans,incorrect,0.0,40.0,-0.5642852187156677
+3hop2__92991_38242_76291,1407,3,2,evidence_first,90.0,True,CONFIDENCE: 90,Democrats,Republicans,incorrect,0.0,40.0,-0.5642852187156677
+3hop2__92991_38242_76291,1407,3,2,twosided,50.0,True,50,Democrats,Republicans,incorrect,0.0,40.0,-0.5642852187156677
+3hop2__92991_38242_76291,1407,3,3,baseline,40.0,True,"40
+
+The",2014,January 2015,incorrect,0.0,40.0,-0.029377747164716084
+3hop2__92991_38242_76291,1407,3,3,anchored,75.0,True,75,2014,January 2015,incorrect,0.0,40.0,-0.029377747164716084
+3hop2__92991_38242_76291,1407,3,3,bins,67.0,True,LEANING_RIGHT,2014,January 2015,incorrect,0.0,40.0,-0.029377747164716084
+3hop2__92991_38242_76291,1407,3,3,evidence_first,90.0,True,CONFIDENCE: 90,2014,January 2015,incorrect,0.0,40.0,-0.029377747164716084
+3hop2__92991_38242_76291,1407,3,3,twosided,50.0,True,50,2014,January 2015,incorrect,0.0,40.0,-0.029377747164716084
+3hop1__604797_443779_52195,1209,3,1,baseline,40.0,True,"40
+
+The",Alabio,Indonesia,incorrect,0.0,40.0,-0.00014182887389324605
+3hop1__604797_443779_52195,1209,3,1,anchored,75.0,True,75,Alabio,Indonesia,incorrect,0.0,40.0,-0.00014182887389324605
+3hop1__604797_443779_52195,1209,3,1,bins,67.0,True,LEANING_RIGHT,Alabio,Indonesia,incorrect,0.0,40.0,-0.00014182887389324605
+3hop1__604797_443779_52195,1209,3,1,evidence_first,100.0,True,CONFIDENCE: 100,Alabio,Indonesia,incorrect,0.0,40.0,-0.00014182887389324605
+3hop1__604797_443779_52195,1209,3,1,twosided,30.0,True,70,Alabio,Indonesia,incorrect,0.0,40.0,-0.00014182887389324605
+3hop1__604797_443779_52195,1209,3,2,baseline,40.0,True,"40
+
+The",Indonesia,East Timor,incorrect,0.0,40.0,-0.0005374661413952708
+3hop1__604797_443779_52195,1209,3,2,anchored,75.0,True,75,Indonesia,East Timor,incorrect,0.0,40.0,-0.0005374661413952708
+3hop1__604797_443779_52195,1209,3,2,bins,67.0,True,LEANING_RIGHT,Indonesia,East Timor,incorrect,0.0,40.0,-0.0005374661413952708
+3hop1__604797_443779_52195,1209,3,2,evidence_first,100.0,True,CONFIDENCE: 100,Indonesia,East Timor,incorrect,0.0,40.0,-0.0005374661413952708
+3hop1__604797_443779_52195,1209,3,2,twosided,50.0,True,50,Indonesia,East Timor,incorrect,0.0,40.0,-0.0005374661413952708
+3hop1__604797_443779_52195,1209,3,3,baseline,40.0,True,40,Francisco Guterres,Francisco Guterres,correct,1.0,40.0,-0.10660085678036921
+3hop1__604797_443779_52195,1209,3,3,anchored,75.0,True,75,Francisco Guterres,Francisco Guterres,correct,1.0,40.0,-0.10660085678036921
+3hop1__604797_443779_52195,1209,3,3,bins,67.0,True,LEANING_RIGHT,Francisco Guterres,Francisco Guterres,correct,1.0,40.0,-0.10660085678036921
+3hop1__604797_443779_52195,1209,3,3,evidence_first,0.0,True,CONFIDENCE: 0,Francisco Guterres,Francisco Guterres,correct,1.0,40.0,-0.10660085678036921
+3hop1__604797_443779_52195,1209,3,3,twosided,50.0,True,50,Francisco Guterres,Francisco Guterres,correct,1.0,40.0,-0.10660085678036921
+3hop2__326964_36852_7713,1638,3,1,baseline,45.0,True,"45
+
+The","Yangzhou, Jiangsu, China",Yangzhou,correct,0.5,45.0,-0.0016957073335756182
+3hop2__326964_36852_7713,1638,3,1,anchored,75.0,True,75,"Yangzhou, Jiangsu, China",Yangzhou,correct,0.5,45.0,-0.0016957073335756182
+3hop2__326964_36852_7713,1638,3,1,bins,67.0,True,LEANING_RIGHT,"Yangzhou, Jiangsu, China",Yangzhou,correct,0.5,45.0,-0.0016957073335756182
+3hop2__326964_36852_7713,1638,3,1,evidence_first,100.0,True,CONFIDENCE: 100,"Yangzhou, Jiangsu, China",Yangzhou,correct,0.5,45.0,-0.0016957073335756182
+3hop2__326964_36852_7713,1638,3,1,twosided,50.0,True,50,"Yangzhou, Jiangsu, China",Yangzhou,correct,0.5,45.0,-0.0016957073335756182
+3hop2__326964_36852_7713,1638,3,2,baseline,60.0,True,"60
+
+The",Nanjing,Nanjing,correct,1.0,60.0,-0.00015461833875699918
+3hop2__326964_36852_7713,1638,3,2,anchored,75.0,True,75,Nanjing,Nanjing,correct,1.0,60.0,-0.00015461833875699918
+3hop2__326964_36852_7713,1638,3,2,bins,67.0,True,LEANING_RIGHT,Nanjing,Nanjing,correct,1.0,60.0,-0.00015461833875699918
+3hop2__326964_36852_7713,1638,3,2,evidence_first,100.0,True,CONFIDENCE: 100,Nanjing,Nanjing,correct,1.0,60.0,-0.00015461833875699918
+3hop2__326964_36852_7713,1638,3,2,twosided,50.0,True,50,Nanjing,Nanjing,correct,1.0,60.0,-0.00015461833875699918
+3hop2__326964_36852_7713,1638,3,3,baseline,40.0,True,"40
+
+The",400 years.,about 400 years,correct,0.8,40.0,-0.13909092484968824
+3hop2__326964_36852_7713,1638,3,3,anchored,75.0,True,75,400 years.,about 400 years,correct,0.8,40.0,-0.13909092484968824
+3hop2__326964_36852_7713,1638,3,3,bins,67.0,True,LEANING_RIGHT,400 years.,about 400 years,correct,0.8,40.0,-0.13909092484968824
+3hop2__326964_36852_7713,1638,3,3,evidence_first,100.0,True,CONFIDENCE: 100,400 years.,about 400 years,correct,0.8,40.0,-0.13909092484968824
+3hop2__326964_36852_7713,1638,3,3,twosided,50.0,True,50,400 years.,about 400 years,correct,0.8,40.0,-0.13909092484968824
+4hop1__105401_17130_70784_61381,2093,4,1,baseline,40.0,True,"40
+
+The",Israel,Israel,correct,1.0,40.0,-0.001653971616178751
+4hop1__105401_17130_70784_61381,2093,4,1,anchored,75.0,True,75,Israel,Israel,correct,1.0,40.0,-0.001653971616178751
+4hop1__105401_17130_70784_61381,2093,4,1,bins,67.0,True,LEANING_RIGHT,Israel,Israel,correct,1.0,40.0,-0.001653971616178751
+4hop1__105401_17130_70784_61381,2093,4,1,evidence_first,100.0,True,CONFIDENCE: 100,Israel,Israel,correct,1.0,40.0,-0.001653971616178751
+4hop1__105401_17130_70784_61381,2093,4,1,twosided,50.0,True,50,Israel,Israel,correct,1.0,40.0,-0.001653971616178751
+4hop1__105401_17130_70784_61381,2093,4,2,baseline,40.0,True,"40
+
+The",Israel is located in Western Asia.,Middle East,incorrect,0.0,40.0,-0.00689896874661449
+4hop1__105401_17130_70784_61381,2093,4,2,anchored,75.0,True,75,Israel is located in Western Asia.,Middle East,incorrect,0.0,40.0,-0.00689896874661449
+4hop1__105401_17130_70784_61381,2093,4,2,bins,67.0,True,LEANING_RIGHT,Israel is located in Western Asia.,Middle East,incorrect,0.0,40.0,-0.00689896874661449
+4hop1__105401_17130_70784_61381,2093,4,2,evidence_first,100.0,True,CONFIDENCE: 100,Israel is located in Western Asia.,Middle East,incorrect,0.0,40.0,-0.00689896874661449
+4hop1__105401_17130_70784_61381,2093,4,2,twosided,50.0,True,50,Israel is located in Western Asia.,Middle East,incorrect,0.0,40.0,-0.00689896874661449
+4hop1__105401_17130_70784_61381,2093,4,3,baseline,50.0,True,"50
+
+The",Persian Gulf,Kingdom of Saudi Arabia,incorrect,0.0,50.0,-0.2635755791947834
+4hop1__105401_17130_70784_61381,2093,4,3,anchored,75.0,True,75,Persian Gulf,Kingdom of Saudi Arabia,incorrect,0.0,50.0,-0.2635755791947834
+4hop1__105401_17130_70784_61381,2093,4,3,bins,67.0,True,LEANING_RIGHT,Persian Gulf,Kingdom of Saudi Arabia,incorrect,0.0,50.0,-0.2635755791947834
+4hop1__105401_17130_70784_61381,2093,4,3,evidence_first,100.0,True,CONFIDENCE: 100,Persian Gulf,Kingdom of Saudi Arabia,incorrect,0.0,50.0,-0.2635755791947834
+4hop1__105401_17130_70784_61381,2093,4,3,twosided,50.0,True,50,Persian Gulf,Kingdom of Saudi Arabia,incorrect,0.0,50.0,-0.2635755791947834
+4hop1__105401_17130_70784_61381,2093,4,4,baseline,40.0,True,"40
+
+The",1990,1932,incorrect,0.0,40.0,-0.08371271192834229
+4hop1__105401_17130_70784_61381,2093,4,4,anchored,40.0,True,40,1990,1932,incorrect,0.0,40.0,-0.08371271192834229
+4hop1__105401_17130_70784_61381,2093,4,4,bins,67.0,True,LEANING_RIGHT,1990,1932,incorrect,0.0,40.0,-0.08371271192834229
+4hop1__105401_17130_70784_61381,2093,4,4,evidence_first,100.0,True,CONFIDENCE: 100,1990,1932,incorrect,0.0,40.0,-0.08371271192834229
+4hop1__105401_17130_70784_61381,2093,4,4,twosided,50.0,True,50,1990,1932,incorrect,0.0,40.0,-0.08371271192834229
+3hop1__507961_160713_77246,1206,3,1,baseline,50.0,True,"50
+
+The",Pakistan,Pakistan,correct,1.0,50.0,-1.7762025890988298e-05
+3hop1__507961_160713_77246,1206,3,1,anchored,75.0,True,75,Pakistan,Pakistan,correct,1.0,50.0,-1.7762025890988298e-05
+3hop1__507961_160713_77246,1206,3,1,bins,67.0,True,LEANING_RIGHT,Pakistan,Pakistan,correct,1.0,50.0,-1.7762025890988298e-05
+3hop1__507961_160713_77246,1206,3,1,evidence_first,100.0,True,CONFIDENCE: 100,Pakistan,Pakistan,correct,1.0,50.0,-1.7762025890988298e-05
+3hop1__507961_160713_77246,1206,3,1,twosided,50.0,True,50,Pakistan,Pakistan,correct,1.0,50.0,-1.7762025890988298e-05
+3hop1__507961_160713_77246,1206,3,2,baseline,50.0,True,"50
+
+The",Hindu.,Hindu,correct,1.0,50.0,-0.15319589745169537
+3hop1__507961_160713_77246,1206,3,2,anchored,75.0,True,"75
+
+The answer is",Hindu.,Hindu,correct,1.0,50.0,-0.15319589745169537
+3hop1__507961_160713_77246,1206,3,2,bins,67.0,True,LEANING_RIGHT,Hindu.,Hindu,correct,1.0,50.0,-0.15319589745169537
+3hop1__507961_160713_77246,1206,3,2,evidence_first,100.0,True,CONFIDENCE: 100,Hindu.,Hindu,correct,1.0,50.0,-0.15319589745169537
+3hop1__507961_160713_77246,1206,3,2,twosided,50.0,True,50,Hindu.,Hindu,correct,1.0,50.0,-0.15319589745169537
+3hop1__507961_160713_77246,1206,3,3,baseline,40.0,True,"40
+
+The",Hindu (الهندو) is a term used in Arabic dictionaries,the country of India,incorrect,0.0,40.0,-0.13136214948929137
+3hop1__507961_160713_77246,1206,3,3,anchored,0.0,True,0,Hindu (الهندو) is a term used in Arabic dictionaries,the country of India,incorrect,0.0,40.0,-0.13136214948929137
+3hop1__507961_160713_77246,1206,3,3,bins,67.0,True,LEANING_RIGHT,Hindu (الهندو) is a term used in Arabic dictionaries,the country of India,incorrect,0.0,40.0,-0.13136214948929137
+3hop1__507961_160713_77246,1206,3,3,evidence_first,50.0,True,CONFIDENCE: 50,Hindu (الهندو) is a term used in Arabic dictionaries,the country of India,incorrect,0.0,40.0,-0.13136214948929137
+3hop1__507961_160713_77246,1206,3,3,twosided,50.0,True,50,Hindu (الهندو) is a term used in Arabic dictionaries,the country of India,incorrect,0.0,40.0,-0.13136214948929137
+3hop2__30956_65244_84681,2322,3,1,baseline,40.0,True,"40
+
+The",New Zealand,New Zealand,correct,1.0,40.0,-8.344643980251476e-07
+3hop2__30956_65244_84681,2322,3,1,anchored,75.0,True,"75
+
+The answer is",New Zealand,New Zealand,correct,1.0,40.0,-8.344643980251476e-07
+3hop2__30956_65244_84681,2322,3,1,bins,67.0,True,LEANING_RIGHT,New Zealand,New Zealand,correct,1.0,40.0,-8.344643980251476e-07
+3hop2__30956_65244_84681,2322,3,1,evidence_first,100.0,True,CONFIDENCE: 100,New Zealand,New Zealand,correct,1.0,40.0,-8.344643980251476e-07
+3hop2__30956_65244_84681,2322,3,1,twosided,50.0,True,50,New Zealand,New Zealand,correct,1.0,40.0,-8.344643980251476e-07
+3hop2__30956_65244_84681,2322,3,2,baseline,45.0,True,"45
+
+The",Dutch.,the Dutch,correct,1.0,45.0,-0.25443535049468363
+3hop2__30956_65244_84681,2322,3,2,anchored,75.0,True,"75
+
+The documents indicate",Dutch.,the Dutch,correct,1.0,45.0,-0.25443535049468363
+3hop2__30956_65244_84681,2322,3,2,bins,67.0,True,LEANING_RIGHT,Dutch.,the Dutch,correct,1.0,45.0,-0.25443535049468363
+3hop2__30956_65244_84681,2322,3,2,evidence_first,100.0,True,CONFIDENCE: 100,Dutch.,the Dutch,correct,1.0,45.0,-0.25443535049468363
+3hop2__30956_65244_84681,2322,3,2,twosided,50.0,True,50,Dutch.,the Dutch,correct,1.0,45.0,-0.25443535049468363
+3hop2__30956_65244_84681,2322,3,3,baseline,40.0,True,"40
+
+The",1642,13 December 1642,needs_review,0.5,40.0,-0.0014723869098816067
+3hop2__30956_65244_84681,2322,3,3,anchored,75.0,True,"75
+
+The document states",1642,13 December 1642,needs_review,0.5,40.0,-0.0014723869098816067
+3hop2__30956_65244_84681,2322,3,3,bins,67.0,True,LEANING_RIGHT,1642,13 December 1642,needs_review,0.5,40.0,-0.0014723869098816067
+3hop2__30956_65244_84681,2322,3,3,evidence_first,100.0,True,CONFIDENCE: 100,1642,13 December 1642,needs_review,0.5,40.0,-0.0014723869098816067
+3hop2__30956_65244_84681,2322,3,3,twosided,50.0,True,50,1642,13 December 1642,needs_review,0.5,40.0,-0.0014723869098816067
+3hop2__132957_52222_40768,1460,3,1,baseline,50.0,True,"50
+
+The",Honda,Honda,correct,1.0,50.0,0.0
+3hop2__132957_52222_40768,1460,3,1,anchored,75.0,True,75,Honda,Honda,correct,1.0,50.0,0.0
+3hop2__132957_52222_40768,1460,3,1,bins,67.0,True,LEANING_RIGHT,Honda,Honda,correct,1.0,50.0,0.0
+3hop2__132957_52222_40768,1460,3,1,evidence_first,100.0,True,CONFIDENCE: 100,Honda,Honda,correct,1.0,50.0,0.0
+3hop2__132957_52222_40768,1460,3,1,twosided,50.0,True,50,Honda,Honda,correct,1.0,50.0,0.0
+3hop2__132957_52222_40768,1460,3,2,baseline,50.0,True,50,Toyota,Toyota,correct,1.0,50.0,-0.006625233683735132
+3hop2__132957_52222_40768,1460,3,2,anchored,75.0,True,75,Toyota,Toyota,correct,1.0,50.0,-0.006625233683735132
+3hop2__132957_52222_40768,1460,3,2,bins,67.0,True,LEANING_RIGHT,Toyota,Toyota,correct,1.0,50.0,-0.006625233683735132
+3hop2__132957_52222_40768,1460,3,2,evidence_first,100.0,True,CONFIDENCE: 100,Toyota,Toyota,correct,1.0,50.0,-0.006625233683735132
+3hop2__132957_52222_40768,1460,3,2,twosided,50.0,True,50,Toyota,Toyota,correct,1.0,50.0,-0.006625233683735132
+3hop2__132957_52222_40768,1460,3,3,baseline,40.0,True,"40
+
+The",1981,1981,correct,1.0,40.0,-3.447891140062609e-05
+3hop2__132957_52222_40768,1460,3,3,anchored,75.0,True,75,1981,1981,correct,1.0,40.0,-3.447891140062609e-05
+3hop2__132957_52222_40768,1460,3,3,bins,67.0,True,LEANING_RIGHT,1981,1981,correct,1.0,40.0,-3.447891140062609e-05
+3hop2__132957_52222_40768,1460,3,3,evidence_first,90.0,True,CONFIDENCE: 90,1981,1981,correct,1.0,40.0,-3.447891140062609e-05
+3hop2__132957_52222_40768,1460,3,3,twosided,50.0,True,50,1981,1981,correct,1.0,40.0,-3.447891140062609e-05
+4hop1__178366_229349_66759_75165,2047,4,1,baseline,40.0,True,"40
+
+</think>",David Wallechinsky,Herman Wouk,incorrect,0.0,40.0,-0.0009700155414975598
+4hop1__178366_229349_66759_75165,2047,4,1,anchored,75.0,True,75,David Wallechinsky,Herman Wouk,incorrect,0.0,40.0,-0.0009700155414975598
+4hop1__178366_229349_66759_75165,2047,4,1,bins,67.0,True,LEANING_RIGHT,David Wallechinsky,Herman Wouk,incorrect,0.0,40.0,-0.0009700155414975598
+4hop1__178366_229349_66759_75165,2047,4,1,evidence_first,100.0,True,CONFIDENCE: 100,David Wallechinsky,Herman Wouk,incorrect,0.0,40.0,-0.0009700155414975598
+4hop1__178366_229349_66759_75165,2047,4,1,twosided,50.0,True,50,David Wallechinsky,Herman Wouk,incorrect,0.0,40.0,-0.0009700155414975598
+4hop1__178366_229349_66759_75165,2047,4,2,baseline,40.0,True,"40
+
+The",David Wallechinsky,Stephen King,incorrect,0.0,40.0,-7.297293336705479e-05
+4hop1__178366_229349_66759_75165,2047,4,2,anchored,75.0,True,75,David Wallechinsky,Stephen King,incorrect,0.0,40.0,-7.297293336705479e-05
+4hop1__178366_229349_66759_75165,2047,4,2,bins,67.0,True,LEANING_RIGHT,David Wallechinsky,Stephen King,incorrect,0.0,40.0,-7.297293336705479e-05
+4hop1__178366_229349_66759_75165,2047,4,2,evidence_first,100.0,True,CONFIDENCE: 100,David Wallechinsky,Stephen King,incorrect,0.0,40.0,-7.297293336705479e-05
+4hop1__178366_229349_66759_75165,2047,4,2,twosided,50.0,True,50,David Wallechinsky,Stephen King,incorrect,0.0,40.0,-7.297293336705479e-05
+4hop1__178366_229349_66759_75165,2047,4,3,baseline,40.0,True,"40
+
+</think>",Maine,Maine,correct,1.0,40.0,-0.019492318853735924
+4hop1__178366_229349_66759_75165,2047,4,3,anchored,75.0,True,75,Maine,Maine,correct,1.0,40.0,-0.019492318853735924
+4hop1__178366_229349_66759_75165,2047,4,3,bins,67.0,True,LEANING_RIGHT,Maine,Maine,correct,1.0,40.0,-0.019492318853735924
+4hop1__178366_229349_66759_75165,2047,4,3,evidence_first,100.0,True,CONFIDENCE: 100,Maine,Maine,correct,1.0,40.0,-0.019492318853735924
+4hop1__178366_229349_66759_75165,2047,4,3,twosided,60.0,True,40,Maine,Maine,correct,1.0,40.0,-0.019492318853735924
+4hop1__178366_229349_66759_75165,2047,4,4,baseline,70.0,True,"70
+
+The","1,335,907","1,335,907",correct,1.0,70.0,0.0
+4hop1__178366_229349_66759_75165,2047,4,4,anchored,80.0,True,80,"1,335,907","1,335,907",correct,1.0,70.0,0.0
+4hop1__178366_229349_66759_75165,2047,4,4,bins,67.0,True,LEANING_RIGHT,"1,335,907","1,335,907",correct,1.0,70.0,0.0
+4hop1__178366_229349_66759_75165,2047,4,4,evidence_first,100.0,True,CONFIDENCE: 100,"1,335,907","1,335,907",correct,1.0,70.0,0.0
+4hop1__178366_229349_66759_75165,2047,4,4,twosided,30.0,True,70,"1,335,907","1,335,907",correct,1.0,70.0,0.0

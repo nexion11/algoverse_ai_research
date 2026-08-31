@@ -1,0 +1,31 @@
+{
+  "script": "13_step_influence_claude.py",
+  "environment": {
+    "model": "Qwen/Qwen3-1.7B",
+    "device": "mps",
+    "dtype": "float16",
+    "python": "3.9.6",
+    "platform": "macOS-26.6-arm64-arm-64bit",
+    "torch": "2.8.0",
+    "transformers": "4.57.6",
+    "memory": {
+      "ram_rss_gb": 0.422985728,
+      "accelerator_allocated_gb": 3.441150208,
+      "accelerator_driver_allocated_gb": 8.52164608,
+      "accelerator_recommended_max_gb": 19.06966528
+    }
+  },
+  "seed": 42,
+  "trace_file": "outputs/qwen17b_sequential_seed42/06_sequential_trace.jsonl",
+  "substitutions": [
+    "redact",
+    "gold",
+    "crossq"
+  ],
+  "sham_every": 5,
+  "n_rows": 430,
+  "n_questions": 60,
+  "n_hops_scored": 150,
+  "wall_clock_seconds": 2274.620471375,
+  "design": "frozen substitution; descendants are NOT regenerated"
+}

@@ -1,0 +1,110 @@
+{
+  "environment": {
+    "model": "Qwen/Qwen3-1.7B",
+    "device": "mps",
+    "dtype": "float16",
+    "python": "3.9.6",
+    "platform": "macOS-26.6-arm64-arm-64bit",
+    "torch": "2.8.0",
+    "transformers": "4.57.6",
+    "memory": {
+      "ram_rss_gb": 0.555024384,
+      "accelerator_allocated_gb": 3.441150208,
+      "accelerator_driver_allocated_gb": 8.669872128,
+      "accelerator_recommended_max_gb": 19.06966528
+    }
+  },
+  "tier": "1 (supply as input state); tier 2 (fine-tuning) not attempted",
+  "signal": "verbal_confidence",
+  "conditions": [
+    "control",
+    "per_step",
+    "agg_only",
+    "per_step_agg",
+    "shuffled"
+  ],
+  "n_questions": 60,
+  "n_needs_review": 20,
+  "wall_clock_min": 24.566043011816664,
+  "results_vs_control": {
+    "per_step": {
+      "n_questions": 60,
+      "mean_d_gold_logprob_vs_control": -0.1426115188474326,
+      "d_logprob_ci95": [
+        -0.4490837431488968,
+        0.1647644793470482
+      ],
+      "accuracy_control": 0.23333333333333334,
+      "accuracy_condition": 0.21666666666666667,
+      "mean_d_accuracy_vs_control": -0.016666666666666666,
+      "d_accuracy_ci95": [
+        -0.05,
+        0.0
+      ],
+      "n_final_answers_changed": 9
+    },
+    "agg_only": {
+      "n_questions": 60,
+      "mean_d_gold_logprob_vs_control": 0.2327546662660886,
+      "d_logprob_ci95": [
+        0.04991016745267052,
+        0.42914181199125734
+      ],
+      "accuracy_control": 0.23333333333333334,
+      "accuracy_condition": 0.25,
+      "mean_d_accuracy_vs_control": 0.016666666666666666,
+      "d_accuracy_ci95": [
+        0.0,
+        0.05
+      ],
+      "n_final_answers_changed": 7
+    },
+    "per_step_agg": {
+      "n_questions": 60,
+      "mean_d_gold_logprob_vs_control": -0.0840536982944021,
+      "d_logprob_ci95": [
+        -0.4420466247582992,
+        0.2638902202114541
+      ],
+      "accuracy_control": 0.23333333333333334,
+      "accuracy_condition": 0.21666666666666667,
+      "mean_d_accuracy_vs_control": -0.016666666666666666,
+      "d_accuracy_ci95": [
+        -0.08333333333333333,
+        0.03333333333333333
+      ],
+      "n_final_answers_changed": 12
+    },
+    "shuffled": {
+      "n_questions": 60,
+      "mean_d_gold_logprob_vs_control": -0.1543260220409388,
+      "d_logprob_ci95": [
+        -0.4446487546739377,
+        0.13417918818318048
+      ],
+      "accuracy_control": 0.23333333333333334,
+      "accuracy_condition": 0.21666666666666667,
+      "mean_d_accuracy_vs_control": -0.016666666666666666,
+      "d_accuracy_ci95": [
+        -0.05,
+        0.0
+      ],
+      "n_final_answers_changed": 9
+    },
+    "per_step_vs_shuffled": {
+      "n_questions": 60,
+      "mean_d_gold_logprob": 0.011714503193506214,
+      "ci95": [
+        -0.035206001813184666,
+        0.06159114066206804
+      ],
+      "mean_d_accuracy": 0.0,
+      "interpretation": "Real confidence assignment vs the same numbers permuted across steps. A CI containing 0 means the model is not using WHICH step is uncertain, so any gain over control is a prompt-format effect, not baked-in confidence."
+    }
+  },
+  "caveats": [
+    "Confidence is supplied raw; the aggregate is a plain mean and is a prompting summary, not a calibrated probability.",
+    "Hop answers are identical across all conditions; only the metadata differs.",
+    "Read per_step_vs_shuffled before attributing any gain to confidence."
+  ]
+}
