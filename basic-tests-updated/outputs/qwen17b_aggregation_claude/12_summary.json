@@ -1,0 +1,435 @@
+{
+  "script": "12_confidence_aggregation_claude.py",
+  "analysis_only": true,
+  "source_dir": "outputs/qwen17b_sequential_seed42",
+  "n_questions_total": 60,
+  "n_questions_scored": 56,
+  "n_questions_needs_review_excluded": 4,
+  "n_grid_cells": 200,
+  "n_cells_dropped_nonfinite": 0,
+  "n_cells_dropped_constant_by_construction": 25,
+  "cells_dropped_constant_by_construction": [
+    "mean_logprob|z|mean",
+    "mean_logprob|z|std",
+    "mean_logprob|minmax|min",
+    "mean_logprob|minmax|max",
+    "mean_logprob|minmax|range",
+    "mean_logprob|minmax|min_terminal_ancestors",
+    "min_logprob|z|mean",
+    "min_logprob|z|std",
+    "min_logprob|minmax|min",
+    "min_logprob|minmax|max",
+    "min_logprob|minmax|range",
+    "min_logprob|minmax|min_terminal_ancestors",
+    "entropy|z|mean",
+    "entropy|z|std",
+    "entropy|minmax|min",
+    "entropy|minmax|max",
+    "entropy|minmax|range",
+    "entropy|minmax|min_terminal_ancestors",
+    "margin|z|mean",
+    "margin|z|std",
+    "margin|minmax|min",
+    "margin|minmax|max",
+    "margin|minmax|range",
+    "margin|minmax|min_terminal_ancestors",
+    "verbal|z|mean"
+  ],
+  "cells_dropped_nonfinite": [],
+  "grid_shape": {
+    "signals": [
+      "mean_logprob",
+      "min_logprob",
+      "entropy",
+      "margin",
+      "verbal"
+    ],
+    "variants": [
+      "raw",
+      "z",
+      "minmax"
+    ],
+    "aggregations": [
+      "mean",
+      "min",
+      "max",
+      "median",
+      "first",
+      "last",
+      "range",
+      "std",
+      "weight_late",
+      "weight_early",
+      "token_weighted",
+      "min_terminal_ancestors",
+      "product",
+      "noisy_or",
+      "harmonic"
+    ]
+  },
+  "target_definitions": {
+    "final_correct": "baseline_final_label == 'correct' (AUROC/AUPRC)",
+    "final_gold_lp": "baseline_final_gold_logprob; the quantity repo repair_gain is a difference of (Spearman/Pearson)"
+  },
+  "best_of_grid_permutation_null": {
+    "permutations": 5000,
+    "observed_best_abs_auroc_minus_half": 0.3656462585034014,
+    "observed_best_auroc_cell": "margin|raw|mean",
+    "observed_best_auroc": 0.8656462585034014,
+    "null_mean_best_abs_auroc_minus_half": 0.2201687074829932,
+    "null_p95_best_abs_auroc_minus_half": 0.2925170068027211,
+    "p_value_auroc": 0.0023995200959808036,
+    "observed_best_abs_spearman": 0.5455204486126352,
+    "observed_best_spearman_cell": "margin|raw|weight_late",
+    "observed_best_spearman": 0.5455204486126352,
+    "null_mean_best_abs_spearman": 0.33514424031426043,
+    "null_p95_best_abs_spearman": 0.44295847882541955,
+    "p_value_spearman": 0.0033993201359728054,
+    "interpretation": "p is the probability that a grid this size produces a winner at least this strong when the outcome is unrelated to every score. p > 0.05 means no signal/aggregation is distinguishable at this sample size."
+  },
+  "top10_by_auroc": [
+    {
+      "cell": "margin|raw|mean",
+      "signal": "margin",
+      "variant": "raw",
+      "aggregation": "mean",
+      "auroc_final_correct": 0.8656462585034014,
+      "auroc_ci_lo": 0.7567153888582461,
+      "auroc_ci_hi": 0.9499105545617174,
+      "auprc_final_correct": 0.6151899165463287,
+      "spearman_final_gold_lp": 0.5250193664419238,
+      "spearman_ci_lo": 0.3054844816914951,
+      "spearman_ci_hi": 0.6914654465663835,
+      "pearson_final_gold_lp": 0.31290296503443005
+    },
+    {
+      "cell": "margin|raw|weight_late",
+      "signal": "margin",
+      "variant": "raw",
+      "aggregation": "weight_late",
+      "auroc_final_correct": 0.8520408163265306,
+      "auroc_ci_lo": 0.7391287953308413,
+      "auroc_ci_hi": 0.9431252818929325,
+      "auprc_final_correct": 0.5739981838030268,
+      "spearman_final_gold_lp": 0.5455204486126352,
+      "spearman_ci_lo": 0.34790825911960543,
+      "spearman_ci_hi": 0.6966441956785827,
+      "pearson_final_gold_lp": 0.37233165292456527
+    },
+    {
+      "cell": "margin|raw|product",
+      "signal": "margin",
+      "variant": "raw",
+      "aggregation": "product",
+      "auroc_final_correct": 0.8486394557823129,
+      "auroc_ci_lo": 0.7330307122849139,
+      "auroc_ci_hi": 0.9393939393939394,
+      "auprc_final_correct": 0.6149154661864746,
+      "spearman_final_gold_lp": 0.48323001530596627,
+      "spearman_ci_lo": 0.2574405909583977,
+      "spearman_ci_hi": 0.6564267144246972,
+      "pearson_final_gold_lp": 0.2096038225323401
+    },
+    {
+      "cell": "margin|raw|harmonic",
+      "signal": "margin",
+      "variant": "raw",
+      "aggregation": "harmonic",
+      "auroc_final_correct": 0.8469387755102041,
+      "auroc_ci_lo": 0.734959349593496,
+      "auroc_ci_hi": 0.9362003008811518,
+      "auprc_final_correct": 0.5687299483948451,
+      "spearman_final_gold_lp": 0.4826139560754607,
+      "spearman_ci_lo": 0.2657513417865706,
+      "spearman_ci_hi": 0.6597543124778892,
+      "pearson_final_gold_lp": 0.3042493278388081
+    },
+    {
+      "cell": "margin|raw|median",
+      "signal": "margin",
+      "variant": "raw",
+      "aggregation": "median",
+      "auroc_final_correct": 0.8435374149659864,
+      "auroc_ci_lo": 0.72850549976088,
+      "auroc_ci_hi": 0.9375,
+      "auprc_final_correct": 0.5791976680540802,
+      "spearman_final_gold_lp": 0.50660604055237,
+      "spearman_ci_lo": 0.28173752325810153,
+      "spearman_ci_hi": 0.691738434400682,
+      "pearson_final_gold_lp": 0.24604741849240797
+    },
+    {
+      "cell": "margin|raw|weight_early",
+      "signal": "margin",
+      "variant": "raw",
+      "aggregation": "weight_early",
+      "auroc_final_correct": 0.8214285714285714,
+      "auroc_ci_lo": 0.6956436820652174,
+      "auroc_ci_hi": 0.9242580094324279,
+      "auprc_final_correct": 0.5613341348685223,
+      "spearman_final_gold_lp": 0.43767585776136386,
+      "spearman_ci_lo": 0.19573158160171794,
+      "spearman_ci_hi": 0.6388449237872019,
+      "pearson_final_gold_lp": 0.21680933540471503
+    },
+    {
+      "cell": "entropy|raw|median",
+      "signal": "entropy",
+      "variant": "raw",
+      "aggregation": "median",
+      "auroc_final_correct": 0.8214285714285714,
+      "auroc_ci_lo": 0.6767590539541759,
+      "auroc_ci_hi": 0.9338203794369645,
+      "auprc_final_correct": 0.6794798343050623,
+      "spearman_final_gold_lp": 0.3534126452333315,
+      "spearman_ci_lo": 0.07019502983707669,
+      "spearman_ci_hi": 0.5916945538399235,
+      "pearson_final_gold_lp": 0.12274342150178255
+    },
+    {
+      "cell": "mean_logprob|raw|median",
+      "signal": "mean_logprob",
+      "variant": "raw",
+      "aggregation": "median",
+      "auroc_final_correct": 0.8180272108843537,
+      "auroc_ci_lo": 0.674241567256273,
+      "auroc_ci_hi": 0.9312614329268293,
+      "auprc_final_correct": 0.6746121709553387,
+      "spearman_final_gold_lp": 0.3341094560108253,
+      "spearman_ci_lo": 0.05262666751014603,
+      "spearman_ci_hi": 0.578481390172238,
+      "pearson_final_gold_lp": 0.1033466012499015
+    },
+    {
+      "cell": "margin|raw|last",
+      "signal": "margin",
+      "variant": "raw",
+      "aggregation": "last",
+      "auroc_final_correct": 0.8137755102040817,
+      "auroc_ci_lo": 0.6831802063185042,
+      "auroc_ci_hi": 0.9313887719667473,
+      "auprc_final_correct": 0.6195206400638058,
+      "spearman_final_gold_lp": 0.5010529568751767,
+      "spearman_ci_lo": 0.265390611320682,
+      "spearman_ci_hi": 0.6808706377617281,
+      "pearson_final_gold_lp": 0.45273983096076165
+    },
+    {
+      "cell": "margin|raw|noisy_or",
+      "signal": "margin",
+      "variant": "raw",
+      "aggregation": "noisy_or",
+      "auroc_final_correct": 0.8078231292517006,
+      "auroc_ci_lo": 0.6822096695821186,
+      "auroc_ci_hi": 0.9125278520499108,
+      "auprc_final_correct": 0.602346714025213,
+      "spearman_final_gold_lp": 0.47600843210392935,
+      "spearman_ci_lo": 0.24471332142253696,
+      "spearman_ci_hi": 0.6613726618185658,
+      "pearson_final_gold_lp": 0.25266864966027236
+    }
+  ],
+  "top10_by_abs_spearman": [
+    {
+      "cell": "margin|raw|weight_late",
+      "signal": "margin",
+      "variant": "raw",
+      "aggregation": "weight_late",
+      "auroc_final_correct": 0.8520408163265306,
+      "auroc_ci_lo": 0.7391287953308413,
+      "auroc_ci_hi": 0.9431252818929325,
+      "auprc_final_correct": 0.5739981838030268,
+      "spearman_final_gold_lp": 0.5455204486126352,
+      "spearman_ci_lo": 0.34790825911960543,
+      "spearman_ci_hi": 0.6966441956785827,
+      "pearson_final_gold_lp": 0.37233165292456527
+    },
+    {
+      "cell": "margin|raw|mean",
+      "signal": "margin",
+      "variant": "raw",
+      "aggregation": "mean",
+      "auroc_final_correct": 0.8656462585034014,
+      "auroc_ci_lo": 0.7567153888582461,
+      "auroc_ci_hi": 0.9499105545617174,
+      "auprc_final_correct": 0.6151899165463287,
+      "spearman_final_gold_lp": 0.5250193664419238,
+      "spearman_ci_lo": 0.3054844816914951,
+      "spearman_ci_hi": 0.6914654465663835,
+      "pearson_final_gold_lp": 0.31290296503443005
+    },
+    {
+      "cell": "margin|raw|median",
+      "signal": "margin",
+      "variant": "raw",
+      "aggregation": "median",
+      "auroc_final_correct": 0.8435374149659864,
+      "auroc_ci_lo": 0.72850549976088,
+      "auroc_ci_hi": 0.9375,
+      "auprc_final_correct": 0.5791976680540802,
+      "spearman_final_gold_lp": 0.50660604055237,
+      "spearman_ci_lo": 0.28173752325810153,
+      "spearman_ci_hi": 0.691738434400682,
+      "pearson_final_gold_lp": 0.24604741849240797
+    },
+    {
+      "cell": "margin|raw|last",
+      "signal": "margin",
+      "variant": "raw",
+      "aggregation": "last",
+      "auroc_final_correct": 0.8137755102040817,
+      "auroc_ci_lo": 0.6831802063185042,
+      "auroc_ci_hi": 0.9313887719667473,
+      "auprc_final_correct": 0.6195206400638058,
+      "spearman_final_gold_lp": 0.5010529568751767,
+      "spearman_ci_lo": 0.265390611320682,
+      "spearman_ci_hi": 0.6808706377617281,
+      "pearson_final_gold_lp": 0.45273983096076165
+    },
+    {
+      "cell": "margin|raw|product",
+      "signal": "margin",
+      "variant": "raw",
+      "aggregation": "product",
+      "auroc_final_correct": 0.8486394557823129,
+      "auroc_ci_lo": 0.7330307122849139,
+      "auroc_ci_hi": 0.9393939393939394,
+      "auprc_final_correct": 0.6149154661864746,
+      "spearman_final_gold_lp": 0.48323001530596627,
+      "spearman_ci_lo": 0.2574405909583977,
+      "spearman_ci_hi": 0.6564267144246972,
+      "pearson_final_gold_lp": 0.2096038225323401
+    },
+    {
+      "cell": "margin|raw|harmonic",
+      "signal": "margin",
+      "variant": "raw",
+      "aggregation": "harmonic",
+      "auroc_final_correct": 0.8469387755102041,
+      "auroc_ci_lo": 0.734959349593496,
+      "auroc_ci_hi": 0.9362003008811518,
+      "auprc_final_correct": 0.5687299483948451,
+      "spearman_final_gold_lp": 0.4826139560754607,
+      "spearman_ci_lo": 0.2657513417865706,
+      "spearman_ci_hi": 0.6597543124778892,
+      "pearson_final_gold_lp": 0.3042493278388081
+    },
+    {
+      "cell": "margin|raw|noisy_or",
+      "signal": "margin",
+      "variant": "raw",
+      "aggregation": "noisy_or",
+      "auroc_final_correct": 0.8078231292517006,
+      "auroc_ci_lo": 0.6822096695821186,
+      "auroc_ci_hi": 0.9125278520499108,
+      "auprc_final_correct": 0.602346714025213,
+      "spearman_final_gold_lp": 0.47600843210392935,
+      "spearman_ci_lo": 0.24471332142253696,
+      "spearman_ci_hi": 0.6613726618185658,
+      "pearson_final_gold_lp": 0.25266864966027236
+    },
+    {
+      "cell": "margin|raw|token_weighted",
+      "signal": "margin",
+      "variant": "raw",
+      "aggregation": "token_weighted",
+      "auroc_final_correct": 0.7789115646258503,
+      "auroc_ci_lo": 0.6261155227831348,
+      "auroc_ci_hi": 0.909110235003092,
+      "auprc_final_correct": 0.5157243404354749,
+      "spearman_final_gold_lp": 0.45040774852514454,
+      "spearman_ci_lo": 0.20257577796427625,
+      "spearman_ci_hi": 0.6453426815288779,
+      "pearson_final_gold_lp": 0.2919590351961333
+    },
+    {
+      "cell": "margin|raw|max",
+      "signal": "margin",
+      "variant": "raw",
+      "aggregation": "max",
+      "auroc_final_correct": 0.7959183673469388,
+      "auroc_ci_lo": 0.666640625,
+      "auroc_ci_hi": 0.9064625850340136,
+      "auprc_final_correct": 0.583056086758277,
+      "spearman_final_gold_lp": 0.44958633621780386,
+      "spearman_ci_lo": 0.2183862016835545,
+      "spearman_ci_hi": 0.6395450108507469,
+      "pearson_final_gold_lp": 0.31990400449245104
+    },
+    {
+      "cell": "margin|raw|weight_early",
+      "signal": "margin",
+      "variant": "raw",
+      "aggregation": "weight_early",
+      "auroc_final_correct": 0.8214285714285714,
+      "auroc_ci_lo": 0.6956436820652174,
+      "auroc_ci_hi": 0.9242580094324279,
+      "auprc_final_correct": 0.5613341348685223,
+      "spearman_final_gold_lp": 0.43767585776136386,
+      "spearman_ci_lo": 0.19573158160171794,
+      "spearman_ci_hi": 0.6388449237872019,
+      "pearson_final_gold_lp": 0.21680933540471503
+    }
+  ],
+  "raw_vs_normalized_variant_means": {
+    "raw": {
+      "mean_auroc": 0.6832879818594103,
+      "mean_abs_spearman": 0.2573729346883102
+    },
+    "z": {
+      "mean_auroc": 0.4727246959389816,
+      "mean_abs_spearman": 0.11597549573568475
+    },
+    "minmax": {
+      "mean_auroc": 0.5901648795111265,
+      "mean_abs_spearman": 0.11487477080917266
+    }
+  },
+  "per_signal_best": {
+    "entropy": {
+      "best_cell": "entropy|raw|median",
+      "best_auroc": 0.8214285714285714
+    },
+    "margin": {
+      "best_cell": "margin|raw|mean",
+      "best_auroc": 0.8656462585034014
+    },
+    "mean_logprob": {
+      "best_cell": "mean_logprob|raw|median",
+      "best_auroc": 0.8180272108843537
+    },
+    "min_logprob": {
+      "best_cell": "min_logprob|raw|median",
+      "best_auroc": 0.7874149659863946
+    },
+    "verbal": {
+      "best_cell": "verbal|raw|last",
+      "best_auroc": 0.6921768707482994
+    }
+  },
+  "winner_diagnostics": {
+    "cell": "margin|raw|mean",
+    "auroc_all": 0.8656462585034014,
+    "spearman_vs_n_clear_wrong_hops": -0.3182351069400137,
+    "note_difficulty": "A strong negative correlation with n_clear_wrong_hops means the winning aggregate is largely reporting how many steps went wrong, i.e. question difficulty, rather than anything specific to confidence semantics.",
+    "by_n_hops": {
+      "3hop": {
+        "n": 26,
+        "n_correct": 7,
+        "auroc": 0.8796992481203008
+      },
+      "4hop": {
+        "n": 30,
+        "n_correct": 7,
+        "auroc": 0.8695652173913043
+      }
+    }
+  },
+  "caveats": [
+    "Analysis-only; no model was run and no existing output was modified.",
+    "N is 56 scored questions against a grid this size; per-cell CIs do not correct for selecting the winner. Read the permutation null first.",
+    "The [0,1] map used by product/noisy_or/harmonic is a monotone rescale for aggregation only. It is not calibration and these are not probabilities.",
+    "No aggregate here is a calibrated metric.",
+    "This answers the trace-level aggregation question. Per-candidate repair selection is 08_sequential_policy_analysis_v2.py."
+  ]
+}

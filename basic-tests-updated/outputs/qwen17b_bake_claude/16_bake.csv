@@ -1,0 +1,301 @@
+question_id,dataset_idx,n_hops,condition,signal,trace_aggregate,confidences,gold_final_logprob,final_pred,final_label,final_correct,final_f1,test06_baseline_gold_logprob,test06_baseline_label
+4hop1__342858_131850_33897_81096,2085,4,control,verbal_confidence,45.0,"40.0,60.0,40.0,40.0",-6.640759468078613,Johnny Rutherford,incorrect,False,0.0,-6.640759468078613,incorrect
+4hop1__342858_131850_33897_81096,2085,4,per_step,verbal_confidence,45.0,"40.0,60.0,40.0,40.0",-8.90625,Johnny Rutherford,incorrect,False,0.0,-6.640759468078613,incorrect
+4hop1__342858_131850_33897_81096,2085,4,agg_only,verbal_confidence,45.0,"40.0,60.0,40.0,40.0",-6.20703125,Johnny Rutherford,incorrect,False,0.0,-6.640759468078613,incorrect
+4hop1__342858_131850_33897_81096,2085,4,per_step_agg,verbal_confidence,45.0,"40.0,60.0,40.0,40.0",-7.257815361022949,Johnny Rutherford,incorrect,False,0.0,-6.640759468078613,incorrect
+4hop1__342858_131850_33897_81096,2085,4,shuffled,verbal_confidence,45.0,"40.0,40.0,60.0,40.0",-9.1328125,Johnny Rutherford,incorrect,False,0.0,-6.640759468078613,incorrect
+3hop1__38738_78276_68042,1402,3,control,verbal_confidence,41.666666666666664,"45.0,40.0,40.0",-7.963257789611816,2010,needs_review,False,0.6666666666666666,-7.963257789611816,needs_review
+3hop1__38738_78276_68042,1402,3,per_step,verbal_confidence,41.666666666666664,"45.0,40.0,40.0",-6.706369876861572,2010,needs_review,False,0.6666666666666666,-7.963257789611816,needs_review
+3hop1__38738_78276_68042,1402,3,agg_only,verbal_confidence,41.666666666666664,"45.0,40.0,40.0",-6.195710182189941,2010,needs_review,False,0.6666666666666666,-7.963257789611816,needs_review
+3hop1__38738_78276_68042,1402,3,per_step_agg,verbal_confidence,41.666666666666664,"45.0,40.0,40.0",-6.806507110595703,2010,needs_review,False,0.6666666666666666,-7.963257789611816,needs_review
+3hop1__38738_78276_68042,1402,3,shuffled,verbal_confidence,41.666666666666664,"40.0,45.0,40.0",-6.770905494689941,2010,needs_review,False,0.6666666666666666,-7.963257789611816,needs_review
+4hop2__71753_158279_70784_61381,2041,4,control,verbal_confidence,40.0,"40.0,40.0,40.0,40.0",-11.38160228729248,1995,incorrect,False,0.0,-11.38160228729248,incorrect
+4hop2__71753_158279_70784_61381,2041,4,per_step,verbal_confidence,40.0,"40.0,40.0,40.0,40.0",-10.84103775024414,1995,incorrect,False,0.0,-11.38160228729248,incorrect
+4hop2__71753_158279_70784_61381,2041,4,agg_only,verbal_confidence,40.0,"40.0,40.0,40.0,40.0",-11.561403274536133,1995,incorrect,False,0.0,-11.38160228729248,incorrect
+4hop2__71753_158279_70784_61381,2041,4,per_step_agg,verbal_confidence,40.0,"40.0,40.0,40.0,40.0",-11.474736213684082,1995,incorrect,False,0.0,-11.38160228729248,incorrect
+4hop2__71753_158279_70784_61381,2041,4,shuffled,verbal_confidence,40.0,"40.0,40.0,40.0,40.0",-10.84103775024414,1995,incorrect,False,0.0,-11.38160228729248,incorrect
+3hop2__67618_30587_44003,2390,3,control,verbal_confidence,55.0,"45.0,70.0,50.0",-8.074191093444824,Gulf of Mexico,incorrect,False,0.0,-8.074191093444824,incorrect
+3hop2__67618_30587_44003,2390,3,per_step,verbal_confidence,55.0,"45.0,70.0,50.0",-7.463894844055176,Atlantic Ocean,incorrect,False,0.0,-8.074191093444824,incorrect
+3hop2__67618_30587_44003,2390,3,agg_only,verbal_confidence,55.0,"45.0,70.0,50.0",-7.713353633880615,Gulf of Mexico,incorrect,False,0.0,-8.074191093444824,incorrect
+3hop2__67618_30587_44003,2390,3,per_step_agg,verbal_confidence,55.0,"45.0,70.0,50.0",-8.002449035644531,Atlantic Ocean,incorrect,False,0.0,-8.074191093444824,incorrect
+3hop2__67618_30587_44003,2390,3,shuffled,verbal_confidence,55.0,"50.0,45.0,70.0",-7.4443559646606445,Atlantic Ocean,incorrect,False,0.0,-8.074191093444824,incorrect
+4hop1__31050_725495_49925_349426,1964,4,control,verbal_confidence,40.0,"40.0,40.0,40.0,40.0",-1.1920893712158431e-06,Katharina von Bora,correct,True,1.0,-1.1920893712158431e-06,correct
+4hop1__31050_725495_49925_349426,1964,4,per_step,verbal_confidence,40.0,"40.0,40.0,40.0,40.0",-2.7247699563304195e-06,Katharina von Bora,correct,True,1.0,-1.1920893712158431e-06,correct
+4hop1__31050_725495_49925_349426,1964,4,agg_only,verbal_confidence,40.0,"40.0,40.0,40.0,40.0",-9.707026720207068e-07,Katharina von Bora,correct,True,1.0,-1.1920893712158431e-06,correct
+4hop1__31050_725495_49925_349426,1964,4,per_step_agg,verbal_confidence,40.0,"40.0,40.0,40.0,40.0",-4.680769779952243e-05,Katharina von Bora,correct,True,1.0,-1.1920893712158431e-06,correct
+4hop1__31050_725495_49925_349426,1964,4,shuffled,verbal_confidence,40.0,"40.0,40.0,40.0,40.0",-2.7247699563304195e-06,Katharina von Bora,correct,True,1.0,-1.1920893712158431e-06,correct
+3hop2__304722_740784_63959,1274,3,control,verbal_confidence,40.0,"40.0,40.0,40.0",-9.14305305480957,2013,incorrect,False,0.0,-9.14305305480957,incorrect
+3hop2__304722_740784_63959,1274,3,per_step,verbal_confidence,40.0,"40.0,40.0,40.0",-6.434408664703369,2013,incorrect,False,0.0,-9.14305305480957,incorrect
+3hop2__304722_740784_63959,1274,3,agg_only,verbal_confidence,40.0,"40.0,40.0,40.0",-8.169294357299805,2013,incorrect,False,0.0,-9.14305305480957,incorrect
+3hop2__304722_740784_63959,1274,3,per_step_agg,verbal_confidence,40.0,"40.0,40.0,40.0",-6.535581111907959,2013,incorrect,False,0.0,-9.14305305480957,incorrect
+3hop2__304722_740784_63959,1274,3,shuffled,verbal_confidence,40.0,"40.0,40.0,40.0",-6.434408664703369,2013,incorrect,False,0.0,-9.14305305480957,incorrect
+3hop1__829944_474097_84283,1321,3,control,verbal_confidence,50.0,"50.0,50.0,50.0",-6.558594226837158,Warner Bros. Records,needs_review,False,0.4,-6.558594226837158,needs_review
+3hop1__829944_474097_84283,1321,3,per_step,verbal_confidence,50.0,"50.0,50.0,50.0",-6.710937976837158,Warner Bros. Records,needs_review,False,0.4,-6.558594226837158,needs_review
+3hop1__829944_474097_84283,1321,3,agg_only,verbal_confidence,50.0,"50.0,50.0,50.0",-7.312500953674316,Warner Bros. Records,needs_review,False,0.4,-6.558594226837158,needs_review
+3hop1__829944_474097_84283,1321,3,per_step_agg,verbal_confidence,50.0,"50.0,50.0,50.0",-6.550781726837158,Warner Bros. Records,needs_review,False,0.4,-6.558594226837158,needs_review
+3hop1__829944_474097_84283,1321,3,shuffled,verbal_confidence,50.0,"50.0,50.0,50.0",-6.710937976837158,Warner Bros. Records,needs_review,False,0.4,-6.558594226837158,needs_review
+3hop1__129675_39743_24526,2375,3,control,verbal_confidence,40.0,"40.0,40.0,40.0",-3.310091972351074,32.6 °F,incorrect,False,0.28571428571428575,-3.310091972351074,incorrect
+3hop1__129675_39743_24526,2375,3,per_step,verbal_confidence,40.0,"40.0,40.0,40.0",-3.250911235809326,32.6 °F,incorrect,False,0.28571428571428575,-3.310091972351074,incorrect
+3hop1__129675_39743_24526,2375,3,agg_only,verbal_confidence,40.0,"40.0,40.0,40.0",-2.9080941677093506,32.6 °F,incorrect,False,0.28571428571428575,-3.310091972351074,incorrect
+3hop1__129675_39743_24526,2375,3,per_step_agg,verbal_confidence,40.0,"40.0,40.0,40.0",-3.014157772064209,32.6 °F,incorrect,False,0.28571428571428575,-3.310091972351074,incorrect
+3hop1__129675_39743_24526,2375,3,shuffled,verbal_confidence,40.0,"40.0,40.0,40.0",-3.250911235809326,32.6 °F,incorrect,False,0.28571428571428575,-3.310091972351074,incorrect
+3hop2__38326_92991_76291,1417,3,control,verbal_confidence,40.0,"40.0,40.0,40.0",-6.696264266967773,1882,incorrect,False,0.0,-6.696264266967773,incorrect
+3hop2__38326_92991_76291,1417,3,per_step,verbal_confidence,40.0,"40.0,40.0,40.0",-6.567213535308838,1882,incorrect,False,0.0,-6.696264266967773,incorrect
+3hop2__38326_92991_76291,1417,3,agg_only,verbal_confidence,40.0,"40.0,40.0,40.0",-6.195306777954102,1882,incorrect,False,0.0,-6.696264266967773,incorrect
+3hop2__38326_92991_76291,1417,3,per_step_agg,verbal_confidence,40.0,"40.0,40.0,40.0",-6.780296802520752,1882,incorrect,False,0.0,-6.696264266967773,incorrect
+3hop2__38326_92991_76291,1417,3,shuffled,verbal_confidence,40.0,"40.0,40.0,40.0",-6.567213535308838,1882,incorrect,False,0.0,-6.696264266967773,incorrect
+3hop1__857_846_7795,1608,3,control,verbal_confidence,50.0,"50.0,50.0,50.0",0.0,8.11 million,correct,True,1.0,0.0,correct
+3hop1__857_846_7795,1608,3,per_step,verbal_confidence,50.0,"50.0,50.0,50.0",-2.384185648907078e-08,8.11 million,correct,True,1.0,0.0,correct
+3hop1__857_846_7795,1608,3,agg_only,verbal_confidence,50.0,"50.0,50.0,50.0",0.0,8.11 million,correct,True,1.0,0.0,correct
+3hop1__857_846_7795,1608,3,per_step_agg,verbal_confidence,50.0,"50.0,50.0,50.0",0.0,8.11 million,correct,True,1.0,0.0,correct
+3hop1__857_846_7795,1608,3,shuffled,verbal_confidence,50.0,"50.0,50.0,50.0",-2.384185648907078e-08,8.11 million,correct,True,1.0,0.0,correct
+4hop1__61681_53706_795904_580996,2188,4,control,verbal_confidence,46.25,"45.0,50.0,50.0,40.0",-12.429689407348633,Sacramento,incorrect,False,0.0,-12.429689407348633,incorrect
+4hop1__61681_53706_795904_580996,2188,4,per_step,verbal_confidence,46.25,"45.0,50.0,50.0,40.0",-12.210953712463379,Sacramento,incorrect,False,0.0,-12.429689407348633,incorrect
+4hop1__61681_53706_795904_580996,2188,4,agg_only,verbal_confidence,46.25,"45.0,50.0,50.0,40.0",-11.023442268371582,Sacramento,incorrect,False,0.0,-12.429689407348633,incorrect
+4hop1__61681_53706_795904_580996,2188,4,per_step_agg,verbal_confidence,46.25,"45.0,50.0,50.0,40.0",-10.93751335144043,Sacramento,incorrect,False,0.0,-12.429689407348633,incorrect
+4hop1__61681_53706_795904_580996,2188,4,shuffled,verbal_confidence,46.25,"40.0,45.0,50.0,50.0",-12.00001335144043,Sacramento,incorrect,False,0.0,-12.429689407348633,incorrect
+3hop1__64957_87694_64412,1753,3,control,verbal_confidence,46.666666666666664,"40.0,50.0,50.0",-1.4901160305669237e-08,11 February 1929,correct,True,1.0,-1.4901160305669237e-08,correct
+3hop1__64957_87694_64412,1753,3,per_step,verbal_confidence,46.666666666666664,"40.0,50.0,50.0",-0.0064553371630609035,11 February 1929,correct,True,1.0,-1.4901160305669237e-08,correct
+3hop1__64957_87694_64412,1753,3,agg_only,verbal_confidence,46.666666666666664,"40.0,50.0,50.0",-1.4901160305669237e-08,11 February 1929,correct,True,1.0,-1.4901160305669237e-08,correct
+3hop1__64957_87694_64412,1753,3,per_step_agg,verbal_confidence,46.666666666666664,"40.0,50.0,50.0",-0.7734740376472473,18 November,incorrect,False,0.0,-1.4901160305669237e-08,correct
+3hop1__64957_87694_64412,1753,3,shuffled,verbal_confidence,46.666666666666664,"50.0,40.0,50.0",-0.001076859887689352,11 February 1929,correct,True,1.0,-1.4901160305669237e-08,correct
+4hop3__152056_698586_1926_54362,2101,4,control,verbal_confidence,25.0,"40.0,10.0,40.0,10.0",-5.539224624633789,Dunn Center,incorrect,False,0.0,-5.539224624633789,incorrect
+4hop3__152056_698586_1926_54362,2101,4,per_step,verbal_confidence,25.0,"40.0,10.0,40.0,10.0",-4.052096366882324,Dunn Center,incorrect,False,0.0,-5.539224624633789,incorrect
+4hop3__152056_698586_1926_54362,2101,4,agg_only,verbal_confidence,25.0,"40.0,10.0,40.0,10.0",-4.745421886444092,Dunn Center,incorrect,False,0.0,-5.539224624633789,incorrect
+4hop3__152056_698586_1926_54362,2101,4,per_step_agg,verbal_confidence,25.0,"40.0,10.0,40.0,10.0",-3.6729373931884766,Dunn Center,incorrect,False,0.0,-5.539224624633789,incorrect
+4hop3__152056_698586_1926_54362,2101,4,shuffled,verbal_confidence,25.0,"10.0,40.0,40.0,10.0",-4.309626579284668,Dunn Center,incorrect,False,0.0,-5.539224624633789,incorrect
+3hop1__145427_106426_157788,2349,3,control,verbal_confidence,70.0,"70.0,70.0,70.0",-12.769834518432617,Shanghai,incorrect,False,0.0,-12.769834518432617,incorrect
+3hop1__145427_106426_157788,2349,3,per_step,verbal_confidence,70.0,"70.0,70.0,70.0",-10.609689712524414,Shanghai–Hangzhou,incorrect,False,0.0,-12.769834518432617,incorrect
+3hop1__145427_106426_157788,2349,3,agg_only,verbal_confidence,70.0,"70.0,70.0,70.0",-12.178384780883789,Shanghai,incorrect,False,0.0,-12.769834518432617,incorrect
+3hop1__145427_106426_157788,2349,3,per_step_agg,verbal_confidence,70.0,"70.0,70.0,70.0",-10.178834915161133,Shanghai–Hangzhou,incorrect,False,0.0,-12.769834518432617,incorrect
+3hop1__145427_106426_157788,2349,3,shuffled,verbal_confidence,70.0,"70.0,70.0,70.0",-10.609689712524414,Shanghai–Hangzhou,incorrect,False,0.0,-12.769834518432617,incorrect
+3hop1__516535_834494_34099,1795,3,control,verbal_confidence,46.666666666666664,"40.0,50.0,50.0",-13.593832015991211,4-year,needs_review,False,0.5,-13.593832015991211,needs_review
+3hop1__516535_834494_34099,1795,3,per_step,verbal_confidence,46.666666666666664,"40.0,50.0,50.0",-17.04742431640625,4-year,needs_review,False,0.5,-13.593832015991211,needs_review
+3hop1__516535_834494_34099,1795,3,agg_only,verbal_confidence,46.666666666666664,"40.0,50.0,50.0",-14.102170944213867,4-year,needs_review,False,0.5,-13.593832015991211,needs_review
+3hop1__516535_834494_34099,1795,3,per_step_agg,verbal_confidence,46.666666666666664,"40.0,50.0,50.0",-17.01816749572754,4-year,needs_review,False,0.5,-13.593832015991211,needs_review
+3hop1__516535_834494_34099,1795,3,shuffled,verbal_confidence,46.666666666666664,"40.0,50.0,50.0",-17.04742431640625,4-year,needs_review,False,0.5,-13.593832015991211,needs_review
+4hop1__846600_153080_159767_81096,2064,4,control,verbal_confidence,45.0,"40.0,40.0,50.0,50.0",-5.228118896484375,Charles Mingus,incorrect,False,0.0,-5.228118896484375,incorrect
+4hop1__846600_153080_159767_81096,2064,4,per_step,verbal_confidence,45.0,"40.0,40.0,50.0,50.0",-7.281257629394531,Charles Mingus,incorrect,False,0.0,-5.228118896484375,incorrect
+4hop1__846600_153080_159767_81096,2064,4,agg_only,verbal_confidence,45.0,"40.0,40.0,50.0,50.0",-5.968797206878662,Charles Mingus,incorrect,False,0.0,-5.228118896484375,incorrect
+4hop1__846600_153080_159767_81096,2064,4,per_step_agg,verbal_confidence,45.0,"40.0,40.0,50.0,50.0",-7.355472564697266,Charles Mingus,incorrect,False,0.0,-5.228118896484375,incorrect
+4hop1__846600_153080_159767_81096,2064,4,shuffled,verbal_confidence,45.0,"40.0,40.0,50.0,50.0",-7.281257629394531,Charles Mingus,incorrect,False,0.0,-5.228118896484375,incorrect
+4hop3__373866_5189_38229_86687,2048,4,control,verbal_confidence,41.25,"40.0,40.0,40.0,45.0",-4.148437976837158,1990,correct,True,1.0,-4.148437976837158,correct
+4hop3__373866_5189_38229_86687,2048,4,per_step,verbal_confidence,41.25,"40.0,40.0,40.0,45.0",-3.675330400466919,1990,correct,True,1.0,-4.148437976837158,correct
+4hop3__373866_5189_38229_86687,2048,4,agg_only,verbal_confidence,41.25,"40.0,40.0,40.0,45.0",-3.7213869094848633,1990,correct,True,1.0,-4.148437976837158,correct
+4hop3__373866_5189_38229_86687,2048,4,per_step_agg,verbal_confidence,41.25,"40.0,40.0,40.0,45.0",-2.956475257873535,1990,correct,True,1.0,-4.148437976837158,correct
+4hop3__373866_5189_38229_86687,2048,4,shuffled,verbal_confidence,41.25,"40.0,45.0,40.0,40.0",-3.706313133239746,1990,correct,True,1.0,-4.148437976837158,correct
+4hop3__426860_88460_30152_20999,2000,4,control,verbal_confidence,32.5,"45.0,40.0,45.0,0.0",-4.0456976890563965,Somali Muslim Ajuran Empire,incorrect,False,0.0,-4.0456976890563965,incorrect
+4hop3__426860_88460_30152_20999,2000,4,per_step,verbal_confidence,32.5,"45.0,40.0,45.0,0.0",-4.884214401245117,Thailand,incorrect,False,0.0,-4.0456976890563965,incorrect
+4hop3__426860_88460_30152_20999,2000,4,agg_only,verbal_confidence,32.5,"45.0,40.0,45.0,0.0",-4.123051166534424,The Somali Muslim Ajuran Empire was expelled from The River Tamar due to their,incorrect,False,0.0,-4.0456976890563965,incorrect
+4hop3__426860_88460_30152_20999,2000,4,per_step_agg,verbal_confidence,32.5,"45.0,40.0,45.0,0.0",-4.085834503173828,The same people who the Somali Muslim Ajuran Empire declared independence from were expelled from,incorrect,False,0.0,-4.0456976890563965,incorrect
+4hop3__426860_88460_30152_20999,2000,4,shuffled,verbal_confidence,32.5,"40.0,45.0,0.0,45.0",-4.841235160827637,Thailand,incorrect,False,0.0,-4.0456976890563965,incorrect
+4hop1__115977_582428_157828_162309,1916,4,control,verbal_confidence,42.5,"45.0,45.0,40.0,40.0",-6.351630210876465,1992,incorrect,False,0.0,-6.351630210876465,incorrect
+4hop1__115977_582428_157828_162309,1916,4,per_step,verbal_confidence,42.5,"45.0,45.0,40.0,40.0",-7.195362091064453,1992,incorrect,False,0.0,-6.351630210876465,incorrect
+4hop1__115977_582428_157828_162309,1916,4,agg_only,verbal_confidence,42.5,"45.0,45.0,40.0,40.0",-6.335967063903809,1992,incorrect,False,0.0,-6.351630210876465,incorrect
+4hop1__115977_582428_157828_162309,1916,4,per_step_agg,verbal_confidence,42.5,"45.0,45.0,40.0,40.0",-6.664196491241455,1992,incorrect,False,0.0,-6.351630210876465,incorrect
+4hop1__115977_582428_157828_162309,1916,4,shuffled,verbal_confidence,42.5,"45.0,40.0,45.0,40.0",-7.17972469329834,1992,incorrect,False,0.0,-6.351630210876465,incorrect
+4hop1__129682_59747_211319_557671,2141,4,control,verbal_confidence,47.5,"40.0,70.0,40.0,40.0",-8.517800331115723,Georgia,incorrect,False,0.0,-8.517800331115723,incorrect
+4hop1__129682_59747_211319_557671,2141,4,per_step,verbal_confidence,47.5,"40.0,70.0,40.0,40.0",-8.310630798339844,Georgia,incorrect,False,0.0,-8.517800331115723,incorrect
+4hop1__129682_59747_211319_557671,2141,4,agg_only,verbal_confidence,47.5,"40.0,70.0,40.0,40.0",-8.836604118347168,Georgia,incorrect,False,0.0,-8.517800331115723,incorrect
+4hop1__129682_59747_211319_557671,2141,4,per_step_agg,verbal_confidence,47.5,"40.0,70.0,40.0,40.0",-8.736603736877441,Georgia,incorrect,False,0.0,-8.517800331115723,incorrect
+4hop1__129682_59747_211319_557671,2141,4,shuffled,verbal_confidence,47.5,"40.0,70.0,40.0,40.0",-8.310630798339844,Georgia,incorrect,False,0.0,-8.517800331115723,incorrect
+3hop2__69814_76873_64554,2311,3,control,verbal_confidence,50.0,"50.0,50.0,50.0",-3.381505250930786,United States.,incorrect,False,0.0,-3.381505250930786,incorrect
+3hop2__69814_76873_64554,2311,3,per_step,verbal_confidence,50.0,"50.0,50.0,50.0",-3.448775291442871,United States and Cold War.,incorrect,False,0.0,-3.381505250930786,incorrect
+3hop2__69814_76873_64554,2311,3,agg_only,verbal_confidence,50.0,"50.0,50.0,50.0",-3.612612724304199,United States and Cold War.,incorrect,False,0.0,-3.381505250930786,incorrect
+3hop2__69814_76873_64554,2311,3,per_step_agg,verbal_confidence,50.0,"50.0,50.0,50.0",-3.697206497192383,United States and Cold War.,incorrect,False,0.0,-3.381505250930786,incorrect
+3hop2__69814_76873_64554,2311,3,shuffled,verbal_confidence,50.0,"50.0,50.0,50.0",-3.448775291442871,United States and Cold War.,incorrect,False,0.0,-3.381505250930786,incorrect
+4hop1__58323_375563_161848_83118,2201,4,control,verbal_confidence,41.25,"45.0,40.0,40.0,40.0",-10.345870971679688,October,incorrect,False,0.0,-10.345870971679688,incorrect
+4hop1__58323_375563_161848_83118,2201,4,per_step,verbal_confidence,41.25,"45.0,40.0,40.0,40.0",-11.289883613586426,October,incorrect,False,0.0,-10.345870971679688,incorrect
+4hop1__58323_375563_161848_83118,2201,4,agg_only,verbal_confidence,41.25,"45.0,40.0,40.0,40.0",-10.374273300170898,October,incorrect,False,0.0,-10.345870971679688,incorrect
+4hop1__58323_375563_161848_83118,2201,4,per_step_agg,verbal_confidence,41.25,"45.0,40.0,40.0,40.0",-11.785951614379883,October,incorrect,False,0.0,-10.345870971679688,incorrect
+4hop1__58323_375563_161848_83118,2201,4,shuffled,verbal_confidence,41.25,"45.0,40.0,40.0,40.0",-11.289883613586426,October,incorrect,False,0.0,-10.345870971679688,incorrect
+4hop1__88342_75218_128008_46894,1880,4,control,verbal_confidence,43.75,"40.0,45.0,45.0,45.0",0.0,Bill Bergen,correct,True,1.0,0.0,correct
+4hop1__88342_75218_128008_46894,1880,4,per_step,verbal_confidence,43.75,"40.0,45.0,45.0,45.0",-0.20300346612930298,Bill Bergen,correct,True,1.0,0.0,correct
+4hop1__88342_75218_128008_46894,1880,4,agg_only,verbal_confidence,43.75,"40.0,45.0,45.0,45.0",-0.015445473603904247,Bill Bergen,correct,True,1.0,0.0,correct
+4hop1__88342_75218_128008_46894,1880,4,per_step_agg,verbal_confidence,43.75,"40.0,45.0,45.0,45.0",-0.05083780363202095,Bill Bergen,correct,True,1.0,0.0,correct
+4hop1__88342_75218_128008_46894,1880,4,shuffled,verbal_confidence,43.75,"40.0,45.0,45.0,45.0",-0.20300346612930298,Bill Bergen,correct,True,1.0,0.0,correct
+3hop2__782397_223623_162182,1429,3,control,verbal_confidence,50.0,"50.0,50.0,50.0",-6.687505722045898,Central,needs_review,False,0.5,-6.687505722045898,needs_review
+3hop2__782397_223623_162182,1429,3,per_step,verbal_confidence,50.0,"50.0,50.0,50.0",-7.260422229766846,Central,needs_review,False,0.5,-6.687505722045898,needs_review
+3hop2__782397_223623_162182,1429,3,agg_only,verbal_confidence,50.0,"50.0,50.0,50.0",-6.906257629394531,Central,needs_review,False,0.5,-6.687505722045898,needs_review
+3hop2__782397_223623_162182,1429,3,per_step_agg,verbal_confidence,50.0,"50.0,50.0,50.0",-6.020933628082275,Central,needs_review,False,0.5,-6.687505722045898,needs_review
+3hop2__782397_223623_162182,1429,3,shuffled,verbal_confidence,50.0,"50.0,50.0,50.0",-7.260422229766846,Central,needs_review,False,0.5,-6.687505722045898,needs_review
+4hop3__193820_466199_128875_72134,2159,4,control,verbal_confidence,48.75,"40.0,45.0,70.0,40.0",-10.853001594543457,"Springfield, Illinois",incorrect,False,0.0,-10.853001594543457,incorrect
+4hop3__193820_466199_128875_72134,2159,4,per_step,verbal_confidence,48.75,"40.0,45.0,70.0,40.0",-13.19140625,"Springfield, Illinois",incorrect,False,0.0,-10.853001594543457,incorrect
+4hop3__193820_466199_128875_72134,2159,4,agg_only,verbal_confidence,48.75,"40.0,45.0,70.0,40.0",-9.586014747619629,1834,incorrect,False,0.0,-10.853001594543457,incorrect
+4hop3__193820_466199_128875_72134,2159,4,per_step_agg,verbal_confidence,48.75,"40.0,45.0,70.0,40.0",-10.361291885375977,"Springfield, Illinois",incorrect,False,0.0,-10.853001594543457,incorrect
+4hop3__193820_466199_128875_72134,2159,4,shuffled,verbal_confidence,48.75,"45.0,40.0,40.0,70.0",-12.511719703674316,"Springfield, Illinois",incorrect,False,0.0,-10.853001594543457,incorrect
+3hop1__380590_831637_91775,1283,3,control,verbal_confidence,46.666666666666664,"40.0,50.0,50.0",-5.139699459075928,SP-106,incorrect,False,0.0,-5.139699459075928,incorrect
+3hop1__380590_831637_91775,1283,3,per_step,verbal_confidence,46.666666666666664,"40.0,50.0,50.0",-3.0290966033935547,SP-106,incorrect,False,0.0,-5.139699459075928,incorrect
+3hop1__380590_831637_91775,1283,3,agg_only,verbal_confidence,46.666666666666664,"40.0,50.0,50.0",-4.3084797859191895,SP-106,incorrect,False,0.0,-5.139699459075928,incorrect
+3hop1__380590_831637_91775,1283,3,per_step_agg,verbal_confidence,46.666666666666664,"40.0,50.0,50.0",-2.3772263526916504,SP-106,incorrect,False,0.0,-5.139699459075928,incorrect
+3hop1__380590_831637_91775,1283,3,shuffled,verbal_confidence,46.666666666666664,"50.0,40.0,50.0",-3.0135514736175537,SP-106,incorrect,False,0.0,-5.139699459075928,incorrect
+4hop3__322354_466199_695123_72134,2164,4,control,verbal_confidence,42.5,"45.0,40.0,45.0,40.0",0.0,1839,correct,True,1.0,0.0,correct
+4hop3__322354_466199_695123_72134,2164,4,per_step,verbal_confidence,42.5,"45.0,40.0,45.0,40.0",-0.00015442181029357016,1839,correct,True,1.0,0.0,correct
+4hop3__322354_466199_695123_72134,2164,4,agg_only,verbal_confidence,42.5,"45.0,40.0,45.0,40.0",0.0,1839,correct,True,1.0,0.0,correct
+4hop3__322354_466199_695123_72134,2164,4,per_step_agg,verbal_confidence,42.5,"45.0,40.0,45.0,40.0",-0.6883718967437744,1340 AM,incorrect,False,0.0,0.0,correct
+4hop3__322354_466199_695123_72134,2164,4,shuffled,verbal_confidence,42.5,"45.0,45.0,40.0,40.0",-0.00014878890942782164,1839,correct,True,1.0,0.0,correct
+3hop1__161507_160713_77246,1204,3,control,verbal_confidence,43.333333333333336,"45.0,45.0,40.0",-12.257461547851562,Hinduism.,incorrect,False,0.0,-12.257461547851562,incorrect
+3hop1__161507_160713_77246,1204,3,per_step,verbal_confidence,43.333333333333336,"45.0,45.0,40.0",-11.599160194396973,Hinduism.,incorrect,False,0.0,-12.257461547851562,incorrect
+3hop1__161507_160713_77246,1204,3,agg_only,verbal_confidence,43.333333333333336,"45.0,45.0,40.0",-11.77663803100586,Hinduism.,incorrect,False,0.0,-12.257461547851562,incorrect
+3hop1__161507_160713_77246,1204,3,per_step_agg,verbal_confidence,43.333333333333336,"45.0,45.0,40.0",-11.980086326599121,Hinduism,incorrect,False,0.0,-12.257461547851562,incorrect
+3hop1__161507_160713_77246,1204,3,shuffled,verbal_confidence,43.333333333333336,"40.0,45.0,45.0",-11.676408767700195,Hinduism.,incorrect,False,0.0,-12.257461547851562,incorrect
+4hop1__813171_153080_33897_81096,2073,4,control,verbal_confidence,45.0,"45.0,45.0,40.0,50.0",-6.168019771575928,Jacksonville,incorrect,False,0.0,-6.168019771575928,incorrect
+4hop1__813171_153080_33897_81096,2073,4,per_step,verbal_confidence,45.0,"45.0,45.0,40.0,50.0",-6.617419242858887,Jacksonville,incorrect,False,0.0,-6.168019771575928,incorrect
+4hop1__813171_153080_33897_81096,2073,4,agg_only,verbal_confidence,45.0,"45.0,45.0,40.0,50.0",-5.367936134338379,Jacksonville,incorrect,False,0.0,-6.168019771575928,incorrect
+4hop1__813171_153080_33897_81096,2073,4,per_step_agg,verbal_confidence,45.0,"45.0,45.0,40.0,50.0",-6.040992736816406,Jacksonville,incorrect,False,0.0,-6.168019771575928,incorrect
+4hop1__813171_153080_33897_81096,2073,4,shuffled,verbal_confidence,45.0,"50.0,45.0,45.0,40.0",-6.162813186645508,Jacksonville,incorrect,False,0.0,-6.168019771575928,incorrect
+4hop3__220945_88460_30152_20999,2011,4,control,verbal_confidence,41.25,"45.0,40.0,40.0,40.0",-4.2628936767578125,The Ottomans.,incorrect,False,0.0,-4.2628936767578125,incorrect
+4hop3__220945_88460_30152_20999,2011,4,per_step,verbal_confidence,41.25,"45.0,40.0,40.0,40.0",-4.540459156036377,Ottomans.,incorrect,False,0.0,-4.2628936767578125,incorrect
+4hop3__220945_88460_30152_20999,2011,4,agg_only,verbal_confidence,41.25,"45.0,40.0,40.0,40.0",-4.424352169036865,Ottomans.,incorrect,False,0.0,-4.2628936767578125,incorrect
+4hop3__220945_88460_30152_20999,2011,4,per_step_agg,verbal_confidence,41.25,"45.0,40.0,40.0,40.0",-3.9117212295532227,Ottomans.,incorrect,False,0.0,-4.2628936767578125,incorrect
+4hop3__220945_88460_30152_20999,2011,4,shuffled,verbal_confidence,41.25,"45.0,40.0,40.0,40.0",-4.540459156036377,Ottomans.,incorrect,False,0.0,-4.2628936767578125,incorrect
+4hop1__152146_5274_458768_33677,2151,4,control,verbal_confidence,52.5,"60.0,50.0,50.0,50.0",0.0,2013,correct,True,1.0,0.0,correct
+4hop1__152146_5274_458768_33677,2151,4,per_step,verbal_confidence,52.5,"60.0,50.0,50.0,50.0",-0.0005636115674860775,2013,correct,True,1.0,0.0,correct
+4hop1__152146_5274_458768_33677,2151,4,agg_only,verbal_confidence,52.5,"60.0,50.0,50.0,50.0",0.0,2013,correct,True,1.0,0.0,correct
+4hop1__152146_5274_458768_33677,2151,4,per_step_agg,verbal_confidence,52.5,"60.0,50.0,50.0,50.0",-5.256577060208656e-05,2013,correct,True,1.0,0.0,correct
+4hop1__152146_5274_458768_33677,2151,4,shuffled,verbal_confidence,52.5,"50.0,50.0,50.0,60.0",-8.851133316056803e-06,2013,correct,True,1.0,0.0,correct
+3hop2__72083_92991_76291,1404,3,control,verbal_confidence,40.0,"40.0,40.0,40.0",-5.235451698303223,1946,incorrect,False,0.0,-5.235451698303223,incorrect
+3hop2__72083_92991_76291,1404,3,per_step,verbal_confidence,40.0,"40.0,40.0,40.0",-5.2983832359313965,1946,incorrect,False,0.0,-5.235451698303223,incorrect
+3hop2__72083_92991_76291,1404,3,agg_only,verbal_confidence,40.0,"40.0,40.0,40.0",-6.204582691192627,18. 2014,incorrect,False,0.0,-5.235451698303223,incorrect
+3hop2__72083_92991_76291,1404,3,per_step_agg,verbal_confidence,40.0,"40.0,40.0,40.0",-5.220812797546387,1946,incorrect,False,0.0,-5.235451698303223,incorrect
+3hop2__72083_92991_76291,1404,3,shuffled,verbal_confidence,40.0,"40.0,40.0,40.0",-5.2983832359313965,1946,incorrect,False,0.0,-5.235451698303223,incorrect
+3hop1__409517_547811_80702,1611,3,control,verbal_confidence,40.0,"40.0,40.0,40.0",-6.672360420227051,Mandolin,incorrect,False,0.0,-6.672360420227051,incorrect
+3hop1__409517_547811_80702,1611,3,per_step,verbal_confidence,40.0,"40.0,40.0,40.0",-7.839899063110352,Mandolin,incorrect,False,0.0,-6.672360420227051,incorrect
+3hop1__409517_547811_80702,1611,3,agg_only,verbal_confidence,40.0,"40.0,40.0,40.0",-5.730420112609863,Mandolin,incorrect,False,0.0,-6.672360420227051,incorrect
+3hop1__409517_547811_80702,1611,3,per_step_agg,verbal_confidence,40.0,"40.0,40.0,40.0",-8.520867347717285,Mandolin,incorrect,False,0.0,-6.672360420227051,incorrect
+3hop1__409517_547811_80702,1611,3,shuffled,verbal_confidence,40.0,"40.0,40.0,40.0",-7.839899063110352,Mandolin,incorrect,False,0.0,-6.672360420227051,incorrect
+4hop2__71753_158985_70784_61381,2045,4,control,verbal_confidence,40.0,"40.0,40.0,40.0,40.0",-8.2421875,1955,incorrect,False,0.0,-8.2421875,incorrect
+4hop2__71753_158985_70784_61381,2045,4,per_step,verbal_confidence,40.0,"40.0,40.0,40.0,40.0",-8.13671875,1955,incorrect,False,0.0,-8.2421875,incorrect
+4hop2__71753_158985_70784_61381,2045,4,agg_only,verbal_confidence,40.0,"40.0,40.0,40.0,40.0",-8.179691314697266,1955,incorrect,False,0.0,-8.2421875,incorrect
+4hop2__71753_158985_70784_61381,2045,4,per_step_agg,verbal_confidence,40.0,"40.0,40.0,40.0,40.0",-8.089844703674316,1955,incorrect,False,0.0,-8.2421875,incorrect
+4hop2__71753_158985_70784_61381,2045,4,shuffled,verbal_confidence,40.0,"40.0,40.0,40.0,40.0",-8.13671875,1955,incorrect,False,0.0,-8.2421875,incorrect
+4hop1__436202_765799_282674_759393,1904,4,control,verbal_confidence,50.0,"60.0,50.0,50.0,40.0",-11.2514066696167,Appleton,incorrect,False,0.0,-11.2514066696167,incorrect
+4hop1__436202_765799_282674_759393,1904,4,per_step,verbal_confidence,50.0,"60.0,50.0,50.0,40.0",-11.02433967590332,Appleton,incorrect,False,0.0,-11.2514066696167,incorrect
+4hop1__436202_765799_282674_759393,1904,4,agg_only,verbal_confidence,50.0,"60.0,50.0,50.0,40.0",-10.888699531555176,Appleton,incorrect,False,0.0,-11.2514066696167,incorrect
+4hop1__436202_765799_282674_759393,1904,4,per_step_agg,verbal_confidence,50.0,"60.0,50.0,50.0,40.0",-11.721628189086914,Appleton,incorrect,False,0.0,-11.2514066696167,incorrect
+4hop1__436202_765799_282674_759393,1904,4,shuffled,verbal_confidence,50.0,"60.0,40.0,50.0,50.0",-10.966714859008789,Appleton,incorrect,False,0.0,-11.2514066696167,incorrect
+3hop2__79512_16214_84681,2407,3,control,verbal_confidence,45.0,"45.0,40.0,50.0",-2.2351730422087712e-07,13 December 1642,correct,True,1.0,-2.2351730422087712e-07,correct
+3hop2__79512_16214_84681,2407,3,per_step,verbal_confidence,45.0,"45.0,40.0,50.0",-3.486824653009535e-06,13 December 1642,correct,True,1.0,-2.2351730422087712e-07,correct
+3hop2__79512_16214_84681,2407,3,agg_only,verbal_confidence,45.0,"45.0,40.0,50.0",-1.3411037969035533e-07,13 December 1642,correct,True,1.0,-2.2351730422087712e-07,correct
+3hop2__79512_16214_84681,2407,3,per_step_agg,verbal_confidence,45.0,"45.0,40.0,50.0",-5.51342282051337e-07,13 December 1642,correct,True,1.0,-2.2351730422087712e-07,correct
+3hop2__79512_16214_84681,2407,3,shuffled,verbal_confidence,45.0,"45.0,50.0,40.0",-1.2948444236826617e-05,13 December 1642,correct,True,1.0,-2.2351730422087712e-07,correct
+4hop2__567956_14670_8987_8529,1861,4,control,verbal_confidence,50.0,"40.0,70.0,50.0,40.0",-5.514930248260498,1939,incorrect,False,0.0,-5.514930248260498,incorrect
+4hop2__567956_14670_8987_8529,1861,4,per_step,verbal_confidence,50.0,"40.0,70.0,50.0,40.0",-5.160892009735107,1939,incorrect,False,0.0,-5.514930248260498,incorrect
+4hop2__567956_14670_8987_8529,1861,4,agg_only,verbal_confidence,50.0,"40.0,70.0,50.0,40.0",-5.156389236450195,1939,incorrect,False,0.0,-5.514930248260498,incorrect
+4hop2__567956_14670_8987_8529,1861,4,per_step_agg,verbal_confidence,50.0,"40.0,70.0,50.0,40.0",-5.031844615936279,1939,incorrect,False,0.0,-5.514930248260498,incorrect
+4hop2__567956_14670_8987_8529,1861,4,shuffled,verbal_confidence,50.0,"40.0,50.0,70.0,40.0",-5.2042951583862305,1939,incorrect,False,0.0,-5.514930248260498,incorrect
+3hop1__527372_339990_54675,1696,3,control,verbal_confidence,43.333333333333336,"40.0,50.0,40.0",-9.654772758483887,Mt. Tabor,incorrect,False,0.0,-9.654772758483887,incorrect
+3hop1__527372_339990_54675,1696,3,per_step,verbal_confidence,43.333333333333336,"40.0,50.0,40.0",-10.07961654663086,Mt. Tabor,incorrect,False,0.0,-9.654772758483887,incorrect
+3hop1__527372_339990_54675,1696,3,agg_only,verbal_confidence,43.333333333333336,"40.0,50.0,40.0",-9.5718994140625,Mt. Tabor,incorrect,False,0.0,-9.654772758483887,incorrect
+3hop1__527372_339990_54675,1696,3,per_step_agg,verbal_confidence,43.333333333333336,"40.0,50.0,40.0",-10.311288833618164,Mt. Tabor,incorrect,False,0.0,-9.654772758483887,incorrect
+3hop1__527372_339990_54675,1696,3,shuffled,verbal_confidence,43.333333333333336,"40.0,40.0,50.0",-10.185022354125977,Mt. Tabor,incorrect,False,0.0,-9.654772758483887,incorrect
+3hop1__498954_160713_77246,1211,3,control,verbal_confidence,41.666666666666664,"40.0,45.0,40.0",-13.882108688354492,Hindu,incorrect,False,0.0,-13.882108688354492,incorrect
+3hop1__498954_160713_77246,1211,3,per_step,verbal_confidence,41.666666666666664,"40.0,45.0,40.0",-15.146589279174805,Hindu,incorrect,False,0.0,-13.882108688354492,incorrect
+3hop1__498954_160713_77246,1211,3,agg_only,verbal_confidence,41.666666666666664,"40.0,45.0,40.0",-13.755609512329102,Hindu,incorrect,False,0.0,-13.882108688354492,incorrect
+3hop1__498954_160713_77246,1211,3,per_step_agg,verbal_confidence,41.666666666666664,"40.0,45.0,40.0",-14.714212417602539,Hindu,incorrect,False,0.0,-13.882108688354492,incorrect
+3hop1__498954_160713_77246,1211,3,shuffled,verbal_confidence,41.666666666666664,"40.0,40.0,45.0",-15.03819465637207,Hindu,incorrect,False,0.0,-13.882108688354492,incorrect
+4hop1__342858_131850_33952_34053,2061,4,control,verbal_confidence,50.0,"40.0,70.0,40.0,50.0",-3.953125238418579,24.17 in (614 mm),incorrect,False,0.0,-3.953125238418579,incorrect
+4hop1__342858_131850_33952_34053,2061,4,per_step,verbal_confidence,50.0,"40.0,70.0,40.0,50.0",-4.864700794219971,24.17 in (614 mm),incorrect,False,0.0,-3.953125238418579,incorrect
+4hop1__342858_131850_33952_34053,2061,4,agg_only,verbal_confidence,50.0,"40.0,70.0,40.0,50.0",-4.964238166809082,24.17 in (614 mm),incorrect,False,0.0,-3.953125238418579,incorrect
+4hop1__342858_131850_33952_34053,2061,4,per_step_agg,verbal_confidence,50.0,"40.0,70.0,40.0,50.0",-5.582113742828369,24.17 in (614 mm),incorrect,False,0.0,-3.953125238418579,incorrect
+4hop1__342858_131850_33952_34053,2061,4,shuffled,verbal_confidence,50.0,"40.0,50.0,40.0,70.0",-4.811270236968994,24.17 in (614 mm),incorrect,False,0.0,-3.953125238418579,incorrect
+4hop1__151903_5274_458768_33677,2157,4,control,verbal_confidence,47.5,"50.0,50.0,40.0,50.0",0.0,2013,correct,True,1.0,0.0,correct
+4hop1__151903_5274_458768_33677,2157,4,per_step,verbal_confidence,47.5,"50.0,50.0,40.0,50.0",-0.0008457881049253047,2013,correct,True,1.0,0.0,correct
+4hop1__151903_5274_458768_33677,2157,4,agg_only,verbal_confidence,47.5,"50.0,50.0,40.0,50.0",0.0,2013,correct,True,1.0,0.0,correct
+4hop1__151903_5274_458768_33677,2157,4,per_step_agg,verbal_confidence,47.5,"50.0,50.0,40.0,50.0",-4.61931722384179e-06,2013,correct,True,1.0,0.0,correct
+4hop1__151903_5274_458768_33677,2157,4,shuffled,verbal_confidence,47.5,"50.0,50.0,40.0,50.0",-0.0008457881049253047,2013,correct,True,1.0,0.0,correct
+4hop3__405277_88460_30152_20999,2015,4,control,verbal_confidence,41.25,"45.0,40.0,40.0,40.0",-4.5084638595581055,Ottoman,incorrect,False,0.0,-4.5084638595581055,incorrect
+4hop3__405277_88460_30152_20999,2015,4,per_step,verbal_confidence,41.25,"45.0,40.0,40.0,40.0",-3.9980175495147705,The Ottoman Empire was expelled from the Radcliffe Line through economic independence and new coin,incorrect,False,0.1111111111111111,-4.5084638595581055,incorrect
+4hop3__405277_88460_30152_20999,2015,4,agg_only,verbal_confidence,41.25,"45.0,40.0,40.0,40.0",-4.063009738922119,Ottoman,incorrect,False,0.0,-4.5084638595581055,incorrect
+4hop3__405277_88460_30152_20999,2015,4,per_step_agg,verbal_confidence,41.25,"45.0,40.0,40.0,40.0",-4.077223777770996,The Ottoman Empire was expelled from the Radcliffe Line through economic independence and new coin,incorrect,False,0.1111111111111111,-4.5084638595581055,incorrect
+4hop3__405277_88460_30152_20999,2015,4,shuffled,verbal_confidence,41.25,"45.0,40.0,40.0,40.0",-3.9980175495147705,The Ottoman Empire was expelled from the Radcliffe Line through economic independence and new coin,incorrect,False,0.1111111111111111,-4.5084638595581055,incorrect
+4hop1__151650_5274_458768_33637,2049,4,control,verbal_confidence,51.25,"65.0,50.0,40.0,50.0",-40.296875,1,incorrect,False,0.0,-40.296875,incorrect
+4hop1__151650_5274_458768_33637,2049,4,per_step,verbal_confidence,51.25,"65.0,50.0,40.0,50.0",-37.492191314697266,1,incorrect,False,0.0,-40.296875,incorrect
+4hop1__151650_5274_458768_33637,2049,4,agg_only,verbal_confidence,51.25,"65.0,50.0,40.0,50.0",-38.5000114440918,1,incorrect,False,0.0,-40.296875,incorrect
+4hop1__151650_5274_458768_33637,2049,4,per_step_agg,verbal_confidence,51.25,"65.0,50.0,40.0,50.0",-36.39857864379883,1,incorrect,False,0.0,-40.296875,incorrect
+4hop1__151650_5274_458768_33637,2049,4,shuffled,verbal_confidence,51.25,"50.0,50.0,65.0,40.0",-38.562503814697266,1,incorrect,False,0.0,-40.296875,incorrect
+4hop1__342858_131850_159767_81096,2076,4,control,verbal_confidence,47.5,"40.0,50.0,50.0,50.0",-3.6917128562927246,Phoenix,incorrect,False,0.0,-3.6917128562927246,incorrect
+4hop1__342858_131850_159767_81096,2076,4,per_step,verbal_confidence,47.5,"40.0,50.0,50.0,50.0",-5.994788646697998,Verizon IndyCar Series,incorrect,False,0.0,-3.6917128562927246,incorrect
+4hop1__342858_131850_159767_81096,2076,4,agg_only,verbal_confidence,47.5,"40.0,50.0,50.0,50.0",-0.002486136741936207,Mario Andretti,correct,True,1.0,-3.6917128562927246,incorrect
+4hop1__342858_131850_159767_81096,2076,4,per_step_agg,verbal_confidence,47.5,"40.0,50.0,50.0,50.0",-4.35556173324585,Phoenix,incorrect,False,0.0,-3.6917128562927246,incorrect
+4hop1__342858_131850_159767_81096,2076,4,shuffled,verbal_confidence,47.5,"40.0,50.0,50.0,50.0",-5.994788646697998,Verizon IndyCar Series,incorrect,False,0.0,-3.6917128562927246,incorrect
+3hop1__516535_834494_34053,1783,3,control,verbal_confidence,41.666666666666664,"40.0,40.0,45.0",-4.242190361022949,24.17 in (614 mm),incorrect,False,0.0,-4.242190361022949,incorrect
+3hop1__516535_834494_34053,1783,3,per_step,verbal_confidence,41.666666666666664,"40.0,40.0,45.0",-5.592659950256348,24.17 in (614 mm),incorrect,False,0.0,-4.242190361022949,incorrect
+3hop1__516535_834494_34053,1783,3,agg_only,verbal_confidence,41.666666666666664,"40.0,40.0,45.0",-4.183827877044678,24.17 in (614 mm),incorrect,False,0.0,-4.242190361022949,incorrect
+3hop1__516535_834494_34053,1783,3,per_step_agg,verbal_confidence,41.666666666666664,"40.0,40.0,45.0",-8.32812786102295,24.17 in (614 mm),incorrect,False,0.0,-4.242190361022949,incorrect
+3hop1__516535_834494_34053,1783,3,shuffled,verbal_confidence,41.666666666666664,"40.0,40.0,45.0",-5.592659950256348,24.17 in (614 mm),incorrect,False,0.0,-4.242190361022949,incorrect
+3hop1__241085_42197_18397,1737,3,control,verbal_confidence,46.666666666666664,"50.0,40.0,50.0",-9.272918701171875,China,incorrect,False,0.0,-9.272918701171875,incorrect
+3hop1__241085_42197_18397,1737,3,per_step,verbal_confidence,46.666666666666664,"50.0,40.0,50.0",-12.331748962402344,China,incorrect,False,0.0,-9.272918701171875,incorrect
+3hop1__241085_42197_18397,1737,3,agg_only,verbal_confidence,46.666666666666664,"50.0,40.0,50.0",-11.079346656799316,China,incorrect,False,0.0,-9.272918701171875,incorrect
+3hop1__241085_42197_18397,1737,3,per_step_agg,verbal_confidence,46.666666666666664,"50.0,40.0,50.0",-12.9621000289917,China,incorrect,False,0.0,-9.272918701171875,incorrect
+3hop1__241085_42197_18397,1737,3,shuffled,verbal_confidence,46.666666666666664,"50.0,50.0,40.0",-12.18629264831543,China,incorrect,False,0.0,-9.272918701171875,incorrect
+4hop1__105688_17130_70784_61381,2098,4,control,verbal_confidence,43.75,"45.0,40.0,40.0,50.0",-9.728675842285156,Israel,incorrect,False,0.0,-9.728675842285156,incorrect
+4hop1__105688_17130_70784_61381,2098,4,per_step,verbal_confidence,43.75,"45.0,40.0,40.0,50.0",-12.03462028503418,Israel,incorrect,False,0.0,-9.728675842285156,incorrect
+4hop1__105688_17130_70784_61381,2098,4,agg_only,verbal_confidence,43.75,"45.0,40.0,40.0,50.0",-9.636743545532227,Israel,incorrect,False,0.0,-9.728675842285156,incorrect
+4hop1__105688_17130_70784_61381,2098,4,per_step_agg,verbal_confidence,43.75,"45.0,40.0,40.0,50.0",-12.578397750854492,Israel,incorrect,False,0.0,-9.728675842285156,incorrect
+4hop1__105688_17130_70784_61381,2098,4,shuffled,verbal_confidence,43.75,"40.0,45.0,40.0,50.0",-12.059932708740234,Israel,incorrect,False,0.0,-9.728675842285156,incorrect
+3hop2__304722_602987_63959,1268,3,control,verbal_confidence,40.0,"40.0,40.0,40.0",-9.564736366271973,2015,incorrect,False,0.0,-9.564736366271973,incorrect
+3hop2__304722_602987_63959,1268,3,per_step,verbal_confidence,40.0,"40.0,40.0,40.0",-8.441749572753906,2015,incorrect,False,0.0,-9.564736366271973,incorrect
+3hop2__304722_602987_63959,1268,3,agg_only,verbal_confidence,40.0,"40.0,40.0,40.0",-9.417421340942383,2015,incorrect,False,0.0,-9.564736366271973,incorrect
+3hop2__304722_602987_63959,1268,3,per_step_agg,verbal_confidence,40.0,"40.0,40.0,40.0",-9.517621994018555,2015,incorrect,False,0.0,-9.564736366271973,incorrect
+3hop2__304722_602987_63959,1268,3,shuffled,verbal_confidence,40.0,"40.0,40.0,40.0",-8.441749572753906,2015,incorrect,False,0.0,-9.564736366271973,incorrect
+3hop1__756602_831637_91775,1293,3,control,verbal_confidence,55.0,"45.0,45.0,75.0",0.0,"Sea, Air, and Land",correct,True,1.0,0.0,correct
+3hop1__756602_831637_91775,1293,3,per_step,verbal_confidence,55.0,"45.0,45.0,75.0",0.0,"Sea, Air, and Land",correct,True,1.0,0.0,correct
+3hop1__756602_831637_91775,1293,3,agg_only,verbal_confidence,55.0,"45.0,45.0,75.0",0.0,"Sea, Air, and Land",correct,True,1.0,0.0,correct
+3hop1__756602_831637_91775,1293,3,per_step_agg,verbal_confidence,55.0,"45.0,45.0,75.0",0.0,"Sea, Air, and Land",correct,True,1.0,0.0,correct
+3hop1__756602_831637_91775,1293,3,shuffled,verbal_confidence,55.0,"45.0,75.0,45.0",0.0,"Sea, Air, and Land",correct,True,1.0,0.0,correct
+4hop3__310746_88460_30152_20999,2003,4,control,verbal_confidence,32.5,"40.0,50.0,40.0,0.0",-4.131767749786377,Ottoman,incorrect,False,0.0,-4.131767749786377,incorrect
+4hop3__310746_88460_30152_20999,2003,4,per_step,verbal_confidence,32.5,"40.0,50.0,40.0,0.0",-3.660181760787964,Ottoman,incorrect,False,0.0,-4.131767749786377,incorrect
+4hop3__310746_88460_30152_20999,2003,4,agg_only,verbal_confidence,32.5,"40.0,50.0,40.0,0.0",-4.204832553863525,Si Phan Don (4000 Islands),incorrect,False,0.0,-4.131767749786377,incorrect
+4hop3__310746_88460_30152_20999,2003,4,per_step_agg,verbal_confidence,32.5,"40.0,50.0,40.0,0.0",-3.5429301261901855,The people that the Ajuran Empire declared independence from by minting coins were expelled,incorrect,False,0.0,-4.131767749786377,incorrect
+4hop3__310746_88460_30152_20999,2003,4,shuffled,verbal_confidence,32.5,"50.0,40.0,0.0,40.0",-3.5709304809570312,Ottoman,incorrect,False,0.0,-4.131767749786377,incorrect
+4hop1__46196_497223_15840_36002,1832,4,control,verbal_confidence,40.0,"40.0,40.0,40.0,40.0",-3.2300913333892822,NFL,incorrect,False,0.0,-3.2300913333892822,incorrect
+4hop1__46196_497223_15840_36002,1832,4,per_step,verbal_confidence,40.0,"40.0,40.0,40.0,40.0",-2.8091087341308594,NFL,incorrect,False,0.0,-3.2300913333892822,incorrect
+4hop1__46196_497223_15840_36002,1832,4,agg_only,verbal_confidence,40.0,"40.0,40.0,40.0,40.0",-2.8133723735809326,NFL,incorrect,False,0.0,-3.2300913333892822,incorrect
+4hop1__46196_497223_15840_36002,1832,4,per_step_agg,verbal_confidence,40.0,"40.0,40.0,40.0,40.0",-2.8800032138824463,The Genesis had a 16-bit architecture and offered improved graphics and sound over,correct,True,0.6956521739130435,-3.2300913333892822,incorrect
+4hop1__46196_497223_15840_36002,1832,4,shuffled,verbal_confidence,40.0,"40.0,40.0,40.0,40.0",-2.8091087341308594,NFL,incorrect,False,0.0,-3.2300913333892822,incorrect
+3hop1__241001_568433_47686,1382,3,control,verbal_confidence,40.0,"40.0,40.0,40.0",-8.479170799255371,Dancingmonkeys,incorrect,False,0.0,-8.479170799255371,incorrect
+3hop1__241001_568433_47686,1382,3,per_step,verbal_confidence,40.0,"40.0,40.0,40.0",-8.30208683013916,Dancingmonkeys,incorrect,False,0.0,-8.479170799255371,incorrect
+3hop1__241001_568433_47686,1382,3,agg_only,verbal_confidence,40.0,"40.0,40.0,40.0",-8.130213737487793,Dancingmonkeys,incorrect,False,0.0,-8.479170799255371,incorrect
+3hop1__241001_568433_47686,1382,3,per_step_agg,verbal_confidence,40.0,"40.0,40.0,40.0",-8.026041984558105,Dancingmonkeys,incorrect,False,0.0,-8.479170799255371,incorrect
+3hop1__241001_568433_47686,1382,3,shuffled,verbal_confidence,40.0,"40.0,40.0,40.0",-8.30208683013916,Dancingmonkeys,incorrect,False,0.0,-8.479170799255371,incorrect
+3hop2__92991_38242_76291,1407,3,control,verbal_confidence,40.0,"40.0,40.0,40.0",-6.733644008636475,2014,incorrect,False,0.0,-6.733644008636475,incorrect
+3hop2__92991_38242_76291,1407,3,per_step,verbal_confidence,40.0,"40.0,40.0,40.0",-6.8449625968933105,Democrats,incorrect,False,0.0,-6.733644008636475,incorrect
+3hop2__92991_38242_76291,1407,3,agg_only,verbal_confidence,40.0,"40.0,40.0,40.0",-6.312788486480713,2014,incorrect,False,0.0,-6.733644008636475,incorrect
+3hop2__92991_38242_76291,1407,3,per_step_agg,verbal_confidence,40.0,"40.0,40.0,40.0",-7.349939823150635,Democrats took control of the The Speaker of the House and the Majority and Minority Leaders,incorrect,False,0.0,-6.733644008636475,incorrect
+3hop2__92991_38242_76291,1407,3,shuffled,verbal_confidence,40.0,"40.0,40.0,40.0",-6.8449625968933105,Democrats,incorrect,False,0.0,-6.733644008636475,incorrect
+3hop1__604797_443779_52195,1209,3,control,verbal_confidence,40.0,"40.0,40.0,40.0",-2.0622621377697214e-05,Francisco Guterres,correct,True,1.0,-2.0622621377697214e-05,correct
+3hop1__604797_443779_52195,1209,3,per_step,verbal_confidence,40.0,"40.0,40.0,40.0",-2.4770746676949784e-05,Francisco Guterres,correct,True,1.0,-2.0622621377697214e-05,correct
+3hop1__604797_443779_52195,1209,3,agg_only,verbal_confidence,40.0,"40.0,40.0,40.0",-1.9621311366790906e-05,Francisco Guterres,correct,True,1.0,-2.0622621377697214e-05,correct
+3hop1__604797_443779_52195,1209,3,per_step_agg,verbal_confidence,40.0,"40.0,40.0,40.0",-1.7547234165249392e-05,Francisco Guterres,correct,True,1.0,-2.0622621377697214e-05,correct
+3hop1__604797_443779_52195,1209,3,shuffled,verbal_confidence,40.0,"40.0,40.0,40.0",-2.4770746676949784e-05,Francisco Guterres,correct,True,1.0,-2.0622621377697214e-05,correct
+3hop2__326964_36852_7713,1638,3,control,verbal_confidence,48.333333333333336,"45.0,60.0,40.0",-6.182292461395264,400 years.,correct,True,0.8,-6.182292461395264,correct
+3hop2__326964_36852_7713,1638,3,per_step,verbal_confidence,48.333333333333336,"45.0,60.0,40.0",-6.245021343231201,Nanjing,incorrect,False,0.0,-6.182292461395264,correct
+3hop2__326964_36852_7713,1638,3,agg_only,verbal_confidence,48.333333333333336,"45.0,60.0,40.0",-6.854166507720947,400 years.,correct,True,0.8,-6.182292461395264,correct
+3hop2__326964_36852_7713,1638,3,per_step_agg,verbal_confidence,48.333333333333336,"45.0,60.0,40.0",-6.230858325958252,400 years.,correct,True,0.8,-6.182292461395264,correct
+3hop2__326964_36852_7713,1638,3,shuffled,verbal_confidence,48.333333333333336,"40.0,60.0,45.0",-6.367902755737305,Nanjing,incorrect,False,0.0,-6.182292461395264,correct
+4hop1__105401_17130_70784_61381,2093,4,control,verbal_confidence,42.5,"40.0,40.0,50.0,40.0",-8.724245071411133,1990,incorrect,False,0.0,-8.724245071411133,incorrect
+4hop1__105401_17130_70784_61381,2093,4,per_step,verbal_confidence,42.5,"40.0,40.0,50.0,40.0",-8.08920955657959,1990,incorrect,False,0.0,-8.724245071411133,incorrect
+4hop1__105401_17130_70784_61381,2093,4,agg_only,verbal_confidence,42.5,"40.0,40.0,50.0,40.0",-8.492754936218262,1990,incorrect,False,0.0,-8.724245071411133,incorrect
+4hop1__105401_17130_70784_61381,2093,4,per_step_agg,verbal_confidence,42.5,"40.0,40.0,50.0,40.0",-8.085302352905273,1990,incorrect,False,0.0,-8.724245071411133,incorrect
+4hop1__105401_17130_70784_61381,2093,4,shuffled,verbal_confidence,42.5,"40.0,50.0,40.0,40.0",-8.088363647460938,1990,incorrect,False,0.0,-8.724245071411133,incorrect
+3hop1__507961_160713_77246,1206,3,control,verbal_confidence,46.666666666666664,"50.0,50.0,40.0",-12.074797630310059,Hindu,incorrect,False,0.0,-12.074797630310059,incorrect
+3hop1__507961_160713_77246,1206,3,per_step,verbal_confidence,46.666666666666664,"50.0,50.0,40.0",-11.652514457702637,Hindu,incorrect,False,0.0,-12.074797630310059,incorrect
+3hop1__507961_160713_77246,1206,3,agg_only,verbal_confidence,46.666666666666664,"50.0,50.0,40.0",-11.348134994506836,Hindu,incorrect,False,0.0,-12.074797630310059,incorrect
+3hop1__507961_160713_77246,1206,3,per_step_agg,verbal_confidence,46.666666666666664,"50.0,50.0,40.0",-12.010194778442383,Hindu,incorrect,False,0.0,-12.074797630310059,incorrect
+3hop1__507961_160713_77246,1206,3,shuffled,verbal_confidence,46.666666666666664,"40.0,50.0,50.0",-12.004189491271973,Hindu,incorrect,False,0.0,-12.074797630310059,incorrect
+3hop2__30956_65244_84681,2322,3,control,verbal_confidence,41.666666666666664,"40.0,45.0,40.0",-4.409584999084473,New Zealand,incorrect,False,0.0,-4.409584999084473,incorrect
+3hop2__30956_65244_84681,2322,3,per_step,verbal_confidence,41.666666666666664,"40.0,45.0,40.0",-5.346578598022461,New Zealand,incorrect,False,0.0,-4.409584999084473,incorrect
+3hop2__30956_65244_84681,2322,3,agg_only,verbal_confidence,41.666666666666664,"40.0,45.0,40.0",-4.0394768714904785,New Zealand,incorrect,False,0.0,-4.409584999084473,incorrect
+3hop2__30956_65244_84681,2322,3,per_step_agg,verbal_confidence,41.666666666666664,"40.0,45.0,40.0",-4.921999454498291,New Zealand,incorrect,False,0.0,-4.409584999084473,incorrect
+3hop2__30956_65244_84681,2322,3,shuffled,verbal_confidence,41.666666666666664,"45.0,40.0,40.0",-5.573465347290039,New Zealand,incorrect,False,0.0,-4.409584999084473,incorrect
+3hop2__132957_52222_40768,1460,3,control,verbal_confidence,46.666666666666664,"50.0,50.0,40.0",0.0,1981,correct,True,1.0,0.0,correct
+3hop2__132957_52222_40768,1460,3,per_step,verbal_confidence,46.666666666666664,"50.0,50.0,40.0",-2.2231544789974578e-05,1981,correct,True,1.0,0.0,correct
+3hop2__132957_52222_40768,1460,3,agg_only,verbal_confidence,46.666666666666664,"50.0,50.0,40.0",-0.00022130347497295588,1981,correct,True,1.0,0.0,correct
+3hop2__132957_52222_40768,1460,3,per_step_agg,verbal_confidence,46.666666666666664,"50.0,50.0,40.0",-0.03472059592604637,1981,correct,True,1.0,0.0,correct
+3hop2__132957_52222_40768,1460,3,shuffled,verbal_confidence,46.666666666666664,"50.0,50.0,40.0",-2.2231544789974578e-05,1981,correct,True,1.0,0.0,correct
+4hop1__178366_229349_66759_75165,2047,4,control,verbal_confidence,47.5,"40.0,40.0,40.0,70.0",0.0,"1,335,907",correct,True,1.0,0.0,correct
+4hop1__178366_229349_66759_75165,2047,4,per_step,verbal_confidence,47.5,"40.0,40.0,40.0,70.0",0.0,"1,335,907",correct,True,1.0,0.0,correct
+4hop1__178366_229349_66759_75165,2047,4,agg_only,verbal_confidence,47.5,"40.0,40.0,40.0,70.0",0.0,"1,335,907",correct,True,1.0,0.0,correct
+4hop1__178366_229349_66759_75165,2047,4,per_step_agg,verbal_confidence,47.5,"40.0,40.0,40.0,70.0",0.0,"1,335,907",correct,True,1.0,0.0,correct
+4hop1__178366_229349_66759_75165,2047,4,shuffled,verbal_confidence,47.5,"40.0,40.0,40.0,70.0",0.0,"1,335,907",correct,True,1.0,0.0,correct

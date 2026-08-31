@@ -1,0 +1,243 @@
+{
+  "run_dir": "outputs/qwen17b_influence_claude",
+  "primary_substitution": "redact",
+  "n_rows": 430,
+  "measurability": {
+    "n_sham": 30,
+    "sham_max_abs_d_logprob": 0.0,
+    "sham_final_change_rate": 0.0,
+    "sham_note": "Sham substitutes the answer with itself, so the prompt is byte-identical. Anything above 0 here is decoding nondeterminism and is the noise floor.",
+    "crossq_influence": {
+      "n": 150,
+      "mean": 0.45428740174515136,
+      "median": 0.2689805030822754,
+      "p90": 1.1771368980407715,
+      "final_change_rate": 0.15333333333333332,
+      "mean_d_logprob_signed": 0.009563474290897236
+    },
+    "gold_influence": {
+      "n": 100,
+      "mean": 0.4692383897877692,
+      "median": 0.2047021389007568,
+      "p90": 1.2938445091247563,
+      "final_change_rate": 0.2,
+      "mean_d_logprob_signed": 0.12659000578318175
+    },
+    "redact_influence": {
+      "n": 150,
+      "mean": 0.48023648123013063,
+      "median": 0.2684711217880249,
+      "p90": 1.301739978790283,
+      "final_change_rate": 0.14666666666666667,
+      "mean_d_logprob_signed": -0.05070690810755599
+    },
+    "sham_influence": {
+      "n": 30,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "final_change_rate": 0.0,
+      "mean_d_logprob_signed": 0.0
+    }
+  },
+  "load_bearing": {
+    "tercile_cutoffs": {
+      "inert_max": 0.12977218627929688,
+      "load_bearing_min": 0.5348339080810546
+    },
+    "counts": {
+      "load_bearing": 50,
+      "middle": 50,
+      "inert": 50
+    },
+    "final_change_rate_by_class": {
+      "inert": 0.08,
+      "load_bearing": 0.28,
+      "middle": 0.08
+    },
+    "share_of_hops_whose_removal_changes_final": 0.14666666666666667
+  },
+  "position": {
+    "correlations_with_influence": {
+      "target_hop": {
+        "spearman": 0.051305283171204655,
+        "p": 0.5329473673155265
+      },
+      "hops_from_end": {
+        "spearman": -0.07234992366616437,
+        "p": 0.3789443150456613
+      },
+      "hop_position_frac": {
+        "spearman": 0.06335319203292288,
+        "p": 0.4411823196966065
+      }
+    },
+    "influence_by_hop": {
+      "1": {
+        "n": 60,
+        "mean_influence": 0.45509178426032976,
+        "median_influence": 0.24648761749267575,
+        "final_change_rate": 0.16666666666666666
+      },
+      "2": {
+        "n": 60,
+        "mean_influence": 0.4852574640058703,
+        "median_influence": 0.30559325218200684,
+        "final_change_rate": 0.05
+      },
+      "3": {
+        "n": 30,
+        "mean_influence": 0.5204839096182532,
+        "median_influence": 0.28110456466674805,
+        "final_change_rate": 0.3
+      }
+    },
+    "influence_by_hops_from_end": {
+      "1": {
+        "n": 60,
+        "mean_influence": 0.5253393781299542,
+        "median_influence": 0.3220553398132324
+      },
+      "2": {
+        "n": 60,
+        "mean_influence": 0.4239510466699755,
+        "median_influence": 0.2620011568069458
+      },
+      "3": {
+        "n": 30,
+        "mean_influence": 0.5026015565507937,
+        "median_influence": 0.2049874067306518
+      }
+    }
+  },
+  "confidence_vs_influence": [
+    {
+      "signal": "mean_logprob",
+      "n": 150,
+      "spearman_conf_vs_influence": -0.13962050601663648,
+      "p_value": 0.08837229169622819,
+      "partial_spearman_controlling_position": -0.13256572928358648,
+      "auroc_predicting_top_influence_tercile": 0.5169999999999999,
+      "auroc_predicting_hop_is_wrong": 0.7018474483263215
+    },
+    {
+      "signal": "min_logprob",
+      "n": 150,
+      "spearman_conf_vs_influence": -0.13012880068401908,
+      "p_value": 0.11247421044535788,
+      "partial_spearman_controlling_position": -0.12349830022564419,
+      "auroc_predicting_top_influence_tercile": 0.5118,
+      "auroc_predicting_hop_is_wrong": 0.6975489299432961
+    },
+    {
+      "signal": "entropy",
+      "n": 150,
+      "spearman_conf_vs_influence": -0.13646443710728653,
+      "p_value": 0.09588105880989628,
+      "partial_spearman_controlling_position": -0.1289706712040126,
+      "auroc_predicting_top_influence_tercile": 0.5162,
+      "auroc_predicting_hop_is_wrong": 0.7023961953539419
+    },
+    {
+      "signal": "margin",
+      "n": 150,
+      "spearman_conf_vs_influence": -0.12951085582325184,
+      "p_value": 0.11420574017701657,
+      "partial_spearman_controlling_position": -0.12551707408525317,
+      "auroc_predicting_top_influence_tercile": 0.518,
+      "auroc_predicting_hop_is_wrong": 0.6435888055606366
+    },
+    {
+      "signal": "verbal_confidence",
+      "n": 150,
+      "spearman_conf_vs_influence": -0.07477632438462847,
+      "p_value": 0.3631221454292346,
+      "partial_spearman_controlling_position": -0.07582406076354999,
+      "auroc_predicting_top_influence_tercile": 0.5500999999999999,
+      "auroc_predicting_hop_is_wrong": 0.61651728553137
+    }
+  ],
+  "confidence_vs_influence_note": "auroc_predicting_hop_is_wrong vs auroc_predicting_top_influence_tercile is the central contrast: a signal can detect that a step is WRONG while being blind to whether the step MATTERS.",
+  "confidence_vs_influence_permutation": {
+    "observed_best_abs_spearman": 0.13962050601663648,
+    "best_signal": "mean_logprob",
+    "null_p95": 0.19623751475477177,
+    "p_value": 0.2509498100379924
+  },
+  "two_by_two": {
+    "cells": {
+      "correct|inert": {
+        "n": 25,
+        "mean_influence": 0.02246987381811819,
+        "mean_verbal_confidence": 46.4,
+        "mean_mean_logprob": -0.014314901313204556,
+        "final_change_rate": 0.04
+      },
+      "correct|load_bearing": {
+        "n": 26,
+        "mean_influence": 1.149065641256479,
+        "mean_verbal_confidence": 46.73076923076923,
+        "mean_mean_logprob": -0.03098613306676055,
+        "final_change_rate": 0.23076923076923078
+      },
+      "incorrect|inert": {
+        "n": 24,
+        "mean_influence": 0.029262354816482265,
+        "mean_verbal_confidence": 44.166666666666664,
+        "mean_mean_logprob": -0.07378239227358499,
+        "final_change_rate": 0.125
+      },
+      "incorrect|load_bearing": {
+        "n": 23,
+        "mean_influence": 1.1222054440042246,
+        "mean_verbal_confidence": 42.391304347826086,
+        "mean_mean_logprob": -0.08176763397605634,
+        "final_change_rate": 0.30434782608695654
+      }
+    },
+    "definition": "rows = benchmark correctness of the step; columns = influence tercile with the middle tercile dropped",
+    "wrong_loadbearing_vs_wrong_inert": {
+      "mean_logprob": {
+        "n_load_bearing": 23,
+        "n_inert": 24,
+        "mean_load_bearing": -0.08176763397605634,
+        "mean_inert": -0.07378239227358499,
+        "mannwhitney_p": 0.47589071739669675
+      },
+      "min_logprob": {
+        "n_load_bearing": 23,
+        "n_inert": 24,
+        "mean_load_bearing": -0.2051889490542279,
+        "mean_inert": -0.1945639221148667,
+        "mannwhitney_p": 0.6169953637949551
+      },
+      "entropy": {
+        "n_load_bearing": 23,
+        "n_inert": 24,
+        "mean_load_bearing": 0.20597119351692014,
+        "mean_inert": 0.13948431899003536,
+        "mannwhitney_p": 0.4005631908703319
+      },
+      "margin": {
+        "n_load_bearing": 23,
+        "n_inert": 24,
+        "mean_load_bearing": 9.173712069746378,
+        "mean_inert": 10.628581206120268,
+        "mannwhitney_p": 0.4005631908703319
+      },
+      "verbal_confidence": {
+        "n_load_bearing": 23,
+        "n_inert": 24,
+        "mean_load_bearing": 42.391304347826086,
+        "mean_inert": 44.166666666666664,
+        "mannwhitney_p": 0.3194759373449073
+      }
+    }
+  },
+  "caveats": [
+    "Frozen substitution: descendants are NOT regenerated, so this measures how much the final read-out depends on the state, not the full causal effect in a rollout.",
+    "One model, one dataset, one seed.",
+    "Influence terciles are relative to this sample, not an absolute standard.",
+    "Read the permutation p-value before any single correlation."
+  ]
+}

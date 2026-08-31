@@ -1,0 +1,142 @@
+{
+  "environment": {
+    "model": "Qwen/Qwen3-1.7B",
+    "device": "mps",
+    "dtype": "float16",
+    "python": "3.9.6",
+    "platform": "macOS-26.6-arm64-arm-64bit",
+    "torch": "2.8.0",
+    "transformers": "4.57.6",
+    "memory": {
+      "ram_rss_gb": 0.529973248,
+      "accelerator_allocated_gb": 3.441150208,
+      "accelerator_driver_allocated_gb": 9.965748224,
+      "accelerator_recommended_max_gb": 19.06966528
+    }
+  },
+  "n_hops": 210,
+  "wall_clock_min": 42.287171161799996,
+  "variants": {
+    "anchored": {
+      "n_parsed": 210,
+      "parse_failure_rate": 0.0,
+      "n_distinct_values": 8,
+      "mode_value": 75.0,
+      "mode_share": 0.8285714285714286,
+      "normalized_entropy": 0.12600224787793932,
+      "n_flat_traces": 34,
+      "mean": 69.01904761904763,
+      "std": 15.265261498473585,
+      "error_detection_auroc": 0.5840336134453782,
+      "error_detection_auprc": 0.6478711484593838,
+      "spearman_vs_token_f1": 0.17787608821208947,
+      "spearman_p": 0.009796951679499654,
+      "value_counts": {
+        "0.0": 4,
+        "25.0": 1,
+        "40.0": 23,
+        "45.0": 3,
+        "60.0": 2,
+        "75.0": 174,
+        "80.0": 1,
+        "82.0": 2
+      }
+    },
+    "baseline": {
+      "n_parsed": 210,
+      "parse_failure_rate": 0.0,
+      "n_distinct_values": 9,
+      "mode_value": 40.0,
+      "mode_share": 0.5333333333333333,
+      "normalized_entropy": 0.24318905982001485,
+      "n_flat_traces": 18,
+      "mean": 44.357142857142854,
+      "std": 9.332027362469399,
+      "error_detection_auroc": 0.6264005602240896,
+      "error_detection_auprc": 0.669143287010121,
+      "spearman_vs_token_f1": 0.24103267725088043,
+      "spearman_p": 0.00042484568782895756,
+      "value_counts": {
+        "0.0": 2,
+        "10.0": 2,
+        "40.0": 112,
+        "45.0": 29,
+        "50.0": 50,
+        "60.0": 4,
+        "65.0": 1,
+        "70.0": 9,
+        "75.0": 1
+      }
+    },
+    "bins": {
+      "n_parsed": 210,
+      "parse_failure_rate": 0.0,
+      "n_distinct_values": 3,
+      "mode_value": 67.0,
+      "mode_share": 0.9238095238095239,
+      "normalized_entropy": 0.05574442529113745,
+      "n_flat_traces": 47,
+      "mean": 65.04761904761905,
+      "std": 9.144741869231481,
+      "error_detection_auroc": 0.5492196878751501,
+      "error_detection_auprc": 0.6187728822872433,
+      "spearman_vs_token_f1": 0.1496590823483872,
+      "spearman_p": 0.030155158934570717,
+      "value_counts": {
+        "33.0": 14,
+        "67.0": 194,
+        "100.0": 2
+      }
+    },
+    "evidence_first": {
+      "n_parsed": 210,
+      "parse_failure_rate": 0.0,
+      "n_distinct_values": 5,
+      "mode_value": 100.0,
+      "mode_share": 0.6285714285714286,
+      "normalized_entropy": 0.2067279670524841,
+      "n_flat_traces": 20,
+      "mean": 84.42857142857143,
+      "std": 31.105154110611604,
+      "error_detection_auroc": 0.6089435774309724,
+      "error_detection_auprc": 0.6718759832121902,
+      "spearman_vs_token_f1": 0.1683176800759956,
+      "spearman_p": 0.01460434191884852,
+      "value_counts": {
+        "0.0": 22,
+        "50.0": 11,
+        "80.0": 7,
+        "90.0": 38,
+        "100.0": 132
+      }
+    },
+    "twosided": {
+      "n_parsed": 210,
+      "parse_failure_rate": 0.0,
+      "n_distinct_values": 3,
+      "mode_value": 50.0,
+      "mode_share": 0.7523809523809524,
+      "normalized_entropy": 0.11933326624773977,
+      "n_flat_traces": 31,
+      "mean": 45.76190476190476,
+      "std": 8.599029634650433,
+      "error_detection_auroc": 0.3710484193677471,
+      "error_detection_auprc": 0.5527484538861203,
+      "spearman_vs_token_f1": -0.2719608412447792,
+      "spearman_p": 6.521838705040485e-05,
+      "value_counts": {
+        "30.0": 47,
+        "50.0": 158,
+        "60.0": 5
+      }
+    }
+  },
+  "reference_test06": {
+    "n_distinct_values": 9,
+    "mode_value": 40.0,
+    "mode_share": 0.5333333333333333,
+    "n_flat_traces": 18,
+    "error_detection_auroc": 0.626
+  },
+  "reading": "A variant improves on Test 06 only if it BOTH spreads the distribution (more distinct values, lower mode share, higher entropy, fewer flat traces) AND discriminates better (higher AUROC/AUPRC). Spread alone is not progress."
+}

@@ -1,0 +1,290 @@
+{
+  "source": "outputs/qwen17b_sequential_seed42",
+  "n_candidates": 44,
+  "n_questions": 36,
+  "multi_candidate": {
+    "n_questions": 8,
+    "n_distinct_chains": 5,
+    "chain_sizes": {
+      "38242_76291": 1,
+      "698586_1926_54362": 1,
+      "740784_63959": 1,
+      "76873_64554": 1,
+      "88460_30152_20999": 4
+    },
+    "clustering_warning": "Questions sharing a chain key share sub-questions and are not independent samples."
+  },
+  "per_step_policy": {
+    "mean_logprob": {
+      "n_questions": 8,
+      "confidence_top1": 0.875,
+      "random_expected_top1": 0.5,
+      "confidence_minus_random": 0.375,
+      "confidence_minus_random_ci95": [
+        0.125,
+        0.5
+      ],
+      "earliest_wrong_top1": 0.0,
+      "latest_wrong_top1": 1.0,
+      "pairwise_accuracy": 0.875,
+      "n_pairs": 8,
+      "mean_regret": 0.5462514758110046,
+      "mean_normalized_regret": 0.125,
+      "mean_selected_gain": 0.3038554787635803,
+      "mean_oracle_gain": 0.850106954574585,
+      "selected_rescue_rate": 0.0
+    },
+    "min_logprob": {
+      "n_questions": 8,
+      "confidence_top1": 0.625,
+      "random_expected_top1": 0.5,
+      "confidence_minus_random": 0.125,
+      "confidence_minus_random_ci95": [
+        -0.25,
+        0.5
+      ],
+      "earliest_wrong_top1": 0.0,
+      "latest_wrong_top1": 1.0,
+      "pairwise_accuracy": 0.625,
+      "n_pairs": 8,
+      "mean_regret": 1.065550297498703,
+      "mean_normalized_regret": 0.375,
+      "mean_selected_gain": -0.21544334292411804,
+      "mean_oracle_gain": 0.850106954574585,
+      "selected_rescue_rate": 0.125
+    },
+    "entropy": {
+      "n_questions": 8,
+      "confidence_top1": 0.75,
+      "random_expected_top1": 0.5,
+      "confidence_minus_random": 0.25,
+      "confidence_minus_random_ci95": [
+        -0.125,
+        0.5
+      ],
+      "earliest_wrong_top1": 0.0,
+      "latest_wrong_top1": 1.0,
+      "pairwise_accuracy": 0.75,
+      "n_pairs": 8,
+      "mean_regret": 0.7437110543251038,
+      "mean_normalized_regret": 0.25,
+      "mean_selected_gain": 0.1063959002494812,
+      "mean_oracle_gain": 0.850106954574585,
+      "selected_rescue_rate": 0.0
+    },
+    "margin": {
+      "n_questions": 8,
+      "confidence_top1": 0.75,
+      "random_expected_top1": 0.5,
+      "confidence_minus_random": 0.25,
+      "confidence_minus_random_ci95": [
+        0.0,
+        0.5
+      ],
+      "earliest_wrong_top1": 0.0,
+      "latest_wrong_top1": 1.0,
+      "pairwise_accuracy": 0.75,
+      "n_pairs": 8,
+      "mean_regret": 0.27048513293266296,
+      "mean_normalized_regret": 0.25,
+      "mean_selected_gain": 0.579621821641922,
+      "mean_oracle_gain": 0.850106954574585,
+      "selected_rescue_rate": 0.125
+    },
+    "verbal_confidence": {
+      "n_questions": 8,
+      "confidence_top1": 0.5625,
+      "random_expected_top1": 0.5,
+      "confidence_minus_random": 0.0625,
+      "confidence_minus_random_ci95": [
+        0.0,
+        0.1875
+      ],
+      "earliest_wrong_top1": 0.0,
+      "latest_wrong_top1": 1.0,
+      "pairwise_accuracy": 0.5625,
+      "n_pairs": 8,
+      "mean_regret": 0.8811392933130264,
+      "mean_normalized_regret": 0.4375,
+      "mean_selected_gain": -0.031032338738441467,
+      "mean_oracle_gain": 0.850106954574585,
+      "selected_rescue_rate": 0.0625
+    }
+  },
+  "per_step_policy_chain_deduplicated": {
+    "mean_logprob": {
+      "n_questions": 5,
+      "confidence_top1": 0.8,
+      "random_expected_top1": 0.5,
+      "confidence_minus_random": 0.3,
+      "confidence_minus_random_ci95": [
+        -0.1,
+        0.5
+      ],
+      "earliest_wrong_top1": 0.0,
+      "latest_wrong_top1": 1.0,
+      "pairwise_accuracy": 0.8,
+      "n_pairs": 5,
+      "mean_regret": 0.8740023612976074,
+      "mean_normalized_regret": 0.2,
+      "mean_selected_gain": 0.7566964149475097,
+      "mean_oracle_gain": 1.6306987762451173,
+      "selected_rescue_rate": 0.0
+    },
+    "min_logprob": {
+      "n_questions": 5,
+      "confidence_top1": 0.4,
+      "random_expected_top1": 0.5,
+      "confidence_minus_random": -0.1,
+      "confidence_minus_random_ci95": [
+        -0.5,
+        0.3
+      ],
+      "earliest_wrong_top1": 0.0,
+      "latest_wrong_top1": 1.0,
+      "pairwise_accuracy": 0.4,
+      "n_pairs": 5,
+      "mean_regret": 1.7048804759979248,
+      "mean_normalized_regret": 0.6,
+      "mean_selected_gain": -0.07418169975280763,
+      "mean_oracle_gain": 1.6306987762451173,
+      "selected_rescue_rate": 0.2
+    },
+    "entropy": {
+      "n_questions": 5,
+      "confidence_top1": 0.6,
+      "random_expected_top1": 0.5,
+      "confidence_minus_random": 0.1,
+      "confidence_minus_random_ci95": [
+        -0.3,
+        0.5
+      ],
+      "earliest_wrong_top1": 0.0,
+      "latest_wrong_top1": 1.0,
+      "pairwise_accuracy": 0.6,
+      "n_pairs": 5,
+      "mean_regret": 1.189937686920166,
+      "mean_normalized_regret": 0.4,
+      "mean_selected_gain": 0.44076108932495117,
+      "mean_oracle_gain": 1.6306987762451173,
+      "selected_rescue_rate": 0.0
+    },
+    "margin": {
+      "n_questions": 5,
+      "confidence_top1": 0.6,
+      "random_expected_top1": 0.5,
+      "confidence_minus_random": 0.1,
+      "confidence_minus_random_ci95": [
+        -0.3,
+        0.5
+      ],
+      "earliest_wrong_top1": 0.0,
+      "latest_wrong_top1": 1.0,
+      "pairwise_accuracy": 0.6,
+      "n_pairs": 5,
+      "mean_regret": 0.43277621269226074,
+      "mean_normalized_regret": 0.4,
+      "mean_selected_gain": 1.1979225635528565,
+      "mean_oracle_gain": 1.6306987762451173,
+      "selected_rescue_rate": 0.2
+    },
+    "verbal_confidence": {
+      "n_questions": 5,
+      "confidence_top1": 0.5,
+      "random_expected_top1": 0.5,
+      "confidence_minus_random": 0.0,
+      "confidence_minus_random_ci95": [
+        0.0,
+        0.0
+      ],
+      "earliest_wrong_top1": 0.0,
+      "latest_wrong_top1": 1.0,
+      "pairwise_accuracy": 0.5,
+      "n_pairs": 5,
+      "mean_regret": 1.1512783765792847,
+      "mean_normalized_regret": 0.5,
+      "mean_selected_gain": 0.4794203996658325,
+      "mean_oracle_gain": 1.6306987762451173,
+      "selected_rescue_rate": 0.1
+    }
+  },
+  "trace_aggregation_vs_repair_value": {
+    "n_questions": 36,
+    "n_cells": 40,
+    "top10_by_p": [
+      {
+        "cell": "margin|first",
+        "target": "max_repair_gain",
+        "n": 36,
+        "spearman": 0.49781209781209784,
+        "p": 0.0020055879861340903
+      },
+      {
+        "cell": "margin|first",
+        "target": "mean_repair_gain",
+        "n": 36,
+        "spearman": 0.47541827541827547,
+        "p": 0.003386073067108285
+      },
+      {
+        "cell": "margin|max",
+        "target": "mean_repair_gain",
+        "n": 36,
+        "spearman": 0.3184041184041184,
+        "p": 0.05841223855834919
+      },
+      {
+        "cell": "margin|max",
+        "target": "max_repair_gain",
+        "n": 36,
+        "spearman": 0.285971685971686,
+        "p": 0.09087661963362827
+      },
+      {
+        "cell": "verbal_confidence|last",
+        "target": "mean_repair_gain",
+        "n": 36,
+        "spearman": 0.2682371099416993,
+        "p": 0.11370283382680282
+      },
+      {
+        "cell": "entropy|max",
+        "target": "mean_repair_gain",
+        "n": 36,
+        "spearman": 0.23217503217503221,
+        "p": 0.17301135629314443
+      },
+      {
+        "cell": "mean_logprob|max",
+        "target": "mean_repair_gain",
+        "n": 36,
+        "spearman": 0.23217503217503221,
+        "p": 0.17301135629314443
+      },
+      {
+        "cell": "entropy|first",
+        "target": "max_repair_gain",
+        "n": 36,
+        "spearman": 0.23088803088803087,
+        "p": 0.1754729237328155
+      },
+      {
+        "cell": "margin|mean",
+        "target": "mean_repair_gain",
+        "n": 36,
+        "spearman": 0.22368082368082373,
+        "p": 0.18971954801084626
+      },
+      {
+        "cell": "verbal_confidence|min",
+        "target": "mean_repair_gain",
+        "n": 36,
+        "spearman": 0.2151194519355451,
+        "p": 0.20767715269725925
+      }
+    ],
+    "n_cells_p_below_05": 2,
+    "n_cells_expected_below_05_by_chance": 4.0,
+    "note": "With this many cells, compare the count of p<0.05 against the chance expectation before reading any single row."
+  }
+}
