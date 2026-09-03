@@ -53,6 +53,8 @@ not from anything the model reports about its own confidence.**
 | `confidence-experiments/17_icl_confidence_claude.py` | First ICL attempt — **superseded, invalid demonstrations** | `confidence-experiments/outputs/icl_claude/` |
 | `confidence-experiments/18_icl_proper_claude.py` | In-context learning, corrected | `confidence-experiments/outputs/icl_proper_claude/` |
 | `confidence-experiments/19_hidden_state_probe_claude.py` | Hidden-state probe — the headline result | `confidence-experiments/outputs/probe_claude/` |
+| `confidence-experiments/20_icl_variants_claude.py` | Chain-of-thought and salient-flag ICL variants | `confidence-experiments/outputs/icl_variants_claude/` |
+| `confidence-experiments/21_cot_icl_proper_claude.py` | CoT rebuild — **written, never run** | — |
 
 Reproduce:
 
@@ -547,6 +549,101 @@ anywhere else, because this is the result worth building on. Separately, for
 `is_wrong` the layer-1 probe already reaches 0.723, which is high for so early a
 layer and hints at surface features; that does not affect the load-bearing
 result, where layer 1 sits at 0.562.*
+
+---
+
+# TODO 3 continued — ICL variants: room to act, and a salient flag
+
+**Status: the flag result is valid. The chain-of-thought arm is not.**
+
+### Motivation
+
+The model reads the confidence numbers -- logP shifts on 45 of 58 questions when
+they change -- but does not act on them. One explanation fits every null so far:
+**it has no room to act.** In every experiment it receives documents plus a fixed
+state and emits ~16 tokens. Re-deriving a step from the documents and
+recomputing the chain does not fit in a bare short answer. Two interventions
+follow.
+
+**Variant 1, chain of thought.** Demonstrations where the assistant reasons
+before answering, so there is space to act on a flagged step.
+
+**Variant 2, salient flag.** Exactly one step marked
+`[UNRELIABLE - verify against the documents]`, no numbers anywhere. Against a
+control where the flag is placed on a RANDOM step.
+
+### Results (56 held-out questions)
+
+| condition | accuracy |
+|---|---|
+| icl_cot_noconf | 16/56 (28.6%) |
+| icl_noconf | 15/56 (26.8%) |
+| icl_flag_lowest | 14/56 (25.0%) |
+| icl_flag_random | 14/56 (25.0%) |
+| icl_cot_conf | 13/56 (23.2%) |
+| icl_cot_conf_shuffled | 12/56 (21.4%) |
+
+### The valid result: flag placement does not matter
+
+`icl_flag_lowest` vs `icl_flag_random` -- identical prompt shape, exactly one
+flag in both arms, only WHICH step it points at differs:
+
+```
+delta accuracy = 0.0000   CI [0.000, 0.000]
+answers changed = 2 / 56
+```
+
+The flag itself demonstrably does something: adding it changes **9 of 56**
+answers relative to no flag. The model reads the instruction and acts on it. It
+acts identically whether the flag points at the genuinely least-reliable step or
+an arbitrary one.
+
+**This is the sharpest confidence-targeting null in the repository**, because it
+cannot be dismissed as "the model ignores numeric fields". There are no numbers.
+It is one salient English instruction, the model responds to it, and
+confidence-based targeting adds nothing over random targeting.
+
+It is also immune to every criticism of the demonstrations, since both arms use
+byte-identical demos -- whatever they taught or failed to teach, they taught
+equally to both.
+
+### The invalid result: the CoT arm measured template copying
+
+Its demonstration rationales were generated from two string templates, so the
+prompt contained only two surface forms. The model copied the form rather than
+the behaviour. From a real output:
+
+```
+"The lowest confidence is step 1 at 17, which is still high, and the
+ documents agree with the state. ANSWER: 2010"
+```
+
+17 is near the bottom of the scale, not "still high". The model reproduced the
+Type-B template verbatim and slotted in a number contradicting it. Mean output
+length was 147 characters, almost exactly the template length.
+
+**The CoT contrasts should not be cited** -- including the -0.054 for
+`cot_conf` vs `cot_noconf`. A second weakness affects the CoT arm and
+experiment 18 both: demonstration turns carried ~2k characters of supporting
+paragraphs only, while the test turn carried ~9.5k including distractors, so
+"re-check against the documents" was an easier task in the demos than at test.
+
+`21_cot_icl_proper_claude.py` rebuilds it with hand-written structurally
+heterogeneous rationales (pairwise similarity max 0.335, with an abort guard
+above 0.60), demonstration document sets containing distractors, and two new
+validity checks -- a parrot-similarity score and a step-identification check
+asking whether the model names the true lowest-confidence step. **It has never
+been run.** Its smoke test surfaced a further issue to fix first: the model
+reads confidence VALUES as step numbers ("step 17" in a three-step trace), which
+corrupts the step-identification diagnostic. Steps need explicit `STEP n:`
+labels and the parser needs to reject indices exceeding the trace length.
+
+### Finding
+
+Giving the model room to reason did not rescue confidence, and neither did
+replacing five numbers with one salient word. Combined with the probe, the
+picture is coherent: **the information is not in the signal, so no prompting
+mechanism can recover it.**
 
 ---
 

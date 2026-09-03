@@ -1,0 +1,76 @@
+{
+  "environment": {
+    "model": "Qwen/Qwen3-1.7B",
+    "device": "mps",
+    "dtype": "float16",
+    "python": "3.9.6",
+    "platform": "macOS-26.6-arm64-arm-64bit",
+    "torch": "2.8.0",
+    "transformers": "4.57.6",
+    "memory": {
+      "ram_rss_gb": 0.295108608,
+      "accelerator_allocated_gb": 3.441150208,
+      "accelerator_driver_allocated_gb": 16.264527872,
+      "accelerator_recommended_max_gb": 19.06966528
+    }
+  },
+  "n_eval_questions": 56,
+  "wall_clock_min": 257.0495242083333,
+  "n_needs_review": 32,
+  "accuracy_by_condition": {
+    "icl_cot_conf": 0.23214285714285715,
+    "icl_cot_conf_shuffled": 0.21428571428571427,
+    "icl_cot_noconf": 0.2857142857142857,
+    "icl_flag_lowest": 0.25,
+    "icl_flag_random": 0.25,
+    "icl_noconf": 0.26785714285714285
+  },
+  "key_contrasts": {
+    "cot_conf_vs_cot_noconf": {
+      "n": 56,
+      "d_accuracy": -0.05357142857142857,
+      "d_accuracy_ci95": [
+        -0.125,
+        0.0
+      ],
+      "n_answers_changed": 16
+    },
+    "cot_conf_vs_cot_conf_shuffled": {
+      "n": 56,
+      "d_accuracy": 0.017857142857142856,
+      "d_accuracy_ci95": [
+        0.0,
+        0.05357142857142857
+      ],
+      "n_answers_changed": 9
+    },
+    "cot_noconf_vs_noconf": {
+      "n": 56,
+      "d_accuracy": 0.017857142857142856,
+      "d_accuracy_ci95": [
+        0.0,
+        0.05357142857142857
+      ],
+      "n_answers_changed": 12
+    },
+    "flag_lowest_vs_flag_random": {
+      "n": 56,
+      "d_accuracy": 0.0,
+      "d_accuracy_ci95": [
+        0.0,
+        0.0
+      ],
+      "n_answers_changed": 2
+    },
+    "flag_lowest_vs_noconf": {
+      "n": 56,
+      "d_accuracy": -0.017857142857142856,
+      "d_accuracy_ci95": [
+        -0.05357142857142857,
+        0.0
+      ],
+      "n_answers_changed": 9
+    }
+  },
+  "reading": "flag_lowest vs flag_random is the sharpest test: identical prompt shape and one flag in both, only WHICH step is flagged differs. cot_conf vs cot_noconf asks whether confidence helps once the model has room to reason. cot_noconf vs noconf measures what chain-of-thought contributes on its own."
+}
