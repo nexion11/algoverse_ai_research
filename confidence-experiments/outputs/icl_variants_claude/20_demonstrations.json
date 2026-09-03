@@ -1,0 +1,116 @@
+[
+  {
+    "kind": "A_discount_low_confidence",
+    "question_id": "4hop2__71753_158279_70784_61381",
+    "main_question": "When was the region immediately north of the region where Israel is located and the final destination for the export crops established?",
+    "questions": [
+      "what region of the world is israel located",
+      "Where was the final destination for the export crops ?",
+      "what region lies immediately to the north of Middle East and Persian Gulf.",
+      "when was Arabia Terra established"
+    ],
+    "answers": [
+      "Middle East",
+      "Persian Gulf.",
+      "Arabia Terra",
+      "1995"
+    ],
+    "conf": [
+      30.657395701643487,
+      37.041719342604296,
+      28.68204804045512,
+      69.04235145385587
+    ],
+    "target_answer": "1932",
+    "naive_last_step": "1995",
+    "docs": "[Document 12] Israel\nIsrael (/ ˈɪzreɪəl /; Hebrew: יִשְׂרָאֵל ‎, Arabic: إِسْرَائِيل ‎), officially the State of Israel (Hebrew: מְדִינַת יִשְׂרָאֵל ‎, Arabic: دَوْلَة إِسْرَائِيل ‎), is a country in the Middle East, on the southeastern shore of the Mediterranean Sea and the northern shore of the Red Sea. It has land borders with Lebanon to the north, Syria t\n\n[Document 4] Shiraz\nShiraz is the economic center of southern Iran. The second half of the 19th century witnessed certain economic developments that greatly changed the economy of Shiraz. The opening of the Suez Canal in 1869 allowed the extensive import into southern Iran of inexpensive European factory-made goods, either directly from Europe or via India. \n\n[Document 16] Geography of Saudi Arabia\nThe Kingdom of Saudi Arabia is a country situated in Southwest Asia, the largest country of Arabia, bordering the Persian Gulf and the Red Sea, north of Yemen. Its extensive coastlines on the Persian Gulf and Red Sea provide great leverage on shipping (especially crude oil) through the Persian Gulf and Suez Canal. The kingdom occupies 80%\n\n[Document 3] Saudi Arabia\nThe area of modern - day Saudi Arabia formerly consisted of four distinct regions: Hejaz, Najd and parts of Eastern Arabia (Al - Ahsa) and Southern Arabia ('Asir). The Kingdom of Saudi Arabia was founded in 1932 by Ibn Saud. He united the four regions into a single state through a series of conquests beginning in 1902 with the capture of ",
+    "why": "step 3 has the lowest confidence (29) and is wrong; the documents give 'Kingdom of Saudi Arabia', changing the answer from '1995' to '1932'",
+    "low_idx": 2,
+    "cot_conf": "Step 3 has the lowest confidence (29), so I re-check it against the documents. The documents give 'kingdom of saudi arabia', changing the answer from '1995' to '1932'. ANSWER: 1932",
+    "cot_noconf": "I re-check the reasoning state against the documents. Step 3 does not match the documents, so the chain must be corrected. ANSWER: 1932"
+  },
+  {
+    "kind": "A_discount_low_confidence",
+    "question_id": "3hop1__409517_547811_80702",
+    "main_question": "What is the name of the famous bridge in the birth city of the composer of Scanderbeg?",
+    "questions": [
+      "Scanderbeg >> composer",
+      "Antonio Vivaldi >> place of birth",
+      "what is the name of the famous bridge in Paris"
+    ],
+    "answers": [
+      "Antonio Vivaldi",
+      "Paris",
+      "Mandolin"
+    ],
+    "conf": [
+      59.987357774968395,
+      10.493046776232617,
+      32.82764433206911
+    ],
+    "target_answer": "Rialto Bridge",
+    "naive_last_step": "Mandolin",
+    "docs": "[Document 8] Scanderbeg (opera)\nScanderbeg (; RV 732) is an opera (\"dramma per musica\") in three acts composed by Antonio Vivaldi to an Italian libretto by Antonio Salvi. It was first performed at the Teatro della Pergola in Florence on 22 June 1718 to mark the re-opening of the theatre to public performances. While the libretto has been preserved, only fragments of the\n\n[Document 15] Orlando furioso (Vivaldi, 1714)\nOrlando furioso RV 819 (, Teatro San Angelo, Venice 1714) is a three-act opera surviving in manuscript in Antonio Vivaldi's personal library, only partly related to his better known Orlando furioso (RV 728) of 1727. It is a recomposition of an \"Orlando furioso\" written by Giovanni Alberto Ristori which had been very successfully staged by\n\n[Document 14] Rialto Bridge\nThe Rialto Bridge (Italian: Ponte di Rialto; Venetian: Ponte de Rialto) is the oldest of the four bridges spanning the Grand Canal in Venice, Italy. Connecting the sestieri (districts) of San Marco and San Polo, it has been rebuilt several times since its first construction as a pontoon bridge in the 12th century, and is now a significant",
+    "why": "step 2 has the lowest confidence (10) and is wrong; the documents give 'Venice', changing the answer from 'Mandolin' to 'Rialto Bridge'",
+    "low_idx": 1,
+    "cot_conf": "Step 2 has the lowest confidence (10), so I re-check it against the documents. The documents give 'venice', changing the answer from 'mandolin' to 'rialto bridge'. ANSWER: Rialto Bridge",
+    "cot_noconf": "I re-check the reasoning state against the documents. Step 2 does not match the documents, so the chain must be corrected. ANSWER: Rialto Bridge"
+  },
+  {
+    "kind": "B_trust_high_confidence",
+    "question_id": "3hop1__857_846_7795",
+    "main_question": "In 2011, what was the estimated population of the city where the Yongle emperor greeted the person to whom the edict was addressed?",
+    "questions": [
+      "Who was the edict addressed to?",
+      "Where did the Yongle Emperor greet the Karmapa ?",
+      "What was the estimated population of Nanjing in 2011?"
+    ],
+    "answers": [
+      "Karmapa",
+      "Nanjing",
+      "8.11 million"
+    ],
+    "conf": [
+      47.99831436999579,
+      54.150863885377156,
+      63.337547408343866
+    ],
+    "target_answer": "8.11 million",
+    "naive_last_step": "8.11 million",
+    "docs": "[Document 15] Sino-Tibetan relations during the Ming dynasty\nThe Information Office of the State Council of the PRC preserves an edict of the Zhengtong Emperor (r. 1435–1449) addressed to the Karmapa in 1445, written after the latter's agent had brought holy relics to the Ming court. Zhengtong had the following message delivered to the Great Treasure Prince of Dharma, the Karmapa:\n\n[Document 4] Sino-Tibetan relations during the Ming dynasty\nDuring his travels beginning in 1403, Deshin Shekpa was induced by further exhortations by the Ming court to visit Nanjing by April 10, 1407. Norbu writes that the Yongle Emperor, following the tradition of Mongol emperors and their reverence for the Sakya lamas, showed an enormous amount of deference towards Deshin Shekpa. The Yongle Emp\n\n[Document 16] Nanjing\nAccording to the Sixth China Census, the total population of the City of Nanjing reached 8.005 million in 2010. The statistics in 2011 estimated the total population to be 8.11 million. The birth rate was 8.86 percent and the death rate was 6.88 percent. The urban area had a population of 6.47 million people. The sex ratio of the city pop",
+    "why": "every step is high confidence and the state can be used as given",
+    "low_idx": 0,
+    "cot_conf": "The lowest confidence is step 1 at 48, which is still high, and the documents agree with the state. ANSWER: 8.11 million",
+    "cot_noconf": "The documents agree with every step of the reasoning state. ANSWER: 8.11 million"
+  },
+  {
+    "kind": "B_trust_high_confidence",
+    "question_id": "4hop1__152146_5274_458768_33677",
+    "main_question": "When was the most recent Bicycle Friendly Community Award given to the city where the headquarters of the only group larger than Långa nätter's record label is located?",
+    "questions": [
+      "What was the record label of Långa nätter?",
+      "What company is the only group larger than Sony Music Entertainment ?",
+      "Universal Music Group >> headquarters location",
+      "When was the most recent Bicycle Friendly Community Award given to Santa Monica, California ?"
+    ],
+    "answers": [
+      "Sony Music Entertainment",
+      "Universal Music Group",
+      "Santa Monica, California",
+      "2013"
+    ],
+    "conf": [
+      69.32153392330383,
+      56.70037926675095,
+      70.2433628318584,
+      94.05815423514538
+    ],
+    "target_answer": "2013",
+    "naive_last_step": "2013",
+    "docs": "[Document 5] Långa nätter\nLånga nätter is the debut album by singer-songwriter Melissa Horn, released April 30, 2008, on Sony Music Entertainment. It was produced by Lasse Englund and Jan Radesjö. The album features the singles \"Långa nätter\", \"En famn för mig\" and \"Som jag hade dig förut\", a duet with Lars Winnerbäck.\n\n[Document 4] Sony Music\nSony Music Entertainment Inc. (sometimes known as Sony Music or by the initials, SME) is an American music corporation managed and operated by Sony Corporation of America (SCA), a subsidiary of Japanese conglomerate Sony Corporation. In 1929, the enterprise was first founded as American Record Corporation (ARC) and, in 1938, was renamed C\n\n[Document 14] The Right Stuff Records\nThe Right Stuff Records is a reissue record label that was part of EMI, which is now owned by Universal Music Group and is based out of Santa Monica, California.\n\n[Document 16] Santa Monica, California\nSanta Monica has a bike action plan and recently launched a Bicycle sharing system in November 2015. The city is traversed by the Marvin Braude Bike Trail. Santa Monica has received the Bicycle Friendly Community Award (Bronze in 2009, Silver in 2013) by the League of American Bicyclists. Local bicycle advocacy organizations include Santa",
+    "why": "every step is high confidence and the state can be used as given",
+    "low_idx": 1,
+    "cot_conf": "The lowest confidence is step 2 at 57, which is still high, and the documents agree with the state. ANSWER: 2013",
+    "cot_noconf": "The documents agree with every step of the reasoning state. ANSWER: 2013"
+  }
+]
