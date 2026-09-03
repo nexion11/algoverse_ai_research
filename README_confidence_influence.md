@@ -50,11 +50,11 @@ not from anything the model reports about its own confidence.**
 | `15_policy_metrics_claude.py` | The repository's repair-policy metric suite, with CIs and clustering correction | `outputs/qwen17b_policy_claude/` |
 | `16_bake_confidence_claude.py` | Supplying per-step confidence and its aggregate to the final-answer step | `outputs/qwen17b_bake_claude/` |
 | `11b_sequential_confidence_intervention_claude.py` | Confidence-intervention harness — **written, never executed** | — |
-| `confidence-experiments/17_icl_confidence_claude.py` | First ICL attempt — **superseded, invalid demonstrations** | `confidence-experiments/outputs/icl_claude/` |
-| `confidence-experiments/18_icl_proper_claude.py` | In-context learning, corrected | `confidence-experiments/outputs/icl_proper_claude/` |
+| `confidence-experiments/icl/17_icl_confidence_claude.py` | First ICL attempt — **superseded, invalid demonstrations** | `confidence-experiments/icl/outputs/icl_claude/` |
+| `confidence-experiments/icl/18_icl_proper_claude.py` | In-context learning, corrected | `confidence-experiments/icl/outputs/icl_proper_claude/` |
 | `confidence-experiments/19_hidden_state_probe_claude.py` | Hidden-state probe — the headline result | `confidence-experiments/outputs/probe_claude/` |
-| `confidence-experiments/20_icl_variants_claude.py` | Chain-of-thought and salient-flag ICL variants | `confidence-experiments/outputs/icl_variants_claude/` |
-| `confidence-experiments/21_cot_icl_proper_claude.py` | CoT rebuild — **written, never run** | — |
+| `confidence-experiments/icl/20_icl_variants_claude.py` | Chain-of-thought and salient-flag ICL variants | `confidence-experiments/icl/outputs/icl_variants_claude/` |
+| `confidence-experiments/icl/21_cot_icl_proper_claude.py` | CoT rebuild — **written, never run** | — |
 
 Reproduce:
 
